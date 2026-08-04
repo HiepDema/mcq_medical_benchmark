@@ -687,10 +687,11 @@ from stage13 import stage13_file2_multi  # noqa: E402
 from stage14 import stage14_file3_filter  # noqa: E402
 from stage15 import stage15_file3_multi  # noqa: E402
 from stage16 import stage16_merge_benchmark  # noqa: E402
+from stage17 import stage17_file1_filter  # noqa: E402
 
 STAGES = {
     "13": stage13_file2_multi, "14": stage14_file3_filter, "15": stage15_file3_multi,
-    "16": stage16_merge_benchmark,
+    "16": stage16_merge_benchmark, "17": stage17_file1_filter,
     "01": stage01_clean, "02": stage02_classify, "03": stage03_convert_meta,
     "04": stage04_convert_combination, "05": stage05_prepare_pool,
     "06": stage06_merge_validate, "07": stage07_inspect_groups,

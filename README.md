@@ -16,10 +16,10 @@ các lỗi chất lượng phát hiện được, và kết quả đánh giá.
 
 ```
 raw_data.json          dữ liệu gốc — CHỈ ĐỌC, không tầng nào ghi đè
-pyline/                pipeline Python, 16 tầng
+pyline/                pipeline Python, 17 tầng
   lib.py                 hàm dùng chung (tách chuỗi, nhận diện meta, uid, I/O)
   stages.py              tầng 01–12
-  stage13..16.py         tầng dựng 3 bộ dữ liệu + gộp benchmark
+  stage13..17.py         tầng lọc/dựng 3 bộ dữ liệu + gộp benchmark
   run.py                 CLI
 pipeline/              bản Node.js gốc (giữ làm mốc đối chiếu, xem REPORT mục 8)
 filter_data/           dữ liệu đã LỌC, chưa xử lý
@@ -35,7 +35,7 @@ data/                  file trung gian (không commit — tự sinh lại)
 ```bash
 python pyline/run.py all      # làm sạch, phân loại, sinh file trung gian -> data/
 
-MCQ_OUT_DIR=filter_data    python pyline/run.py 09 10 14
+MCQ_OUT_DIR=filter_data    python pyline/run.py 17 10 14
 MCQ_OUT_DIR=processed_data python pyline/run.py 09 15
 MCQ_DATA_DIR=filter_data MCQ_OUT_DIR=processed_data python pyline/run.py 13
 MCQ_DATA_DIR=processed_data MCQ_OUT_DIR=processed_data python pyline/run.py 16

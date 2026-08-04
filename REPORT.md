@@ -104,6 +104,9 @@ Câu dạng *"ngoại trừ"*, *"chọn câu sai"*, *"không đúng"*, *"không 
 chất: đáp án đúng theo đề chính là mệnh đề **sai**, nên **ba phương án còn lại
 đều đúng**.
 
+Bộ lọc bắt được **297 câu** (đưa vào `filter_data/final_01_ngoai_tru.json` ở dạng
+nguyên văn gốc), trong đó 265 câu viết lại được sạch sẽ và trở thành FILE 1.
+
 Xử lý: viết lại thân câu sang khẳng định + đảo tập đáp án. Phương án gốc giữ nguyên.
 
 **Ví dụ 1 — dạng "ngoại trừ"** (`sourceIndex` 49, `questionID` 25):
@@ -464,7 +467,7 @@ $py = "C:\Users\User\miniconda3\python.exe"
 $env:MCQ_DATA_DIR="data"; $env:MCQ_OUT_DIR="data"; & $py pyline\run.py all
 
 # lọc (chưa xử lý) -> filter_data/
-$env:MCQ_OUT_DIR="filter_data"; & $py pyline\run.py 09 10 14
+$env:MCQ_OUT_DIR="filter_data"; & $py pyline\run.py 17 10 14
 
 # xử lý thành nhiều đáp án -> processed_data/
 $env:MCQ_OUT_DIR="processed_data"; & $py pyline\run.py 09 15
@@ -483,5 +486,5 @@ $env:MCQ_DATA_DIR="processed_data"; & $py pyline\run.py 16
 | `data/` | File trung gian (làm sạch, phân loại, kiểm tra) |
 | `filter_data/` | Dữ liệu đã lọc, **chưa xử lý** |
 | `processed_data/` | Dữ liệu đã chuyển thành nhiều đáp án + bộ gộp |
-| `pyline/` | Pipeline Python (16 tầng) |
+| `pyline/` | Pipeline Python (17 tầng) |
 | `lambda/` | Điều khiển GPU Lambda cho bước LLM quy mô lớn |
