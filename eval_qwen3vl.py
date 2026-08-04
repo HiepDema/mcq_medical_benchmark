@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Chấm điểm model trên bộ MCQ nhiều đáp án (mặc định Qwen3-VL-4B).
+
+Ba cách dùng:
+
+  # 1) Chạy model rồi chấm luôn (cần GPU + vLLM)
+  python eval_qwen3vl.py
+
+  # 2) Chỉ tính các mốc so sánh, không cần model — chạy được trên laptop
+  python eval_qwen3vl.py --baselines-only
+
+  # 3) Chấm lại từ file dự đoán đã có, không nạp model
+  python eval_qwen3vl.py --predictions results_raw.json
+
+Chỉ số:
+  exact match  — tập đáp án chọn đúng y hệt tập đáp án chuẩn (chỉ số chính)
+  Jaccard      — điểm từng phần |giao| / |hợp|, tha thứ cho việc thiếu/thừa 1 lựa chọn
+  micro F1     — coi mỗi phương án là một quyết định nhị phân chọn/không chọn
+
+Luôn in kèm các mốc tầm thường ("chọn hết", "chọn 3 phương án đầu", chọn ngẫu
+nhiên). Nếu model không vượt được các mốc này thì điểm cao cũng vô nghĩa.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import random
+import re
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+DEFAULT_MODEL = "Qwen/Qwen3-VL-4B-Instruct"
+LETTERS = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+
+PROMPT = """Đây là câu hỏi trắc nghiệm có NHIỀU ĐÁP ÁN ĐÚNG (từ 2 đáp án trở lên).
+
+Câu hỏi: {question}
+
+Các phương án:
+{options}
+
+Hãy chọn TẤT CẢ các phương án đúng. Trả lời bằng JSON đúng dạng {{"answers": ["A", "C"]}}, không giải thích gì thêm."""
+
+
+# ------------------------------------------------------------------ dữ liệu
+def load_items(path: Path):
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    items = []
+    for i, r in enumerate(rows):
+        letters = [le for le in LETTERS if r.get("answer_option" + le)]
+        gold = {m.group(1) for m in re.finditer(r"option([A-Z])", str(r["correctAnswer"]))}
+        items.append({
+            "index": i,
+            "questionID": r.get("questionID"),
+            "question": r["question"],
+            "letters": letters,
+            "options": {le: r["answer_option" + le] for le in letters},
+            "gold": gold & set(letters),
+        })
+    return items
+
+
+def load_subsets(prov_path: Path, n: int):
+    if not prov_path.exists():
+        return ["tất cả"] * n
+    prov = json.loads(prov_path.read_text(encoding="utf-8"))
+    return [p.get("subset", "?") for p in prov]
+
+
+# ------------------------------------------------------------------ chỉ số
+def score(items, preds: list[set]):
+    """preds[i] = tập chữ cái model chọn cho câu i."""
+    em = jac = 0.0
+    tp = fp = fn = 0
+    per_item = []
+    for it, p in zip(items, preds):
+        g = it["gold"]
+        exact = 1.0 if p == g else 0.0
+        inter, union = len(p & g), len(p | g)
+        j = inter / union if union else 1.0
+        em += exact
+        jac += j
+        tp += inter
+        fp += len(p - g)
+        fn += len(g - p)
+        per_item.append({"index": it["index"], "questionID": it["questionID"],
+                         "gold": sorted(g), "pred": sorted(p),
+                         "exact": bool(exact), "jaccard": round(j, 3)})
+    n = len(items) or 1
+    prec = tp / (tp + fp) if tp + fp else 0.0
+    rec = tp / (tp + fn) if tp + fn else 0.0
+    f1 = 2 * prec * rec / (prec + rec) if prec + rec else 0.0
+    return {"n": len(items), "exact_match": em / n, "jaccard": jac / n,
+            "micro_precision": prec, "micro_recall": rec, "micro_f1": f1}, per_item
+
+
+def baselines(items):
+    rng = random.Random(0)
+    out = {}
+    out["chọn hết"] = [set(it["letters"]) for it in items]
+    out["chọn 3 phương án đầu"] = [set(it["letters"][:3]) for it in items]
+    out["chọn ngẫu nhiên (mỗi phương án 50%)"] = [
+        {le for le in it["letters"] if rng.random() < 0.5} or {it["letters"][0]}
+        for it in items]
+    return out
+
+
+def report(name, m, indent="  "):
+    print(f"{indent}{name:<38} exact={m['exact_match']:6.1%}  "
+          f"jaccard={m['jaccard']:6.1%}  microF1={m['micro_f1']:6.1%}  (n={m['n']})")
+
+
+# ------------------------------------------------------------------ suy luận
+def parse_answer(text: str, letters: list[str]) -> set:
+    """Ưu tiên đọc JSON; hỏng thì nhặt chữ cái. Không đoán bừa khi rỗng."""
+    valid = set(letters)
+    try:
+        m = re.search(r"\{.*\}", text, re.S)
+        if m:
+            got = json.loads(m.group(0)).get("answers", [])
+            picked = {str(x).strip().upper()[:1] for x in got} & valid
+            if picked:
+                return picked
+    except Exception:  # noqa: BLE001
+        pass
+    return {c for c in re.findall(r"\b([A-Z])\b", text.upper())} & valid
+
+
+def run_model(items, model_id: str, max_model_len: int, gpu_mem: float):
+    from vllm import LLM, SamplingParams
+
+    llm = LLM(model=model_id, max_model_len=max_model_len,
+              gpu_memory_utilization=gpu_mem,
+              limit_mm_per_prompt={"image": 0, "video": 0}, trust_remote_code=True)
+
+    convs, sps = [], []
+    try:
+        from vllm.sampling_params import GuidedDecodingParams
+        guided = True
+    except Exception:  # noqa: BLE001
+        guided = False
+        print("[eval] guided decoding không dùng được — sẽ parse text tự do")
+
+    for it in items:
+        opts = "\n".join(f"{le}. {it['options'][le]}" for le in it["letters"])
+        convs.append([{"role": "user",
+                       "content": PROMPT.format(question=it["question"], options=opts)}])
+        if guided:
+            schema = {"type": "object", "additionalProperties": False,
+                      "required": ["answers"],
+                      "properties": {"answers": {
+                          "type": "array", "minItems": 1,
+                          "maxItems": len(it["letters"]), "uniqueItems": True,
+                          "items": {"type": "string", "enum": it["letters"]}}}}
+            sps.append(SamplingParams(temperature=0.0, max_tokens=64,
+                                      guided_decoding=GuidedDecodingParams(json=schema)))
+        else:
+            sps.append(SamplingParams(temperature=0.0, max_tokens=64))
+
+    outs = llm.chat(convs, sps)
+    raws = [o.outputs[0].text.strip() for o in outs]
+    return [parse_answer(t, it["letters"]) for t, it in zip(raws, items)], raws
+
+
+# ------------------------------------------------------------------- main
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--data", default="processed_data/benchmark_multi.json")
+    ap.add_argument("--provenance", default="processed_data/benchmark_multi_provenance.json")
+    ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--max-model-len", type=int, default=2048)
+    ap.add_argument("--gpu-mem", type=float, default=0.90)
+    ap.add_argument("--out", default="eval_results.json")
+    ap.add_argument("--predictions", help="chấm lại từ file dự đoán có sẵn, không nạp model")
+    ap.add_argument("--baselines-only", action="store_true")
+    args = ap.parse_args()
+
+    items = load_items(ROOT / args.data)
+    subsets = load_subsets(ROOT / args.provenance, len(items))
+    if args.limit:
+        items, subsets = items[: args.limit], subsets[: args.limit]
+    print(f"Bộ dữ liệu: {len(items)} câu — {args.data}\n")
+
+    print("MỐC SO SÁNH (không dùng model):")
+    for name, preds in baselines(items).items():
+        m, _ = score(items, preds)
+        report(name, m)
+
+    if args.baselines_only:
+        return 0
+
+    if args.predictions:
+        saved = json.loads((ROOT / args.predictions).read_text(encoding="utf-8"))
+        by_idx = {d["index"]: set(d["pred"]) for d in saved.get("per_item", saved)}
+        preds = [by_idx.get(it["index"], set()) for it in items]
+        raws = [""] * len(items)
+        tag = f"dự đoán có sẵn ({args.predictions})"
+    else:
+        preds, raws = run_model(items, args.model, args.max_model_len, args.gpu_mem)
+        tag = args.model
+
+    m, per_item = score(items, preds)
+    print(f"\nKẾT QUẢ MODEL — {tag}:")
+    report("tổng thể", m)
+
+    by = defaultdict(list)
+    for it, p, s in zip(items, preds, subsets):
+        by[s].append((it, p))
+    print("\n  theo từng nguồn dữ liệu:")
+    for s in sorted(by):
+        sub_items = [x[0] for x in by[s]]
+        sub_preds = [x[1] for x in by[s]]
+        sm, _ = score(sub_items, sub_preds)
+        report(s, sm, indent="    ")
+
+    for d, s, raw in zip(per_item, subsets, raws):
+        d["subset"] = s
+        if raw:
+            d["raw"] = raw
+    (ROOT / args.out).write_text(
+        json.dumps({"model": tag, "data": args.data, "metrics": m, "per_item": per_item},
+                   ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+    print(f"\nĐã ghi chi tiết từng câu -> {args.out}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

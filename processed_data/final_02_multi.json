@@ -1,0 +1,747 @@
+[
+ {
+  "question": "Virus cúm ở Việt Nam gồm những loại nào?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "A/H1N1",
+  "answer_optionB": "Cúm B",
+  "answer_optionC": "A/H3N2"
+ },
+ {
+  "question": "Theo Hồ Chí Minh, Nhà nước thể hiện quyền là chủ và làm chủ của nhân dân thì Nhà nước đó phải là:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "133",
+  "answer_optionA": "Vì Dân.",
+  "answer_optionB": "Do dân",
+  "answer_optionC": "Của dân"
+ },
+ {
+  "question": "Biểu mô có nguồn gốc từ đâu?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Nội bì",
+  "answer_optionB": "Trung bì",
+  "answer_optionC": "Ngoại bì"
+ },
+ {
+  "question": "Theo Hồ Chí Minh, Nhà nước thể hiện quyền là chủ và làm chủ của nhân dân thì Nhà nước đó phải là:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "133",
+  "answer_optionA": "A. Do dân",
+  "answer_optionB": "B. Vì Dân.",
+  "answer_optionC": "C. Của dân"
+ },
+ {
+  "question": "Các khâu cơ bản trong xử lí ổ dịch là gì?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "ID022",
+  "answer_optionA": "Khối cảm thụ",
+  "answer_optionB": "Đường lây",
+  "answer_optionC": "Nguồn bệnh"
+ },
+ {
+  "question": "Phụ nữ mang thai nhiễm cúm trong 3 tháng đầu có khả năng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Obstetrics and Gynecology",
+   "Infectious Diseases",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Dị tật thai nhi",
+  "answer_optionB": "Thai lưu",
+  "answer_optionC": "Sảy thai"
+ },
+ {
+  "question": "Câu 74 Cấu trúc dẫn truyền xung động thần kinh theo một chiều:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Neurology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "B Sợi trục.",
+  "answer_optionB": "A Sợi nhánh.",
+  "answer_optionC": "C Sinap."
+ },
+ {
+  "question": "Các yếu tố tham gia điều hòa tạo máu:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "KIT ligand",
+  "answer_optionB": "Interferon α",
+  "answer_optionC": "Interleukin"
+ },
+ {
+  "question": "Có những loại câu hỏi nào?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Câu hỏi đóng",
+  "answer_optionB": "Câu hỏi mở",
+  "answer_optionC": "Câu hỏi gợi ý"
+ },
+ {
+  "question": "Các biện pháp được sử dụng để phát hiện sớm UT vú là",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD021",
+  "answer_optionA": "Chụp vú",
+  "answer_optionB": "Khám vú chuyên khoa",
+  "answer_optionC": "Từ khám vú"
+ },
+ {
+  "question": "Viêm gan B có thể lây qua đường nào?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "VGB1",
+  "answer_optionA": "Đường máu",
+  "answer_optionB": "Từ mẹ sang con",
+  "answer_optionC": "Đường tình dục"
+ },
+ {
+  "question": "Trong các đặc điểm sau đây, đặc điểm nào là đặc điểm của hoạt động nghiên cứu khoa học?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Tính mạo hiểm",
+  "answer_optionB": "Tính phi kinh tế",
+  "answer_optionC": "Tính mới"
+ },
+ {
+  "question": "Các đặc tính cơ bản của nghiên cứu khoa học là gì?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Quan hệ mới",
+  "answer_optionB": "Tìm ra cái mới",
+  "answer_optionC": "Quy luật mới"
+ },
+ {
+  "question": "Câu 3 Thoái hoá tế bào được biểu hiện dưới các hình thái tổn thương:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Thoái hoá mỡ",
+  "answer_optionB": "Thoái hoá hạt",
+  "answer_optionC": "Thoái hoá hốc"
+ },
+ {
+  "question": "Đặc điểm nào có trong tràn dịch lượng trung bình của thể tràn dịch tự do trong lao màng phổi?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "500-2000ml",
+  "answer_optionB": "Dưới rốn",
+  "answer_optionC": "Đường cong Damoiseau"
+ },
+ {
+  "question": "Viêm da cơ địa thường tái phát khi:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Dermatology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "31",
+  "answer_optionA": "Nhiễm virus da",
+  "answer_optionB": "Nhiễm khuẩn da",
+  "answer_optionC": "Nhiễm nấm da"
+ },
+ {
+  "question": "Mối liên hệ nhân quả có những tính chất nào?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Tính phổ biển.",
+  "answer_optionB": "Tinh tất yu.",
+  "answer_optionC": "Tính khách quan."
+ },
+ {
+  "question": "Tả là một bệnh truyền nhiễm có các triệu chứng chính là?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD3",
+  "answer_optionA": "Mất nước",
+  "answer_optionB": "Tiêu chảy",
+  "answer_optionC": "Rối loạn điện giải cấp tính"
+ },
+ {
+  "question": "Interleukin được tiết ra từ tế bào:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology",
+   "Immunology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Các tế bào liên kết",
+  "answer_optionB": "Bạch cầu lympho",
+  "answer_optionC": "Bạch cầu mono"
+ },
+ {
+  "question": "Theo Hồ Chí Minh, ở đời và làm người thì phải:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "229",
+  "answer_optionA": "Thương dân.",
+  "answer_optionB": "Yêu nước.",
+  "answer_optionC": "Thương nhân loại bị áp bức."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, ở đời và làm người thì phải:",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC229",
+  "answer_optionA": "Trung với vua.",
+  "answer_optionB": "Đặt lợi ích cá nhân lên trên hết.",
+  "answer_optionC": "Yêu nước.",
+  "answer_optionD": "Thương dân.",
+  "answer_optionE": "Thương nhân loại bị áp bức."
+ },
+ {
+  "question": "Các biện pháp phòng chống được thực hiện đối với từng mắc xích của quá trình dịch bao gồm những yếu tố nào?",
+  "correctAnswer": "optionA, optionD, optionE",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Đường truyền nhiễm",
+  "answer_optionB": "Cơ cấu tổ chức ngành y tế",
+  "answer_optionC": "Nguồn kinh phí phòng dịch",
+  "answer_optionD": "Nguồn truyền nhiễm",
+  "answer_optionE": "Khối cảm thụ"
+ },
+ {
+  "question": "[H] Tại sao các bệnh lây qua đường tiêu hóa thường tăng lên vào những tháng hè?",
+  "correctAnswer": "optionA, optionC, optionE",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Khí hậu nóng ẩm",
+  "answer_optionB": "Người dân ít ra ngoài trời",
+  "answer_optionC": "Thức ăn dễ ôi thiu",
+  "answer_optionD": "Độ ẩm không khí xuống thấp",
+  "answer_optionE": "Nhiều ruồi nhặng"
+ },
+ {
+  "question": "Để đạt được mục đích trong nghiên cứu y tế chúng ta có thể lựa chọn các thiết kế nghiên cứu:",
+  "correctAnswer": "optionA, optionD, optionE",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Định lượng",
+  "answer_optionB": "Phi cấu trúc",
+  "answer_optionC": "Định danh",
+  "answer_optionD": "Định tính",
+  "answer_optionE": "Kết hợp định tính và định lượng"
+ },
+ {
+  "question": "Chẩn đoán phân biệt uốn ván với bệnh gì?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Neurology",
+   "Infectious Diseases",
+   "Toxicology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Ngộ độc Strychine",
+  "answer_optionB": "Viêm màng não",
+  "answer_optionC": "Sốt rét ác tính",
+  "answer_optionD": "Các bệnh răng hàm mặt",
+  "answer_optionE": "Viêm khớp dạng thấp"
+ },
+ {
+  "question": "Uống rượu ở mức trung bình sẽ làm giảm nguy cơ mắc bệnh nào?",
+  "correctAnswer": "optionA, optionB, optionE",
+  "medicalTopic": [
+   "Cardiology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD001",
+  "answer_optionA": "Bệnh mạch máu ngoại vi",
+  "answer_optionB": "Xơ vữa động mạch",
+  "answer_optionC": "Ung thư gan",
+  "answer_optionD": "Xơ gan",
+  "answer_optionE": "Bệnh mạch vành"
+ },
+ {
+  "question": "Quy phạm pháp luật tồn tại trong xã hội nào?",
+  "correctAnswer": "optionA, optionC, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "87",
+  "answer_optionA": "Xã hội có giai cấp",
+  "answer_optionB": "Xã hội công xã nguyên thủy",
+  "answer_optionC": "Xã hội có Nhà nước",
+  "answer_optionD": "Xã hội chưa có sở hữu tư nhân",
+  "answer_optionE": "Xã hội có tư hữu"
+ },
+ {
+  "question": "Nguyên tắc điều trị lao màng phổi ?",
+  "correctAnswer": "optionA, optionD, optionE",
+  "medicalTopic": [
+   "Pulmonology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Điều trị triệu chứng",
+  "answer_optionB": "Phẫu thuật cắt màng phổi thường quy",
+  "answer_optionC": "Dùng kháng sinh phổ rộng đơn thuần",
+  "answer_optionD": "Vật lý trị liệu",
+  "answer_optionE": "Điều trị đặc hiệu"
+ },
+ {
+  "question": "Các đối tượng có nguy cơ cao mắc bệnh uốn ván là ai?",
+  "correctAnswer": "optionB, optionD, optionE",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Trẻ em đã tiêm đủ vắc xin",
+  "answer_optionB": "Nông dân",
+  "answer_optionC": "Nhân viên văn phòng",
+  "answer_optionD": "Nghiện chích ma túy",
+  "answer_optionE": "Nhân viên chăn nuôi gia súc"
+ },
+ {
+  "question": "Những chất gây ung thư mạnh nhất có trong thuốc lá là:",
+  "correctAnswer": "optionB, optionC, optionE",
+  "medicalTopic": [
+   "Oncology",
+   "Pulmonology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Cafein",
+  "answer_optionB": "1-3 butadien",
+  "answer_optionC": "Hydro cacbon thơm đa vòng PHAs",
+  "answer_optionD": "Ethanol",
+  "answer_optionE": "N-nitrosamine"
+ },
+ {
+  "question": "Câu 79 Xung động thần kinh được truyền qua sinap nhờ:",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "Neurology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "NEU001",
+  "answer_optionA": "Insulin.",
+  "answer_optionB": "Hemoglobin.",
+  "answer_optionC": "Cathecholamin.",
+  "answer_optionD": "Acetylcholin.",
+  "answer_optionE": "Sự dịch chuyển của dòng ion."
+ },
+ {
+  "question": "Chẩn đoán phân biệt viêm mống mắt thể mi với:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Viêm kết mạc",
+  "answer_optionB": "Viêm cùng mạc, thượng củng mạc",
+  "answer_optionC": "Glucom cương tụ",
+  "answer_optionD": "Đục thủy tinh thể tuổi già",
+  "answer_optionE": "Tật khúc xạ cận thị"
+ },
+ {
+  "question": "Sai số hệ thống bao gồm:",
+  "correctAnswer": "optionB, optionC, optionE",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Sai số ngẫu nhiên",
+  "answer_optionB": "Sai số do chọn mẫu",
+  "answer_optionC": "Sai số do nhiễu",
+  "answer_optionD": "Sai số do cỡ mẫu nhỏ",
+  "answer_optionE": "Sai số thu thập thông tin"
+ },
+ {
+  "question": "Chẩn đoán ca bệnh nghi ngờ cúm cần có những yếu tố nào?",
+  "correctAnswer": "optionA, optionB, optionE",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Yếu tố dịch tễ",
+  "answer_optionB": "Cận lâm sàng: X-quang, công thức máu",
+  "answer_optionC": "Tiền sử phẫu thuật",
+  "answer_optionD": "Nhóm máu của bệnh nhân",
+  "answer_optionE": "Lâm sàng"
+ },
+ {
+  "question": "Đâu là nghiên cứu phân tích?",
+  "correctAnswer": "optionB, optionC, optionE",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "MD1021",
+  "answer_optionA": "Nghiên cứu mô tả cắt ngang",
+  "answer_optionB": "Nghiên cứu can thiệp",
+  "answer_optionC": "Nghiên cứu bệnh chứng",
+  "answer_optionD": "Báo cáo ca bệnh",
+  "answer_optionE": "Nghiên cứu quan sát"
+ },
+ {
+  "question": "Kích thước và hình dáng biểu mô phụ thuộc vào yếu tố nào?",
+  "correctAnswer": "optionA, optionB, optionE",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Chức năng biểu mô",
+  "answer_optionB": "Loại biểu mô",
+  "answer_optionC": "Giới tính của người bệnh",
+  "answer_optionD": "Nhóm máu của cơ thể",
+  "answer_optionE": "Vị trí của tế bào trong biểu mô"
+ },
+ {
+  "question": "Mức độ nhìn mờ phụ thuộc vào?",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Số lượng bạch cầu trong máu",
+  "answer_optionB": "Màu mắt của bệnh nhân",
+  "answer_optionC": "Ngoại vi hay trung tâm lớn hay nhỏ",
+  "answer_optionD": "Không có",
+  "answer_optionE": "Ổ loét nông hay sâu"
+ },
+ {
+  "question": "Triệu chứng cơ năng của viêm loét giác mạc?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Kích thích: đau rức, chảy nước mắt, sợ ánh sáng",
+  "answer_optionB": "Nhìn mờ",
+  "answer_optionC": "Sốt cao rét run",
+  "answer_optionD": "Không có",
+  "answer_optionE": "Nổi hạch sau tai"
+ },
+ {
+  "question": "Triệu chứng chủ quan của viêm mống mắt là gì?",
+  "correctAnswer": "optionA, optionC, optionE",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Thị lực giảm",
+  "answer_optionB": "Sốt cao rét run",
+  "answer_optionC": "Sợ ánh sáng, chảy nước mắt, co quắp mi",
+  "answer_optionD": "Ù tai, chóng mặt",
+  "answer_optionE": "Đau mắt âm ỉ"
+ },
+ {
+  "question": "Theo quan điểm của Hồ Chí Minh, sức mạnh dân tộc bao gồm yếu tố chủ yếu nào?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "POLITICAL_VN_175",
+  "answer_optionA": "Viện trợ từ bên ngoài.",
+  "answer_optionB": "Tinh thần đoàn kết.",
+  "answer_optionC": "Chủ nghĩa yêu nước.",
+  "answer_optionD": "Ý thức tự lực, tự cường.",
+  "answer_optionE": "Ưu thế về vũ khí hiện đại."
+ },
+ {
+  "question": "Câu 394 Tính chất ác tính của ung thư biểu mô dựa theo:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "Q394",
+  "answer_optionA": "Phân loại TNM",
+  "answer_optionB": "Mức độ biệt hóa của tế bào u",
+  "answer_optionC": "Hình thái, cấu trúc mô",
+  "answer_optionD": "Nhóm máu người bệnh",
+  "answer_optionE": "Tuổi của bệnh nhân"
+ },
+ {
+  "question": "Các xét nghiệm cận lâm sàng trong quá trình mang thai bao gồm:",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Chụp CT sọ não",
+  "answer_optionB": "Nội soi đại tràng",
+  "answer_optionC": "HIV, giang mai",
+  "answer_optionD": "Viêm gan B, C",
+  "answer_optionE": "Thử protein nước tiểu, công thức máu"
+ },
+ {
+  "question": "Nội dung hoạt động nghiên cứu khoa học. CHỌN CÂU ĐÚNG:",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Tuyển dụng nhân sự",
+  "answer_optionB": "Xin cấp phép hành nghề",
+  "answer_optionC": "Báo cáo nghiên cứu",
+  "answer_optionD": "Thiết kế nghiên cứu",
+  "answer_optionE": "Xác định vấn đề nghiên cứu"
+ },
+ {
+  "question": "Lao màng phổi tràn dịch khu trú ở những vị trí nào?",
+  "correctAnswer": "optionA, optionD, optionE",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "26",
+  "answer_optionA": "Tràn dịch vùng nách",
+  "answer_optionB": "Ổ bụng",
+  "answer_optionC": "Khoang màng ngoài tim",
+  "answer_optionD": "Tràn dịch trung thất",
+  "answer_optionE": "Tràn dịch rãnh liên thùy"
+ },
+ {
+  "question": "Theo quan điểm duy vật biện chứng, ý thức tác động trở lại vật chất thông qua:",
+  "correctAnswer": "optionB, optionD, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "64",
+  "answer_optionA": "Ý muốn chủ quan thuần túy.",
+  "answer_optionB": "Sự suy nghĩ của con người.",
+  "answer_optionC": "Sự tồn tại độc lập của ý thức.",
+  "answer_optionD": "Hoạt động thực tiễn.",
+  "answer_optionE": "Hoạt động lý luận."
+ },
+ {
+  "question": "Theo quan điểm duy vật biện chứng, ý thức tác động trở lại vật chất thông qua:",
+  "correctAnswer": "optionA, optionB, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Hoạt động lý luận.",
+  "answer_optionB": "Sự suy nghĩ của con người.",
+  "answer_optionC": "Sự tồn tại độc lập của ý thức.",
+  "answer_optionD": "Ý muốn chủ quan thuần túy.",
+  "answer_optionE": "Hoạt động thực tiễn."
+ },
+ {
+  "question": "Các yếu tố ảnh hưởng đến sự giao tiếp không lời:",
+  "correctAnswer": "optionB, optionD, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Âm lượng giọng nói",
+  "answer_optionB": "Sự phù hợp",
+  "answer_optionC": "Vốn từ vựng sử dụng",
+  "answer_optionD": "Cử chỉ phải được đặt trong ngữ cảnh giao tiếp",
+  "answer_optionE": "Cụm cử chỉ"
+ },
+ {
+  "question": "Biện pháp phòng chống đối với khối cảm thụ là gì?",
+  "correctAnswer": "optionB, optionD, optionE",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Infectious Diseases",
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Diệt côn trùng trung gian",
+  "answer_optionB": "Nâng cao thể trạng",
+  "answer_optionC": "Khử trùng nguồn nước",
+  "answer_optionD": "Tiêm chủng các loại đã có vacxin",
+  "answer_optionE": "Giáo dục vệ sinh"
+ },
+ {
+  "question": "Trường hợp có triệu chứng lâm sàng gồm các thể lâm sàng nào?",
+  "correctAnswer": "optionB, optionC, optionE",
+  "medicalTopic": [
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Viêm gan siêu vi cấp",
+  "answer_optionB": "Sốt xuất huyết Dengue không sốc",
+  "answer_optionC": "SXH Dengue có sốc",
+  "answer_optionD": "Sốt rét thể não",
+  "answer_optionE": "Sốt Dengue cổ điển"
+ },
+ {
+  "question": "Các đặc tính cơ bản của tiểu cầu, chọn câu đúng nhất:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Kết dính",
+  "answer_optionB": "Thay đổi hình dạng và phóng thích các chất",
+  "answer_optionC": "Vận chuyển oxy",
+  "answer_optionD": "Ngưng tập tiểu cầu",
+  "answer_optionE": "Thực bào vi khuẩn"
+ }
+]

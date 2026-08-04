@@ -1,0 +1,3878 @@
+[
+ {
+  "question": "Chọn các câu đúng: Các tế bào gốc tạo máu cư trú ở người trưởng thành:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Tủy xương",
+  "answer_optionB": "Lách",
+  "answer_optionC": "Máu ngoại vi",
+  "answer_optionD": "Gan"
+ },
+ {
+  "question": "Tác dụng của G - CSF: (Chọn các câu đúng)",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Hematology",
+   "Immunology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Tăng sinh dưỡng bào",
+  "answer_optionB": "Kích thích lympho tiền B Kích thích tăng sinh dòng hạt",
+  "answer_optionC": "Kích thích tế bào gốc giai đoạn sớm cùng các cytokin khác",
+  "answer_optionD": "Kích thích tăng sinh và hoạt hóa chức năng bạch cầu hạt"
+ },
+ {
+  "question": "Chọn các câu đúng. Xét nghiệm đánh giá đông máu bao gồm?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Sức bền mao mạch",
+  "answer_optionB": "Thời gian máu đông",
+  "answer_optionC": "Định lượng fibrinogen",
+  "answer_optionD": "Thời gian prothrombin"
+ },
+ {
+  "question": "Các chất gây ngưng tập tiểu cầu chính:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Thrombin",
+  "answer_optionB": "Adenosin diphodphat",
+  "answer_optionC": "Adenosin",
+  "answer_optionD": "Thromboxan A2"
+ },
+ {
+  "question": "Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Thời gian sống của tiểu cầu 7 - 10 ngày.",
+  "answer_optionB": "Ở bệnh nhân có tiểu cầu giảm, tính bền vững của thành mạch cũng không còn.",
+  "answer_optionC": "1/3 tiểu cầu lưu hành ở huyết tương, 2/3 giữ ở lách.",
+  "answer_optionD": "Tiểu cầu gắn kết với collagen là nhờ von - Willebrand."
+ },
+ {
+  "question": "Đâu là đặc tính của tiểu cầu:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Kết dính.",
+  "answer_optionB": "Tham gia cầm máu.",
+  "answer_optionC": "Ngưng tập tiểu cầu.",
+  "answer_optionD": "Thay đổi hình dạng và phóng thích các chất."
+ },
+ {
+  "question": "Các chất hoạt hóa plasminogen gồm, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "13",
+  "answer_optionA": "PAI - 1",
+  "answer_optionB": "SK",
+  "answer_optionC": "t - PA",
+  "answer_optionD": "UK"
+ },
+ {
+  "question": "Câu 85 Các xét nghiệm khảo sát thời kỳ cầm máu ban đầu:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "M3",
+  "answer_optionA": "Thời gian Howell",
+  "answer_optionB": "Sức bền mao mạch",
+  "answer_optionC": "Thời gian máu chảy",
+  "answer_optionD": "Co cục máu"
+ },
+ {
+  "question": "Câu 92 Nghiệm pháp dây thắt dương tính trong trường hợp sau, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "M10",
+  "answer_optionA": "Sốt xuất huyết",
+  "answer_optionB": "Thiếu vitamin C",
+  "answer_optionC": "Giam tiểu cầu",
+  "answer_optionD": "Sốt rét"
+ },
+ {
+  "question": "Câu 93 Thời gian Quick bình thường trong trường hợp sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "M11",
+  "answer_optionA": "Bệnh lý xuất huyết giảm phức hợp Prothrombin",
+  "answer_optionB": "Bệnh thiếu vitamin C",
+  "answer_optionC": "Bệnh xuất huyết do thiếu oxy kéo dài",
+  "answer_optionD": "Bệnh Werloff"
+ },
+ {
+  "question": "Câu 12 Câu nào đúng khi nói về tủy trắng của lách",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Anatomy",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "M23",
+  "answer_optionA": "Chiếm 1/5 trọng lượng lách",
+  "answer_optionB": "Chia thành 2 vùng: Vùng rìa và vùng trung tâm động mạch",
+  "answer_optionC": "Động mạch trung tâm tiểu thể Malpighi chạy từ trung tâm sáng tỏa ra các nhánh đổ vào tủy đỏ.",
+  "answer_optionD": "Gồm các mô bạch huyết bao quanh các động mạch"
+ },
+ {
+  "question": "Thông qua việc phát hiện bệnh tật tại cộng đồng trong các giai đoạn đặc biệt là giai đoạn sớm và những yếu tố nguy cơ, đâu là ý mục đích của sàng tuyển cộng đồng",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Phòng chống các tai biến, biến chứng trong quá trình điều trị",
+  "answer_optionB": "Ngăn chặn bệnh tật ngay trong trạng thái tiềm ẩn, hoặc ca bệnh… phát",
+  "answer_optionC": "Không để phát triển thành dịch bệnh rộng rãi, hoặc gây bệnh trầm trọng cho cá thể cộng đồng",
+  "answer_optionD": "Góp phần tích cực và chủ động cho việc dự phòng"
+ },
+ {
+  "question": "Theo luật phòng chống bệnh truyền nhiễm 2007, bệnh bệnh truyền nhiễm nhóm B là bệnh:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1012",
+  "answer_optionA": "Thủy đậu",
+  "answer_optionB": "Ho gà",
+  "answer_optionC": "Bạch hầu",
+  "answer_optionD": "Dịch hạch"
+ },
+ {
+  "question": "Nhận xét đúng về bệnh truyền nhiễm đườmg hô hấp là:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1015",
+  "answer_optionA": "C.",
+  "answer_optionB": "Dễ phát hiện…",
+  "answer_optionC": "Đều có vắc xin phòng bệnh",
+  "answer_optionD": "Dễ khống chế và dập dịch bằng vắc xin"
+ },
+ {
+  "question": "Nghiên cứu bệnh chứng có những đặc điểm dưới đây:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "116",
+  "answer_optionA": "Tương đối tiết kiệm chi phí so với hầu hết các thiết kế nghiên cứu dịch tễ khác",
+  "answer_optionB": "Có thể tính được trực tiếp tỉ lệ mắc bệnh",
+  "answer_optionC": "Đánh giá tình trạng phơi nhiễm trong quá khứ có thể bị sai lệch",
+  "answer_optionD": "Tình trạng phơi nhiễm ở nhóm bệnh được so sánh với nhóm chung"
+ },
+ {
+  "question": "Một trong những đặc điểm của tân binh có ảnh hưởng đến công tác đảm bảo phòng, chống dịch là:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "122",
+  "answer_optionA": "Không có bệnh lý mãn tính",
+  "answer_optionB": "Có trình độ học vấn ít nhất từ THCS trở lên",
+  "answer_optionC": "Thanh niên trẻ, khỏe mạnh",
+  "answer_optionD": "Tân binh thường đến từ nhiều vùng địa phương khác nhau"
+ },
+ {
+  "question": "Câu 65 Các thụ cảm thể và các cơ quan cảm giác nào sau đây là cặp đôi chính xác?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Neurology",
+   "Physiology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "Q65",
+  "answer_optionA": "Các thụ cảm thể nhạy cảm với căng giãn- xoang cảnh",
+  "answer_optionB": "Các tế bào có lông- màng nhày khứu giác",
+  "answer_optionC": "Thụ cảm thể nhạy cảm với muối- các nụ vị giác",
+  "answer_optionD": "Tế bào que và nón- mắt"
+ },
+ {
+  "question": "Ý nào sau đây là chính xác trong phân bố thần kinh của cẳng chân?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Neurology",
+   "Orthopedics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "82",
+  "answer_optionA": "Thần kinh hông khoeo trong chi phối cảm giác da mu chân",
+  "answer_optionB": "Thần kinh hông khoeo ngoài chạy qua vùng cổ xương mác",
+  "answer_optionC": "Thần kinh hông khoeo ngoài chạy trong khoang trước cẳng chân",
+  "answer_optionD": "Thần kinh hông khoeo ngoài chi phối các cơ gấp mu bàn chân"
+ },
+ {
+  "question": "Câu nói của người mẹ “Anh ấy hoàn toàn là chính mình. Tôi chưa bao giờ thấy anh ấy như thế này trước đây” có thể liên quan đến.........................",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Psychiatry"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "tâm trạng bất thường",
+  "answer_optionB": "cứng cổ",
+  "answer_optionC": "chứng sợ ánh sáng",
+  "answer_optionD": "nhiệt độ tăng cao"
+ },
+ {
+  "question": "ai cũng phản ứng với các biện pháp phòng ngừa theo cùng một cách. Nếu chúng ta biết ………………… của bệnh nhân, chúng ta có thể đánh giá những biện pháp khác nhau nào là phù hợp nhất.",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Cả A và B đều không đúng",
+  "answer_optionB": "tâm lý học và di truyền học (A)",
+  "answer_optionC": "Cả A và B đều đúng",
+  "answer_optionD": "tâm lý học và miễn dịch học (B)"
+ },
+ {
+  "question": "Báo tin xấu một cách tốt là một kỹ năng (1) ___________ cho tất cả các bác sĩ, vì đó là điều họ sẽ làm hàng trăm nếu (2) ___________ lần trong sự nghiệp chuyên môn của họ.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Communication Skills"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "C: hàng ngàn/ cụ thể",
+  "answer_optionB": "B: thiết yếu/ tuân thủ",
+  "answer_optionC": "D: cụ thể/ hàng ngàn",
+  "answer_optionD": "A: thiết yếu/ hàng ngàn"
+ },
+ {
+  "question": "Câu 5 Tổn thương nào là thoái hóa hạt",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Thoái hoá nhu mô",
+  "answer_optionB": "Thoái hoá albumin",
+  "answer_optionC": "Sưng đục-trương đục",
+  "answer_optionD": "Thoái hóa rỗ"
+ },
+ {
+  "question": "Câu 6 Hình ảnh đại thể nào của thoái hoá hạt",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Mặt cắt có ít dịch",
+  "answer_optionB": "Cơ quan to lên",
+  "answer_optionC": "Mềm nhẽo, mờ đục",
+  "answer_optionD": "Cứng chắc, sẫm màu"
+ },
+ {
+  "question": "Câu 20 Hình ảnh vi thể nào của hoại tử gồm",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Không thấy mạch máu",
+  "answer_optionB": "Vẫn thấy mạch máu",
+  "answer_optionC": "Các tế bào còn hình dáng của mô cũ, màu hồng",
+  "answer_optionD": "Xâm nhiễm tương bào, lympho,tế bào Langhans"
+ },
+ {
+  "question": "Câu 22 Đặc tính nào là biến đổi thích nghi của tế bào",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "Tế bào phát triển mạnh, mất kiểm soát",
+  "answer_optionB": "Tăng kích thước hoặc số lượng tế bào",
+  "answer_optionC": "Giảm kích thước hoặc số lượng tế bào",
+  "answer_optionD": "Biến đổi thành loại mô khác (dị sản)"
+ },
+ {
+  "question": "Câu 23 Trong các tổn thương dưới đây, đâu là tổn thương thích nghi",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Tăng sản",
+  "answer_optionB": "Phì đại",
+  "answer_optionC": "Thoái hóa",
+  "answer_optionD": "Teo đét"
+ },
+ {
+  "question": "Trong các chất dưới đây, chất nào chất trung gian hóa học (hoạt mạch) trong viêm?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Histamin",
+  "answer_optionB": "Interleukin",
+  "answer_optionC": "Prostaglandin",
+  "answer_optionD": "Hemosiderin"
+ },
+ {
+  "question": "Trong các chất dưới đây, chất nào là chất trung gian hoá học trong viêm?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Leukotrien C4, D4, E4",
+  "answer_optionB": "Phospholipase",
+  "answer_optionC": "C3a, C5a",
+  "answer_optionD": "Bradykinin"
+ },
+ {
+  "question": "Hiện tượng nào là hiện tượng của phản ứng tăng sinh?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Hiện tượng tăng sinh sản tế bào",
+  "answer_optionB": "Hiện tượng huy động tế bào",
+  "answer_optionC": "Hiện tượng hoại tử tế bào",
+  "answer_optionD": "Hiện tượng biến dạng tế bào"
+ },
+ {
+  "question": "Biểu hiện sưng, nóng, đỏ, đau do viêm cấp tính do:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Phù viêm",
+  "answer_optionB": "Tác động của chất trung gian hóa học",
+  "answer_optionC": "Sung huyết chủ động",
+  "answer_optionD": "Sung huyết thụ động"
+ },
+ {
+  "question": "Trong các đặc điểm dưới đây, đặc điểm nào là của viêm cấp tính?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Xâm nhiễm bạch cầu đa nhân trong mô đệm",
+  "answer_optionB": "Mạch máu sung huyết",
+  "answer_optionC": "Xâm nhiễm tế bào lympho trong mô đệm",
+  "answer_optionD": "Mô đệm phù nề"
+ },
+ {
+  "question": "Đặc tính nào là vai trò của đại thực bào trong viêm?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Tiết chất trung gian hoá học, bổ thể",
+  "answer_optionB": "Xử lý và trình diện kháng nguyên",
+  "answer_optionC": "Tiết ra kháng thể diệt vi khuẩn",
+  "answer_optionD": "Thực bào vi khuẩn"
+ },
+ {
+  "question": "Viêm nào sau đây là viêm cấp tính:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Viêm tơ huyết",
+  "answer_optionB": "Viêm thanh huyết",
+  "answer_optionC": "Viêm mủ",
+  "answer_optionD": "Viêm hạt"
+ },
+ {
+  "question": "Viêm nào sau đây là viêm mạn tính:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Viêm hạt dị vật",
+  "answer_optionB": "Viêm lao",
+  "answer_optionC": "Viêm giang mai",
+  "answer_optionD": "Viêm tơ huyết"
+ },
+ {
+  "question": "Tổn thương vi thể nào của viêm mạn tính",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Các mạch máu thành dày, xơ hóa",
+  "answer_optionB": "Mô đệm tăng sinh tổ chức xơ",
+  "answer_optionC": "Xâm nhiễm bạch cầu đa nhân trung tính",
+  "answer_optionD": "Xâm nhiễm lympho bào và đại thực bào"
+ },
+ {
+  "question": "Câu 56 Trong các đặc điểm hình thái dưới đây, đặc điểm nào của loạn sản nhẹ",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q56",
+  "answer_optionA": "B) Tế bào nhân kiềm tính, đồng đều",
+  "answer_optionB": "A) Ít thay đổi mô học",
+  "answer_optionC": "C) Tỷ lệ nhân/bào tương tăng nhẹ",
+  "answer_optionD": "D) Tế bào tăng sinh mạnh, nhiều nhân chia"
+ },
+ {
+  "question": "Câu 57 Trong các đặc điểm hình thái dưới đây, đặc điểm nào của loạn sản mức độ vừa",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q57",
+  "answer_optionA": "C) Nhân tế bào tương đối đều nhau",
+  "answer_optionB": "B) Tế bào nhân kiềm tính, có hạt nhân",
+  "answer_optionC": "D) Tỷ lệ nhân/bào tương tăng rõ, tăng chỉ số nhân chia",
+  "answer_optionD": "A) Thay đổi mô học, mất tính biệt hóa của biểu mô"
+ },
+ {
+  "question": "Câu 58 Trong các đặc điểm hình thái dưới đây, đặc điểm nào của loạn sản mức độ nặng",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q58",
+  "answer_optionA": "A) Biến đổi không điển hình về mô học",
+  "answer_optionB": "D) Nhân to nhỏ không đếu",
+  "answer_optionC": "C) Nhân tan",
+  "answer_optionD": "B) Nhiều nhân chia, nhân chia không điển hình"
+ },
+ {
+  "question": "Câu 67 Tính chất nào của khối u",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q67",
+  "answer_optionA": "C) Phát triển có tính tự quản, không chịu sự kiểm soát của cơ thể",
+  "answer_optionB": "B) Chịu sự kiểm soát của cơ thể",
+  "answer_optionC": "D) Phát triển quá mức, u sinh sản thừa, có hại cho cơ thể",
+  "answer_optionD": "A) Rối loạn sự xắp xếp của cơ quan và tổ chức"
+ },
+ {
+  "question": "Câu 149 Hình ảnh vi thể nào của mạch máu sung huyết?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD1021",
+  "answer_optionA": "Thành mạch mỏng",
+  "answer_optionB": "Lòng mạch chứa nhiều bạch cầu",
+  "answer_optionC": "Mạch máu giãn rộng",
+  "answer_optionD": "Các tế bào nội mô nằm xa nhau"
+ },
+ {
+  "question": "Đâu là nguyên nhân gây nghẽn mạch?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "178",
+  "answer_optionA": "Tăng protein gây đông máu",
+  "answer_optionB": "Tổn thương tế bào nội mô",
+  "answer_optionC": "Tăng protein tiêu sợi tơ huyết",
+  "answer_optionD": "Sự chảy chậm của dòng máu"
+ },
+ {
+  "question": "Các cách tiến triển của huyết khối:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Hematology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "180",
+  "answer_optionA": "Hóa lỏng",
+  "answer_optionB": "Tiêu biến cục nghẽn",
+  "answer_optionC": "Nhuyễn cục nghẽn",
+  "answer_optionD": "Tổ chức hóa cục nghẽn"
+ },
+ {
+  "question": "Vật nào là vật tắc?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "187",
+  "answer_optionA": "Cục máu đông",
+  "answer_optionB": "Dịch màng ối",
+  "answer_optionC": "Mảnh kim khí",
+  "answer_optionD": "Giọt mỡ tự do"
+ },
+ {
+  "question": "Đặc điểm nào đúng trong viêm nội tâm mạc do thấp tim?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "Rheumatology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Gặp nhiều nhất ở nội tâm mạc phủ lên van ba lá, van động mạch phổi",
+  "answer_optionB": "Gặp nhiều nhất ở nội tâm mạc phủ lên van hai lá, van động mạch chủ",
+  "answer_optionC": "Biểu hiện là cục sùi nhỏ, mủn nát và dễ vỡ",
+  "answer_optionD": "Gây xơ hóa biến dạng van tim dẫn tới hẹp hoặc hở van tim"
+ },
+ {
+  "question": "Câu 228 Bờ ổ loét dạ dày mạn tính có các đặc điểm:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1001",
+  "answer_optionA": "B) Thành mạch máu lớp hạ niêm mạc dày lên, có thể thấy nghẽn mạch",
+  "answer_optionB": "A) Lớp cơ bị kéo lên theo hướng ổ loét do quá trình xơ hóa",
+  "answer_optionC": "D) Mô kẽ xâm nhiễm nhiều bạch cầu đa nhân",
+  "answer_optionD": "C) Biểu mô phủ bị tổn thương thích nghi"
+ },
+ {
+  "question": "Câu 229 Loét dạ dày cấp tính có các đặc điểm:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1002",
+  "answer_optionA": "D) Tế bào biểu mô phủ và tuyến tăng chế tiết, nhưng không có tổn thương teo đét, tăng sản hoặc dị sản.",
+  "answer_optionB": "B) Các ổ loét thường nhỏ (đường kính dưới 1cm)",
+  "answer_optionC": "A) Ổ loét có thể gặp ở bất cứ vị trí nào của dạ dày",
+  "answer_optionD": "C) Đáy ổ loét có 4 lớp"
+ },
+ {
+  "question": "Câu 232 Đáy ổ loét dạ dày mạn tính gồm các lớp:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1005",
+  "answer_optionA": "B) Lớp mô hạt",
+  "answer_optionB": "A) Lớp hoại tử, phù dạng tơ huyết",
+  "answer_optionC": "D) Lớp chấy nhày lẫn máu đông",
+  "answer_optionD": "C) Lớp xơ hóa"
+ },
+ {
+  "question": "Câu 234 Lớp hoại tử tơ huyết của đáy ổ loét dạ dày mạn tính có các thành phần sau:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1007",
+  "answer_optionA": "B) Sợi tơ huyết",
+  "answer_optionB": "A) Mảnh vụn tế bào",
+  "answer_optionC": "D) Máu đông",
+  "answer_optionD": "C) Bạch cầu thoái hóa"
+ },
+ {
+  "question": "Câu 243 Xơ gan có các nguyên nhân sau đây:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1016",
+  "answer_optionA": "D) Nhiễm độc",
+  "answer_optionB": "B) Nhiễm virus viêm gan B, C",
+  "answer_optionC": "A) Nghiện rượu",
+  "answer_optionD": "C) Ngộ độc thuốc cấp tính"
+ },
+ {
+  "question": "Câu 244 Xơ gan có các nguyên nhân sau đây:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1017",
+  "answer_optionA": "C) Viêm đường mật",
+  "answer_optionB": "B) Suy tim",
+  "answer_optionC": "D) Rối loạn chuyển hóa",
+  "answer_optionD": "A) Rối loạn dinh dưỡng"
+ },
+ {
+  "question": "Câu 245 Xơ gan có các tổn thương cơ bản sau đây:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1018",
+  "answer_optionA": "B) Tăng sinh tổ chức liên kết",
+  "answer_optionB": "C) Tái tạo tế bào gan",
+  "answer_optionC": "D) Xâm nhiễm viêm ở khoảng cửa",
+  "answer_optionD": "A) Tổn thương tế bào gan"
+ },
+ {
+  "question": "Câu 250 Đặc điểm nào sau là của xơ gan sau hoại tử:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1023",
+  "answer_optionA": "C) Gan thường to hơn gan bình thường",
+  "answer_optionB": "A) Số lượng tiểu thùy gan giả ít hơn trong xơ gan teo",
+  "answer_optionC": "D) Các tế bào gan bị thoái hóa hạt, thoái hóa mỡ và thoái hóa nước",
+  "answer_optionD": "B) Các ổ tái tạo lớn nhỏ làm xuất hiện các hạt đầu đanh to, nhỏ không đều"
+ },
+ {
+  "question": "Các đặc điểm mô bệnh học của xơ gan teo:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1001",
+  "answer_optionA": "Các dải xơ chia cắt các tiểu thuỳ gan thành các tiểu thuỳ gan giả",
+  "answer_optionB": "Gan nhỏ, bề mặt gan có những hạt đầu đinh nhỏ tương đối đều nhau.",
+  "answer_optionC": "Các ổ tế bào gan tái tạo tương đối đều nhau",
+  "answer_optionD": "Các tế bào gan bị hoại tử nhiều"
+ },
+ {
+  "question": "Ung thư dạ dày về đại thể có các loại sau:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1009",
+  "answer_optionA": "Thể loét",
+  "answer_optionB": "Thể sùi",
+  "answer_optionC": "Thể thâm nhiễm",
+  "answer_optionD": "Thể viêm"
+ },
+ {
+  "question": "Ổ loét của ung thư dạ dày có đặc điểm nào sau đây:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1010",
+  "answer_optionA": "Niêm mạc dạ dày bờ ổ loét còn rõ nếp nhăn",
+  "answer_optionB": "Bờ ổ loét nham nhỏ không tròn đều",
+  "answer_optionC": "Đáy ổ loét sâu, kèm chảy máu",
+  "answer_optionD": "Thành ổ loét không thẳng đứng"
+ },
+ {
+  "question": "Câu 283 Tổn thương cơ bản cầu thận gồm:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Nephrology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1006",
+  "answer_optionA": "Sung huyết",
+  "answer_optionB": "Hình thành chất lắng đọng",
+  "answer_optionC": "Tăng sinh tế bào",
+  "answer_optionD": "Xơ hóa, hyalin hóa, hoại tử"
+ },
+ {
+  "question": "Câu 284 Phân loại bệnh cầu thận theo bệnh học gồm:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Nephrology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1007",
+  "answer_optionA": "Bệnh cầu thận do rối loạn tuần hoàn",
+  "answer_optionB": "Bệnh cầu thận do nhiễm khuẩn",
+  "answer_optionC": "Bệnh cầu thận do rối loạn chuyển hoá",
+  "answer_optionD": "Bệnh cầu thận do cơ chế miễn dịch"
+ },
+ {
+  "question": "Câu 285 Đặc điểm đại thể viêm cầu thận cấp:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Nephrology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1008",
+  "answer_optionA": "Bao thận dễ bóc, còn phân biệt rõ vùng vỏ vùng tủy",
+  "answer_optionB": "Mặt thận màu đỏ và có các chấm mầu đỏ",
+  "answer_optionC": "Mặt cắt thận vùng vỏ mỏng, thâm nhiễm mỡ ở vùng đài bể thận.",
+  "answer_optionD": "Thận to ra"
+ },
+ {
+  "question": "Câu 286 Đặc điểm vi thể viêm cầu thận cấp:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Nephrology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1009",
+  "answer_optionA": "Các cầu thận có tăng sinh tế bào gian mạch",
+  "answer_optionB": "Cầu thận xâm nhập tế bào viêm cấp, có liềm tế bào",
+  "answer_optionC": "Cầu thận bị xơ hóa, hyalin",
+  "answer_optionD": "Ống thận chứa các trụ hồng cầu, biểu mô ống thận bị thoái hoá"
+ },
+ {
+  "question": "Câu 287 Đặc điểm đại thể viêm cầu thận mạn:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Nephrology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1010",
+  "answer_optionA": "Mặt cắt thận màu hồng, các đài bể thận giãn",
+  "answer_optionB": "Thận teo nhỏ, bề mặt thận có các hạt nhỏ,",
+  "answer_optionC": "Bao thận khó bóc tách.",
+  "answer_optionD": "Mặt cắt thận vùng vỏ mỏng, thâm nhiễm mỡ ở vùng đài bể thận."
+ },
+ {
+  "question": "Câu 288 Đặc điểm vi thể viêm cầu thận mạn tính:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Nephrology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1011",
+  "answer_optionA": "Ống thận teo, mô kẽ hoá sợi và xâm nhập các tế bào viêm",
+  "answer_optionB": "Cầu thận giãn to, tăng sinh tế bào gian mạch.",
+  "answer_optionC": "Các tiểu động mạch bị xơ cứng",
+  "answer_optionD": "Cầu thận xơ hóa, hyalin hóa toàn bộ"
+ },
+ {
+  "question": "Câu 292 Hình ảnh đại thể đại thể ung thư tế bào thận có các đặc điểm sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Urology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1015",
+  "answer_optionA": "Mật độ rắn chắc giống mô cơ, ranh giới không rõ",
+  "answer_optionB": "Mặt cắt màu trắng nhạt, có xuất huyết, hoại tử từng ổ",
+  "answer_optionC": "Thường xâm nhập vào tĩnh mạch thận, đài bể thận, niệu quản",
+  "answer_optionD": "Là một khối hình cầu, có ranh giới rõ với nhu mô xung quanh"
+ },
+ {
+  "question": "Câu 293 Vi thể ung thư tế bào thận có các đặc điểm sau:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Urology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1016",
+  "answer_optionA": "Bào tương có tế bào hạt",
+  "answer_optionB": "Bào tương tế bào thường rộng",
+  "answer_optionC": "Cấu trúc mô học của u đa dạng, dạng nhú, ổ, bè, ống.",
+  "answer_optionD": "U hay bị hoại tử rộng"
+ },
+ {
+  "question": "Câu 297 Các vị trí gặp lắng đọng phức hợp miễn dịch:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Allergy and Immunology",
+   "Nephrology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1020",
+  "answer_optionA": "Lắng đọng trong lòng mao mạch cầu thận",
+  "answer_optionB": "Lắng động dưới biểu mô",
+  "answer_optionC": "Lắng đọng dưới nội mô",
+  "answer_optionD": "Lắng đọng màng đáy"
+ },
+ {
+  "question": "Tổn thương nào là tổn thương thích nghi?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Lạc chỗ",
+  "answer_optionB": "Quá sản",
+  "answer_optionC": "Dị sản",
+  "answer_optionD": "Teo dét"
+ },
+ {
+  "question": "Hình ảnh mô bệnh học nào của thoái hoá hạt",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Nhân tế bào tròn, đều nhau",
+  "answer_optionB": "Bào tương có các hạt lấm tấm màu hồng (hạt albumin)",
+  "answer_optionC": "Bào tương có các hạt màu nâu (lipofucsin)",
+  "answer_optionD": "Tế bào thường có kích thước to lên"
+ },
+ {
+  "question": "Câu 370 Hình ảnh tăng sinh tích cực nào thường của tế bào ung thư?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "370",
+  "answer_optionA": "Tế bào có tỷ lệ nhân/ bào tương tăng, có nhiều hình nhân chia",
+  "answer_optionB": "Tế bào có nhân trương to, hạt nhân rõ hoặc nhiều hạt nhân,",
+  "answer_optionC": "Tế bào biến đổi chủ yếu thấy ở nhân tế bào",
+  "answer_optionD": "Tế bào có nhân đều, hạt nhân không rõ"
+ },
+ {
+  "question": "Câu 371 Hình ảnh nào là hình ảnh mất tính biệt hoá của tế bào?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "371",
+  "answer_optionA": "Tế bào có xu hướng trở lại dạng phôi thai, dạng không biệt hoá",
+  "answer_optionB": "Tế bào mất khả năng sản xuất các chất biệt hoá",
+  "answer_optionC": "Tế bào mất chức năng và kiến trúc biệt hoá",
+  "answer_optionD": "Hình dáng và cấu trúc tổ chức còn rõ"
+ },
+ {
+  "question": "Câu 379 Đặc tính nào là căn cứ để xác định ung thư điển hình?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "379",
+  "answer_optionA": "Các chất biệt hóa của tế bào (chất tiết, vân tế bào cơ….)",
+  "answer_optionB": "Hình dáng tế bào",
+  "answer_optionC": "Cách sắp xếp của các tế bào",
+  "answer_optionD": "Hình dáng nhân tế bào"
+ },
+ {
+  "question": "Câu 458 Lớp mô hạt ở đáy ổ loét mạn tính được tạo thành bởi các tế bào:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD458",
+  "answer_optionA": "Bạch cầu đa nhân trung tính",
+  "answer_optionB": "Nguyên bào sợi",
+  "answer_optionC": "Nguyên bào xơ cơ",
+  "answer_optionD": "Mạch máu tân tạo"
+ },
+ {
+  "question": "Câu 459 Niêm mạc bờ ổ loét dạ dày mạn tính có các tổn thương:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD459",
+  "answer_optionA": "Dị sản vảy",
+  "answer_optionB": "Dị sản ruột",
+  "answer_optionC": "Tăng sản biểu mô tuyến",
+  "answer_optionD": "Teo đét biểu mô tuyến"
+ },
+ {
+  "question": "Câu 460 Mô hạt được cấu tạo bởi các thành phần sau:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD460",
+  "answer_optionA": "Tăng sinh tế bào sợi",
+  "answer_optionB": "Các mao mạch tân tạo",
+  "answer_optionC": "Các nguyên bào sợi tăng sinh",
+  "answer_optionD": "Các tế bào viêm đơn nhân"
+ },
+ {
+  "question": "Tổn thương tế bào gan trong xơ gan là do các nguyên nhân sau:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "467",
+  "answer_optionA": "Các nguyên nhân ban đầu tiếp tục công kích tế bào gan",
+  "answer_optionB": "Yếu tố miễn dịch",
+  "answer_optionC": "Do xâm nhiễm các tế bào viêm",
+  "answer_optionD": "Chèn ép của mô liên kết xơ tăng sinh"
+ },
+ {
+  "question": "Các đặc điểm ổ tái tạo tế bào gan trong xơ gan teo:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "476",
+  "answer_optionA": "Có kích thước nhỏ và khá đều nhau",
+  "answer_optionB": "Các tế bào gan non có tỷ lệ nhân/bào tương cao",
+  "answer_optionC": "Được bao quanh bởi mô liên kết xơ",
+  "answer_optionD": "Các tế bào gan non không sắp xếp thành bè rõ rệt"
+ },
+ {
+  "question": "Các đặc điểm sau đây thể hiện sự kém biệt hóa của tế bào u trong ung thư biểu mô tuyến dạ dày:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "485",
+  "answer_optionA": "Các tuyến đứng cách xa nhau",
+  "answer_optionB": "Các tuyến lớn nhỏ, méo mó, dị hình, trong lòng chứa nhiều chất hoại tử",
+  "answer_optionC": "Các tế bào biểu mô tuyến mất cực tính và giảm chế tiết",
+  "answer_optionD": "Các tế bào biểu mô lót lòng tuyến nơi một hàng nơi nhiều hàng tế bào"
+ },
+ {
+  "question": "Bề mặt ung thư dạ dày dễ bị xuất huyết và chảy máu vì các lý do sau:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "488",
+  "answer_optionA": "Các tế bào biểu mô bề mặt bị biến đổi ác tính nên dễ bị tổn thương hoại tử khi tiếp xúc với thức ăn và dịch vị dạ dày",
+  "answer_optionB": "Do xâm nhiễm viêm trong khối u",
+  "answer_optionC": "Bề mặt u có nhều mạch máu do tăng sinh mạch trong ung thư",
+  "answer_optionD": "Do bề mặt u bị cọ xát với thức ăn khi dạ dày co bóp nhào trộn thức ăn"
+ },
+ {
+  "question": "Đặc điểm xâm lấn nào sau đây gặp chủ yếu trong ung thư dạ dày:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "489",
+  "answer_optionA": "xâm nhập mạch máu",
+  "answer_optionB": "xâm nhập mạch bạch huyết",
+  "answer_optionC": "xâm lấn qua màng đáy",
+  "answer_optionD": "xâm lấn qua cơ niêm"
+ },
+ {
+  "question": "Câu 496 Các tế bào u bị hoại tử nhiều trong ung thư gan là do các nguyên nhân nào sau đây:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Oncology",
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD53006",
+  "answer_optionA": "Bị chèn ép bởi mô xơ",
+  "answer_optionB": "Bị tắc mạch do huyết khối",
+  "answer_optionC": "Các mạch máu phân bố không đồng đều",
+  "answer_optionD": "Do các nguyên nhân gây ung thư"
+ },
+ {
+  "question": "Câu 506 Các tế bào ung thư biểu mô tuyến vú di căn được là do các đặc điểm nào sau:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology",
+   "Surgery"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD53016",
+  "answer_optionA": "Các tế bào u mất sự kết nối giữa các tế bào",
+  "answer_optionB": "Các tế bào u di chuyển được theo kiểu amip",
+  "answer_optionC": "Các tế bào u tiết men tiêu hủy lipid",
+  "answer_optionD": "Các tế bào u tiết men tiêu hủy protein"
+ },
+ {
+  "question": "Câu 511 Ung thư biểu mô thùy tại chỗ có các đặc điểm sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology",
+   "Surgery"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD53021",
+  "answer_optionA": "Có nhiều loại vi thể như loại đặc, dạng rây, vi nhú",
+  "answer_optionB": "70% ở vùng trung tâm, 30-40% ở 2 bên",
+  "answer_optionC": "Không có đặc điểm riêng trên đại thể",
+  "answer_optionD": "Về vi thể, các thùy giãn và bị lấp đầy bởi những tế bào tròn tương đối đều nhau"
+ },
+ {
+  "question": "Câu 513 Ung thư biểu mô tuyến vú ống xâm nhập có các đặc điểm sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology",
+   "Surgery"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD53023",
+  "answer_optionA": "Ít di căn hạch, tiên lượng tốt",
+  "answer_optionB": "Tế bào u có nhân lớn, hạt nhân rõ, nhiều nhân chia",
+  "answer_optionC": "Thường di căn hạch, tiên lượng xấu",
+  "answer_optionD": "Tế bào to nhỏ tạo thành ổ hoặc những hình ống tuyến"
+ },
+ {
+  "question": "Câu 521 Các yếu tố nào sau đây làm tăng nguy cơ mắc ung thư vú:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "521",
+  "answer_optionA": "Nuôi con bằng sữa mẹ kéo dài trên 1 năm",
+  "answer_optionB": "Không có con",
+  "answer_optionC": "Đẻ con muộn sau 30 tuổi",
+  "answer_optionD": "Có kinh nguyệt sớm"
+ },
+ {
+  "question": "Câu 522 Các yếu tố nào sau đây làm giảm nguy cơ mắc ung thư vú:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "522",
+  "answer_optionA": "Nuôi con bằng sữa mẹ kéo dài trên 1 năm",
+  "answer_optionB": "Mãn kinh sớm sau 55 tuổi",
+  "answer_optionC": "Sử dụng liệu pháp hóc môn thay thế",
+  "answer_optionD": "Sinh con sớm trước 30 tuổi"
+ },
+ {
+  "question": "Câu 526 Ung thư cổ tử cung có nguồn gốc từ các tế bào sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "526",
+  "answer_optionA": "Tế bào nội mạc tử cung",
+  "answer_optionB": "Tế bào biểu mô trụ (cổ tử cung trong)",
+  "answer_optionC": "Tế bào biểu mô lát tầng (cổ tử cung ngoài)",
+  "answer_optionD": "Tế bào biểu mô tuyến trong lớp hạ niêm mạc cổ tử cung"
+ },
+ {
+  "question": "Câu 529 Ung thư biểu mô vảy cổ tử cung biệt hóa cao có các đặc điểm sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "529",
+  "answer_optionA": "Có nhiều nhân quái",
+  "answer_optionB": "Giữa các tế bào có gai nối",
+  "answer_optionC": "Các tế bào hình đa diện",
+  "answer_optionD": "Có hình ảnh cầu sừng"
+ },
+ {
+  "question": "Câu 531 Các yếu tố sau làm giảm nguy cơ mắc ung thư cổ tử cung:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "531",
+  "answer_optionA": "Uống thuốc tránh thai hàng ngày",
+  "answer_optionB": "Chung thủy một vợ, một chồng",
+  "answer_optionC": "Vệ sinh sạch sẽ tầng sinh môn",
+  "answer_optionD": "Tiêm vaccin phòng ngừa ung thư cổ tử cung"
+ },
+ {
+  "question": "Câu 558 Phù nề tổ chức đệm (mô đệm) trong hiện tượng thấm mạch do các biến đổi mạch nào sau đây:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "Cardiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "558",
+  "answer_optionA": "C) Tăng tính thấm thành mạch",
+  "answer_optionB": "D) Giảm áp lực trong mao mạch, co mạch",
+  "answer_optionC": "A) Tăng áp lực trong mao mạch, giãn mạch",
+  "answer_optionD": "B) Tăng áp lực thẩm thấu"
+ },
+ {
+  "question": "Câu 561 Hiện tương tạo vách tụ bạch cầu đa nhân trung tính do:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "561",
+  "answer_optionA": "A) Bạch cầu di chuyển sát thành mạch do dòng máu chảy chậm",
+  "answer_optionB": "B) Bạch cầu gắn với tế bào nội mô nhờ phân tử dính",
+  "answer_optionC": "C) Bạch cầu gắn với tế bào nội mô nhờ các sợi tơ huyết của tiểu cầu",
+  "answer_optionD": "D) Bạch cầu gắn với tế bào nội mô nhờ enzyme tiêu huỷ protein"
+ },
+ {
+  "question": "Câu 565 Loại viêm nào là viêm hạt dị vật",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "565",
+  "answer_optionA": "D) Do tinh thể urat (goute)",
+  "answer_optionB": "C) Do nấm",
+  "answer_optionC": "B) Do silicon",
+  "answer_optionD": "A) Do chỉ khâu"
+ },
+ {
+  "question": "Câu 571 Các tiền gen sinh ung (proto-oncogen) là gen",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "571",
+  "answer_optionA": "B) Là các protein hiện diện trên toàn bộ đường dẫn truyền sinh sản tế bào",
+  "answer_optionB": "A) Kiểm soát sự sinh sản phát triển của tế bào",
+  "answer_optionC": "D) Khi đột biến sẽ thành gen ức chế u",
+  "answer_optionD": "C) Khi đột biến sẽ thành gen sinh ung"
+ },
+ {
+  "question": "Câu 615 Xơ gan có các biến chứng sau đây:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "615",
+  "answer_optionA": "B) Tăng áp lực tĩnh mạch cửa",
+  "answer_optionB": "A) Huyết khối tĩnh mạch cửa",
+  "answer_optionC": "D) Suy chức năng gan",
+  "answer_optionD": "C) Ung thư gan"
+ },
+ {
+  "question": "Câu 621 Các biến chứng của ung thư dạ dày:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "621",
+  "answer_optionA": "D) Hẹp môn vị",
+  "answer_optionB": "A) Trào ngược dạ dày- thực quản",
+  "answer_optionC": "B) Xuất huyết tiêu hóa",
+  "answer_optionD": "C) Thủng dạ dày"
+ },
+ {
+  "question": "Câu 629 Ung thư gan di căn xa đến cơ quan nào là chủ yếu:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q629",
+  "answer_optionA": "Cột sống",
+  "answer_optionB": "Não",
+  "answer_optionC": "Thận",
+  "answer_optionD": "Phổi"
+ },
+ {
+  "question": "Câu 638 Các xét nghiệm cần thiết được chỉ định cho bệnh nhân có u vú:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Surgery"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q638",
+  "answer_optionA": "Xét nghiệm tế bào học tuyến vú",
+  "answer_optionB": "Xạ hình tuyến vú",
+  "answer_optionC": "Siêu âm tuyến vú",
+  "answer_optionD": "Chụp nhũ ảnh"
+ },
+ {
+  "question": "Câu 640 Các biến thể của ung thư biểu mô cổ tử cung typ tế bào vảy bao gồm:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Obstetrics and Gynecology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q640",
+  "answer_optionA": "Dạng tế bào tròn",
+  "answer_optionB": "Dạng đáy",
+  "answer_optionC": "Dạng u lympho- biểu mô",
+  "answer_optionD": "Dạng tế bào hình thoi"
+ },
+ {
+  "question": "Câu 641 Các yếu tố nguy cơ thường gặp gây ung thư cổ tử cung:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Obstetrics and Gynecology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q641",
+  "answer_optionA": "Dùng thuốc kháng viêm kéo dài",
+  "answer_optionB": "Mang thai nhiều lần, quan hệ tình dục sớm, nhiều bạn tình",
+  "answer_optionC": "Phụ nữ có hoàn cảnh kinh tế xã hội thấp, vệ sinh kém",
+  "answer_optionD": "Tuổi thường gặp từ 39 đến 59 tuổi."
+ },
+ {
+  "question": "Câu 645 Các xét nghiệm sàng lọc chẩn đoán sớm ung thư cổ tử cung:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Obstetrics and Gynecology",
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD-Q645",
+  "answer_optionA": "Thủ thuật khoét chóp cổ tử cung",
+  "answer_optionB": "Sinh thiết bấm cổ tử cung",
+  "answer_optionC": "Soi cổ tử cung và xét nghiệm tế bào học",
+  "answer_optionD": "Siêu âm đầu dò âm đạo"
+ },
+ {
+  "question": "Ngành bên của động mạch cánh tay là...",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Anatomy"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "656",
+  "answer_optionA": "Động mạch cánh tay sâu.",
+  "answer_optionB": "Động mạch bên trụ dưới.",
+  "answer_optionC": "Động mạch bên trụ trên.",
+  "answer_optionD": "Động mạch cùng vai ngực."
+ },
+ {
+  "question": "Chọn các câu đúng: Động mạch nách...",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Có ngành bên lớn nhất là động mạch vai dưới.",
+  "answer_optionB": "Nằm trước tĩnh mạch nách trong hố nách.",
+  "answer_optionC": "Có vòng nối quanh vai nằm sau xương vai.",
+  "answer_optionD": "Có các vòng nối với động mạch dưới đòn, động mạch cánh tay."
+ },
+ {
+  "question": "Chọn các câu đúng!",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Orthopedics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Xương đặc có đặc điểm mịn, rắn, chắc, màu vàng nhạt, bao quanh thân, tạo ống.",
+  "answer_optionB": "Xương xốp ở trong xương đặc, chứa tuỷ đỏ, các bè xương hướng theo một chiều nhất định.",
+  "answer_optionC": "Cốt mạc màng xương là một lớp màng liên kết mỏng, chắc bao phủ toàn bộ mặt ngoài xương.",
+  "answer_optionD": "Hình thể trong của xương gồm xương đặc, xương xốp, cốt mạc, ống tủy, mạch máu."
+ },
+ {
+  "question": "Chọn các câu đúng!",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Anatomy"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "ANAT1011",
+  "answer_optionA": "Động mạch quay nằm trong thần kinh quay.",
+  "answer_optionB": "Động mạch liên cốt trước đi cùng thần kinh giữa ở cẳng tay.",
+  "answer_optionC": "Động mạch trụ nằm trong thần kinh trụ.",
+  "answer_optionD": "Động mạch quay nằm ngoài động mạch trụ."
+ },
+ {
+  "question": "Chọn các câu đúng: Động mạch nách...",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Anatomy",
+   "Cardiology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "B) Có các vòng nối với động mạch dưới đòn, động mạch cánh tay.",
+  "answer_optionB": "A) Nằm trước tĩnh mạch nách trong hố nách.",
+  "answer_optionC": "D) Có vòng nối quanh vai nằm sau xương vai.",
+  "answer_optionD": "C) Có ngành bên lớn nhất là động mạch vai dưới."
+ },
+ {
+  "question": "Chọn các câu đúng!",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Anatomy"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "D) Cốt mạc màng xương là một lớp màng liên kết mỏng, chắc bao phủ toàn bộ mặt ngoài xương.",
+  "answer_optionB": "C) Xương xốp ở trong xương đặc, chứa tuỷ đỏ, các bè xương hướng theo một chiều nhất định.",
+  "answer_optionC": "A) Hình thể trong của xương gồm xương đặc, xương xốp, cốt mạc, ống tủy, mạch máu.",
+  "answer_optionD": "B) Xương đặc có đặc điểm mịn, rắn, chắc, màu vàng nhạt, bao quanh thân, tạo ống."
+ },
+ {
+  "question": "Đặc điểm nào là của các đốt sống cổ?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Anesthesiology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD013",
+  "answer_optionA": "Có lỗ ở mỏm ngang",
+  "answer_optionB": "Lỗ sống hẹp",
+  "answer_optionC": "Thân đốt bé",
+  "answer_optionD": "Mỏm gai tách đôi"
+ },
+ {
+  "question": "Đặc điểm nào là của các đốt sống ngực?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Anesthesiology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD014",
+  "answer_optionA": "Mỏm gai dài và đi ngang",
+  "answer_optionB": "Có diện khớp với xương sườn",
+  "answer_optionC": "Lỗ sống tròn và nhỏ",
+  "answer_optionD": "Mỏm gai chúc xuống dưới"
+ },
+ {
+  "question": "Chọn các câu đúng!",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Orthopedics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD008",
+  "answer_optionA": "Xương đặc có đặc điểm mịn, rắn, chắc, màu vàng nhạt, bao quanh thân, tạo ống",
+  "answer_optionB": "Hình thể trong của xương gồm xương đặc, xương xốp, cốt mạc, ống tủy, mạch máu",
+  "answer_optionC": "Cốt mạc /màng xương là một lớp màng liên kết mỏng, chắc bao phủ toàn bộ mặt ngoài xương",
+  "answer_optionD": "Xương xốp ở trong xương đặc, chứa tuỷ đỏ, các bè xương hướng theo một chiều nhất định"
+ },
+ {
+  "question": "Aspirin, là một dẫn xuất của acid salicylic, thuộc nhóm thuốc chống viêm non-steroid được sử dụng rất rộng rãi cả trong điều trị và dự phòng. Ở người lớn, nồng độ điều trị của acid salicylic 30 - 60 mg/lít huyết tương cho tác dụng giảm đau và hạ sốt, và 40 - 100 mg/lít huyết tương cho tác dụng chống viêm. Điều nào sau đây là đúng về Aspirin:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pharmacology",
+   "Cardiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Là một acid, có cả 3 tác dụng hạ sốt giảm đau chống viêm",
+  "answer_optionB": "Khả năng gắn với protein huyết tương kém, hấp thu, phân phối nhanh",
+  "answer_optionC": "Có tác dụng chống đông máu nội mạch, qua được hàng rào nhau thai",
+  "answer_optionD": "Có tác dụng chống viêm mạnh và tác dụng thải trừ axit uric"
+ },
+ {
+  "question": "Các thuốc giảm đau kháng viêm không có gốc steroid (NSAID) là những thuốc giảm đau ngoại biên được sử dụng tương đối rộng rãi hiện nay. Cơ chế giảm đau của các thuốc có tác dụng giảm đau ngoại biên dưới đây là đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pharmacology",
+   "General Medicine"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Ức chế trung tâm nhận và truyền cảm giác đau ở vùng dưới đồi",
+  "answer_optionB": "Làm gián đoạn dẫn truyền xung tác ở các bộ phận nhận cảm",
+  "answer_optionC": "Đối kháng tại vị trí receptor với các chất gây đau trên thần kinh cảm giác",
+  "answer_optionD": "Làm giảm tính cảm thụ của đầu dây thần kinh cảm giác với các chất gây đau"
+ },
+ {
+  "question": "Naproxen là dẫn xuất của axit propionic giống như Ibiprofen thuộc thuốc giảm đau chống viêm không steroid (NSAID) hoạt động bằng cách giảm các kích thích tố gây ra viêm và đau trong cơ thể. Naproxen có đặc điểm dưới đây:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pharmacology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Hấp thu nhanh qua đường uống, thải trừ chủ yếu qua thận",
+  "answer_optionB": "Gắn protein huyết tương > 90%, thải trừ chủ yếu qua thận",
+  "answer_optionC": "Chuyển hóa ở huyết tương, hấp thụ chậm qua đường uống",
+  "answer_optionD": "Có tác dụng chống viêm tốt, hấp thu nhanh qua đường uống"
+ },
+ {
+  "question": "Câu 22 Các thuốc nhóm NSAIDs rất khác nhau về cấu trúc hóa học, gồm các dẫn xuất của salicylat, pyrazolon, alinin và indol. Dược động học của các thuốc nhóm này có đặc điểm dưới đây:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Đều là các acid yếu, chuyển hoá ở gan, thải trừ qua thận",
+  "answer_optionB": "Gắn rất mạnh vào protein huyết tương, thải trừ qua thận",
+  "answer_optionC": "Là các phân tử ưa nước, bị ion hoá nhiều ở dạ dày",
+  "answer_optionD": "Đều là các acid yếu, dễ hấp thu qua đường tiêu hoá"
+ },
+ {
+  "question": "Nhận xét đúng về protein actin?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Được sắp xếp thành 2 chuỗi xoắn với nhau.",
+  "answer_optionB": "Chứa protein điều hòa là troponin trong các rãnh xoắn.",
+  "answer_optionC": "Còn được gọi là actin F.",
+  "answer_optionD": "Được cấu tạo bởi hàng trăm phân tử actin G."
+ },
+ {
+  "question": "Đặc điểm của cơ vân, Chọn các câu đúng",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Tự hưng phấn",
+  "answer_optionB": "Đàn hồi",
+  "answer_optionC": "Sinh công",
+  "answer_optionD": "Co - giãn"
+ },
+ {
+  "question": "Nói về nơron vận động chậm, Chọn các câu đúng",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Độ bền bỉ kém",
+  "answer_optionB": "Tốc độ dẫn truyền chậm",
+  "answer_optionC": "Tần số xung động chậm",
+  "answer_optionD": "Tỉ lệ hưng phấn thấp"
+ },
+ {
+  "question": "Câu nào sau đây đúng đối với cơ chế co cơ?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Physiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "569",
+  "answer_optionA": "Cử động xảy ra do sự rút ngắn các tơ cơ.",
+  "answer_optionB": "Cầu nối được thành lập, ion phosphat tách khỏi ATP, cung cấp năng lượng cho co cơ.",
+  "answer_optionC": "Phản xạ có chu kỳ giữa các cầu nối của myosin và sợi actin tạo ra cử động.",
+  "answer_optionD": "Ion Ca++ gắn vào phần troponin C của các tơ cơ, làm bộc lộ vị trí gắn với đầu myosin."
+ },
+ {
+  "question": "Phức hợp kích thích co cơ vân liên quan đến tất cả các sự kiện sau đây:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Physiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "570",
+  "answer_optionA": "Thành lập cầu nối giữa actin và myossin",
+  "answer_optionB": "Khử cực dọc ống ngang",
+  "answer_optionC": "Gây ra điện thế động",
+  "answer_optionD": "Gắn Ca++ vào myosin"
+ },
+ {
+  "question": "Sau khi co, cơ giãn trở về trạng thái nghỉ ban đầu do, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Physiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "572",
+  "answer_optionA": "Các thành phần đàn hồi và hoạt động của nhóm cơ đối vận sẽ đưa cơ về chiều dài ban đầu",
+  "answer_optionB": "Ngừng tín hiệu điện học từ thần kinh",
+  "answer_optionC": "Hoạt hóa bơm calci, bơm ion Ca++ vào trong bể chứa tận cùng",
+  "answer_optionD": "Bơm ion Na+ từ tơ cơ và hệ thống ống T"
+ },
+ {
+  "question": "Nói về cơ trơn, câu nào sau đây đúng",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Physiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "578",
+  "answer_optionA": "Sử dụng năng lượng ATP thấp hơn cơ vân",
+  "answer_optionB": "Chịu sự chi phối của hệ thần kinh thực vật",
+  "answer_optionC": "Mức độ cơ trơn lúc co ngắn hơn cơ vân",
+  "answer_optionD": "Lực co của cơ trơn yếu hơn cơ vân"
+ },
+ {
+  "question": "Chức năng của hệ xương:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Orthopedics",
+   "Physiology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "585",
+  "answer_optionA": "Tạo trương lực cơ",
+  "answer_optionB": "Vận động",
+  "answer_optionC": "Nâng đỡ",
+  "answer_optionD": "Tạo máu và trao đổi chất"
+ },
+ {
+  "question": "Các hormon có thể gây loãng xương khi nồng độ tăng cao:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Endocrinology",
+   "Orthopedics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "586",
+  "answer_optionA": "Cortisol",
+  "answer_optionB": "PTH",
+  "answer_optionC": "T3-T4",
+  "answer_optionD": "GH"
+ },
+ {
+  "question": "Tất cả các phản ứng tế bào, sinh hoá và Enyme đều phụ thuộc nhiệt độ. Vì thế, sự điều hoà thân nhiệt tối ưu là cần thiết cho các hoạt động sinh lý ở động vật hằng nhiệt. Trong các quá trình đâu là quá trình sinh nhiệt?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Tăng nhiệt độ tế bào",
+  "answer_optionB": "Chuyển hoá ở tế",
+  "answer_optionC": "Phản ứng run của cơ thể",
+  "answer_optionD": "Dẫn nhiệt trực tiếp"
+ },
+ {
+  "question": "Liên quan đến nội dung các hình thức trao đổi nhiệt ở cơ thể sống, trong môi trường nóng cơ thể điều nhiệt bằng cách tăng thải nhiệt và giảm sinh nhiệt, trong đó tăng thải nhiệt đóng vai trò chủ yếu. Vậy trong các hình thức dưới đây, điều nào là cách điều nhiệt bằng cách tăng thải nhiệt?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Internal Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MQA109",
+  "answer_optionA": "Tăng bài tiết mồ hôi",
+  "answer_optionB": "Co mạch dưới da",
+  "answer_optionC": "Tăng thông khí",
+  "answer_optionD": "Giãn mạch dưới da"
+ },
+ {
+  "question": "Cơ chế nào dưới đây cơ chế hình thành dịch rỉ viêm.?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pathology",
+   "Immunology"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Do tăng áp lực thẩm thấu của mạch máu tại ổ viêm",
+  "answer_optionB": "Do tăng áp lực thủy tinh tại mạch máu trong ổ viêm",
+  "answer_optionC": "Cả 3 đáp án đều đúng",
+  "answer_optionD": "Do tăng tính thẩm thành mạch"
+ },
+ {
+  "question": "Nội bì phát triển thành phần sau?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Endocrinology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Biểu mô của niêm mạc đường tiêu hóa",
+  "answer_optionB": "Biểu mô tuyến giáp và cận giáp",
+  "answer_optionC": "Vùng tủy thượng thận",
+  "answer_optionD": "Lớp biểu mô niêm mạc hệ hô hấp"
+ },
+ {
+  "question": "Tổn thương nào là tổn thương thích nghi?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Quả sản",
+  "answer_optionB": "Dị sản",
+  "answer_optionC": "Teo dét",
+  "answer_optionD": "Lạc chỗ"
+ },
+ {
+  "question": "Chọn các câu đúng: giải phẫu được phân thành nhiều chuyên ngành khác nhau dựa vào đâu?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Surgery"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Mục đích nghiên cứu",
+  "answer_optionB": "Phương pháp nghiên cứu",
+  "answer_optionC": "Thời gian nghiên cứu",
+  "answer_optionD": "Mức độ nghiên cứu"
+ },
+ {
+  "question": "Tổn thương nào là thoái hóa hạt?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Thoái hóa rỗ",
+  "answer_optionB": "Thoái hóa nhu mô",
+  "answer_optionC": "Sưng dục- trương dục",
+  "answer_optionD": "Thoái hóa albumin"
+ },
+ {
+  "question": "Cơ chế nào sau đây là cơ chế mà các tế bào giao tiếp với nhau. Các yếu tố phiên mã được tiết ra từ một tế bào đích, nói chúng ảnh hưởng đến sự biểu hiện gen?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Các tế bào tạo thành các điểm nổi khoảng cách với các tế bào liền kề,cho phép các phần tử nhỏ đi qua",
+  "answer_optionB": "Tế bào tiết ra protein và các phân tử nhỏ ưa nước tương tác với các thụ thể trên bề mặt tế bào trên tế bào đích và bắt đầu quá trình truyền tin hiệu ảnh hưởng đến hành vi tế bào và biểu hiện gen",
+  "answer_optionC": "Tế bào tiết ra các phần tử nhỏ ky nước, khuếch tán vào tế bào đích, tương tác với các thụ thể trong tế bào chết và ảnh hưởng đến sự biểu hiện gen",
+  "answer_optionD": "Các phần tử bề mặt tế bào trên các tế bào liền kề tương tác và bắt đầu quá trình truyền tín hiệu ảnh hưởng đến hành vi tế bào và biểu hiện gen"
+ },
+ {
+  "question": "xuất huyết não bán cầu (P). Đặc điểm nào của ĐM cảnh trong?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Neurology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1019",
+  "answer_optionA": "Không có nhánh bên ở cổ",
+  "answer_optionB": "Cấp máu cho toàn bộ não",
+  "answer_optionC": "Đường đi gấp khúc",
+  "answer_optionD": "Tắm mình trong xoang TM hang"
+ },
+ {
+  "question": "Điều nào sau đây là đặc điểm của suy tim toàn bộ?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Cardiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1",
+  "answer_optionA": "Giảm khả năng khuếch tán khí giữa phế nang và mao mạch",
+  "answer_optionB": "Tăng thể tích máu cơ thể",
+  "answer_optionC": "Phù trắng toàn thân",
+  "answer_optionD": "Tăng áp lực thủy tĩnh trong lòng mạch"
+ },
+ {
+  "question": "Triệu chứng nào sau đây của suy tim phải?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Cardiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD6",
+  "answer_optionA": "Phù toàn thân",
+  "answer_optionB": "Tĩnh mạch cổ nổi",
+  "answer_optionC": "Xanh tím",
+  "answer_optionD": "Tăng Huyết áp"
+ },
+ {
+  "question": "Trường hợp nào sau đây là tình huống lâm sàng mà phép đo peptit lợi tiểu natri có thể hữu ích?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD13",
+  "answer_optionA": "Sàng lọc quần thể người có nguy cơ mắc bệnh tim tiềm ẩn",
+  "answer_optionB": "Phân biệt hẹp eo động mạch chủ với bệnh cơ tim thể giãn",
+  "answer_optionC": "Phân biệt nguyên nhân suy tim với bệnh hô hấp nguyên phát Bệnh nhân bị ho hoặc khó thở",
+  "answer_optionD": "Sàng lọc bệnh thận mạn có nguy cơ mắc bệnh cơ tim tiềm ẩn"
+ },
+ {
+  "question": "Biểu hiện nào sau đây của suy tim toàn bộ",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Cardiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1007",
+  "answer_optionA": "Tốc độ tuần hoàn giảm",
+  "answer_optionB": "Ứ máu ở mao mạch phổi",
+  "answer_optionC": "Met hemoglobin tăng",
+  "answer_optionD": "Số lượng hồng cầu giảm"
+ },
+ {
+  "question": "Triệu chứng nào sau đây của suy tim phải",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Cardiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1014",
+  "answer_optionA": "Phù toàn thân",
+  "answer_optionB": "Tăng Huyết áp",
+  "answer_optionC": "Tĩnh mạch cổ nổi",
+  "answer_optionD": "Xanh tím"
+ },
+ {
+  "question": "Chọn các câu đúng: Cường giáp:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Endocrinology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1023",
+  "answer_optionA": "Bướu cổ to",
+  "answer_optionB": "Chuyển hoá cơ bản thấp BMP",
+  "answer_optionC": "Tăng cảm giác ngon miệng",
+  "answer_optionD": "Mất trọng lượng"
+ },
+ {
+  "question": "Chọn các câu đúng: Sự tạo thành arginin:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Giải phóng fumarat",
+  "answer_optionB": "Nhờ phản ứng cắt arginosuccinate",
+  "answer_optionC": "Enzyme xúc tác là arginosuccinat lyase",
+  "answer_optionD": "Sản phẩm tạo thành là thành arginin và ornithin"
+ },
+ {
+  "question": "Chọn các câu đúng: Hormone tham gia vào chuyển hoá carbohydrate:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Endocrinology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Glucagon",
+  "answer_optionB": "Growth hormone",
+  "answer_optionC": "Vasopressin",
+  "answer_optionD": "ACTH"
+ },
+ {
+  "question": "Chất nào sản phẩm thoái biến của acid amin isoleucin",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Internal Medicine",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Tiglyl CoA",
+  "answer_optionB": "Alpha ceto-beta etyl butyrat",
+  "answer_optionC": "Alpha methyl butyryl CoA",
+  "answer_optionD": "Beta methyl glutaconylCoA"
+ },
+ {
+  "question": "Chất nào là sản phẩm thoái biến của acid amin isoleucin",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Internal Medicine",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "AcetylCoA",
+  "answer_optionB": "PropionylCoA",
+  "answer_optionC": "Beta methyl crothyl CoA",
+  "answer_optionD": "Alpha methyl beta hydroxy butyryl CoA"
+ },
+ {
+  "question": "Chọn các câu đúng về bilirubin:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "118",
+  "answer_optionA": "Bilirubin tự do không tan trong nước, cho phản ứng diazo chậm nên còn được gọi là bilirubin gián tiếp",
+  "answer_optionB": "Khi albumin đã bão hoà bilirubin, bilirubin thừa có xu hướng gắn vào lipid của nhóm chức đặc biệt ở tổ chức thần kinh",
+  "answer_optionC": "Bilirubin tự do được vận chuyển trong máu tươi dạng kết hợp với acid glucoronic",
+  "answer_optionD": "80% bilirubin được tạo thành do sự giăng hoá của Hb, 20% còn lại là sản phẩm chuyển hoá của các chromoprotein khác"
+ },
+ {
+  "question": "Triệu chứng thực thể của viêm mống mắt là gì? (Chọn các câu đúng)",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Đục thủy tinh dịch (hiện tượng tyndall)",
+  "answer_optionB": "Cương tụ rìa giác mạc",
+  "answer_optionC": "Mống mắt mất sắc bóng, trở nên đục bẩn",
+  "answer_optionD": "Đồng tử giãn"
+ },
+ {
+  "question": "Nhận xét nào sau đây đúng với nghiên cứu thuần tập hồi cứu và tương lai?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD1005",
+  "answer_optionA": "Nghiên cứu thuần tập tương lai cho phép tính toán trực tiếp tỷ lệ mới mắc.",
+  "answer_optionB": "Nghiên cứu thuần tập tương lai thường được áp dụng để làm sáng tỏ các yếu tố có liên quan đến các bệnh hiếm gặp.",
+  "answer_optionC": "Nghiên cứu thuần tập tương lai ít có khả năng bị sai lệch.",
+  "answer_optionD": "Nghiên cứu thuần tập hồi cứu có ưu điểm là có thể sử dụng các số liệu sẵn có cho việc phân tích nhóm."
+ },
+ {
+  "question": "Đâu là nghiên cứu phân tích?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "MD1022",
+  "answer_optionA": "Nghiên cứu bệnh chứng",
+  "answer_optionB": "Nghiên cứu tương quan",
+  "answer_optionC": "Nghiên cứu can thiệp",
+  "answer_optionD": "Nghiên cứu thuần tập"
+ },
+ {
+  "question": "Nhược điểm của nguồn nhóm chứng là quần thể tổng quát: (1) tốn kém và mất thời gian hơn so với nhóm chứng từ bệnh viện. (2) danh sách các cá thể trong quần thể lúc nào cũng sẵn có và thường khó tiếp xúc với những người khỏe mạnh vì họ bận công việc của họ. (3) họ không thể nhớ được tiền sử phơi nhiễm chính xác như ở nhóm bệnh. (4) Những người khỏe mạnh ít có động cơ thúc đẩy tham gia nghiên cứu. (5) Họ có nhiều yếu tố nguy cơ khác.",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "96",
+  "answer_optionA": "1,2,3,4",
+  "answer_optionB": "1,2,4",
+  "answer_optionC": "1,2,5",
+  "answer_optionD": "1,2,3,5"
+ },
+ {
+  "question": "Ưu điểm của nghiên cứu thuần tập tương lai?:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Cho phép tính toán trực tiếp tỷ lệ mới mắc bệnh ở cả hai nhóm phơi nhiễm và không phơi nhiễm",
+  "answer_optionB": "Nghiên cứu có hiệu quả khi đánh giá các bệnh hiếm gặp",
+  "answer_optionC": "Nghiên cứu rất có giá trị và tối ưu khi nghiên cứu ảnh hưởng của các phơi nhiễm hiếm gặp?",
+  "answer_optionD": "Có thể làm sáng tỏ mối quan hệ về thời gian giữa phơi nhiễm và bệnh vì tại thời điểm nghiên cứu các đối tượng chưa bị bệnh"
+ },
+ {
+  "question": "Trong thử nghiệm thuốc điều trị, giai đoạn nghiên cứu tính an toàn chứ tính hiệu quả của thuốc và sau đó xác định liều sử dụng thích hợp là giai đoạn:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Pharmacology"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "MD1022",
+  "answer_optionA": "Dược lý lâm sàng và độc tính.",
+  "answer_optionB": "Giám sát thuốc trên thị trường.",
+  "answer_optionC": "Đánh giá tác dụng của thuốc trên phạm vi lớn.",
+  "answer_optionD": "Bước đầu điều tra ảnh hưởng của thuốc điều trị ."
+ },
+ {
+  "question": "Không loại trừ khỏi phân tích các đối tượng không đủ tiêu chuẩn hay không tuân thủ chế độ nghiên cứu sau khi được chọn ngẫu nhiên.để hạn chế sai số. Đúng hay đúng.",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "40",
+  "answer_optionA": "None",
+  "answer_optionB": "None",
+  "answer_optionC": "Đúng",
+  "answer_optionD": "Sai"
+ },
+ {
+  "question": "Các bệnh có thể truyền nhiễm thực phẩm, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Tả, lỵ",
+  "answer_optionB": "Thương hàn",
+  "answer_optionC": "Giun sán",
+  "answer_optionD": "Nấm"
+ },
+ {
+  "question": "Yếu tố là yếu tố thuận lợi của báo cáo mắc bệnh là:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Báo cáo thường định kỳ, đúng kỳ hạn nên kịp thời thông báo dịch.",
+  "answer_optionB": "Các báo cáo được thầy thuốc chẩn đoán chính xác bệnh",
+  "answer_optionC": "Thường có một tổ chức tập hợp lại và báo cáo",
+  "answer_optionD": "Có thể có các xét nghiệm xác nhận chẩn đoán"
+ },
+ {
+  "question": "[H] Nguồn truyền nhiễm của các bệnh tả, lỵ, thương hàn, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Hard",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Người mắc bệnh",
+  "answer_optionB": "Động vật mắc bệnh",
+  "answer_optionC": "Nguồn nước nhiễm vi sinh vật gây bệnh",
+  "answer_optionD": "Thực phẩm có nhiễm mầm bệnh"
+ },
+ {
+  "question": "Biến chứng nặng của Tay chân miệng (Chọn các câu đúng)",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics",
+   "Neurology",
+   "Cardiology",
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD24",
+  "answer_optionA": "Viêm não-màng não",
+  "answer_optionB": "Phù phổi cấp",
+  "answer_optionC": "Suy thận",
+  "answer_optionD": "Viêm cơ tim"
+ },
+ {
+  "question": "Xử lí tại hộ gia đình có người mắc TCM(Chọn các câu đúng)",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Nếu có bệnh nhân được điều trị tại nhà theo quy định thì phải cách li ít nhất 10 ngày từ khi khởi bệnh",
+  "answer_optionB": "Hướng dẫn hộ gia đình tự theo dõi sức khỏe các thành viên trong gia đình",
+  "answer_optionC": "Hướng dẫn hộ gia đình tự điều trị khi có triệu chứng nghi ngờ",
+  "answer_optionD": "Đảm bảo đủ xà phòng rửa tay tại hộ gia đình"
+ },
+ {
+  "question": "Ở các bệnh truyền từ súc vật, người bệnh thực tế không nguy hiểm đối với những người xung quanh:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Dịch hạch khi có viêm phổi thứ phát",
+  "answer_optionB": "Viêm não nhật bản khi có viêm phổi thứ phát",
+  "answer_optionC": "Dịch hạch khi có bệnh tim mãn tính",
+  "answer_optionD": "Viêm não nhật bản có biến chứng tim mạch"
+ },
+ {
+  "question": "Trong các bệnh do súc vật, thông thường vật chủ sinh học của một tác nhân gây bệnh là một mà là một vài động vật, nhưn phải có một loài là chủ yếu, còn lại là thứ yếu.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Veterinary Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "null",
+  "answer_optionB": "Sai",
+  "answer_optionC": "null",
+  "answer_optionD": "Đúng"
+ },
+ {
+  "question": "Chọn các câu đúng trong những câu sau về muỗi Ades aegypti: (1) sống trong nhà, đậu những nơi có ít ánh sáng và độ ẩm thấp (2) sinh sản ở những nơi nước đục như ao, sông… (3) bọ gậy muỗi Ades aegypti phát triển tốt ở những nơi có pH nhẹ, nên thường sinh sản vào mùa mưa, nước máy (4) có thể thấy muỗi trưởng thành xung quanh ổ khoảng 50m và cách xa nhất 200m",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "24",
+  "answer_optionB": "14",
+  "answer_optionC": "1,2",
+  "answer_optionD": "2 3"
+ },
+ {
+  "question": "Đâu vai trò của sự phối hợp YHGĐ và các chuyên khoa?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "Nâng cao chuyên môn theo chỉ theo chiều rộng",
+  "answer_optionB": "Nâng cao chuyên môn theo cả theo chiều rộng và chiều sâu",
+  "answer_optionC": "Giảm chi phí y tế và tăng hiệu quả của quá trình giải quyết vấn đề sức khỏe cho BN",
+  "answer_optionD": "Cập nhật liên tục thông tin diễn tiến bệnh"
+ },
+ {
+  "question": "Nguyên tắc nào sau đây đúng?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "MDMCQ_011",
+  "answer_optionA": "Chăm sóc sức khỏe phối hợp",
+  "answer_optionB": "Hướng gia đình, Hướng cá thể",
+  "answer_optionC": "Chăm sóc sức khỏe phối hợp, Dự phòng và nâng cao sức khỏe",
+  "answer_optionD": "Chăm sóc sức khỏe liên tục, chăm sóc sức khỏe toàn diện"
+ },
+ {
+  "question": "Điền từ: theo WHO, “…. là một tráng hoàn toàn thoải mái cả về ….,....,...., chứ chỉ là không có bệnh tật hay tàn tật”",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Public Health"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "32",
+  "answer_optionA": "sức khỏe/ thể lí/ tâm thần/xã hội",
+  "answer_optionB": "sức khỏe/ thể chất/ tâm thần/xã hội",
+  "answer_optionC": "sức khỏe/ thể chất/ tinh thần/xã hội",
+  "answer_optionD": "sức khỏe/ tinh thần/ thể chất/xã hội"
+ },
+ {
+  "question": "Sức khỏe là tình trạng thoải mái về thể chất - tinh thần - xã hội chứ là…?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "Q2",
+  "answer_optionA": "Không mắc các bệnh nguy hiểm",
+  "answer_optionB": "Không có bệnh",
+  "answer_optionC": "Hoàn toàn khỏe mạnh",
+  "answer_optionD": "Không mắc các bệnh mạn tính"
+ },
+ {
+  "question": "Câu nào sau đây là hoạt động của dự phòng cấp I?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "Q10a",
+  "answer_optionA": "Nâng cao sức khỏe, tạo kháng thể miễn dịch chủ động nhue tiêm phòng vaccin các loại vi trùng, virus trong chương trình tiêm chủng mở rộng",
+  "answer_optionB": "Hạn chế -khống chế các yếu tố nguy cơ: (không hút thuốc lá, tránh tiếp xúc với dị nguyên hen)",
+  "answer_optionC": "Tuyên truyền tác hại của thuốc lá, cấm hút thuốc lá trong thanh thiếu niên",
+  "answer_optionD": "Kiểm soát các vecturr truyền bệnh: Diệt muỗi, diệt chấy rạn, kiểm soát thức ăn"
+ },
+ {
+  "question": "Câu nào sau đây là hoạt động của dự phòng cấp 0?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "Q11",
+  "answer_optionA": "Tuyên truyền thông tin về HIV /AIDS hạn chế phơi nhiễm",
+  "answer_optionB": "Ăn sạch, uống sạch, ngủ mùng",
+  "answer_optionC": "Hạn chế phơi nhiễm: tránh tiếp xúc với ngời đang bẹnh nhiễm trùng đường hô hấp, không cho trẻ đến trường nếu trẻ bị nhiễm bệnh, tránh tiếp xúc với thuốc trừ sâu khi phun thuốc",
+  "answer_optionD": "Tuyên truyền tác hại của thuốc lá, cấm hút thuốc lá trong thanh thiếu niên"
+ },
+ {
+  "question": "Câu nào sau đây là hành động của dự phòng cấp 2?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "13",
+  "answer_optionA": "Vật lí trị liệu phục hồi chức năng đã giảm- mất",
+  "answer_optionB": "Ngăn ngừa các biến chứng của bệnh",
+  "answer_optionC": "Tầm soát sớm bệnh ngay từ giai đoạn tiền lâm sàng",
+  "answer_optionD": "Điều trị bệnh khi phát hiện được"
+ },
+ {
+  "question": "Ý nào sau đây là lợi ích của nghiệm pháp tầm soát?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "General Medicine",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Test tầm soát có độ nhạy cao. Do vậy, nếu kết quả âm tính giúp loại trừ người lành, trấn an người lành",
+  "answer_optionB": "Hạn chế phải dùng các pp điều trị nặng nề vì bệnh được phát hiện sớm",
+  "answer_optionC": "Đối với trường hợp âm tính giả, có nguy cơ chẩn đoán thiếu sót bệnh",
+  "answer_optionD": "Cải thiện tiên lượng, nâng cao hiệu quả điều trị đối với những bệnh nhân được phát hiện ở giai đoạn sớm"
+ },
+ {
+  "question": "Ý nào sau đây là nguy cơ của nghiệm pháp tầm soát?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "General Medicine",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Kéo dài thời gian bệnh",
+  "answer_optionB": "Gây lo lắng, không cần thiết đối với trường hợp dương tính giả",
+  "answer_optionC": "Giúp cho nghiên cứu diễn tiến tự nhiên của bệnh, nghiên cứu hiệu quả pp điều trị khi được sử dụng trong giai đoạn sớm",
+  "answer_optionD": "Đối với trường hợp dương tính giả, bệnh nhân có nguy cơ sẽ bị can thiệp điều trị quá mức cần thiết"
+ },
+ {
+  "question": "Điền từ: Tư vấn giáo dục sức khỏe chỉ cho các cá nhân mà còn cho..., cộng đồng, cả người ốm và người khỏe.",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "28",
+  "answer_optionA": "Hộ gia đình",
+  "answer_optionB": "Trường lớp",
+  "answer_optionC": "Các cơ quan",
+  "answer_optionD": "Tập thể"
+ },
+ {
+  "question": "Đâu là nôi dung chăm sóc bênh nhân ung thư?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Palliative Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "MCQ18",
+  "answer_optionA": "A: Chăm sóc sức khỏe thể chất",
+  "answer_optionB": "C: Chăm sóc sức khỏe sinh lí",
+  "answer_optionC": "D: Chăm sóc sức khỏe liên tục",
+  "answer_optionD": "B: Chăm sóc sức khỏe tinh thần"
+ },
+ {
+  "question": "Chế độ nào sau đây dành cho người có dấu hiệu suy kiệt rõ thằng",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "duy trì tình trạng sức khở bình thường",
+  "answer_optionB": "Cung = cầu",
+  "answer_optionC": "Cần có can thiệp bằng kĩ thuật, thuốc, dịch hoặc theo con đường tự nhiên",
+  "answer_optionD": "Cung > cầu"
+ },
+ {
+  "question": "Thực phẩm giàu protein nguồn gốc thực vật:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "đậu đen",
+  "answer_optionB": "bắp cải",
+  "answer_optionC": "đậu xanh",
+  "answer_optionD": "đậu nành"
+ },
+ {
+  "question": "Bệnh nhân tiểu đường nên hạn chế ăn thực phẩm nào? Chọn các câu đúng.",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Endocrinology",
+   "Internal Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1001",
+  "answer_optionA": "Quả khô",
+  "answer_optionB": "Trái cây ít ngọt",
+  "answer_optionC": "Dưa muối",
+  "answer_optionD": "Óc heo"
+ },
+ {
+  "question": "Thức ăn có đường hấp thụ nhanh:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Endocrinology",
+   "Nutrition"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Nước đường, nước ngọt, nước cam tươi",
+  "answer_optionB": "Kẹo mút",
+  "answer_optionC": "Bánh mì tươi",
+  "answer_optionD": "Bánh bông lan, sô cô la"
+ },
+ {
+  "question": "Đâu là tác dụng phụ của thuốc lợi tiểu thiazid?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "Pharmacology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "THA014",
+  "answer_optionA": "Tăng Calci máu",
+  "answer_optionB": "Tăng Glucose máu",
+  "answer_optionC": "Tăng lipid máu",
+  "answer_optionD": "Hạ Kali máu"
+ },
+ {
+  "question": "Bác sĩ YHGĐ cần biết những gì về bệnh THA( Chọn các câu đúng)",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "Internal Medicine",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "phân tầng",
+  "answer_optionB": "điều trị không bằng thuốc và bằng thuốc",
+  "answer_optionC": "quản lí bệnh lâu dài",
+  "answer_optionD": "chẩn đoán, đánh giá ban đầu"
+ },
+ {
+  "question": "Cần chuyển tuyến bệnh nhân COPD khi kèm theo yếu tố nào sau đây (Chọn các câu đúng)?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Cơ sở y tế hiện tại không đo được CNTK",
+  "answer_optionB": "Bệnh mãn tính nặng khác",
+  "answer_optionC": "Khó thở mức độ mMCR2 trở lên",
+  "answer_optionD": "Từng có đợt cấp COPD đặt nội khí quản"
+ },
+ {
+  "question": "Chẩn đoán điều dưỡng trong Chăm sóc người bệnh COPD, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Rối loạn tiêu hóa",
+  "answer_optionB": "Nguy cơ nhiễm trùng",
+  "answer_optionC": "Thông thoáng đường hô hấp",
+  "answer_optionD": "Kiểu thở"
+ },
+ {
+  "question": "Cải thiện sự thông thoáng đường hô hấp bao gồm, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "Dẫn lưu tư thế và làm loãng dịch PQ",
+  "answer_optionB": "Loại bỏ các yếu tố kích thích phổi",
+  "answer_optionC": "Dùng thuốc giãn phế quản",
+  "answer_optionD": "Tập thở bụng"
+ },
+ {
+  "question": "TAF chỉ định với:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "NB>60 tuổi/",
+  "answer_optionB": "PNCT",
+  "answer_optionC": "Loãng xương/",
+  "answer_optionD": "Suy thận/"
+ },
+ {
+  "question": "Sự vận chuyển thuốc qua màng mô tả một cách cụ thể quá trình và hệ thống vận chuyển hỗ trợ các phân tử trong quá trình di chuyển qua màng tế bào. Hãy cho biết đặc điểm nào sau đây đúng với các đặc điểm của hàng rào máu não",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Neurology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Nó được cấu thành bởi các liên kết chặt chẽ giữa các tế bào nội môi của mao mạch não và mô thần kinh đệm",
+  "answer_optionB": "Nó điều chỉnh sự di chuyển của các chất từ não vào máu",
+  "answer_optionC": "Nó hạn chế sự xâm nhập của thuốc bị ion hóa cao vào não",
+  "answer_optionD": "Nó cho phép các thuốc hòa tan trong mỡ đi vào não"
+ },
+ {
+  "question": "Cấu trúc môi trường chiết quang của mắt:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "ID018",
+  "answer_optionA": "Dịch kính.",
+  "answer_optionB": "Nhân mắt.",
+  "answer_optionC": "Thuỷ dịch.",
+  "answer_optionD": "Ôn Thuỷ kính"
+ },
+ {
+  "question": "Bộ 4 số lượng tử nào sau đây phù hợp theo các nguyên lý đã học?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "175",
+  "answer_optionA": "n = 3; l =2; m = 1; ms = 1/2",
+  "answer_optionB": "n = 4; l =4; m = 0; ms = -1/2",
+  "answer_optionC": "n = 4; l =3; m = -2; ms = -1/2",
+  "answer_optionD": "n = 1; l =0; m = 0; ms = 1/2"
+ },
+ {
+  "question": "Bộ 4 số lượng tử nào sau đây phù hợp theo các nguyên lý đã học?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "156",
+  "answer_optionA": "n = 3; l =2; m = 1; ms = 1/2",
+  "answer_optionB": "n = 4; l =3; m = -2; ms = -1/2",
+  "answer_optionC": "n = 1; l =0; m = 0; ms = 1/2",
+  "answer_optionD": "n = 4; l =4; m = 0; ms = -1/2"
+ },
+ {
+  "question": "Câu 91 Sụn sụn trong:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "B Sụn giáp.",
+  "answer_optionB": "A Sun suon.",
+  "answer_optionC": "Ô Sụn khí phế quản.",
+  "answer_optionD": "C. Sụn ống tai ngoài."
+ },
+ {
+  "question": "Bộ 4 số lượng tử nào sau đây phù hợp theo các nguyên lý đã học?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "175",
+  "answer_optionA": "n = 3; l =2; m = 1; ms = 1/2",
+  "answer_optionB": "n = 4; l =4; m = 0; ms = -1/2",
+  "answer_optionC": "n = 4; l =3; m = -2; ms = -1/2",
+  "answer_optionD": "n = 1; l =0; m = 0; ms = 1/2"
+ },
+ {
+  "question": "Bộ 4 số lượng tử nào sau đây phù hợp theo các nguyên lý đã học?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "156",
+  "answer_optionA": "n = 1; l =0; m = 0; ms = 1/2",
+  "answer_optionB": "n = 3; l =2; m = 1; ms = 1/2",
+  "answer_optionC": "n = 4; l =4; m = 0; ms = -1/2",
+  "answer_optionD": "n = 4; l =3; m = -2; ms = -1/2"
+ },
+ {
+  "question": "Bổ thể là do các tế bào plasma sản xuất, nhưng là kháng thể.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Allergy and Immunology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "null",
+  "answer_optionB": "đúng",
+  "answer_optionC": "null",
+  "answer_optionD": "sai"
+ },
+ {
+  "question": "Nội dung phán đoán nào sau đây là điều kiện, tiền đề khách quan của sự ra đời triết học Mác?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Tiền đề lý luận.",
+  "answer_optionB": "Tài năng, phẩm chất của C.Mác và Ăngghen.",
+  "answer_optionC": "Điều kiện kinh tế - xã hội.",
+  "answer_optionD": "Tiến để khoa học tự nhiên."
+ },
+ {
+  "question": "Theo Hồ Chí Minh đạo đức cách mạng là một phạm trù lịch sử, nghĩa là nó cũng thay đổi theo nhiệm vụ từng thời kỳ của cách mạng, “đạo đức xã hội chủ nghĩa ở đâu cũng biểu hiện giống nhau. Ở nước ta đạo đức xã hội chủ nghĩa là …..”. Chọn phương án đúng điền vào chỗ trống.",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "237",
+  "answer_optionA": "Bảo vệ tổ quốc xã hội chủ nghĩa.",
+  "answer_optionB": "Lao động xây dựng nước nhà.",
+  "answer_optionC": "Cần kiệm xây dựng nước nhà.",
+  "answer_optionD": "Học tập, lao động, nghiên cứu khoa học."
+ },
+ {
+  "question": "Quan điểm nào sau đây của Hồ Chí Minh về những nguyên tắc xây dựng đạo đức mới?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "252",
+  "answer_optionA": "Nói đi đôi với làm, phải nêu gương về đạo đức.",
+  "answer_optionB": "Nói ít làm nhiều.",
+  "answer_optionC": "Phải tu dưỡng đạo đức suốt đời.",
+  "answer_optionD": "Xây đi đôi với chống."
+ },
+ {
+  "question": "Ý nào dưới đây là biện pháp giải quyết nạn đói do Chính phủ đề ra?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "91",
+  "answer_optionA": "Đẩy mạnh tăng gia sản xuất",
+  "answer_optionB": "Bãi bỏ thuế thân và các thứ thuế vô lý khác",
+  "answer_optionC": "Thu mua lương thực từ nước ngoài",
+  "answer_optionD": "Thực hiện chính sách giảm tô 25%"
+ },
+ {
+  "question": "Điền vào chỗ trống để hoàn thiện luận điểm sau của Ph. Ăngghen về mối quan hệ giữa Tất nhiên và Ngẫn nhiên: “Việc quy định tất cả mọi hiện tượng về….., phủ nhận sự tồn tại của...về thực chất là nâng Ngẫu nhiên lên trình độ Tất nhiên mà là hạ Tất nhiên xuống sinh áp Ngẫu nhiên\"?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "tất nhiên... tất nhiên.",
+  "answer_optionB": "tất nhiên...ngẫu nhiên.",
+  "answer_optionC": "ngẫu phiên...ngẫu nhiên.",
+  "answer_optionD": "ngẫu nhiên...tất nhiên."
+ },
+ {
+  "question": "Quan điểm: “Giai cấp vô sản là một giai cấp xã hội hoàn toàn chỉ kiếm sống bằng việc bán lao động của mình, chứ sống bằng lợi nhuận của bất cứ tư bản nào...” của Ph.Ăngghen được trích trong tác phẩm nào?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MCQ15",
+  "answer_optionA": "Chống Đuyrinh",
+  "answer_optionB": "Những nguyên lý của chủ nghĩa cộng sản",
+  "answer_optionC": "Tuyên ngôn của Đảng Cộng sản",
+  "answer_optionD": "Đấu tranh giai cấp ở Pháp"
+ },
+ {
+  "question": "Phát biểu nào sau đây đúng?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "MPC + MPS = 1.",
+  "answer_optionB": "MPC và MPS luôn trái dấu nhau.",
+  "answer_optionC": "MPC không thể lớn hơn 1.",
+  "answer_optionD": "Khi thu nhập khả dụng bằng không thì tiêu dùng vẫn là số dương."
+ },
+ {
+  "question": "Quan điểm nào sau đây của Hồ Chí Minh?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "MCQ002",
+  "answer_optionA": "B. Sự giải phóng của giai cấp công nhân phải là sự nghiệp của bản thân giai cấp công nhân.",
+  "answer_optionB": "C. Công cuộc giải phóng anh em (tức nhân dân thuộc địa) chỉ có thể thực hiện được bằng sự nỗ lực của bản thân anh em.",
+  "answer_optionC": "A. Trong cuộc đấu tranh chống chủ nghĩa đế quốc, chủ nghĩa thực dân, cách mạng thuộc địa có tầm quan trọng đặc biệt.",
+  "answer_optionD": "D. Cuộc đấu tranh của công nhân ở tất cả các nước để tự giải phóng, chỉ có thể thành công được, nếu công nhân cùng nhau đấu tranh chống lại tư bản quốc tế."
+ },
+ {
+  "question": "Quan điểm sau đây của Hồ Chí Minh được nêu tại Đại hội/Hội nghị của Đảng: “Cuộc cách mạng Đông Dương hiện tại là cuộc cách mạng tư sản dân quyền, cuộc cách mạng phải giải quyết hai vấn đề: phản đế và điền địa nữa, mà là một cuộc cách mạng chỉ phải giải quyết một vấn đề cần kíp “dân tộc giải phóng”?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "MCQ016",
+  "answer_optionA": "A. Hội nghị thành lập Đảng (1930).",
+  "answer_optionB": "C. Hội nghị Trung ương Đảng lần thứ 7 (11/1940).",
+  "answer_optionC": "D. Hội nghị Trung ương Đảng lần thứ tám (5/1941).",
+  "answer_optionD": "B. Đại hội lần thứ nhất của Đảng (3/1935)."
+ },
+ {
+  "question": "Quan điểm nào sau đây của Hồ Chí Minh về chức năng của văn hóa?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "199",
+  "answer_optionA": "Mở rộng hiểu biết, nâng cao dân trí.",
+  "answer_optionB": "Bồi dưỡng tư tưởng đúng đắn và những tình cảm cao đẹp cho nhân dân.",
+  "answer_optionC": "Dân tộc, khoa học và đại chúng.",
+  "answer_optionD": "Bồi dưỡng những phẩm chất, phong cách và lối sống tốt đẹp, lành mạnh; hướng đến chân, thiện, mỹ để hoàn thiện bản thân."
+ },
+ {
+  "question": "Phương án nào sau đây của Hồ Chí Minh về phương châm, phương pháp giáo dục?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "201",
+  "answer_optionA": "Học tập kết hợp với lao động. Phối hợp nhà trường - gia đình - xã hội.",
+  "answer_optionB": "Học đi đôi với hành. Lý luận liên hệ với thực tế.",
+  "answer_optionC": "Học, học nữa, học mãi.",
+  "answer_optionD": "Thực hiện dân chủ, bình đẳng trong giáo dục."
+ },
+ {
+  "question": "Chọn phương án đúng điền vào chỗ trống trong câu sau của Hồ Chí Minh: “Đạo đức cách mạng trên trời sa xuống. Nó do đấu tranh và … bền bỉ hàng ngày mà phát triển và củng cố”.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC218",
+  "answer_optionA": "Kiên trì.",
+  "answer_optionB": "Tu dưỡng.",
+  "answer_optionC": "Học tập.",
+  "answer_optionD": "Rèn luyện."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, đạo đức cách mạng là một phạm trù lịch sử, nghĩa là nó cũng thay đổi theo nhiệm vụ từng thời kỳ của cách mạng, “đạo đức xã hội chủ nghĩa ở đâu cũng biểu hiện giống nhau. Ở nước ta đạo đức xã hội chủ nghĩa là …..”. Chọn phương án đúng điền vào chỗ trống.",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "MCQ237",
+  "answer_optionA": "B. Cần kiệm xây dựng nước nhà.",
+  "answer_optionB": "C. Bảo vệ tổ quốc xã hội chủ nghĩa.",
+  "answer_optionC": "A. Lao động xây dựng nước nhà.",
+  "answer_optionD": "D. Học tập, lao động, nghiên cứu khoa học."
+ },
+ {
+  "question": "Quan điểm nào sau đây của Hồ Chí Minh về những nguyên tắc xây dựng đạo đức mới?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "MCQ252",
+  "answer_optionA": "D. Nói đi đôi với làm, phải nêu gương về đạo đức.",
+  "answer_optionB": "B. Xây đi đôi với chống.",
+  "answer_optionC": "C. Phải tu dưỡng đạo đức suốt đời.",
+  "answer_optionD": "A. Nói ít làm nhiều."
+ },
+ {
+  "question": "Khi nghiên cứu về quyền của người sử dụng lao động thì khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "b) Được khen thưởng, xử lí người lao động vi phạm kỉ luật theo quy định của pháp luật",
+  "answer_optionB": "c) Được đơn phương chấm dứt hợp đồng lao động trong mọi trường hợp",
+  "answer_optionC": "d) Được cử đại diện để kí kết thỏa ước lao động tập thể",
+  "answer_optionD": "a) Được tuyển chọn người lao động, bố trí công việc theo quy định của pháp luật"
+ },
+ {
+  "question": "Hãy xác định khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Chủ thể thực hiện pháp luật biểu hiện bằng hành vi hành động hoặc không hành động",
+  "answer_optionB": "Hành vi thực hiện pháp luật của chủ thể rất phong phú, đa dạng",
+  "answer_optionC": "Việc thực hiện pháp luật biểu hiện bằng hành vi hành động hoặc không hành động, hành vi hợp pháp hoặc không hợp pháp",
+  "answer_optionD": "Quá trình thực hiện pháp luật thể hiện nhận thức và thái độ của chủ thể trước pháp luật"
+ },
+ {
+  "question": "Khẳng định nào đúng khi nghiên cứu về hình thức thi hành pháp luật?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Chủ thể thực hiện pháp luật mang tính tích cực, chủ động",
+  "answer_optionB": "Thi hành pháp luật là chủ thể pháp luật phải thực hiện nghĩa vụ pháp lý của mình bằng hành động tích cực",
+  "answer_optionC": "Tương ứng với hình thức thi hành pháp luật, có loại quy phạm pháp luật bắt buộc",
+  "answer_optionD": "Việc thi hành pháp luật phụ thuộc chủ thể muốn hay không mong muốn thực hiện"
+ },
+ {
+  "question": "Khẳng định nào đúng khi nghiên cứu về hình thức sử dụng pháp luật?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Chủ thể pháp luật có thể thực hiện hoặc không thực hiện quyền pháp luật quy định",
+  "answer_optionB": "Việc sử dụng pháp luật phụ thuộc rất lớn vào năng lực hành vi của chủ thể",
+  "answer_optionC": "Tương ứng với hình thức sử dụng pháp luật là loại quy phạm pháp luật bắt buộc",
+  "answer_optionD": "Chủ thể sử dụng pháp luật để hiện thực hóa các quyền và lợi ích của mình được pháp luật cho phép"
+ },
+ {
+  "question": "Khẳng định nào đúng khi nghiên cứu về hình thức áp dụng pháp luật?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Hoạt động áp dụng pháp luật luôn mang tính quyền lực Nhà nước",
+  "answer_optionB": "Áp dụng pháp luật là hình thức thực hiện pháp luật đồng thời còn là hoạt động của cơ quan Nhà nước",
+  "answer_optionC": "Trong hình thức áp dụng pháp luật, các chủ thể pháp luật tự mình thực hiện quyền và nghĩa vụ pháp lý do pháp luật quy định",
+  "answer_optionD": "Văn bản áp dụng pháp luật có tính chất cá biệt, áp dụng một lần đối với cá nhân, tổ chức cụ thể trong những trường hợp cụ thể"
+ },
+ {
+  "question": "Khẳng định nào đúng khi nghiên cứu về mặt chủ quan của vi phạm pháp luật?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Psychiatry",
+   "Neurology"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "187",
+  "answer_optionA": "Lỗi là một trong những căn cứ để xác định mức độ trách nhiệm pháp lý đối với chủ thể vi phạm pháp luật",
+  "answer_optionB": "Động cơ là cái thúc đẩy chủ thể thực hiện hành vi vi phạm pháp luật",
+  "answer_optionC": "Lỗi là thái độ tâm lý của chủ thể đối với hành vi trái pháp luật mà mình đã thực hiện và hậu quả do hành vi gây ra",
+  "answer_optionD": "Chỉ khi nào hành vi trái pháp luật được chủ thể thực hiện một cách cố ý thì mới có thể là hành vi vi phạm pháp luật"
+ },
+ {
+  "question": "Khi nghiên cứu về đặc điểm của trách nhiệm pháp lý thì khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "207",
+  "answer_optionA": "Truy cứu trách nhiệm pháp lý là một quá trình hoạt động phức tạp của các cơ quan Nhà nước, nhà chức trách có thẩm quyền",
+  "answer_optionB": "Việc truy cứu trách nhiệm pháp lý chỉ do các cơ quan Nhà nước hay nhà chức trách có thẩm quyền tiến hành đối với chủ thể vi phạm pháp luật",
+  "answer_optionC": "Cơ sở của trách nhiệm pháp lý là vi phạm pháp luật",
+  "answer_optionD": "Trong mọi trường hợp, trách nhiệm pháp lý luôn gắn liền với những biện pháp cưỡng chế Nhà nước đối với chủ thể đã vi phạm pháp luật"
+ },
+ {
+  "question": "Khi nghiên cứu về năng lực chủ thể quan hệ pháp luật, thì khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "a) Năng lực pháp luật là tiền đề cho năng lực hành vi",
+  "answer_optionB": "c) Năng lực pháp luật của người thành niên thì rộng hơn người chưa thành niên",
+  "answer_optionC": "d) Năng lực pháp luật của cá nhân chỉ được quy định trong các văn bản luật",
+  "answer_optionD": "b) Năng lực pháp luật là khả năng có quyền và nghĩa vụ pháp lý mà nhà nước quy định chocác tổ chức, cá nhân nhất định"
+ },
+ {
+  "question": "Khi nghiên cứu về đặc điểm của quan hệ pháp luật thì khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "150",
+  "answer_optionA": "Quan hệ pháp luật luôn gắn liền với sự kiện pháp lý",
+  "answer_optionB": "Quan hệ pháp luật xuất hiện dựa trên cơ sở quy phạm pháp luật",
+  "answer_optionC": "Quan hệ pháp luật do Nhà nước quy định",
+  "answer_optionD": "Quan hệ pháp luật là loại quan hệ có ý chí"
+ },
+ {
+  "question": "Khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "154",
+  "answer_optionA": "Năng lực pháp luật và năng lực hành vi là những thuộc tính tự nhiên của mỗi cá nhân, có sẵn khi cá nhân sinh ra",
+  "answer_optionB": "Năng lực chủ thể pháp luật luôn mang tính giai cấp",
+  "answer_optionC": "Năng lực hành vi đầy đủ chỉ có ở những chủ thể đáp ứng đầy đủ các điều kiện do pháp luật quy định",
+  "answer_optionD": "Năng lực pháp luật là tiền đề của năng lực hành vi"
+ },
+ {
+  "question": "Khi nghiên cứu về tổ chức thị tộc thì khẳng định nào sau đây đúng?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Thị tộc là đơn vị kinh tế đầu tiên của xã hội cộng sản nguyên thuỷ",
+  "answer_optionB": "Thị tộc tồn tại gắn liền với nền kinh tế tự nhiên",
+  "answer_optionC": "Trong thị tộc đã hình thành các giai cấp khác nhau",
+  "answer_optionD": "Trong thị tộc đã hình thành hội đồng thị tộc"
+ },
+ {
+  "question": "Đề cập đến quá trình phát triển, thay đổi của xã hội loài người, nhận định nào sau đây là đúng?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "13",
+  "answer_optionA": "Lần phân công lao động 1: ngành chăn nuôi ra đời",
+  "answer_optionB": "Lần phân công thứ 3: ngành thương nghiệp ra đời",
+  "answer_optionC": "Lần phân công lao động 2: ngành trồng trọt và tiểu thủ công nghiệp ra đời",
+  "answer_optionD": "Lần phân công thứ 3 đã làm cho những mâu thuẫn trong xã hội ngày càng trở nên gay gắt"
+ },
+ {
+  "question": "Đề cập đến quá trình phát triển, thay đổi của xã hội loài người, nhận định nào sau đây là đúng?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Lần phân công thứ 4: nhà nước ra đời",
+  "answer_optionB": "Lần phân công lao động thứ 2; ngành tiểu thủ công nghiệp ra đời",
+  "answer_optionC": "Lần phân công thứ 3: ngành thương nghiệp ra đời",
+  "answer_optionD": "Lần phân công thứ 1: ngành chăn nuôi ra đời"
+ },
+ {
+  "question": "Nhận định nào sau đây đúng?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Hội đồng thị tộc là tổ chức quyền lực cao nhất của thị tộc",
+  "answer_optionB": "Cơ sở kinh tế đặc trưng của xã hội cộng sản nguyên thuỷ là chế độ sở hữu chung về tư liệu sản xuất và sản phẩm lao động",
+  "answer_optionC": "Quyền lực trong xã hội cộng sản nguyên thuỷ là quyền lực xã hội, chưa mang tính giai cấp",
+  "answer_optionD": "Xã hội Cộng sản nguyên thuỷ đã tồn tại quyền lực nhà nước"
+ },
+ {
+  "question": "Chọn các câu đúng (không phải là giá trị của từ điều khiển để cấu hình 8255A):",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "Q8",
+  "answer_optionA": "Ach",
+  "answer_optionB": "A6h",
+  "answer_optionC": "A5h",
+  "answer_optionD": "A4h"
+ },
+ {
+  "question": "Chọn các câu đúng (không phải là giá trị của từ điều khiển để cấu hình 8255A):",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "Q9",
+  "answer_optionA": "BEh",
+  "answer_optionB": "BDh",
+  "answer_optionC": "B6h",
+  "answer_optionD": "B7h"
+ },
+ {
+  "question": "Phương án nào là biến chứng của hội chứng Lyell",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Dermatology",
+   "Internal Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Tổn thương thận",
+  "answer_optionB": "Liệt ½ người",
+  "answer_optionC": "Nhiễm khuẩn huyết",
+  "answer_optionD": "Tổn thương gan"
+ },
+ {
+  "question": "Theo Hồ Chí Minh đạo đức cách mạng là một phạm trù lịch sử, nghĩa là nó cũng thay đổi theo nhiệm vụ từng thời kỳ của cách mạng, “đạo đức xã hội chủ nghĩa ở đâu cũng biểu hiện giống nhau. Ở nước ta đạo đức xã hội chủ nghĩa là …..”. Chọn phương án đúng điền vào chỗ trống.",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "237",
+  "answer_optionA": "Học tập, lao động, nghiên cứu khoa học.",
+  "answer_optionB": "Lao động xây dựng nước nhà.",
+  "answer_optionC": "Cần kiệm xây dựng nước nhà.",
+  "answer_optionD": "Bảo vệ tổ quốc xã hội chủ nghĩa."
+ },
+ {
+  "question": "Đái tháo đường phù hợp với:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Endocrinology",
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Moderate",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Đục thể thủy tinh thường gặp nhất ở người đái tháo đường là loại đục thể thủy tinh tuổi già.",
+  "answer_optionB": "Bệnh đái tháo đường có thể là nguyên nhân của song thị.",
+  "answer_optionC": "Cần tìm bệnh đái tháo đường trong những trường hợp lẹo tái phát.",
+  "answer_optionD": "Glôcôm góc mở mạn tính thường xảy ra nhất ở người đái tháo đường."
+ },
+ {
+  "question": "Chọn các câu đúng về loperamid.",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "General Medicine"
+  ],
+  "difficultLevel": "Medium",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Là dẫn xuất của opioid",
+  "answer_optionB": "Sử dụng điều trị tiêu chảy",
+  "answer_optionC": "Thuốc phân bố tốt vào não và ức chế thần kinh trung ương",
+  "answer_optionD": "Là thuốc kháng nhu động ruột"
+ },
+ {
+  "question": "Các thuốc sau đây có tác dụng giảm lượng acid dịch vị:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Bismuth",
+  "answer_optionB": "Proglumid",
+  "answer_optionC": "Telenzepine",
+  "answer_optionD": "Nizatidine"
+ },
+ {
+  "question": "Chọn các câu đúng về chuyển hóa lần đầu (first-pass metabolism).",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Vi khuẩn đường ruột cũng tham gia vào chuyển hóa thuộc",
+  "answer_optionB": "Hiện tượng chuyển hóa thuốc lần đầu làm tăng sinh khả dụng của thuốc",
+  "answer_optionC": "Thuốc được chuyển hóa lần đầu ở gan và ruột",
+  "answer_optionD": "Cần một liều thuốc lớn hơn khi dùng đường uống so với các đường khác"
+ },
+ {
+  "question": "Chỉ định dùng thuốc kháng H1 trong các trường hợp sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Allergy and Immunology",
+   "Pulmonology",
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Buồn nôn, nôn ở phụ nữ có thai",
+  "answer_optionB": "Hen phế quản",
+  "answer_optionC": "phản ứng dị ứng",
+  "answer_optionD": "Say tàu xe"
+ },
+ {
+  "question": "Chọn các câu đúng. Các yếu tố ảnh hưởng đến sự hấp thu thuốc?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Thời gian lưu thuốc lâu làm tăng hấp thu thuốc",
+  "answer_optionB": ". Thuốc đặt trực tràng cũng bị chuyển hóa lần đầu ở gan nhưng ít hơn so với đường uống",
+  "answer_optionC": "Khoảng 50% thuốc đặt dưới lưỡi bị chuyển hóa lần đầu ở gan",
+  "answer_optionD": "Các thuốc amin bậc 4 khó hấp thu tại ruột"
+ },
+ {
+  "question": "Chỉ định nào sau đây của chlorpheniramin?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Allergy and Immunology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Chống nôn",
+  "answer_optionB": "Viêm mũi dị ứng",
+  "answer_optionC": "Tiền mề",
+  "answer_optionD": ".Say tàu xe"
+ },
+ {
+  "question": "Yếu tố nào dưới đây là một phần của mô hình xoắn ốc?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Tích hợp hệ thống",
+  "answer_optionB": "Phân tích rủi ro",
+  "answer_optionC": "Lập kế hoạch dự án",
+  "answer_optionD": "Xác định mục tiêu"
+ },
+ {
+  "question": "Hoạt động nào sau đây là một phần của thẩm định phần mềm?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Kiểm thử (validation)",
+  "answer_optionB": "Kiểm định (verification)",
+  "answer_optionC": "Kiểm thử hệ thống",
+  "answer_optionD": "Phân tích rủi ro"
+ },
+ {
+  "question": "[1. Trong khi phiên dịch hoặc lắng nghe, người phiên dịch nên ghi nhớ [ý tưởng], tất cả các từ; [{ 'content': 'Chắc chắn rồi', 'isCorrect': False}, {'content': 'Thực tế là', 'isCorrect': False}, {'content': 'ý tưởng', 'isCorrect': True}, {'content': 'Nói chung', 'isCorrect': False}]",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Nói chung",
+  "answer_optionB": "Chắc chắn rồi",
+  "answer_optionC": "ý tưởng",
+  "answer_optionD": "Thực tế là"
+ },
+ {
+  "question": "Ghi chú theo chiều dọc có nghĩa là viết theo hướng [phải-trái], theo chiều trên xuống;",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Thực tế là",
+  "answer_optionB": "Chắc chắn rồi",
+  "answer_optionC": "Nói chung",
+  "answer_optionD": "phải-trái"
+ },
+ {
+  "question": "......... là sự gia tăng vốn chủ sở hữu do việc bán một tài sản là hàng tồn kho.",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Giá vốn hàng bán",
+  "answer_optionB": "Lãi",
+  "answer_optionC": "Thu nhập trên mỗi cổ phiếu",
+  "answer_optionD": "Doanh thu hoạt động"
+ },
+ {
+  "question": "Phương pháp nghiên cứu khoa học bao gồm những bước nào, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "33",
+  "answer_optionA": "Phân tích số liệu",
+  "answer_optionB": "Báo cáo với tổ chức",
+  "answer_optionC": "Thu thập số liệu",
+  "answer_optionD": "Lý giải số liệu"
+ },
+ {
+  "question": "Các nội dung cơ bản của hoạt động nghiên cứu khoa học, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Phân tích và lý giải kết quả",
+  "answer_optionB": "Phân tích vấn đề",
+  "answer_optionC": "Xác định vấn đề nghiên cứu",
+  "answer_optionD": "Thu thập số liệu"
+ },
+ {
+  "question": "Mục đích nghiên cứu khoa học là:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Mang lại sức khỏe tốt hơn cho người dân",
+  "answer_optionB": "Giảm chi phí điều trị",
+  "answer_optionC": "Phát triển kỹ thuật mới",
+  "answer_optionD": "Cung cấp kỹ năng để cải thiện tay nghề"
+ },
+ {
+  "question": "Nói về mục đích của nghiên cứu khoa học trong y học, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Có thể kết hợp giữa các thiết kế nghiên cứu định tính và định lượng",
+  "answer_optionB": "Nhằm phát triển những kiến thức và kĩ thuật mới",
+  "answer_optionC": "Có thể kết hợp giữa các thiết kế nghiên cứu định tính và thiết kế dịch tễ học",
+  "answer_optionD": "Để đạt được mục đích phải nghiên cứu hoàn toàn tách biệt"
+ },
+ {
+  "question": "Mục đích của nghiên cứu khoa học trong y khoa:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Cải thiện tay nghề",
+  "answer_optionB": "Lý thuyết mới",
+  "answer_optionC": "Công cụ mới",
+  "answer_optionD": "Định luật mới"
+ },
+ {
+  "question": "Mục đích cuối của nghiên cứu khoa học trong y khoa, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Sức khỏe tốt hơn",
+  "answer_optionB": "Cải thiện tay nghề",
+  "answer_optionC": "Cải thiện niềm tin",
+  "answer_optionD": "Cung cấp dịch vụ"
+ },
+ {
+  "question": "Hoạt động NCKH bao gồm các nội dung cơ bản nào sau đây, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "Giao dịch nghiên cứu",
+  "answer_optionB": "Thiết kế nghiên cứu",
+  "answer_optionC": "Xác định vấn đề nghiên cứu",
+  "answer_optionD": "Phân tích và lý giải kết quả"
+ },
+ {
+  "question": "Nội dung cơ bản của hoạt động NCKH, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Viết tổng quan tài liệu",
+  "answer_optionB": "Thu thập số liệu, phân tích, lý giải kết quả",
+  "answer_optionC": "Xác định vấn đề nghiên cứu",
+  "answer_optionD": "Thiết kế nghiên cứu"
+ },
+ {
+  "question": "Hoạt động nghiên cứu khoa học gồm các nội dung cơ bản sau:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Xác định vấn đề nghiên cứu",
+  "answer_optionB": "Thiết kế nghiên cứu",
+  "answer_optionC": "Phỏng vấn",
+  "answer_optionD": "Thu thập số liệu"
+ },
+ {
+  "question": "Đâu là đặc điểm của hoạt động NCKH?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Tính mạo hiểm",
+  "answer_optionB": "Tính chính xác",
+  "answer_optionC": "Tính khoa học",
+  "answer_optionD": "Tính phi kinh tế"
+ },
+ {
+  "question": "Đặc điểm của hoạt động nghiên cứu khoa học, Chọn các câu đúng.",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Tính mới",
+  "answer_optionB": "Tính sáng tạo",
+  "answer_optionC": "Tính mạo hiểm",
+  "answer_optionD": "Tính phi kinh tế"
+ },
+ {
+  "question": "Đặc điểm của hoạt động nghiên cứu khoa học, Chọn các câu đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Tính mới",
+  "answer_optionB": "Tính mạo hiểm",
+  "answer_optionC": "Tính đặc thù",
+  "answer_optionD": "Tính kinh tế"
+ },
+ {
+  "question": "Các đặc tính cơ bản của nghiên cứu khoa học:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Quan hệ mới",
+  "answer_optionB": "Mô hình mới",
+  "answer_optionC": "Quy luật mới",
+  "answer_optionD": "Tư duy mới"
+ },
+ {
+  "question": "Tính phi kinh tế, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Nghiên cứu khoa học rất tốn kém",
+  "answer_optionB": "Có thể định giá chính xác cho một sản phẩm khoa học",
+  "answer_optionC": "Lợi nhuận trong nghiên cứu khoa học mang một khái niệm đặc biệt",
+  "answer_optionD": "Khó đề ra được các định mức cụ thể"
+ },
+ {
+  "question": "Nghiên cứu khoa học và công nghệ sử dụng những nguyên liệu và thiết bị, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Khó tính được đầu vào, đầu ra",
+  "answer_optionB": "Rẻ tiền dễ tính khấu hao được",
+  "answer_optionC": "Khó đề ra được các định mức cụ thể",
+  "answer_optionD": "Khó tìm được tiêu chuẩn định giá sản phẩm của khoa học"
+ },
+ {
+  "question": "Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Bất cứ NCKH nào trong y học đều phải quan tâm đến mục đích tạo ra một hiệu ứng kinh tế xã hội",
+  "answer_optionB": "NCKH trong mọi lĩnh vực đều giống nhau",
+  "answer_optionC": "Nghiên cứu Y học cần có sự tham gia, phối hợp của nhiều ngành khoa học mới đạt được hiệu quả cao",
+  "answer_optionD": "Nghiên cứu Y học có đặc điểm riêng là gắn liền với sự sống con người"
+ },
+ {
+  "question": "Tính khoa học của hoạt động nghiên cứu khoa học, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Tính tin cậy",
+  "answer_optionB": "Tính khái quát hóa",
+  "answer_optionC": "Tính đặc thù",
+  "answer_optionD": "Tính giá trị"
+ },
+ {
+  "question": "Tính khoa học của hoạt động NCKH bao gồm, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "92",
+  "answer_optionA": "Tính tin cậy",
+  "answer_optionB": "Tính khái quát hóa",
+  "answer_optionC": "Tính giá trị",
+  "answer_optionD": "Tính chính xác"
+ },
+ {
+  "question": "Để xét khả năng khái quát hóa, người nghiên cứu cần căn cứ vào đâu, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "95",
+  "answer_optionA": "Kĩ thuật chọn mẫu",
+  "answer_optionB": "Dân số nghiên cứu",
+  "answer_optionC": "Cỡ mẫu",
+  "answer_optionD": "Thời điểm nghiên cứu"
+ },
+ {
+  "question": "Tính khoa học trong nghiên cứu khoa học, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "101",
+  "answer_optionA": "Tính tin cậy",
+  "answer_optionB": "Tính khái quát hóa",
+  "answer_optionC": "Tính giá trị",
+  "answer_optionD": "Tính mới"
+ },
+ {
+  "question": "Tính khoa học của hoạt động NCKH gồm, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "103",
+  "answer_optionA": "Tính khái quát hóa",
+  "answer_optionB": "Tính tin cậy",
+  "answer_optionC": "Tính giá trị",
+  "answer_optionD": "Tính mạo hiểm"
+ },
+ {
+  "question": "Tính khoa học trong NCKH gồm, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "105",
+  "answer_optionA": "Tính ứng dụng thực tiễn",
+  "answer_optionB": "Tính giá trị",
+  "answer_optionC": "Tính tin cậy",
+  "answer_optionD": "Tính khái quát hóa"
+ },
+ {
+  "question": "Người nghiên cứu cần căn cứ vào yếu tố nào để xét khả năng khái quát hóa:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "106",
+  "answer_optionA": "Cỡ mẫu",
+  "answer_optionB": "Kỹ thuật chọn mẫu",
+  "answer_optionC": "Dân số nghiên cứu",
+  "answer_optionD": "Thiết kế nghiên cứu"
+ },
+ {
+  "question": "Nói về nghiên cứu cơ bản, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "119",
+  "answer_optionA": "Đối tượng nghiên cứu có thể là súc vật",
+  "answer_optionB": "Nhằm phát hiện bản chất và qui luật của các sự vật hiện tượng trong tự nhiên xã hội con người",
+  "answer_optionC": "Đối tượng nghiên cứu có thể là người khỏe",
+  "answer_optionD": "Mục tiêu là xác minh kiến thức cũ"
+ },
+ {
+  "question": "Nói về lĩnh vực phòng bệnh, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "120",
+  "answer_optionA": "Nhằm xác định yếu tố nguyên nhân gây bệnh",
+  "answer_optionB": "Được tiến hành chỉ trên người khỏe",
+  "answer_optionC": "Còn gọi là nghiên cứu dịch tễ học",
+  "answer_optionD": "Kết quả những nghiên cứu này là cơ sở phát triển những biện pháp phòng chống"
+ },
+ {
+  "question": "Nghiên cứu khoa học cơ bản là, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "127",
+  "answer_optionA": "Tìm cách vận dụng của các qui luật mới vào thực tiễn",
+  "answer_optionB": "Phát hiện về bản chất và qui luật của sự vật",
+  "answer_optionC": "Tìm tòi sáng tạo ra kiến thức mới",
+  "answer_optionD": "Đối tượng cơ bản là người khỏe và vật thí nghiệm"
+ },
+ {
+  "question": "Lĩnh vực nghiên cứu cơ bản, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "134",
+  "answer_optionA": "Nhằm phát hiện bản chất và qui luật của các sự vật hiện tượng trong tự nhiên xã hội con người",
+  "answer_optionB": "Mục tiêu tìm ra những kiến thức mới",
+  "answer_optionC": "Tìm ra những nguyên lý, giải pháp áp dụng vào thực tế đời sống xã hội",
+  "answer_optionD": "Đối tượng là người khỏe hoặc vật thí nghiệm"
+ },
+ {
+  "question": "Điều gì đúng về dịch vụ Central Shuttle?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "(B) . Hành khách sẽ không phải trả tiền cho chuyến đi.",
+  "answer_optionB": "(D) Nó sẽ chạy trong 12 giờ mỗi ngày.",
+  "answer_optionC": "(C) Có thể nó sẽ được mở rộng vào cuối tuần",
+  "answer_optionD": "(A) Nó chạy qua trung tâm thành phố Oakwood."
+ },
+ {
+  "question": "Mục đích nào là mục đích của việc tham gia đêm demo?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Sports Medicine",
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Tìm một cây vợt đáp ứng nhu cầu cá nhân",
+  "answer_optionB": "Được học một buổi học tennis miễn phí",
+  "answer_optionC": "Nhận giảm giá khi mua vợt",
+  "answer_optionD": "Ăn một ít đồ ăn và đồ ăn nhẹ"
+ },
+ {
+  "question": "W-Am: những đôi giày đi bộ đường dài này được giảm giá sao? M-Au",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Không, chúng ta chưa gặp nhau.",
+  "answer_optionB": "Không có lựa chọn D",
+  "answer_optionC": "Ồ vâng, xin lỗi về điều đó.",
+  "answer_optionD": "Hãy tạo dáng chụp ảnh."
+ },
+ {
+  "question": "Chọn các câu đúng: Khi nói về vật lý trị liệu trong điều trị lao màng phổi?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "Infectious Diseases",
+   "Physical Medicine and Rehabilitation"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Cho bệnh nhân thở sớm để tránh di chứng dày dính",
+  "answer_optionB": "Kết quả được đánh giá bằng chức năng hô hấp",
+  "answer_optionC": "Thời gian tập thở kéo dài 6 tháng, tập mỗi ngày@",
+  "answer_optionD": "Kết quả được đánh giá bằng X Quang phổi"
+ },
+ {
+  "question": "Ở Việt Nam lao màng phổi, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "35",
+  "answer_optionA": "Xuất hiện sớm, 3 - 4 tháng sau sơ nhiễm lao.",
+  "answer_optionB": "Tuổi mắc bệnh: Thường gặp 16 - 35 tuổi.",
+  "answer_optionC": "Thường đi sau lao màng não.",
+  "answer_optionD": "Dễ phân biệt với ung thư màng phổi."
+ },
+ {
+  "question": "Lao màng phổi, Chọn các câu đúng:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "36",
+  "answer_optionA": "Là nguyên nhân hàng đầu gây tràn dịch màng phổi dịch thấm. (dịch tiết)",
+  "answer_optionB": "Là do hậu quả hoặc do vỡ 1 ổ lao phổi vào màng phổi.",
+  "answer_optionC": "Những chất Lymphokines trong dịch màng phổi viêm làm tăng tính thấm thành mạch và thay đổi hoạt tính của các tế bào sợi của màng phổi.",
+  "answer_optionD": "Do sự xâm lấn trực tiếp của BK từ ổ sơ nhiễm vào đường máu, bạch mạch vào màng phổi."
+ },
+ {
+  "question": "Điều kiện thuận lợi gây bệnh lao màng phổi, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Khí hậu lạnh",
+  "answer_optionB": "Mệt nhọc.",
+  "answer_optionC": "Cơ địa dị ứng.",
+  "answer_optionD": "Thiếu ăn."
+ },
+ {
+  "question": "Chọc dò màng phổi trong lao màng phổi, Chọn các câu đúng:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Trong lao màng phổi điển hình, dịch rút ra có màu vàng chanh.",
+  "answer_optionB": "Dịch màng phổi rút ra lần đầu phải được làm xét nghiệm ngay.",
+  "answer_optionC": "Dịch rút ra có màu hồng hoặc vàng đục hay đã thành mủ.",
+  "answer_optionD": "Là thủ thuật nhất thiết phải làm để xác định thật sự có tràn dịch."
+ },
+ {
+  "question": "BN bị chấn thương bụng có thể biểu hiện bằng các hội chứng lâm sàng sau đây:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Emergency Medicine",
+   "Surgery"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD101",
+  "answer_optionA": "Hội chứng xuất huyết nội",
+  "answer_optionB": "Hội chứng xuất huyết tiêu hoá",
+  "answer_optionC": "Hội chứng tắc ruột",
+  "answer_optionD": "Hội chứng viêm phúc mạc"
+ },
+ {
+  "question": "Ở BN bị chấn thương bụng kín, CT được chỉ định trong các trường hợp sau đây:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Emergency Medicine",
+   "Surgery",
+   "Radiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD102",
+  "answer_optionA": "Nghi có tổn thương tạng đặc",
+  "answer_optionB": "BN có sinh hiệu không ổn định",
+  "answer_optionC": "BN bị đa chấn thương",
+  "answer_optionD": "Tổn thương trong xoang bụng được nghĩ là nghiêng về hướng điều trị bảo tồn"
+ },
+ {
+  "question": "Siêu âm có các vai trò sau trong chấn thương bụng kín:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Emergency Medicine",
+   "Surgery",
+   "Radiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD105",
+  "answer_optionA": "Xác định dịch tự do trong xoang bụng",
+  "answer_optionB": "Xác định tổn thương tạng đặc",
+  "answer_optionC": "Đánh giá mức độ tổn thương tạng đặc",
+  "answer_optionD": "Xác định hơi tự do trong xoang bụng"
+ }
+]

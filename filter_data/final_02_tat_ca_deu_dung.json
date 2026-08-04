@@ -1,0 +1,3952 @@
+[
+ {
+  "question": "Thời kì sơ sinh cơ quan nào tham gia tạo máu?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Hematology",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Tủy xương.",
+  "answer_optionB": "Gan.",
+  "answer_optionC": "Lách.",
+  "answer_optionD": "Cả a, b đúng"
+ },
+ {
+  "question": "Các yếu tố tham gia điều hòa tạo máu:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "KIT ligand",
+  "answer_optionB": "Interleukin",
+  "answer_optionC": "Interferon α",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Số lượng tiểu cầu giảm trong các bệnh nào sau đây:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Xuất huyết giảm tiểu cầu",
+  "answer_optionB": "Sốt xuất huyết",
+  "answer_optionC": "Đông máu nội mạch lan tỏa (DIC)",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 61: Các đặc tính cơ bản của tiểu cầu, chọn câu đúng nhất:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Kết dính",
+  "answer_optionB": "Ngưng tập tiểu cầu",
+  "answer_optionC": "Thay đổi hình dạng và phóng thích các chất",
+  "answer_optionD": "Cả 3 câu trên đều đúng"
+ },
+ {
+  "question": "Câu 79: Interleukin được tiết ra từ tế bào:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Hematology",
+   "Immunology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Bạch cầu lympho",
+  "answer_optionB": "Bạch cầu mono",
+  "answer_optionC": "Các tế bào liên kết",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 23: Hồng cầu nhược sắc gặp trong bệnh lý nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Hematology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "M6",
+  "answer_optionA": "Bệnh lý huyết sắc tố.",
+  "answer_optionB": "Thiếu máu thiếu sắc.",
+  "answer_optionC": "Cả hai đều sai.",
+  "answer_optionD": "Cả hai đều đúng."
+ },
+ {
+  "question": "Một số câu hỏi có vẻ hơi đơn giản, nhưng nếu bạn ........................., sẽ không mất nhiều thời gian.",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "chỉ cần chịu đựng tôi (A)",
+  "answer_optionB": "đủ kiên nhẫn (B)",
+  "answer_optionC": "Cả A và B đều đúng",
+  "answer_optionD": "Cả A và B đều không đúng"
+ },
+ {
+  "question": "Nhiều bác sĩ ........................ cảm xúc mãnh liệt khi họ thông báo tin xấu.",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Communication Skills",
+   "Psychiatry"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "A. gặp phải",
+  "answer_optionB": "B. trải qua",
+  "answer_optionC": "C. trải qua",
+  "answer_optionD": "D. Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 3 Thoái hoá tế bào được biểu hiện dưới các hình thái tổn thương:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Thoái hoá hạt",
+  "answer_optionB": "Thoái hoá hốc",
+  "answer_optionC": "Thoái hoá mỡ",
+  "answer_optionD": "Tất cả các đáp án đều đúng"
+ },
+ {
+  "question": "Câu 140 Hình ảnh đại thể của phù là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pathology",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD1012",
+  "answer_optionA": "Khi cắt ngang có nước chảy ra",
+  "answer_optionB": "Cơ quan bị phù lớn hơn bình thường, màu nhạt",
+  "answer_optionC": "Nơi bị phù thường mát lạnh, nhẵn, căng bóng",
+  "answer_optionD": "Tất cả các đáp án đều đúng"
+ },
+ {
+  "question": "Câu 366 Các tế bào ung thư giảm tính biệt hóa gây ra:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "366",
+  "answer_optionA": "Giảm chế tiết",
+  "answer_optionB": "Mất các cấu trúc kết nối các tế bào",
+  "answer_optionC": "Thay đổi hình dạng tế bào",
+  "answer_optionD": "Tất cả các đáp án đều đúng"
+ },
+ {
+  "question": "Câu 394 Tính chất ác tính của ung thư biểu mô dựa theo:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "Q394",
+  "answer_optionA": "Mức độ biệt hóa của tế bào u",
+  "answer_optionB": "Hình thái, cấu trúc mô",
+  "answer_optionC": "Phân loại TNM",
+  "answer_optionD": "Tất cả các câu trên đều đúng"
+ },
+ {
+  "question": "Câu 587: Tầm vận động khớp:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Orthopedics",
+   "Physical Medicine and Rehabilitation"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "587",
+  "answer_optionA": "Thường có giá trị lớn hơn cung chuyển động khớp.",
+  "answer_optionB": "Được xác định bằng cách lấy biên độ hõm khớp trừ biên độ lồi cầu.",
+  "answer_optionC": "Bị hạn chế bởi các cấu trúc hãm là dây chằng, gân cơ, khối cơ, mỏm xương.",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 46 Bộ phận nào có trong thiết bị Gamma Camera?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Nuclear Medicine",
+   "Radiology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MCQ1",
+  "answer_optionA": "Ống chuẩn trực Collimator",
+  "answer_optionB": "Tinh thể phát sáng",
+  "answer_optionC": "Cả ba đáp án còn lại đều đúng",
+  "answer_optionD": "Bộ phân tích chiều cao xung"
+ },
+ {
+  "question": "Bệnh nhân nữ 33 tuổi, bị tai nạn giao thông, gãy xương chày, nghi ngờ hội chứng chèn ép khoang. Bác sĩ cần kiểm tra mạch máu như thế nào để xử trí kịp thời?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Orthopedics",
+   "Emergency Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "NM0010",
+  "answer_optionA": "Bắt động mạch mu chân tại nguyên ủy",
+  "answer_optionB": "Bắt động mạch mu chân ở điểm giữa đường nối hai mắt cá trong-ngoài.",
+  "answer_optionC": "Bắt động mạch mu chân ở vị trí dọc theo gân cơ duỗi ngón chân cái và cách 1 cm ở phía ngoài.",
+  "answer_optionD": "Tất cả các phương án đều đúng"
+ },
+ {
+  "question": "Triệu chứng cơ năng của viêm loét giác mạc?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Kích thích: đau rức, chảy nước mắt, sợ ánh sáng",
+  "answer_optionB": "Nhìn mờ",
+  "answer_optionC": "Cả hai đều đúng",
+  "answer_optionD": "Không có"
+ },
+ {
+  "question": "Mức độ nhìn mờ phụ thuộc vào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Ổ loét nông hay sâu",
+  "answer_optionB": "Ngoại vi hay trung tâm lớn hay nhỏ",
+  "answer_optionC": "Cả hai đều đúng",
+  "answer_optionD": "Không có"
+ },
+ {
+  "question": "Cảm giác giác mạc:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Thường tăng lên với tác nhân vi khuẩn",
+  "answer_optionB": "Thường giảm hoặc mất với tác nhân vi rút",
+  "answer_optionC": "Không thay đổi",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Triệu chứng chủ quan của viêm mống mắt là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Đau mắt âm ỉ",
+  "answer_optionB": "Thị lực giảm",
+  "answer_optionC": "Sợ ánh sáng, chảy nước mắt, co quắp mi",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Chẩn đoán phân biệt viêm mống mắt thể mi với:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Viêm kết mạc",
+  "answer_optionB": "Glucom cương tụ",
+  "answer_optionC": "Viêm cùng mạc, thượng củng mạc",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Hai nguyên tắc điều trị của viêm mống mắt thể mi:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Điều trị nhanh, tích cực",
+  "answer_optionB": "Trong giai đoạn đầu của bệnh, điều trị bán đặc hiệu là chính",
+  "answer_optionC": "Cả hai đều đúng",
+  "answer_optionD": "None"
+ },
+ {
+  "question": "Triệu chứng của viêm hắc mạc lan tỏa",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Ophthalmology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Đau mắt dữ dội",
+  "answer_optionB": "Mắt mù",
+  "answer_optionC": "Mi mắt, kết mạc, cương tụ dữ dội, quang rìa giác mạc",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Nguyên nhân gây viêm tai giữa cấp tính theo YHCT là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Otolaryngology",
+   "Eastern Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Phong thấp",
+  "answer_optionB": "Nhiệt độc",
+  "answer_optionC": "Phong nhiệt",
+  "answer_optionD": "Cả B và C"
+ },
+ {
+  "question": "Bệnh nha chu viêm thời kỳ nặng trường có triệu chứng:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Không có tủi quanh răng",
+  "answer_optionB": "Lợi co hở chân răng",
+  "answer_optionC": "Lợi co hờ cổ răng",
+  "answer_optionD": "Cả B và C"
+ },
+ {
+  "question": "Nguyên tố nào có vai trò quan trọng trong phòng và điều trị sâu răng:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Clo",
+  "answer_optionB": "Canxi",
+  "answer_optionC": "Flo",
+  "answer_optionD": "Cả B và C"
+ },
+ {
+  "question": "Triệu chứng của bệnh sâu răng là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Eastern Medicine",
+   "Dentistry"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Có điểm lỗ sâu",
+  "answer_optionB": "Không đau khi ăn chua",
+  "answer_optionC": "Đau nhức khi có khích thích.",
+  "answer_optionD": "Cả A và C"
+ },
+ {
+  "question": "Đưa con đàn bệnh viêm niêm mạc miệng là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Otolaryngology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Genta 1-2%",
+  "answer_optionB": "Gential 2-3%",
+  "answer_optionC": "Ats 10%",
+  "answer_optionD": "A và C"
+ },
+ {
+  "question": "các yếu tố quy định sự phân bố bao gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "13",
+  "answer_optionA": "yếu tố nội sinh",
+  "answer_optionB": "yếu tố ngoại sinh",
+  "answer_optionC": "bất nội ngoại sinh",
+  "answer_optionD": "A, B đúng"
+ },
+ {
+  "question": "Đối tượng nghiên cứu của DTH là gì?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Quy luật phân bố bệnh trạng",
+  "answer_optionB": "Các yếu tố nguyên nhân chi phối tình trạng phân bố bệnh trạng",
+  "answer_optionC": "Cả A và B đều đúng",
+  "answer_optionD": "Cả A và B đều sai"
+ },
+ {
+  "question": "Nghiên cứu dọc bao gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "NC mô tả",
+  "answer_optionB": "NC hồi cứu",
+  "answer_optionC": "NC tương lai",
+  "answer_optionD": "B, C đúng"
+ },
+ {
+  "question": "DTH phát triển dựa trên cơ sở một quan niệm bao trùm là:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Mọi bệnh trạng của con người không thể tự nó xuất hiện ngẫu nhiên",
+  "answer_optionB": "Tất cả các bệnh trạng đều có những yếu tố quy định nhất định",
+  "answer_optionC": "Cả A và B đúng",
+  "answer_optionD": "Cả A và B sai"
+ },
+ {
+  "question": "Sai số hệ thống bao gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Sai số do chọn mẫu",
+  "answer_optionB": "Sai số thu thập thông tin",
+  "answer_optionC": "Sai số do nhiễu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Tỷ lệ mới mắc được biểu hiện dưới dạng nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Số mới mắc tích lũy",
+  "answer_optionB": "Mật độ mới mắc",
+  "answer_optionC": "Cả A,B đúng",
+  "answer_optionD": "Cả A,B sai"
+ },
+ {
+  "question": "Hiệu năng nghiên cứu là:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Sự không cân đối, không phù hợp giữa nhóm chủ cứu và nhóm đối chứng",
+  "answer_optionB": "Không phù hợp với thực tế sinh học của vấn đề nghiên cứu",
+  "answer_optionC": "Cả A, B đều đúng",
+  "answer_optionD": "Cả A, B đều sai"
+ },
+ {
+  "question": "Phương pháp nghiên cứu dịch tễ học mô tả là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Nghiên cứu quan sát",
+  "answer_optionB": "Nghiên cứu cho phép phân tích và xác định kết hợp giữa hiện tượng sức khoẻ-bệnh trạng và yếu tố nguy cơ",
+  "answer_optionC": "Nghiên cứu quan sát cho phép thiết lập giả thiết có sự kết hợp giữa hiện tượng sức khoẻ-bệnh trạng và yếu tố nguy cơ .",
+  "answer_optionD": "Cả ý a và c đều đúng"
+ },
+ {
+  "question": "Nghiên cứu mô tả mục tiêu là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Đánh giá chiều hướng của sức khỏe cộng đồng",
+  "answer_optionB": "Cung cấp số liệu làm cơ sở cho việc lập kế hoạch , thực hiện và đánh giá các dịch vụ chăm sóc sức khỏe",
+  "answer_optionC": "Xác định chính xác các vấn đề cần nghiên cứu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Đâu là nghiên cứu phân tích?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "MD1021",
+  "answer_optionA": "Nghiên cứu quan sát",
+  "answer_optionB": "Nghiên cứu can thiệp",
+  "answer_optionC": "Nghiên cứu bệnh chứng",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Nguồn chọn nhóm bệnh gồm những nguồn nào sau đây?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "77",
+  "answer_optionA": "Bệnh viện",
+  "answer_optionB": "Quần thể",
+  "answer_optionC": "Gia đình, bạn bè, người thân",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Ưu điểm của Nghiên cứu bệnh chứng dựa trên quần thể?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "80",
+  "answer_optionA": "Tránh được sai số lựa chọn do bất kì lý do nào đưa bệnh nhân đến khám và điều trị ở bệnh viện",
+  "answer_optionB": "Cho phép tính toán trực tiếp được tỷ lệ mắc bệnh ở nhóm phơi nhiễm và không phơi nhiễm",
+  "answer_optionC": "Tương đối dễ và không tốn kém",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Câu 12: Phát biểu nào đây đúng về nghiên cứu thuần tập hồi cứu?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MCQ21",
+  "answer_optionA": "Tất cả các sự kiện cần nghiên cứu, tình trạng phơi nhiễm và bệnh đã được xảy ra tai thời điểm nghiên cứu",
+  "answer_optionB": "Bệnh đã được phát hiện",
+  "answer_optionC": "Thời gian nghiên cứu ngắn hơn nghiên cứu thuần tập tương lai",
+  "answer_optionD": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "question": "Câu nào sau đây nói về điểm khác nhau của nghiên cứu thuần tập hồi cứu và tương lai?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Thời gian nghiên cứu của hồi cứu ngắn hơn thuần tập tương lai",
+  "answer_optionB": "Chi phí của thuần tập tương lai tốn kém hơn thuần tập hồi cứu",
+  "answer_optionC": "Tại thời điểm nghiên cứu của nghiên cứu hồi cứu đã xác định được tỷ lệ mắc bệnh còn NC thuần tập tương lai thì chưa xác định được mà phải theo dõi một thời gian dài",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Để khắc phục trường hợp các cá thể nghiên cứu trong thời kì nghiên cứu có thay đổi mức độ phơi nhiễm của họ như ngừng hút thuốc lá, thay đỏi công việc …, Ta cần phải phân tích yếu tố nào từ cá thể?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Thời gian phơi nhiễm tổng cộng",
+  "answer_optionB": "Sự thay đổi tình trạng phơi nhiễm như thế nào",
+  "answer_optionC": "Lý do thay đổi phơi nhiễm",
+  "answer_optionD": "Tất cả các ý trên đều đúng"
+ },
+ {
+  "question": "Nhược điểm của nghiên cứu thuần tập?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Không có hiệu quả khi đánh giá các bệnh hiếm gặp, trừ khi quần thể nghiên cứu cực lớn, khi bệnh phổ biến ở những người có phơi nhiễm, tức là phần trăm nguy cơ quy thuộc cao",
+  "answer_optionB": "Nếu là nghiên cứu hồi cứu đòi hỏi phải có hồ sơ đầy đủ",
+  "answer_optionC": "Giá rị của kết quả nghiên cứu có thể bị ảnh hưởng nghiêm trọng do mất các đôi tượng nghiên cứu trong quá trình theo dõi",
+  "answer_optionD": "Tất cả các ý trên đều đúng"
+ },
+ {
+  "question": "Câu 32: Ưu điểm của thiết kế nhiều thứ nghiệm ?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "32",
+  "answer_optionA": "Có khả năng trả lời hai hay nhiều câu hỏi ở trong cùng một thời gian mà giá thành lại không cao",
+  "answer_optionB": "Cho phép kiểm định một giả thuyết chưa chín muồi đồng thời có với một giả thuyết chín muồi mà ta đã có những bằng chứng đáng tín cậy để chứg minh nó",
+  "answer_optionC": "Cả hai đều đúng",
+  "answer_optionD": "None"
+ },
+ {
+  "question": "Yếu tố xã hội ảnh hưởng đến quá trình dịch như:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Điều kiện nhà ở, mật độ dân cư",
+  "answer_optionB": "Vệ sinh đô thị, vệ sinh ăn uống",
+  "answer_optionC": "Hai đáp án đều đúng",
+  "answer_optionD": "Hai đáp án đều sai"
+ },
+ {
+  "question": "Sự khác nhau của hệ thống giám sát dựa trên sự kiện và dựa trên chỉ số ?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "Hệ thống giám sát dựa trên sự kiện đáp ứng ngay lập tức còn dựa trên chỉ số thì có thể bị chậm trễ do phải thu thập số liệu và phân tích",
+  "answer_optionB": "Hệ thống giám sát dựa trên sự kiên báo cáo  và mô tả không có cấu trúc còn hệ thống giám sát dựa trên chỉ số cấu trúc được định dang rõ ràng",
+  "answer_optionC": "Hệ thống giám sat dựa trên sự kiện có độ nhạy cao hơn dựa trên chỉ số , ngược lại dựa trên chỉ số có độ đác hiệu cao hơn so với dựa trên sự kiện",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 23: Chức năng của Giám sát dịch tễ theo Tổ chức Y tế Thế giới: (1) Ghi chép và báo cáo tỷ lệ chết. (2) Ghi chép và báo cáo tỷ lệ bệnh tật. (3) Điều tra các trường hợp bệnh. (4) Điều tra dịch. (5) báo cáo dịch. (6) Xét nghiệm. (7) số liệu về dân số",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "1,2,4,5",
+  "answer_optionB": "1,4,5,7",
+  "answer_optionC": "2,4,5,7",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 24: Chức năng của Giám sát dịch tễ theo Tổ chức Y tế thế giới?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Phân phối thuốc men, vaccin",
+  "answer_optionB": "Số liệu về môi trường bao gồm cả các vector",
+  "answer_optionC": "Số liệu về dân số học",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 43: Hệ thống báo cáo và giám sát các bệnh truyền nhiễm ở Việt Nam bao gồm các hoạt động:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "a. Chỉ báo cáo các vụ dịch.",
+  "answer_optionB": "b. Báo cáo các bệnh truyền nhiễm theo qui định hàng tháng, theo tuyến cơ sở, tỉnh,trung ương, kiểm tra và đánh giá qui trình giám sát.",
+  "answer_optionC": "c. Khi phát hiện nghi ngờ trường hợp bệnh truyền nhiễm qui định giám sát ưu tiên phải báo cáo theo chế độ báo cáo dịch.",
+  "answer_optionD": "d. Cả (b) và (c) đều đúng"
+ },
+ {
+  "question": "Câu 46: Hạn chế trong hệ thống báo cáo sát các bệnh truyền nhiễm ở Việt Nam là",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "a. Số liệu báo cáo bệnh truyền nhiễm hàng tháng không thể phân biệt được theo nhóm tuổi, giới.",
+  "answer_optionB": "b. Số liệu không tận dụng để phân tích sâu được",
+  "answer_optionC": "c. Báo cáo theo đường bưu điện thường chậm",
+  "answer_optionD": "d. Cả (a), (b) và (c) đều đúng"
+ },
+ {
+  "question": "Câu 47: Các biện pháp khắc phục hạn chế của hệ thống giám sát ở Việt nam là",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "a. Không cần thay đổi gì vì hiện nay hoạt động đã rất hiệu quả",
+  "answer_optionB": "b. Kết nối mạng hệ thống báo cáo, có chương trình quản lý phân tích số liệu phù hợp",
+  "answer_optionC": "c. Bổ sung nhân lực cho công việc giám sát",
+  "answer_optionD": "d. Cả (b) và (c) đều đúng"
+ },
+ {
+  "question": "Các khâu cơ bản trong xử lí ổ dịch là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "ID022",
+  "answer_optionA": "Nguồn bệnh",
+  "answer_optionB": "Đường lây",
+  "answer_optionC": "Khối cảm thụ",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "[T] Bệnh thường gặp lây từ người-người gồm: Thương hàn, phó thương hàn, lỵ trực khuẩn, lỵ amibe, tả, bại liệt do Polio, viêm gan A",
+  "correctAnswer": "optionA",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Tất cả đều đúng",
+  "answer_optionB": "Không có phó thương hàn",
+  "answer_optionC": "Không có bại liệt do Polio",
+  "answer_optionD": "Không có phó thương hàn và lỵ amibe"
+ },
+ {
+  "question": "[H] Cơ chế truyền nhiễm của các bệnh lây qua đường tiêu hóa:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Là vi sinh vật gây bệnh chỉ có một lối ra là theo phân ra ngoài và chỉ có một lối vào là qua mồm vào cơ thể.",
+  "answer_optionB": "Giải phóng tác nhân gây bệnh ở người mắc bệnh lây truyền qua đường tiêu hóa là ỉa chảy.",
+  "answer_optionC": "Vi khuẩn gây bệnh còn được giải phóng ra môi trường bên ngoài cùng với chất nôn và cùng với nước tiểu.",
+  "answer_optionD": "Tất cả đều đúng."
+ },
+ {
+  "question": "[H] Tại sao các bệnh lây qua đường tiêu hóa thường tăng lên vào những tháng hè?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Khí hậu nóng ẩm",
+  "answer_optionB": "Nhiều ruồi nhặng",
+  "answer_optionC": "Thức ăn dễ ôi thiu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "[H] Các bệnh lây qua đường tiêu hóa thường xảy ra ở những nơi:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Hard",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Điều kiện vệ sinh kém, thiếu nước sạch",
+  "answer_optionB": "Vệ sinh thực phẩm không được an toan",
+  "answer_optionC": "Dùng phân tuoiw bón hoa màu, phóng uế bừa bãi",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "[H] Các biện pháp phòng chống bệnh lây qua đường tiêu hóa:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Hard",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Biện pháp vệ sinh",
+  "answer_optionB": "Vaccine phòng bệnh nếu có",
+  "answer_optionC": "A, B đúng",
+  "answer_optionD": "A,B sai"
+ },
+ {
+  "question": "Tả là một bệnh truyền nhiễm có các triệu chứng chính là?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD3",
+  "answer_optionA": "Tiêu chảy",
+  "answer_optionB": "Mất nước",
+  "answer_optionC": "Rối loạn điện giải cấp tính",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Tiêu chuẩn xác định ổ dịch tả chấm dứt hoạt động",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD13",
+  "answer_optionA": "Không có trường hợp mắc tả mới trong vòng 14 ngày",
+  "answer_optionB": "Xử lí triệt để ổ dịch: xử lí phân, xứ lí nước, tiệt trùng ổ dịch, vệ sinh môi trường, quản lí bệnh nhân và điều trị dự phòng với những người trong ổ dịch theo đúng quy định…..",
+  "answer_optionC": "Cả A và B đúng",
+  "answer_optionD": "Chỉ A đúng"
+ },
+ {
+  "question": "Dấu hiệu đặc trưng của bệnh Tay chân miệng là",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics",
+   "Dermatology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MD22",
+  "answer_optionA": "Sốt",
+  "answer_optionB": "Đau họng",
+  "answer_optionC": "Tổn thương niêm mạc miệng và da chủ yếu là dạng phỏng nước",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Nguồn truyền nhiễm của cúm A H5N1 và A H7N9 là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Gia cầm mắc bệnh",
+  "answer_optionB": "Gia cầm mang mầm bệnh",
+  "answer_optionC": "Người bệnh",
+  "answer_optionD": "A và B đúng"
+ },
+ {
+  "question": "Triệu chứng của người mắc bệnh cúm A(H1N1):",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Sốt, ho, đau họng, chảy nước mắt, nước mũi",
+  "answer_optionB": "Đau đầu, đau người, rét run, mệt mỏi",
+  "answer_optionC": "Tiêu chảy, nôn, viêm phổi nặng và tử vong",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Virus cúm H1N1 lây từ người sang người qua đường nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Qua đường hô hấp, qua các giọt bắn chất tiết mũi họng qua ho, hắt hơi của người bệnh",
+  "answer_optionB": "Qua tiếp xúc với các đồ vật có vi khuẩn",
+  "answer_optionC": "Cả 2 đều đúng",
+  "answer_optionD": "Cả 2 đều sai"
+ },
+ {
+  "question": "Ca bệnh nghi ngờ là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health"
+  ],
+  "difficultLevel": "Medium",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Có triệu chứng sốt (thường trên 38 độ)",
+  "answer_optionB": "Triệu chứng về hô hấp: viêm long, đau họng, ho",
+  "answer_optionC": "Có yếu tố liên quan đến dịch tễ",
+  "answer_optionD": "cả 3 đều đúng"
+ },
+ {
+  "question": "Các biện pháp phòng bệnh cúm là",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Medium",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Giáo dục sức khỏe vệ sinh cá nhân và phòng lây bệnh qua đường hô hấp",
+  "answer_optionB": "Biện pháp dự phòng đặc hiệu",
+  "answer_optionC": "Cả 2 ý trên đều đúng",
+  "answer_optionD": "Không có đáp án"
+ },
+ {
+  "question": "Các biện pháp phòng chống đối với nguồn truyền nhiễm là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Diệt các loại côn trùng tiết túc tương ứng hút máu",
+  "answer_optionB": "Tiệt khuẩn các loại dụng cụ tiêm truyền, quy chế ngân hàng máu phải được áp dụng chặt chẽ",
+  "answer_optionC": "Vệ sinh môi trường",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Biện pháp phòng chống đối với khối cảm thụ là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "Infectious Diseases",
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Giáo dục vệ sinh",
+  "answer_optionB": "Nâng cao thể trạng",
+  "answer_optionC": "Tiêm chủng các loại đã có vacxin",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Trường hợp có triệu chứng lâm sàng gồm các thể lâm sàng nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Sốt Dengue cổ điển",
+  "answer_optionB": "Sốt xuất huyết Dengue không sốc",
+  "answer_optionC": "SXH Dengue có sốc",
+  "answer_optionD": "Tất cả 3 ý trên đều đúng"
+ },
+ {
+  "question": "Điều trị sốt xuất huyết Dengue không sốc:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Internal Medicine",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "SXHD12",
+  "answer_optionA": "hạ sốt bằng cách chườm hoặc dùng Paracetamol",
+  "answer_optionB": "bù nước sớm nhất",
+  "answer_optionC": "truyền dịch khi nôn nhiều hoặc khi không uống được",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Điều trị thuốc YHCT cho SXHD độ I và II",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Eastern Medicine",
+   "Internal Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "SXHD13",
+  "answer_optionA": "Thanh nhiệt: bạc hà, lá dâu, sắn dây,",
+  "answer_optionB": "Giải độc chống dị ứng: cỏ nhọ nồi, hoa hòe, cam thảo",
+  "answer_optionC": "Chống xuất huyết: cỏ nhọ nồi, hoa hòe, trắc bách diệp",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Viêm gan B có thể lây qua đường nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Gastroenterology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "VGB1",
+  "answer_optionA": "Đường máu",
+  "answer_optionB": "Đường tình dục",
+  "answer_optionC": "Từ mẹ sang con",
+  "answer_optionD": "Cả ý đều đúng"
+ },
+ {
+  "question": "HBV bị bất hoạt bởi:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "VGB6",
+  "answer_optionA": "100 độ C trong vòng 20p",
+  "answer_optionB": "Formalin 5% trong vòng 12h",
+  "answer_optionC": "Cloramin 3% trong vòng 2h",
+  "answer_optionD": "cả 3 TH trên đều đúng"
+ },
+ {
+  "question": "Các bệnh thường gặp ở người lây qua da, niêm mạc là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Dermatology",
+   "Infectious Diseases",
+   "Ophthalmology"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Hoa liễu, uốn ván",
+  "answer_optionB": "Đau mắt hột, viêm kết mạc nhiễm khuẩn",
+  "answer_optionC": "Nấm tóc, chốc đầu, ghẻ",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Các biện pháp phòng chống được thực hiện đối với từng mắc xích của quá trình dịch bao gồm những yếu tố nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Nguồn truyền nhiễm",
+  "answer_optionB": "Đường truyền nhiễm",
+  "answer_optionC": "Khối cảm thụ",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Các đối tượng có nguy cơ cao mắc bệnh uốn ván là ai?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Nông dân",
+  "answer_optionB": "Nhân viên chăn nuôi gia súc",
+  "answer_optionC": "Nghiện chích ma túy",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Chẩn đoán phân biệt uốn ván với bệnh gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Neurology",
+   "Infectious Diseases",
+   "Toxicology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Các bệnh răng hàm mặt",
+  "answer_optionB": "Viêm màng não",
+  "answer_optionC": "Ngộ độc Strychine",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Những chất gây ung thư mạnh nhất có trong thuốc lá là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pulmonology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Hydro cacbon thơm đa vòng PHAs",
+  "answer_optionB": "N-nitrosamine",
+  "answer_optionC": "1-3 butadien",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Uống rượu ở mức trung bình sẽ làm giảm nguy cơ mắc bệnh nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD001",
+  "answer_optionA": "Xơ vữa động mạch",
+  "answer_optionB": "Bệnh mạch vành",
+  "answer_optionC": "Bệnh mạch máu ngoại vi",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Các biện pháp được sử dụng để phát hiện sớm UT vú là",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Obstetrics and Gynecology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD021",
+  "answer_optionA": "Chụp vú",
+  "answer_optionB": "Từ khám vú",
+  "answer_optionC": "Khám vú chuyên khoa",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Câu 6: Để cung cấp được hầu hết các dịch vụ CSSK thì BS gia đình cần có kỹ năng gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Kỹ năng tư vấn",
+  "answer_optionB": "Kỹ năng về lâm sàng đa khoa",
+  "answer_optionC": "Kỹ năng về cấp cứu",
+  "answer_optionD": "A và B đúng"
+ },
+ {
+  "question": "8. Các khía cạnh được xem xét trong TÍNH LIÊN TỤC là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "MDMCQ_017",
+  "answer_optionA": "A.Tính thông tin",
+  "answer_optionB": "B. Tính liên tục theo thời gian, Tính thông tin",
+  "answer_optionC": "C. Mối quan hệ giữa bác sĩ với từng thành viên và cả hộ gia đình",
+  "answer_optionD": "B và C"
+ },
+ {
+  "question": "Nguyên lí dự phòng và nâng cao sức khỏe dựa trên nguyên lí đơn giản nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Dự phòng bệnh tật trước khi có thật sự diễn ra",
+  "answer_optionB": "Dự phòng các biến chứng của bệnh",
+  "answer_optionC": "Cả A và B đều đúng",
+  "answer_optionD": "Cả A và B đều sai"
+ },
+ {
+  "question": "Tại sao nói Cộng đồng ngoài cung cấp thông tin hỗ trợ cho chẩn đoán, cộng đồng còn là một trong các YẾU TỐ TRỊ LIỆU?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Public Health"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "26",
+  "answer_optionA": "Trong cộng đông có thể có nhiều thành phần / tổ chức mà BSGĐ có thể phối hợp để cung ứng dịch VỤ CSSK",
+  "answer_optionB": "Nghề nghiêp của người bệnh , yếu tố văn hóa và môi trường là những khía canh tác động đến việc CSSK",
+  "answer_optionC": "Cả hai đáp án trên đều đúng",
+  "answer_optionD": "Cả hai đáp án trên đều sai"
+ },
+ {
+  "question": "Điểm nào sau đây là điểm chung của dịch vụ BSGĐ ở tất cả các quốc gia?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "29",
+  "answer_optionA": "Là nơi tiếp cận đầu tiên của người dân vơi hệ thông y tế, gắn liền với khu vực đại lí mà người dân sinh sống",
+  "answer_optionB": "BSGĐ là những bác sĩ thực hành lâm sàng đa khoa, đóng vai trò \"người gác cổng\" của hệ thống y tế, chịu trách nhiệm khám, điều trị, dự phòng bệnh tật, theo dõi quản lí sức khỏe toàn diện, liên tục cho cá nhân, hộ gia đình và cộng đồng cả thể chất và tinh thần",
+  "answer_optionC": "BSGĐ lập hồ sơ quản lí sức khỏe cho từng cá nhân từ lúc sinh ra đến lúc qua đời",
+  "answer_optionD": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "question": "Các xét nghiệm cận lâm sàng trong quá trình mang thai bao gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Thử protein nước tiểu, công thức máu",
+  "answer_optionB": "HIV, giang mai",
+  "answer_optionC": "Viêm gan B, C",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Đặc điểm thời thơ ấu:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Pediatrics"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Trẻ bắt đầu thích nghi với cuộc sống bên ngoài bụng mẹ",
+  "answer_optionB": "Phát triển nhanh chóng về thể lực và dần hoàn thiện tính cách",
+  "answer_optionC": "A,B đều đúng",
+  "answer_optionD": "A,B đều sai"
+ },
+ {
+  "question": "Các vấn đề sức khỏe cần quan tâm của trẻ trong giai đoạn trẻ dưới 5 tuổi là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pediatrics",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Chế độ dinh dưỡng hợp lí",
+  "answer_optionB": "Phòng chống SDD",
+  "answer_optionC": "Phòng chống các bệnh nhiễm trùng",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Các vấn đề sức khỏe chủ yếu trong giai đoạn vị thành niên là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pediatrics",
+   "Public Health",
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "48",
+  "answer_optionA": "Vấn đề tình dục trước hôn nhân và mang thai ở độ tuổi vị thành niên",
+  "answer_optionB": "Vấn đề tai nạn thương tích",
+  "answer_optionC": "Vấn đề tệ nạn xã hội như hút thuốc, chích ma túy, nghiện rượu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Các bệnh lí thường gặp ở độ tuổi vị thành niên là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pediatrics",
+   "Infectious Diseases",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "49",
+  "answer_optionA": "Bệnh học đường",
+  "answer_optionB": "Bệnh lí rối loạn dinh dưỡng",
+  "answer_optionC": "Bệnh lây truyền qua đường tình dục và HIV/AIDS",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Các bệnh thường gặp ở người cao tuổi được chia thành những nhóm nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Geriatrics",
+   "Internal Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "Q80",
+  "answer_optionA": "Các bệnh chỉ có riêng ở người già",
+  "answer_optionB": "Các bệnh thường thấy ở người già",
+  "answer_optionC": "Các bệnh có thể gặp ở cả người trưởng thành và thanh niên nhưng tỉ lệ mắc bệnh, triệu chứng mắc bệnh ở người cao tuổi khác với người trẻ",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Một xét nghiệm tầm soát lý tưởng cần phải có yêu cầu gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Dương tính ở tất cả bệnh nhân (Độ nhạy cao)",
+  "answer_optionB": "Âm tính ở tất cả những người không bệnh (độ đặc hiệu cao)",
+  "answer_optionC": "Khi áp dụng vào lâm sàng, phải có xác suất cao có bệnh nếu dương tính và xác suất cao không bệnh nếu test âm tính",
+  "answer_optionD": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "question": "Nội dung cần thực hiện để Chọn chiến lược thích hợp:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Xác định đối tượng đích",
+  "answer_optionB": "Soạn thảo nội dung",
+  "answer_optionC": "Lựa chọn phương pháp và phương tiện TVGDSK",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Giao tiếp xuất phát từ tiếng la tinh nghĩa là?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Điểm chung",
+  "answer_optionB": "chia sẻ",
+  "answer_optionC": "trao đổi",
+  "answer_optionD": "a và b"
+ },
+ {
+  "question": "Giao tiếp hiệu quả trong chăm sóc sức khỏe có thể:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Nâng cao kết quả chăm sóc sức khỏe cho người bệnh",
+  "answer_optionB": "Giảm tác động của các yếu tố ảnh hưởng đến sức khỏe và chăm sóc sức khỏe",
+  "answer_optionC": "Nâng cao hiệu quả của các hiệu quả các biện pháp phòng bệnh",
+  "answer_optionD": "Cả 3 ý đều đúng"
+ },
+ {
+  "question": "Giao tiếp không lời bao gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "A. cử chỉ, sử dựng từ đệm và biểu hiện âm thanh,",
+  "answer_optionB": "B. tiếp xuc về mặt thể chất, khoản cách giữa các cá nhân trong giao tiếp xã hội,",
+  "answer_optionC": "C. đồ trang điểm trang trí bên ngoài, hoàn cảnh giao tiêp",
+  "answer_optionD": "D. tất cả đều đúng"
+ },
+ {
+  "question": "Các yếu tố ảnh hưởng đến sự giao tiếp không lời:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Cụm cử chỉ",
+  "answer_optionB": "Cử chỉ phải được đặt trong ngữ cảnh giao tiếp",
+  "answer_optionC": "Sự phù hợp",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Có những loại câu hỏi nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Câu hỏi mở",
+  "answer_optionB": "Câu hỏi đóng",
+  "answer_optionC": "Câu hỏi gợi ý",
+  "answer_optionD": "Cả 3 đều đúng"
+ },
+ {
+  "question": "Hậu quả của việc sụt cân dẫn đến giảm?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Oncology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "đáp ứng điều trị",
+  "answer_optionB": "Dung nạp với điều trị",
+  "answer_optionC": "Thời gian nằm viện",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Axit béo no có nhiều trong?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "cá, dầu đậu nành, dầu bắp, dầu hướng dương, dầu hạt cải",
+  "answer_optionB": "mỡ, bơ sữa, các sản phẩm từ sữa",
+  "answer_optionC": "da các loại gia súc gia cầm",
+  "answer_optionD": "B và C đúng"
+ },
+ {
+  "question": "Cơ sở để chuyển đổi thực phẩm trong cùng một nhóm thực phẩm:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1005",
+  "answer_optionA": "Có giá trị năng lượng như nhau",
+  "answer_optionB": "Số lượng các chất sinh nhiệt tương đương nhau",
+  "answer_optionC": "Cả A và B đều đúng",
+  "answer_optionD": "Cả A và B đều sai"
+ },
+ {
+  "question": "Trong xây dựng thực đơn cho bệnh nhân tiểu đường, người ta chia thành những nhóm thực phẩm nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Endocrinology",
+   "Internal Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1006",
+  "answer_optionA": "Tinh bột, quả chín, thịt và sản phẩm thay thế",
+  "answer_optionB": "Sữa và các sản phẩm chế biến, chất béo, rau, đường và sản phẩm chứa đường chủ yếu",
+  "answer_optionC": "Cả hai đều đúng",
+  "answer_optionD": "Tất cả đều sai"
+ },
+ {
+  "question": "Tập luyện thể lực là:",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Sports Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1020",
+  "answer_optionA": "Một dạng vận động thể lực",
+  "answer_optionB": "Hoạt động có kế hoạch, nhằm rèn luyện thân thể",
+  "answer_optionC": "A,B đúng",
+  "answer_optionD": "A,B sai"
+ },
+ {
+  "question": "Làm thế nào để biết cường độ luyện tập đã phù hợp chưa?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Sports Medicine",
+   "Cardiology",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Dựa vào huyết áp (HA) sau tập luyện",
+  "answer_optionB": "Dựa vào giọng nói: hụt hơi...",
+  "answer_optionC": "Dựa vào nhịp tim sau tập luyện",
+  "answer_optionD": "B và C đúng"
+ },
+ {
+  "question": "Khi đã có chẩn đoán là tăng huyết áp (THA), thì các cuộc thăm khám đầu tiên nên tập trung vào:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Tìm nguyên nhân",
+  "answer_optionB": "Sàng lọc cơ bản tổn thương của cơ quan đích",
+  "answer_optionC": "Bắt đầu giáo dục cho bệnh nhân và gia đình về các chế độ cho người tăng huyết áp (THA)",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Dinh dưỡng ở bệnh nhân COPD nên bao gồm những gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "Internal Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "COPD002",
+  "answer_optionA": "Hạn chế tinh bột, đường",
+  "answer_optionB": "Tăng cường chất béo",
+  "answer_optionC": "Bổ sung sắt",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Viêm gan B và tỉ lệ lây truyền cho con:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics",
+   "Obstetrics and Gynecology"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Trong giai đoạn mang thai không quá 2%",
+  "answer_optionB": "Trong lúc chuyển dạ đẻ hơn 90%",
+  "answer_optionC": "Trong lúc chuyển dạ đẻ 100%",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Phân biệt viêm gan B với bệnh gì",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Viêm gan virus khác, nguyên nhân khác",
+  "answer_optionB": "Đợt bùng phát VGB mạn, vàng da khác",
+  "answer_optionC": "A và B",
+  "answer_optionD": "A hoặc B"
+ },
+ {
+  "question": "Chẩn đoán xác định SXH :",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Emergency Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "KN trong máu trong vòng 5 ngày kể từ khi sốt/",
+  "answer_optionB": "KT đặc hiệu sau ngày thứ 5/",
+  "answer_optionC": "KN trong máu trong 3 ngày từ khi sốt/",
+  "answer_optionD": "A và B"
+ },
+ {
+  "question": "Khi nào nên điều trị thuốc kháng virus cho bệnh cúm?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Trong mọi trường hợp nhiễm cúm",
+  "answer_optionB": "Các trường hợp nhiễm cúm có biến chứng",
+  "answer_optionC": "Các trường hợp nhiễm cúm có yếu tố nguy cơ",
+  "answer_optionD": "B và C đúng"
+ },
+ {
+  "question": "Tiêu chuẩn xuất viện cho bệnh nhân cúm là gì?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Hết sốt và các triệu chứng hô hấp trên 48 giờ (trừ ho)",
+  "answer_optionB": "Tình trạng lâm sàng ổn định",
+  "answer_optionC": "A và B đều đúng",
+  "answer_optionD": "Không có đáp án nào đúng"
+ },
+ {
+  "question": "Triệu chứng lâm sàng của bệnh cúm là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Hội chứng viêm long",
+  "answer_optionB": "Sốt thường trên 38 độ C",
+  "answer_optionC": "Đau họng, ho, khó thở, đau nhức cơ toàn thân",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Chẩn đoán ca bệnh nghi ngờ cúm cần có những yếu tố nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Yếu tố dịch tễ",
+  "answer_optionB": "Lâm sàng",
+  "answer_optionC": "Cận lâm sàng: X-quang, công thức máu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Chẩn đoán ca bệnh xác định cúm cần có những yếu tố nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Có các tiêu chuẩn của ca bệnh nghi ngờ",
+  "answer_optionB": "XN dương tính với virus cúm bằng RT-PCR hoặc nuôi cấy virus đối với các bệnh phẩm là dịch ngoáy họng, dịch tỵ hầu, dịch phế quản",
+  "answer_optionC": "A và B đều đúng",
+  "answer_optionD": "A và B đều sai"
+ },
+ {
+  "question": "Cúm có biến chứng là ca bệnh nghi ngờ hoặc xác định kèm theo một trong số các điều kiện sau:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Có tổn thương ở phổi với biểu hiện suy hô hấp trên lâm sàng",
+  "answer_optionB": "Có các biến chứng thứ phát như viêm xoang, viêm phổi do bội nhiễm vi khuẩn…",
+  "answer_optionC": "Có các dấu hiệu nặng lên của các bệnh lí mạn tính kèm theo",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Phụ nữ mang thai nhiễm cúm trong 3 tháng đầu có khả năng:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Obstetrics and Gynecology",
+   "Infectious Diseases",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Sảy thai",
+  "answer_optionB": "Thai lưu",
+  "answer_optionC": "Dị tật thai nhi",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Virus cúm ở Việt Nam gồm những loại nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "A/H3N2",
+  "answer_optionB": "A/H1N1",
+  "answer_optionC": "Cúm B",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Thời điểm bệnh tay chân miệng có xu hướng tăng là khi nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics",
+   "Public Health"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Từ tháng 3-5",
+  "answer_optionB": "Từ tháng 9-12",
+  "answer_optionC": "A và B đều đúng",
+  "answer_optionD": "Từ tháng 4-7"
+ },
+ {
+  "question": "Câu 22: Xét nghiệm để chẩn đoán xác định?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics",
+   "Pathology"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "RT-PCR",
+  "answer_optionB": "Phân lập cps vi rút gây bệnh",
+  "answer_optionC": "Cả A, B",
+  "answer_optionD": "CRP"
+ },
+ {
+  "question": "Câu 25: Chẩn đoán lâm sàng dựa vào tiêu chí nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pediatrics"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Dịch tễ",
+  "answer_optionB": "Triệu chứng: sốt, nôn",
+  "answer_optionC": "Triệu chứng: Phỏng nước điển hình ở miệng, lòng bàn tay, bàn chân, gối kèm sốt hoặc không",
+  "answer_optionD": "A và C"
+ },
+ {
+  "question": "Thông liên thất có thể chết ngay sau đẻ do:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Cardiology",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MCQ22",
+  "answer_optionA": "Nhiễm trùng",
+  "answer_optionB": "Suy tim",
+  "answer_optionC": "Viêm phổi",
+  "answer_optionD": "A, B đúng"
+ },
+ {
+  "question": "Chọn phát biểu đúng về bambuterol :",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Là một thuốc giãn phế quản bằng đường uống",
+  "answer_optionB": "Là một tiền chất",
+  "answer_optionC": "Ức chế enzym pseudocholinesterase",
+  "answer_optionD": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "question": "Câu 36. Các tính năng đặc trưng của penicillin G là?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pharmacology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MDQ7",
+  "answer_optionA": "Nó không ổn định trong dung dịch nước",
+  "answer_optionB": "Tác dụng kháng khuẩn của nó không bị ảnh hưởng bởi mủ và dịch mô",
+  "answer_optionC": "Nó hoạt động như nhau chống lại sự nhân lên của vi khuẩn",
+  "answer_optionD": "Cả A và và B đều đúng"
+ },
+ {
+  "question": "Biểu mô trước giác mạc có đặc điểm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Ophthalmology",
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "ID020",
+  "answer_optionA": "Nhạy cảm với các kích thích.",
+  "answer_optionB": "Có khả năng tái tạo cáo tại",
+  "answer_optionC": "Lát tầng không sừng hoá.",
+  "answer_optionD": "Tất cả đều đúng."
+ },
+ {
+  "question": "Câu 74 Cấu trúc dẫn truyền xung động thần kinh theo một chiều:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Neurology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "A Sợi nhánh.",
+  "answer_optionB": "B Sợi trục.",
+  "answer_optionC": "C Sinap.",
+  "answer_optionD": "Đ Tất cả đều đúng."
+ },
+ {
+  "question": "Câu 79 Xung động thần kinh được truyền qua sinap nhờ:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Neurology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "NEU001",
+  "answer_optionA": "Acetylcholin.",
+  "answer_optionB": "Cathecholamin.",
+  "answer_optionC": "Sự dịch chuyển của dòng ion.",
+  "answer_optionD": "Tất cả đều đúng."
+ },
+ {
+  "question": "Câu 94: Đâu là vị trí C bất đối xứng của alkaloid sau?",
+  "correctAnswer": "optionB",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "94",
+  "answer_optionA": "a và c",
+  "answer_optionB": "a và b",
+  "answer_optionC": "c và d",
+  "answer_optionD": "b và c"
+ },
+ {
+  "question": "Biểu mô có nguồn gốc từ đâu?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Ngoại bì",
+  "answer_optionB": "Nội bì",
+  "answer_optionC": "Trung bì",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Kích thước và hình dáng biểu mô phụ thuộc vào yếu tố nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Loại biểu mô",
+  "answer_optionB": "Chức năng biểu mô",
+  "answer_optionC": "Vị trí của tế bào trong biểu mô",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 153: Ô lượng tử nào sau đây vi phạm nguyên lí Pauli khi điền electron vào AO ?",
+  "correctAnswer": "optionA",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "153",
+  "answer_optionA": "c và d.",
+  "answer_optionB": "A.",
+  "answer_optionC": "b.",
+  "answer_optionD": "A và b."
+ },
+ {
+  "question": "Đâu là vị trí C bất đối xứng của Alkaloid sau?",
+  "correctAnswer": "optionA",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "94",
+  "answer_optionA": "A và c",
+  "answer_optionB": "A và b",
+  "answer_optionC": "c và d",
+  "answer_optionD": "b và c"
+ },
+ {
+  "question": "Nguồn gốc ra đời của chủ nghĩa duy tâm là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Xuất phát từ sự xem xét phiến diện, tuyệt đối hóa, thần thánh hóa một mặt, một đặc tính nào đó của quá trình nhận thức như tâm linh, tinh thần, tình cảm.",
+  "answer_optionB": "Xuất phát từ lợi ích của các giai cấp, tầng lớp áp bức, bóc lột nhân dân lao động.",
+  "answer_optionC": "Do giới hạn trong nhận thức của các nhà triết học.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Chủ nghĩa duy vật bao gồm trường phái nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Chủ nghĩa duy vật cổ đại.",
+  "answer_optionB": "Chủ nghĩa duy vật siêu hình.",
+  "answer_optionC": "Chủ nghĩa duy vật biện chứng.",
+  "answer_optionD": "Cả ba phán đoán kia đều đúng."
+ },
+ {
+  "question": "Từ định nghĩa vật chất của V.I.Lênin chúng ta rút ra được ý nghĩa phương pháp luận gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "PHIL007",
+  "answer_optionA": "Khắc phục những thiếu sót trong các quan điểm siêu hình, máy móc về vật chất, giải quyết triệt để vẫn để cơ bản của triết học.",
+  "answer_optionB": "Định hướng cho sự phát triển của khoa học.",
+  "answer_optionC": "Là cơ sở để xác định vật chất xã hội, để luận giải nguyên nhân cuối cùng của mọi biến đổi xã hội.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Chủ nghĩa duy tâm quan niệm như thế nào về nguồn gốc của ý thức?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Psychiatry"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "PHIL010",
+  "answer_optionA": "Ý thức là nguyên thể đầu tiên, tồn tại vĩnh viễn, là nguyên nhân sinh thành, chi phối sự tồn tại, biến đổi của toàn bộ thể giới vật chất.",
+  "answer_optionB": "Tuyệt đối hoá vai trò của lý tinh, khẳng định thế giới \"ý niệm\", hay \"ý niệm tuyệt đối\" là bản thể, sinh ra toàn bộ thế giới hiện thực.",
+  "answer_optionC": "Tuyệt đối hoá vai trò của cảm giác, coi cảm giác là tồn tại duy nhất, \"tiên thiên\", sản sinh ra thế giới vật chất.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Chủ nghĩa duy vật siêu hình quan niệm như thế nào về nguồn gốc của ý thức?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Psychiatry"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "PHIL011",
+  "answer_optionA": "Phủ nhận tính chất siêu tự nhiên của ý thức, tinh thần.",
+  "answer_optionB": "Xuất phát từ thể giới hiện thực để lý giải nguồn gốc của ý thức.",
+  "answer_optionC": "Đồng nhất ý thức với vật chất, coi ý thức cũng chỉ là một dạng vật chất đặc biệt, do vật chất sản sinh ra.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Theo quan điểm duy vật biện chứng, ý thức tác động trở lại vật chất thông qua:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "64",
+  "answer_optionA": "Sự suy nghĩ của con người.",
+  "answer_optionB": "Hoạt động thực tiễn.",
+  "answer_optionC": "Hoạt động lý luận.",
+  "answer_optionD": "Cả 3 phản đoán kia đều đúng."
+ },
+ {
+  "question": "Nội dung cơ bản của phép biện chứng duy vật gồm những gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "73",
+  "answer_optionA": "Hai nguyên lý cơ bản.",
+  "answer_optionB": "Các cặp phạm trù cơ bản thể hiện mối liên hệ phổ biến, tồn tại ở mọi sự vật, hiện tượng, quá trình của thế giới.",
+  "answer_optionC": "Các quy luật cơ bản thể hiện sự vận động và phát triển của các sự vật, hiện tượng, quá trình.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Mối liên hệ nhân quả có những tính chất nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Tính khách quan.",
+  "answer_optionB": "Tính phổ biển.",
+  "answer_optionC": "Tinh tất yu.",
+  "answer_optionD": "Cá 3 phán doán kia đều đúng."
+ },
+ {
+  "question": "Nếu căn cứ vào lĩnh vuc tác động thi quy luật dược phân loại thành các nhóm quy luật nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Nhóm quy luật tự nhiên.",
+  "answer_optionB": "Nhóm quy luật xã hội.",
+  "answer_optionC": "Nhóm quy luật của tư duy.",
+  "answer_optionD": "Ca ba phán doán kia đều đúng."
+ },
+ {
+  "question": "Phát triển chính là quá trình được thực hiện bởi:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Sự tich lũy dần về lượng dan dến sự thay đổi về chất của sự vat.",
+  "answer_optionB": "Sự van đong của mâu thuần trong bản thân sự vật.",
+  "answer_optionC": "Sự phủ định biện chứng đối với sự vật cũ.",
+  "answer_optionD": "Cà 3 phán doán kia đều đúng."
+ },
+ {
+  "question": "Chất của sự vật được xác định bởi?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Thuộc tỉnh cơ bán gắn liên với sự vật.",
+  "answer_optionB": "Các yếu tố cấu thành sự vật.",
+  "answer_optionC": "Phương thức liên kết.",
+  "answer_optionD": "Cá ba phán đoán kia đều đúng."
+ },
+ {
+  "question": "Trong tư tưởng Hồ Chí Minh về đạo đức, LIÊM nghĩa là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "226",
+  "answer_optionA": "Không tham tiền tài, không tham sung sướng.",
+  "answer_optionB": "Không ham người tâng bốc mình.",
+  "answer_optionC": "Không tham địa vị.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, ở đời và làm người thì phải:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "229",
+  "answer_optionA": "Thương dân.",
+  "answer_optionB": "Yêu nước.",
+  "answer_optionC": "Thương nhân loại bị áp bức.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo tư tưởng Hồ Chí Minh, “tinh thần quốc tế trong sáng” được hiểu như thế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "235",
+  "answer_optionA": "Tinh thần đoàn kết quốc tế vô sản.",
+  "answer_optionB": "Tinh thần đoàn kết với các dân tộc bị áp bức, với nhân dân lao động các nước.",
+  "answer_optionC": "Tinh thần đoàn kết với các lực lượng tiến bộ trên thế giới.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Nội dung xây dựng con người xã hội chủ nghĩa theo tư tưởng Hồ Chí Minh gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "243",
+  "answer_optionA": "Có ý thức làm chủ, tinh thần tập thể xã hội chủ nghĩa và tư tưởng “mình vì mọi người, mọi người vì mình”.",
+  "answer_optionB": "Cần kiệm xây dựng đất nước, hăng hái bảo vệ Tổ quốc; Có lòng yêu nước nồng nàn, tinh thần quốc tế trong sáng.",
+  "answer_optionC": "Có phương pháp làm việc khoa học, phong cách quần chúng, dân chủ, nêu gương.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, tinh thần quốc tế trong sáng được hiểu là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "244",
+  "answer_optionA": "Tinh thần đoàn kết quốc tế vô sản.",
+  "answer_optionB": "Tinh thần đoàn kết với tất cả những người tiến bộ trên thế giới.",
+  "answer_optionC": "Tinh thần đoàn kết với các dân tộc bị áp bức.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 256. Theo Hồ Chí Minh, giáo dục đạo đức mới phải được tiến hành như thế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "256",
+  "answer_optionA": "Phù hợp với từng giai đoạn cách mạng, lứa tuổi, ngành nghề, giai cấp, tầng lớp,",
+  "answer_optionB": "Phù hợp với từng môi trường khác nhau.",
+  "answer_optionC": "Phù hợp với từng lứa tuổi, ngành nghề, giai cấp, tầng lớp.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Nền dân chủ xã hội chủ nghĩa là nền dân chủ:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Mọi quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ",
+  "answer_optionB": "Dân chủ và pháp luật nm trong sự thống nhất biện chứng",
+  "answer_optionC": "Được thực hiện bng nhà nước pháp quyền xã hội chủ nghĩa đặt dưới sự lãnh đạo của Đảng Cộng sản",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Nền dân chủ xã hội chủ nghĩa là nền dân chủ cao hơn về chất so với nền dân chủ tư sản ở điểm nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Mọi quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ",
+  "answer_optionB": "Dân chủ và pháp luật nm trong sự thống nhất biện chứng",
+  "answer_optionC": "Được thực hiện bng nhà nước pháp quyền xã hội chủ nghĩa đặt dưới sự lãnh đạo của Đảng Cộng sản",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, có bản chất khác với bản chất của các kiểu nhà nước bóc lột trong lịch sử. Tính ưu việt về mặt bản chất của nhà nước xã hội chủ nghĩa được thể hiện như thế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Nhà nước xã hội chủ nghĩa mang bản chất của giai cấp công nhân, giai cấp có lợi ích phù hợp với lợi ích chung của quần chúng nhân dân lao động",
+  "answer_optionB": "Bản chất của nhà nước xã hội chủ nghĩa chịu sự quy định của cơ sở kinh tế của xã hội xã hội chủ nghĩa, đó là chế độ sở hữu xã hội về tư liệu sản xuất chủ yếu",
+  "answer_optionC": "Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng tinh thần là lý luận của chủ nghĩa Mác – Lênin và những giá trị văn hóa tiên tiến, tiến bộ của nhân loại, đồng thời mang những bản sắc riêng của dân tộc",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Vì sao phải thực hiện thủ tục pháp lý trong hôn nhân?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "Vì nó thể hiện sự tôn trọng trong tình yêu, trách nhiệm giữa nam và nữ, trách nhiệm của cá nhân đối với gia đình, xã hội và ngược lại",
+  "answer_optionB": "Vì đây là biện pháp ngăn chặn những cá nhân lợi dụng quyền tự do kết hôn, tự do ly hôn để thỏa mãn những nhu cầu không chính đáng",
+  "answer_optionC": "Vì nó là cơ sở để bảo vệ hạnh phúc cá nhân và gia đình",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Sự biến đổi của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội thể hiện như thế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Biến đổi quy mô, kết cấu của gia đình",
+  "answer_optionB": "Biến đổi trong thực hiện các chức năng của gia đình",
+  "answer_optionC": "Biến đổi trong các mối quan hệ gia đình",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Gia đình văn hóa là một mô hình gia đình tiến bộ mà nhiều gia đình Việt Nam hướng đến đó là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Gia đình ấm no, hòa thuận, tiến bộ, khỏe mạnh và hạnh phúc; thực hiện tốt nghĩa vụ công dân",
+  "answer_optionB": "Thực hiện kế hoạch hóa gia đình",
+  "answer_optionC": "Đoàn kết tương trợ trong cộng đồng dân cư",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Trong xã hội hiện đại, độ bền vững của gia đình Việt Nam phụ thuộc vào những yếu tố nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Sự ràng buộc của các mối quan hệ về trách nhiệm, nghĩa vụ giữa vợ và chồng; cha mẹ và con cái",
+  "answer_optionB": "Sự hy sinh lợi ích cá nhân cho lợi ích gia đình, các mối quan hệ hòa hợp tình cảm giữa chồng và vợ; cha mẹ và con cái",
+  "answer_optionC": "Sự đảm bảo hạnh phúc cá nhân, sinh hoạt tự do, chính đáng của mỗi thành viên gia  đình trong cuộc sống chung.",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Gia đình là một cộng đồng người đặc biệt, được hình thành, duy trì và củng cố chủ yếu dựa trên cơ sở nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Quan hệ hôn nhân",
+  "answer_optionB": "Quan hệ nuôi dưỡng, cùng với những quy định về quyền và nghĩa vụ của các thành viên trong gia đình",
+  "answer_optionC": "Quan hệ huyết thống",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Trong khoa học tự nhiên những phát minh vạch thời đại trong vật lý và sinh  học nào đã làm tiền đề khoa học cho sự ra đời của Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Học thuyết tiến hóa",
+  "answer_optionB": "Định luật bảo toàn và chuyển hóa năng lượng",
+  "answer_optionC": "Học thuyết tế bào",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Trong khoa học xã hội những thành tựu nào đã làm tiền đề lý luận cho sự ra đời của Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "13",
+  "answer_optionA": "Triết học cổ điển Đức",
+  "answer_optionB": "Kinh tế chính trị học cổ điển Anh",
+  "answer_optionC": "Chủ nghĩa không tưởng phê phán Anh, Pháp",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Phát hiện nào sau đây là của C.Mác và Ph.Ăngghen?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "MCQ13",
+  "answer_optionA": "Chủ nghĩa duy vật lịch sử",
+  "answer_optionB": "Học thuyết giá trị thặng dư",
+  "answer_optionC": "Sứ mệnh lịch sử của giai cấp công nhân",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Những điều kiện thuộc về nhân tố chủ quan để giai cấp công nhân hoàn thành sứ mệnh lịch sử của mình là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MCQ25",
+  "answer_optionA": "Sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng",
+  "answer_optionB": "Đảng Cộng sản",
+  "answer_optionC": "Sự liên minh giai cấp giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác do giai cấp công nhân thông qua đội tiên phong của nó là Đảng Cộng sản lãnh đạo",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Chủ nghĩa duy vật bao gồm trường phái nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "27",
+  "answer_optionA": "Chú nghĩa duy vật cổ đại.",
+  "answer_optionB": "Chủ nghĩa duy vật siêu hình.",
+  "answer_optionC": "Chủ nghĩa duy vật biện chứng.",
+  "answer_optionD": "Cả ba phán đoán kia đều đúng."
+ },
+ {
+  "question": "Từ định nghĩa vật chất của V.I.Lênin chúng ta rút ra được ý nghĩa phương pháp luận gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "42",
+  "answer_optionA": "Khắc phục những thiếu sót trong các quan điểm siêu hình, máy móc về vật chất, giải quyết triệt để  vấn đề cơ bản của triết học.",
+  "answer_optionB": "Định hướng cho sự phát triển của khoa học.",
+  "answer_optionC": "Là cơ sở để xác định vật chất xã hội, để luận giải nguyên nhân cuối cùng của mọi biến đổi xã hội.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Chủ nghĩa duy tâm quan niệm như thế nào về nguồn gốc của ý thức?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Ý thức là nguyên thể đầu tiên, tồn tại vĩnh viễn, là nguyên nhân sinh thành, chi phối sự tồn tại, biến đổi của toàn bộ thế giới vật chất.",
+  "answer_optionB": "Tuyệt đối hoá vai trò của lý tinh, khẳng định thế giới \"ý niệm\", hay \"ý niệm tuyệt đối\" là bản thể, sinh ra toàn bộ thế giới hiện thực.",
+  "answer_optionC": "Tuyệt đối hoá vai trò của cảm giác, coi cảm giác là tồn tại duy nhất, \"tiên thiên\", sản sinh ra thế giới vật chất.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Chủ nghĩa duy vật siêu hình quan niệm như thế nào về nguồn gốc của ý thức?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Phủ nhận tính chất siêu tự nhiên của ý thức, tinh thần.",
+  "answer_optionB": "Xuất phát từ thế giới hiện thực để lý giải nguồn gốc của ý thức.",
+  "answer_optionC": "Đồng nhất ý thức với vật chất, coi ý thức cũng chỉ là một dạng vật chất đặc biệt, do vật chất sản sinh ra.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Theo quan điểm duy vật biện chứng, ý thức tác động trở lại vật chất thông qua:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Sự suy nghĩ của con người.",
+  "answer_optionB": "Hoạt động thực tiễn.",
+  "answer_optionC": "Hoạt động lý luận.",
+  "answer_optionD": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "question": "Nội dung cơ bản của phép biện chứng duy vật gồm những gi?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Hai nguyên lý cơ bản.",
+  "answer_optionB": "Các cặp pham trù co bản thể hiện mối liên hệ phổ biến, tồn tại ở moi sự vật, hiện tượng, quả trình của thế giới.",
+  "answer_optionC": "Các quy luật cơ bản thể hiện sự vận động và phát triển của các sự vật, hiện tượng, quá trình.",
+  "answer_optionD": "Cá 3 phán doán kia đều đúng."
+ },
+ {
+  "question": "“Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam”. Những vấn đề cơ bản của cách mạng Việt Nam là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Lực lượng cách mạng.",
+  "answer_optionB": "Phương pháp cách mạng.",
+  "answer_optionC": "Mục tiêu, nhiệm vụ cách mạng.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Thống nhất tính Đảng và tính khoa học.",
+  "answer_optionB": "Thống nhất lý luận và thực tiễn.",
+  "answer_optionC": "Quan điểm lịch sử - cụ thể; quan điểm toàn diện và hệ thống.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 15. Ý nghĩa của việc học tập môn học Tư tưởng Hồ Chí Minh là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "MCHCM004",
+  "answer_optionA": "Góp phần nâng cao năng lực tư duy lý luận.",
+  "answer_optionB": "Củng cố niềm tin khoa học gắn với trau dồi tình cảm cách mạng, bồi dưỡng lòng yêu nước.",
+  "answer_optionC": "Xây dựng, rèn luyện phương pháp và phong cách công tác.",
+  "answer_optionD": "Cả ba phương án kia đều đúng"
+ },
+ {
+  "question": "Câu 29. Tư tưởng Hồ Chí Minh đối với sự phát triển cách mạng thế giới:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "MCHCM018",
+  "answer_optionA": "Phản ánh khát vọng thời đại.",
+  "answer_optionB": "Tìm ra các giải pháp đấu tranh giải phóng các nước thuộc địa.",
+  "answer_optionC": "Cổ vũ các dân tộc đấu tranh vì những mục tiêu cao cả.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 34. Cơ sở khách quan hình thành tư tưởng Hồ Chí Minh?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "MCHCM023",
+  "answer_optionA": "Xã hội Việt Nam nửa cuối thế kỷ XIX, đầu thế kỷ XX.",
+  "answer_optionB": "Chủ nghĩa tư bản chuyển từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền (Chủ nghĩa đế quốc).",
+  "answer_optionC": "Cách mạng vô sản Nga (1917) thắng lợi và Quốc tế Cộng sản thành lập (3/1919).",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Thực chất của vấn đề dân tộc thuộc địa trong tư tưởng Hồ Chí Minh là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "Lựa chọn con đường phát triển của dân tộc.",
+  "answer_optionB": "Đấu tranh chống chủ nghĩa thực dân, giải phóng dân tộc.",
+  "answer_optionC": "Cả hai đáp án kia đều sai.",
+  "answer_optionD": "Cả hai đáp án kia đều đúng."
+ },
+ {
+  "question": "Câu 71. Theo Hồ Chí Minh, giải phóng dân tộc là nhiệm vụ hàng đầu của cách mạng ở các nước thuộc địa vì:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "MCQ010",
+  "answer_optionA": "A. Giải phóng dân tộc là tiền đề để giải phóng giai cấp.",
+  "answer_optionB": "B. Mâu thuẫn giữa dân tộc và đế quốc gay gắt hơn mâu thuẫn giữa các giai cấp với nhau.",
+  "answer_optionC": "C. Trong giải phóng dân tộc đã bao hàm một phần giải phóng giai cấp.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Quan điểm của Hồ Chí Minh về động lực xây dựng chủ nghĩa xã hội ở Việt Nam là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Động lực bên trong.",
+  "answer_optionB": "Động lực bên ngoài.",
+  "answer_optionC": "Ngăn ngừa “giặc nội xâm” là tham ô, lãng phí, quan liêu, các yếu tố kìm hãm, triệt tiêu nguồn lực vốn có của chủ nghĩa xã hội.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Quan điểm của Hồ Chí Minh về động lực quan trọng và quyết định xây dựng chủ nghĩa xã hội ở Việt Nam là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Sức mạnh thời đại, của tinh thần đoàn kết quốc tế.",
+  "answer_optionB": "Sức mạnh của các thành quả khoa học - kỹ thuật thế giới.",
+  "answer_optionC": "Sức mạnh vật chất và tinh thần của con người, của nhân dân lao động mà nòng cốt là công - nông - trí thức.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Ngày 24/4/1957, khi nói chuyện với cán bộ, công nhân nhà máy dệt Nam Định, Hồ Chí Minh cho rằng: “Chế độ làm khoán là một điều kiện của chủ nghĩa xã hội, nó khuyến khích người công nhân luôn luôn tiến bộ, cho nhà máy tiến bộ. Làm khoán là ……”. Chọn phương án đúng điền vào chỗ trống.",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Tạo điều kiện phát triển sản xuất.",
+  "answer_optionB": "Ích chung và lại lợi riêng.",
+  "answer_optionC": "Tăng năng xuất lao động.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, biện pháp để tiến hành xây dựng chủ nghĩa xã hội ở Việt Nam là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "13",
+  "answer_optionA": "Thực hiện cải tạo xã hội cũ, xây dựng xã hội mới, kết hợp cải tạo với xây dựng, lấy xây dựng làm chính.",
+  "answer_optionB": "Kết hợp xây dựng và bảo vệ, đồng thời tiến hành hai nhiệm vụ chiến lược ở hai miền Nam - Bắc khác nhau trong phạm vi một quốc gia.",
+  "answer_optionC": "Biện pháp cơ bản, quyết định, lâu dài trong xây dựng chủ nghĩa xã hội là đem của dân, tài dân, sức dân, làm lợi cho dân dưới sự lãnh đạo của Đảng.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, cách mạng Việt Nam cần phải có Đảng để làm gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Xác định đường lối cách mạng đúng đắn và phương pháp cách mạng thích hơp.",
+  "answer_optionB": "Tổ chức dân chúng thực hiện đường lối, cách mạng do Đảng đề ra.",
+  "answer_optionC": "Gắn cách mạng Việt Nam với cách mạng thế giới nhằm tạo sức mạnh tổng hợp cho cách mạng Việt Nam.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 123. Theo Hồ Chí Minh, Đảng lãnh đạo Nhà nước bằng phương thức nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "123",
+  "answer_optionA": "Đường lối, chủ trương.",
+  "answer_optionB": "Công tác kiểm tra.",
+  "answer_optionC": "Qua các tổ chức Đảng, đảng viên trong bộ máy Nhà nước.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 132. Theo Hồ Chí Minh, Nhà nước có hiệu lực pháp lý mạnh mẽ là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "132",
+  "answer_optionA": "Nhà nước quản lý xã hội chủ yếu bằng pháp luật.",
+  "answer_optionB": "Nhà nước hợp pháp, hợp hiến.",
+  "answer_optionC": "Nhà nước chú trọng đưa pháp luật vào cuộc sống.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 133. Theo Hồ Chí Minh, Nhà nước thể hiện quyền là chủ và làm chủ của nhân dân thì Nhà nước đó phải là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "133",
+  "answer_optionA": "Do dân",
+  "answer_optionB": "Vì Dân.",
+  "answer_optionC": "Của dân",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 135. Để xây dựng Nhà nước trong sạch, hoạt động có hiệu quả, Hồ Chí Minh chủ trương:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "135",
+  "answer_optionA": "Xây dựng đội ngũ cán bộ, công chức đủ đức và tài.",
+  "answer_optionB": "Tăng cường tính nghiêm minh của pháp luật đi đôi với đẩy mạnh giáo dục đạo đức cách mạng.",
+  "answer_optionC": "Đề phòng và khắc phục những tiêu cực trong hoạt động của Nhà nước.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 139. Mục đích của tổng tuyển cử trong cả nước theo chế độ phổ thông đầu phiếu năm 1946 là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "139",
+  "answer_optionA": "Để nhà nước ta có cơ sở pháp lý vững chắc trong quan hệ với quân Đồng Minh.",
+  "answer_optionB": "Để có mối quan hệ quốc tế bình đẳng về mặt nhà nước.",
+  "answer_optionC": "Để có thể thiết lập một cơ chế quyền lực hợp pháp theo thông lệ quốc tế.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 144. Mục đích của tổng tuyển cử trong cả nước theo chế độ phổ thông đầu phiếu năm 1946 là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "144",
+  "answer_optionA": "Để nhà nước ta có cơ sở pháp lý vững chắc trong quan hệ với quân Đồng minh.",
+  "answer_optionB": "Để có mối quan hệ quốc tế bình đẳng về mặt nhà nước.",
+  "answer_optionC": "Để có thể thiết lập một cơ chế quyền lực hợp pháp theo thông lệ quốc tế.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 160. Hồ Chí Minh nhấn mạnh: muốn đoàn kết chặt chẽ trong Đảng thì phải làm gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "160",
+  "answer_optionA": "Tự phê bình và phê bình.",
+  "answer_optionB": "Mở rộng dân chủ nội bộ.",
+  "answer_optionC": "Chống lại chủ nghĩa cá nhân và các biểu hiện tiêu cực.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 161. Theo Hồ Chí Minh, là người lãnh đạo, Đảng phải có những phẩm chất",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "161",
+  "answer_optionA": "Tư cách, phẩm chất, năng lực cần thiết.",
+  "answer_optionB": "Phải làm cho dân tin, dân phục để dân theo.",
+  "answer_optionC": "Tư cách, phẩm chất, năng lực cần thiết.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 164. Cơ sở hình thành tư tưởng Hồ Chí Minh về đại đoàn kết dân tộc bao gồm những yếu tố nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "POLITICAL_VN_164",
+  "answer_optionA": "Truyền thống yêu nước, nhân ái, tinh thần cố kết cộng đồng dân tộc.",
+  "answer_optionB": "Quan điểm của chủ nghĩa Mác - Lênin: cách mạng là sự nghiệp của quần chúng.",
+  "answer_optionC": "Tổng kết những kinh nghiệm thành công và thất bại của các phong trào yêu nước, phong trào cách mạng Việt Nam và cách mạng thế giới.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 175. Theo quan điểm của Hồ Chí Minh, sức mạnh dân tộc bao gồm yếu tố chủ yếu nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "POLITICAL_VN_175",
+  "answer_optionA": "Ý thức tự lực, tự cường.",
+  "answer_optionB": "Chủ nghĩa yêu nước.",
+  "answer_optionC": "Tinh thần đoàn kết.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 180. Sức mạnh đoàn kết quốc tế trong tư tưởng Hồ Chí Minh, bao gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "POLITICAL_VN_180",
+  "answer_optionA": "Sức mạnh của giai cấp vô sản, cách mạng vô sản và các đảng cộng sản trên thế",
+  "answer_optionB": "Sức mạnh liên minh chiến đấu giữa lao động ở các nước thuộc địa và lao động thuộc địa với vô sản chính quốc.",
+  "answer_optionC": "Sức mạnh của ba dòng thác cách mạng và tiến bộ khoa học công nghệ.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, để lãnh đạo Mặt trận dân tộc thống nhất, Đảng phải làm gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "187",
+  "answer_optionA": "Có năng lực lãnh đạo.",
+  "answer_optionB": "Có chính sách đúng đắn.",
+  "answer_optionC": "Có phương châm đúng đắn.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, văn hóa là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "211",
+  "answer_optionA": "Những sáng tạo và phát minh của loài người về ngôn ngữ, chữ viết, đạo đức, pháp luật, khoa học, tôn giáo, văn học, nghệ thuật.",
+  "answer_optionB": "Những công cụ cho sinh hoạt hằng ngày về mặc, ăn, ở do loài người sáng tạo và phát minh ra.",
+  "answer_optionC": "Những sáng tạo và phát minh của loài người về các phương thức sử dụng.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 213. Định nghĩa văn hóa của Hồ Chí Minh đã khắc phục được quan niệm phiến diện nào sau đây?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC213",
+  "answer_optionA": "Đồng nhất văn hóa với văn học nghệ thuật.",
+  "answer_optionB": "Coi văn hóa là hiện tượng thuần túy tinh thần.",
+  "answer_optionC": "Đồng nhất văn hóa với học vấn.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 226. Trong tư tưởng Hồ Chí Minh về đạo đức, LIÊM nghĩa là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC226",
+  "answer_optionA": "Không tham tiền tài, không tham sung sướng.",
+  "answer_optionB": "Không ham người tâng bốc mình.",
+  "answer_optionC": "Không tham địa vị.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 229. Theo Hồ Chí Minh, ở đời và làm người thì phải:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC229",
+  "answer_optionA": "Thương dân.",
+  "answer_optionB": "Yêu nước.",
+  "answer_optionC": "Thương nhân loại bị áp bức.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 235. Theo tư tưởng Hồ Chí Minh, “tinh thần quốc tế trong sáng” được hiểu như thế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC235",
+  "answer_optionA": "Tinh thần đoàn kết quốc tế vô sản.",
+  "answer_optionB": "Tinh thần đoàn kết với các dân tộc bị áp bức, với nhân dân lao động các nước.",
+  "answer_optionC": "Tinh thần đoàn kết với các lực lượng tiến bộ trên thế giới.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 243. Nội dung xây dựng con người xã hội chủ nghĩa theo tư tưởng Hồ Chí Minh gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "MCQ243",
+  "answer_optionA": "A. Có ý thức làm chủ, tinh thần tập thể xã hội chủ nghĩa và tư tưởng “mình vì mọi người, mọi người vì mình”.",
+  "answer_optionB": "B. Cần kiệm xây dựng đất nước, hăng hái bảo vệ Tổ quốc; Có lòng yêu nước nồng nàn, tinh thần quốc tế trong sáng.",
+  "answer_optionC": "C. Có phương pháp làm việc khoa học, phong cách quần chúng, dân chủ, nêu gương.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 244. Theo Hồ Chí Minh, tinh thần quốc tế trong sáng được hiểu là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "MCQ244",
+  "answer_optionA": "A. Tinh thần đoàn kết quốc tế vô sản.",
+  "answer_optionB": "B. Tinh thần đoàn kết với tất cả những người tiến bộ trên thế giới.",
+  "answer_optionC": "C. Tinh thần đoàn kết với các dân tộc bị áp bức.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 256. Theo Hồ Chí Minh, giáo dục đạo đức mới phải được tiến hành như thế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "MCQ256",
+  "answer_optionA": "A. Phù hợp với từng giai đoạn cách mạng, lứa tuổi, ngành nghề, giai cấp, tầng lớp,",
+  "answer_optionB": "B. Phù hợp với từng môi trường khác nhau.",
+  "answer_optionC": "C. Phù hợp với từng lứa tuổi, ngành nghề, giai cấp, tầng lớp.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Nguyên tắc giao kết hợp đồng lao động là?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Tự nguyện",
+  "answer_optionB": "Thỏa thuận",
+  "answer_optionC": "Bình đẳng",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "271. Người sử dụng lao động có nghĩa vụ?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "a) Thực hiện đúng hợp đồng lao động",
+  "answer_optionB": "b) Bảo đảm an toàn lao động cho người lao động",
+  "answer_optionC": "c) Tôn trọng nhân phẩm của người lao động",
+  "answer_optionD": "d) Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Xuất khẩu tư bản là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Đầu tư trực tiếp ra nước ngoài",
+  "answer_optionB": "Cho nước ngoài vay",
+  "answer_optionC": "Mang hàng hóa ra nước ngoài để thực hiện giá trị",
+  "answer_optionD": "Cả a và b"
+ },
+ {
+  "question": "Hiện nay ở Việt Nam, nhà nước sử dụng các công cụ gì để điều tiết vĩ mô kinh tế thị trường?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Hệ thống pháp luật",
+  "answer_optionB": "Kế hoạch hóa  tín dụng xuất khẩu, trợ cấp xuất khẩu",
+  "answer_optionC": "Tỷ giá hối đoái, hạn ngạch",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Các công cụ để nhà nước điều tiết hoạt động kinh tế đối ngoại là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Thuế xuất nhập khẩu",
+  "answer_optionB": "Đảm bảo tín dụng xuất khẩu, trợ cấp xuất khẩu",
+  "answer_optionC": "Tỷ giá hối đoái, hạn ngạch",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Xác định các câu trả lời đúng về sự điều tiết vĩ mô của nhà nước lànhằm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Hạn chế tác động tiêu cực của cơ chế thị trường",
+  "answer_optionB": "Phát huy tác động tích cực của cơ chế thị trường",
+  "answer_optionC": "Đảm bảo cho nền kinh tế hoạt động có hiệu quả",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Trong thời kỳ quá độ ở nước ta tồn tại nhiều nguyên tắc phân phối.Vì trong thời kỳ quá độ còn:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Nhiều hình thức sở hữu TLSX",
+  "answer_optionB": "Nhiều hình thức kinh doanh",
+  "answer_optionC": "Nhiều thành phần kinh tế",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Nội dung cơ bản của cuộc cách mạng công nghiệp lần thứ 4 được xác định là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "7",
+  "answer_optionA": "Về vật lý với công nghệ nội bật in 3D",
+  "answer_optionB": "Về công nghệ số với những công nghệ nổi bật là Internet kết nối vạn vật, dữ liệu lớn, trí thông minh nhân tạo",
+  "answer_optionC": "Về công nghệ sinh học với công nghệ nổi bật là gen và tế bào",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Vai trò cơ bản của các cuộc cách mạng cọng nghiệp trong lịch sử:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Thúc đẩy sự phát triển của lực lượng sản xuất",
+  "answer_optionB": "Thúc đẩy hoàn thiện quan hệ sản xuất",
+  "answer_optionC": "Thúc đẩy đổi mới phương thức quản trị phát triển",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Hoạt động áp dụng pháp luật được tiến hành trong các trường hợp?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Khi cần áp dụng các biện pháp cưỡng chế Nhà nước đối với những chủ thể có hành vi vi phạm pháp luật.",
+  "answer_optionB": "Khi cần có sự tham gia của Nhà nước để làm phát sinh quyền và nghĩa vụ pháp lý của các chủ thể pháp luật.",
+  "answer_optionC": "Khi xảy ra tranh chấp về quyền và nghĩa vụ pháp lý giữa các bên tham gia quan hệ pháp luật mà các bên không tự giải quyết được.",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Quyết định áp dụng pháp luật?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "20",
+  "answer_optionA": "Nội dung phải đúng thẩm quyền cơ quan và người ký (ban hành) phải là người có thẩm quyền ký",
+  "answer_optionB": "Phải phù hợp với văn bản của cấp trên",
+  "answer_optionC": "Phải phù hợp với lợi ích của Nhà nước và lợi ích hợp pháp của công dân",
+  "answer_optionD": "Tất cả các phương án đều đúng"
+ },
+ {
+  "question": "Nguyên nhân của vi phạm pháp luật?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "192",
+  "answer_optionA": "Mâu thuẫn giữa quan hệ sản xuất và lực lượng sản xuất",
+  "answer_optionB": "Tàn dư, tập tục đã lỗi thời của xã hội cũ còn rơi rớt lại",
+  "answer_optionC": "Trình độ dân trí và ý thức pháp luật thấp của nhiều tầng lớp dân cư",
+  "answer_optionD": "Tất cả các phương án đều đúng"
+ },
+ {
+  "question": "Luật Hiến pháp là một ngành luật chủ đạo trong hệ thống pháp luật Việt Nam vì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "218",
+  "answer_optionA": "Do Quốc hội - cơ quan quyền lực Nhà nước cao nhất ban hành",
+  "answer_optionB": "Quy định về những vấn đề cơ bản nhất, quan trọng nhất của Nhà nước",
+  "answer_optionC": "Có giá trị pháp lý cao nhất",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Các quan hệ xã hội cơ bản được Luật Hiến pháp điều chỉnh là?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "227",
+  "answer_optionA": "Chế độ chính trị",
+  "answer_optionB": "Chế độ kinh tế, văn hóa, xã hội, giáo dục, khoa học, công nghệ...",
+  "answer_optionC": "Quyền và nghĩa vụ cơ bản của công dân, tổ chức và hoạt động của bộ máy Nhà nước",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Vị trí của Chủ tịch nước Cộng hòa XHCN Việt Nam?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "233",
+  "answer_optionA": "Là nguyên thủ quốc gia, có quyền quyết định những vấn đề quan trọng nhất của đất nước",
+  "answer_optionB": "Là người đứng đầu Nhà nước",
+  "answer_optionC": "Thay mặt Nhà nước về đối nội và đối ngoại",
+  "answer_optionD": "Cả b và c"
+ },
+ {
+  "question": "Đặc điểm cơ bản của vi phạm hành chính?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "242",
+  "answer_optionA": "Hành vi trái pháp luật xâm phạm các quy tắc quản lý Nhà nước",
+  "answer_optionB": "Hành vi có lỗi do cá nhân, tổ chức thực hiện",
+  "answer_optionC": "Hành vi đó không phải là tội phạm và theo quy định của pháp luật phải bị xử lý hành chính",
+  "answer_optionD": "Cả a, b, c"
+ },
+ {
+  "question": "Trường hợp nào sau đây không bị xử lý vi phạm hành chính?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "243",
+  "answer_optionA": "Phòng vệ chính đáng, tình thế cấp thiết",
+  "answer_optionB": "Vi phạm khi đang mắc các chứng bệnh làm mất khả năng nhận thức cũng như khả năngđiều khiển hành vi",
+  "answer_optionC": "Sự kiện bất ngờ",
+  "answer_optionD": "Cả a, b, c"
+ },
+ {
+  "question": "Đối tượng điều chỉnh của Luật Lao động?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "249",
+  "answer_optionA": "Quan hệ lao động",
+  "answer_optionB": "Quan hệ việc làm",
+  "answer_optionC": "Các quan hệ liên quan đến quan hệ lao động",
+  "answer_optionD": "Cả a và c"
+ },
+ {
+  "question": "Hợp đồng lao động phải có nội dung chủ yếu nào sau đây?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "254",
+  "answer_optionA": "Công việc phải làm, thời giờ làm việc, nghỉ ngơi",
+  "answer_optionB": "Tiền lương, địa điểm làm việc, thời hạn hợp đồng",
+  "answer_optionC": "Điều kiện về an toàn lao động, vệ sinh lao động và bảo hiểm xã hội đối với người lao động",
+  "answer_optionD": "Cả a, b, c"
+ },
+ {
+  "question": "Quy phạm pháp luật tồn tại trong xã hội nào?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "87",
+  "answer_optionA": "Xã hội có giai cấp",
+  "answer_optionB": "Xã hội có Nhà nước",
+  "answer_optionC": "Các đáp án đều đúng",
+  "answer_optionD": "Xã hội có tư hữu"
+ },
+ {
+  "question": "Cấu trúc của hệ thống pháp luật được thể hiện?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "103",
+  "answer_optionA": "Cấu trúc bên trong gồm: quy phạm pháp luật, chế định pháp luật và ngành luật",
+  "answer_optionB": "Cấu trúc bên trong và hình thức biểu hiện bên ngoài",
+  "answer_optionC": "Hệ thống các văn bản do cơ quan nhà nước có thẩm quyền ban hành",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Tiêu chuẩn xác định một hệ thống pháp luật hoàn thiện là?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "111",
+  "answer_optionA": "Tính toàn diện, tính đồng bộ",
+  "answer_optionB": "Tính phù hợp",
+  "answer_optionC": "Trình độ kỹ thuật pháp lý cao",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Các cơ quan được phép ban hành Nghị quyết?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "113",
+  "answer_optionA": "Quốc hội; Ủy ban Thường vụ Quốc hội",
+  "answer_optionB": "Chính phủ, Quốc hội",
+  "answer_optionC": "Quốc hội; Hội đồng nhân dân",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Một hệ thống pháp luật hoàn thiện được xác định dựa trên các tiêu chí nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "123",
+  "answer_optionA": "Tính thống nhất, tính toàn diện, tính phù hợp",
+  "answer_optionB": "Tính toàn diện, tính đồng bộ, tính phù hợp, trình độ kỹ thuật pháp lý cao",
+  "answer_optionC": "Tính đầy đủ, tính hợp lý, tính thống nhất, trình độ kỹ thuật pháp lý cao",
+  "answer_optionD": "Cả a, c đều đúng"
+ },
+ {
+  "question": "Câu 20: Trong xã hội hiện đại, độ bền vững của gia đình Việt Nam phụ thuộc vào những yếu tố nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "Sự ràng buộc của các mối quan hệ về trách nhiệm, nghĩa vụ giữa vợ và chồng; cha mẹ và con cái",
+  "answer_optionB": "Sự hy sinh lợi ích cá nhân cho lợi ích gia đình, các mối quan hệ hòa hợp tình cảm giữa chồng và vợ; cha mẹ và con cái",
+  "answer_optionC": "Sự đảm bảo hạnh phúc cá nhân, sinh hoạt tự do, chính đáng của mỗi thành viên gia  đình trong cuộc sống chung.",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 21: Gia đình là một cộng đồng người đặc biệt, được hình thành, duy trì và củng cố chủ yếu dựa trên cơ sở nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Quan hệ hôn nhân",
+  "answer_optionB": "Quan hệ nuôi dưỡng, cùng với những quy định về quyền và nghĩa vụ của các thành viên trong gia đình",
+  "answer_optionC": "Quan hệ huyết thống",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "141. Khi nghiên cứu về năng lực chủ thể của quan hệ pháp luật, thì khẳng định nào sauđây là đúng?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "a) Cá nhân có năng lực pháp luật thì cũng có năng lực hành vi",
+  "answer_optionB": "b) Cá nhân có năng lực hành vi thì cũng có năng lực pháp luật",
+  "answer_optionC": "c) Cá nhân không có năng lực hành vi thì cũng không có năng lực pháp luật",
+  "answer_optionD": "d) Cả a, b, c đều đúng"
+ },
+ {
+  "question": "143. Một tổ chức có tư cách pháp nhân khi có điều kiện?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "a) Được thành lập hợp pháp, có cơ cấu tổ chức chặt chẽ",
+  "answer_optionB": "b) Có tài sản độc lập với cá nhân, tổ chức khác",
+  "answer_optionC": "c) Nhân danh mình tham gia các quan hệ pháp luật một cách độc lập",
+  "answer_optionD": "d) Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Khi nghiên cứu về quyền chủ thể trong quan hệ pháp luật, thì khẳng định nào sau đây là đúng?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "145",
+  "answer_optionA": "Khả năng được lựa chọn những xử sự theo ý muốn chủ quan của mình",
+  "answer_optionB": "Khả năng yêu cầu các chủ thể khác thực hiện nghĩa vụ để bảo đảm việc thực hiện quyền của mình",
+  "answer_optionC": "Khả năng yêu cầu cơ quan Nhà nước có thẩm quyền bảo vệ quyền của mình khi bị phía chủ thể bên kia vi phạm",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Nghĩa vụ pháp lý của chủ thể gồm có?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "146",
+  "answer_optionA": "Chủ thể phải tiến hành một số hành vi nhất định do pháp luật quy định",
+  "answer_optionB": "Chủ thể phải tự kiềm chế, không được thực hiện một số hành vi nhất định",
+  "answer_optionC": "Chủ thể phải chịu trách nhiệm pháp lý khi không thực hiện theo cách xử sự bắt buộc mà pháp luật đã quy định",
+  "answer_optionD": "Cả a, b, c đều đúng"
+ },
+ {
+  "question": "Bản chất giai cấp của nhà nước được thể hiện?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Nhà nước là công cụ bảo vệ lợi ích của nhân dân lao động",
+  "answer_optionB": "Nhà nước là một bộ máy trấn áp đặc biệt của giai cấp này đối với giai cấp khác",
+  "answer_optionC": "Nhà nước là công cụ để tổ chức, quản lý xã hội",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Viêm da cơ địa thường tái phát khi:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Dermatology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "31",
+  "answer_optionA": "Nhiễm khuẩn da",
+  "answer_optionB": "Nhiễm nấm da",
+  "answer_optionC": "Nhiễm virus da",
+  "answer_optionD": "Cả 3 phương án (1) (2) (3) đều đúng"
+ },
+ {
+  "question": "Câu 6. “Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam”. Những vấn đề cơ bản của cách mạng Việt Nam là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "POLSCI9",
+  "answer_optionA": "Lực lượng cách mạng.",
+  "answer_optionB": "Phương pháp cách mạng.",
+  "answer_optionC": "Mục tiêu, nhiệm vụ cách mạng.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 7: Nền dân chủ xã hội chủ nghĩa là nền dân chủ:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "POLSCI10",
+  "answer_optionA": "Mọi quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ",
+  "answer_optionB": "Dân chủ và pháp luật n\nab5m trong sự thống nhất biện chứng",
+  "answer_optionC": "Được thực hiện b\nab5ng nhà nước pháp quyền xã hội chủ nghĩa đặt dưới sự lãnh đạo của Đảng Cộng sản",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 9. Phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "POLSCI15",
+  "answer_optionA": "Thống nhất tính Đảng và tính khoa học.",
+  "answer_optionB": "Thống nhất lý luận và thực tiễn.",
+  "answer_optionC": "Quan điểm lịch sử - cụ thể; quan điểm toàn diện và hệ thống.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 13: Nền dân chủ xã hội chủ nghĩa là nền dân chủ cao hơn về chất so với nền dân chủ tư sản ở điểm nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "POLSCI22",
+  "answer_optionA": "Mọi quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ",
+  "answer_optionB": "Dân chủ và pháp luật n\nab5m trong sự thống nhất biện chứng",
+  "answer_optionC": "Được thực hiện b\nab5ng nhà nước pháp quyền xã hội chủ nghĩa đặt dưới sự lãnh đạo của Đảng Cộng sản",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Câu 15. Ý nghĩa của việc học tập môn học Tư tưởng Hồ Chí Minh là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HCM15",
+  "answer_optionA": "Góp phần nâng cao năng lực tư duy lý luận.",
+  "answer_optionB": "Củng cố niềm tin khoa học gắn với trau dồi tình cảm cách mạng, bồi dưỡng lòng yêu nước.",
+  "answer_optionC": "Xây dựng, rèn luyện phương pháp và phong cách công tác.",
+  "answer_optionD": "Cả ba phương án kia đều đúng"
+ },
+ {
+  "question": "Câu 55. Thực chất của vấn đề dân tộc thuộc địa trong tư tưởng Hồ Chí Minh",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "HC55",
+  "answer_optionA": "Lựa chọn con đường phát triển của dân tộc.",
+  "answer_optionB": "Đấu tranh chống chủ nghĩa thực dân, giải phóng dân tộc.",
+  "answer_optionC": "Cả hai đáp án kia đều sai.",
+  "answer_optionD": "Cả hai đáp án kia đều đúng."
+ },
+ {
+  "question": "Câu 92. Quan điểm của Hồ Chí Minh về động lực xây dựng chủ nghĩa xã hội ở Việt Nam là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "92",
+  "answer_optionA": "Động lực bên trong.",
+  "answer_optionB": "Động lực bên ngoài.",
+  "answer_optionC": "Ngăn ngừa “giặc nội xâm” là tham ô, lãng phí, quan liêu, các yếu tố kìm hãm, triệt tiêu nguồn lực vốn có của chủ nghĩa xã hội.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 93. Quan điểm của Hồ Chí Minh về động lực quan trọng và quyết định xây dựng chủ nghĩa xã hội ở Việt Nam là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "93",
+  "answer_optionA": "Sức mạnh thời đại, của tinh thần đoàn kết quốc tế.",
+  "answer_optionB": "Sức mạnh của các thành quả khoa học - kỹ thuật thế giới.",
+  "answer_optionC": "Sức mạnh vật chất và tinh thần của con người, của nhân dân lao động mà nòng cốt là công - nông - trí thức.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 97. Ngày 24/4/1957, khi nói chuyện với cán bộ, công nhân nhà máy dệt Nam Định, Hồ Chí Minh cho rằng: “Chế độ làm khoán là một điều kiện của chủ nghĩa xã hội, nó khuyến khích người công nhân luôn luôn tiến bộ, cho nhà máy tiến bộ. Làm khoán là ……”. Chọn phương án đúng điền vào chỗ trống.",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "97",
+  "answer_optionA": "Tạo điều kiện phát triển sản xuất.",
+  "answer_optionB": "Ích chung và lại lợi riêng.",
+  "answer_optionC": "Tăng năng xuất lao động.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 99. Theo Hồ Chí Minh, biện pháp để tiến hành xây dựng chủ nghĩa xã hội ở Việt Nam là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "99",
+  "answer_optionA": "Thực hiện cải tạo xã hội cũ, xây dựng xã hội mới, kết hợp cải tạo với xây dựng, lấy xây dựng làm chính.",
+  "answer_optionB": "Kết hợp xây dựng và bảo vệ, đồng thời tiến hành hai nhiệm vụ chiến lược ở hai miền Nam - Bắc khác nhau trong phạm vi một quốc gia.",
+  "answer_optionC": "Biện pháp cơ bản, quyết định, lâu dài trong xây dựng chủ nghĩa xã hội là đem của dân, tài dân, sức dân, làm lợi cho dân dưới sự lãnh đạo của Đảng.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 108. Theo Hồ Chí Minh, cách mạng Việt Nam cần phải có Đảng để làm gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1 (Easy)",
+  "regularFormat": true,
+  "questionID": "108",
+  "answer_optionA": "Xác định đường lối cách mạng đúng đắn và phương pháp cách mạng thích hơp.",
+  "answer_optionB": "Tổ chức dân chúng thực hiện đường lối, cách mạng do Đảng đề ra.",
+  "answer_optionC": "Gắn cách mạng Việt Nam với cách mạng thế giới nhằm tạo sức mạnh tổng hợp cho cách mạng Việt Nam.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 123. Theo Hồ Chí Minh, Đảng lãnh đạo Nhà nước bằng phương thức nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "123",
+  "answer_optionA": "A. Đường lối, chủ trương.",
+  "answer_optionB": "B. Công tác kiểm tra.",
+  "answer_optionC": "C. Qua các tổ chức Đảng, đảng viên trong bộ máy Nhà nước.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 132. Theo Hồ Chí Minh, Nhà nước có hiệu lực pháp lý mạnh mẽ là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "132",
+  "answer_optionA": "A. Nhà nước quản lý xã hội chủ yếu bằng pháp luật.",
+  "answer_optionB": "B. Nhà nước hợp pháp, hợp hiến.",
+  "answer_optionC": "C. Nhà nước chú trọng đưa pháp luật vào cuộc sống.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 133. Theo Hồ Chí Minh, Nhà nước thể hiện quyền là chủ và làm chủ của nhân dân thì Nhà nước đó phải là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "133",
+  "answer_optionA": "A. Do dân",
+  "answer_optionB": "B. Vì Dân.",
+  "answer_optionC": "C. Của dân",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 135. Để xây dựng Nhà nước trong sạch, hoạt động có hiệu quả, Hồ Chí Minh chủ trương:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "135",
+  "answer_optionA": "A. Xây dựng đội ngũ cán bộ, công chức đủ đức và tài.",
+  "answer_optionB": "B. Tăng cường tính nghiêm minh của pháp luật đi đôi với đẩy mạnh giáo dục đạo đức cách mạng.",
+  "answer_optionC": "C. Đề phòng và khắc phục những tiêu cực trong hoạt động của Nhà nước.",
+  "answer_optionD": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Mục đích của tổng tuyển cử trong cả nước theo chế độ phổ thông đầu phiếu năm 1946 là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "139",
+  "answer_optionA": "Để nhà nước ta có cơ sở pháp lý vững chắc trong quan hệ với quân Đồng Minh.",
+  "answer_optionB": "Để có mối quan hệ quốc tế bình đẳng về mặt nhà nước.",
+  "answer_optionC": "Để có thể thiết lập một cơ chế quyền lực hợp pháp theo thông lệ quốc tế.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Hồ Chí Minh nhấn mạnh: muốn đoàn kết chặt chẽ trong Đảng thì phải làm gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "160",
+  "answer_optionA": "Tự phê bình và phê bình.",
+  "answer_optionB": "Mở rộng dân chủ nội bộ.",
+  "answer_optionC": "Chống lại chủ nghĩa cá nhân và các biểu hiện tiêu cực.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Theo Hồ Chí Minh, là người lãnh đạo, Đảng phải có những phẩm chất",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "161",
+  "answer_optionA": "Tư cách, phẩm chất, năng lực cần thiết.",
+  "answer_optionB": "Phải làm cho dân tin, dân phục để dân theo.",
+  "answer_optionC": "Tư cách, phẩm chất, năng lực cần thiết.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 243. Nội dung xây dựng con người xã hội chủ nghĩa theo tư tưởng Hồ Chí Minh gồm:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HCM243",
+  "answer_optionA": "Có ý thức làm chủ, tinh thần tập thể xã hội chủ nghĩa và tư tưởng “mình vì mọi người, mọi người vì mình”.",
+  "answer_optionB": "Cần kiệm xây dựng đất nước, hăng hái bảo vệ Tổ quốc; Có lòng yêu nước nồng nàn, tinh thần quốc tế trong sáng.",
+  "answer_optionC": "Có phương pháp làm việc khoa học, phong cách quần chúng, dân chủ, nêu gương.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Câu 244. Theo Hồ Chí Minh, tinh thần quốc tế trong sáng được hiểu là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HCM244",
+  "answer_optionA": "Tinh thần đoàn kết quốc tế vô sản.",
+  "answer_optionB": "Tinh thần đoàn kết với tất cả những người tiến bộ trên thế giới.",
+  "answer_optionC": "Tinh thần đoàn kết với các dân tộc bị áp bức.",
+  "answer_optionD": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "question": "Lưu ý khi dùng thuốc ức chế bơm proton là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Gastroenterology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Uống trước ăn 30 phút hoặc sau ăn 2 giờ",
+  "answer_optionB": "Viên bao tan trong ruột cần uống nguyên viên không nhai",
+  "answer_optionC": "Thận trọng tương tác với warfarin vì làm giảm nồng độ warfarin trong huyết tương",
+  "answer_optionD": "B và C đúng"
+ },
+ {
+  "question": "Chọn câu ĐÚNG về ipratropium?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "Là thuốc ức chế hệ muscarinic",
+  "answer_optionB": "Kém hấp thu qua đường tiêu hóa",
+  "answer_optionC": "Là amin bậc 4 nên không vào hệ TKTW",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Đầu những năm 1900, phong trào yêu nước Việt Nam chịu ảnh hưởng của chủ nghĩa tư sản, tiêu biểu là xu hướng nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "Quốc gia",
+  "answer_optionB": "Cải cách",
+  "answer_optionC": "Bạo động",
+  "answer_optionD": "Cả B và C"
+ },
+ {
+  "question": "Thuận lợi về quốc tế của nước ta sau Cách mạng tháng Tám 1945 là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "6",
+  "answer_optionA": "Liên Xô trở thành thành trì của CNXH",
+  "answer_optionB": "Nhiều nước Đông, Trung Âu đã lựa chọn con đường phát triển theo CNXH",
+  "answer_optionC": "Phong trào giải phóng dân tộc ở các nước thuộc địa dâng cao",
+  "answer_optionD": "Cả A, B, C"
+ },
+ {
+  "question": "Ngọn cờ dẫn đường, động viên toàn đảng, toàn quân, toàn dân ra tiến lên chống TD pháp xâm lược là văn kiện nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Lời kêu gọi toàn quốc kháng chiến",
+  "answer_optionB": "Đường lối kháng chiến của đảng",
+  "answer_optionC": "Chỉ thị toàn dân kháng chiến",
+  "answer_optionD": "Cả a, b"
+ },
+ {
+  "question": "Khó khăn của đất nước ta sau 1975?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "Kinh tế-xã hội còn ở trình độ tháp",
+  "answer_optionB": "Các nc XHCN bốc lột những khó khăn về kt-xh và sự phát triển",
+  "answer_optionC": "Các thế lưucj thù địch bao vây cấm vậnbvaf phá hoại sự phát triển của ta",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Đại hội IV của Đảng (12/1976) đã bộc lộ những hạn chế nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Chưa tổng kết kinh nghiệm 21 năm xây dựng CNXH ở miền Bắc",
+  "answer_optionB": "Chưa phát hiện những khuyết tật của mô hình CNXH bốc lột sau chiến tranh",
+  "answer_optionC": "Dự kiến thời kì kết thúc quá độ và đề ra các chủ trương nóng vội,ko hợp thực tế đất nc",
+  "answer_optionD": "Cả a,b,c"
+ },
+ {
+  "question": "Câu 16: Quyền và nghĩa vụ của công dân trong công tác BVSKND:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Được hưởng chế độ bảo vệ sức khỏe",
+  "answer_optionB": "Giữ gìn sức khỏe cho mình và cho mọi người",
+  "answer_optionC": "Thực hiện nghiệm chỉnh những quy định của pháp luật về BVSKND",
+  "answer_optionD": "Tất cả 3 ý trên đều đúng"
+ },
+ {
+  "question": "Nghiên cứu khoa học là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "32",
+  "answer_optionA": "Phương pháp dựa vào thực tế khách quan để tìm tòi các kiến thức mới",
+  "answer_optionB": "Thu thập, phân tích và lí giải số liệu để giải quyết vấn đề hay trả lời một hỏi",
+  "answer_optionC": "Xem xét các tài liệu, kiến thức sẵn có để tìm ra kiến thức mới",
+  "answer_optionD": "Tất cả các trên đều đúng"
+ },
+ {
+  "question": "Mục đích của nghiên cứu khoa học trong y khoa là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "9",
+  "answer_optionA": "Phát triển kiến thức và kỹ thuật mới",
+  "answer_optionB": "Cung cấp kỹ năng để cải thiện tay nghề",
+  "answer_optionC": "Mang lại sức khỏe tốt hơn cho người dân",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Để đạt được mục đích trong nghiên cứu y tế chúng ta có thể lựa chọn các thiết kế nghiên cứu:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Định tính",
+  "answer_optionB": "Định lượng",
+  "answer_optionC": "Kết hợp định tính và định lượng",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Nội dung hoạt động nghiên cứu khoa học. CHỌN CÂU ĐÚNG:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "24",
+  "answer_optionA": "Xác định vấn đề nghiên cứu",
+  "answer_optionB": "Thiết kế nghiên cứu",
+  "answer_optionC": "Báo cáo nghiên cứu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Trong các đặc điểm sau đây, đặc điểm nào là đặc điểm của hoạt động nghiên cứu khoa học?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Tính mới",
+  "answer_optionB": "Tính mạo hiểm",
+  "answer_optionC": "Tính phi kinh tế",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Cái mới có thể là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "Quan niệm, quan điểm, định lý.",
+  "answer_optionB": "Nguyên lý, phương thức, cách thức",
+  "answer_optionC": "Phương pháp, mô hình, công thức",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Các đặc tính cơ bản của nghiên cứu khoa học là gì?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Quy luật mới",
+  "answer_optionB": "Quan hệ mới",
+  "answer_optionC": "Tìm ra cái mới",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Điểm nào sau đây nói về tính mạo hiểm của hoạt động nghiên cứu khoa học?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Một nghiên cứu có thể thành công",
+  "answer_optionB": "Một nghiên cứu khoa học thất bại sẽ không có ý nghĩa gì",
+  "answer_optionC": "Một nghiên cứu khoa học thất bại sẽ không được lưu trữ và không tổng kết lại",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Đối tượng nghiên cứu cơ bản là:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "132",
+  "answer_optionA": "Người khỏe",
+  "answer_optionB": "Vật thí nghiệm",
+  "answer_optionC": "Người bệnh",
+  "answer_optionD": "a, b đúng"
+ },
+ {
+  "question": "1. Nguyên tắc điều trị lao màng phổi ?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Điều trị đặc hiệu",
+  "answer_optionB": "Điều trị triệu chứng",
+  "answer_optionC": "Vật lý trị liệu",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "4. Chỉ định corticoid trong lao màng phổi ?",
+  "correctAnswer": "optionC",
+  "medicalTopic": [
+   "Pulmonology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "Dịch màng phổi tái lập nhanh",
+  "answer_optionB": "Có sự phản ứng mạnh mẽ của cơ thể khi sốt cao",
+  "answer_optionC": "A,B đều đúng",
+  "answer_optionD": "A,B đều sai"
+ },
+ {
+  "question": "Đặc điểm nào có trong tràn dịch lượng trung bình của thể tràn dịch tự do trong lao màng phổi?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "500-2000ml",
+  "answer_optionB": "Dưới rốn",
+  "answer_optionC": "Đường cong Damoiseau",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Lao màng phổi tràn dịch khu trú ở những vị trí nào?",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "26",
+  "answer_optionA": "Tràn dịch vùng nách",
+  "answer_optionB": "Tràn dịch rãnh liên thùy",
+  "answer_optionC": "Tràn dịch trung thất",
+  "answer_optionD": "Tất cả đều đúng"
+ },
+ {
+  "question": "Chẩn đoán tràn dịch màng phổi khu trú thể trên hoành dựa vào dấu hiệu nào sau đây:",
+  "correctAnswer": "optionD",
+  "medicalTopic": [
+   "Pulmonology",
+   "Radiology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "Jose Remy.",
+  "answer_optionB": "Chiêu cao cơ hoành.",
+  "answer_optionC": "Bề dày cơ hoành.",
+  "answer_optionD": "A và C đều đúng."
+ }
+]

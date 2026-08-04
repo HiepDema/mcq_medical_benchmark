@@ -1,0 +1,17 @@
+# Dữ liệu trung gian (~22 MB) — tái tạo trong vài giây bằng:
+#   python pyline/run.py all
+data/
+
+# Thư mục so sánh khi port Node -> Python
+data_py/
+_tmpcheck/
+
+# Rác tạm
+_fake*.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2688 @@
+[
+ {
+  "questionID": "7",
+  "uid": "q_f1562df380d3bd9a",
+  "sourceIndex": 6,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b đúng"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_23818c77f1ac150c",
+  "sourceIndex": 16,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_f30438cbb2119af1",
+  "sourceIndex": 27,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_f1edfd37f2a618f2",
+  "sourceIndex": 53,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 câu trên đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_187e0fa62e2ae93a",
+  "sourceIndex": 71,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "M6",
+  "uid": "q_f61460f654ddcb47",
+  "sourceIndex": 105,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả hai đều đúng."
+ },
+ {
+  "questionID": "4",
+  "uid": "q_f82f816e0b765529",
+  "sourceIndex": 549,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A và B đều đúng"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_bf637574a9338b18",
+  "sourceIndex": 609,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_6789b08a95767d50",
+  "sourceIndex": 747,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các đáp án đều đúng"
+ },
+ {
+  "questionID": "MD1012",
+  "uid": "q_ea3a6f800036c394",
+  "sourceIndex": 882,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các đáp án đều đúng"
+ },
+ {
+  "questionID": "366",
+  "uid": "q_86f4ff414f635ceb",
+  "sourceIndex": 1105,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các đáp án đều đúng"
+ },
+ {
+  "questionID": "Q394",
+  "uid": "q_cc0772e63f54231d",
+  "sourceIndex": 1133,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các câu trên đều đúng"
+ },
+ {
+  "questionID": "587",
+  "uid": "q_2d3b0a6c4f4bb0d7",
+  "sourceIndex": 1945,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "MCQ1",
+  "uid": "q_94198588535e6002",
+  "sourceIndex": 1994,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả ba đáp án còn lại đều đúng"
+ },
+ {
+  "questionID": "NM0010",
+  "uid": "q_b483e734e4f7bad0",
+  "sourceIndex": 2203,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các phương án đều đúng"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_73d4ffd02400fb4a",
+  "sourceIndex": 2510,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả hai đều đúng"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_6348845d792a5fb5",
+  "sourceIndex": 2512,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả hai đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_b15b8530397c2222",
+  "sourceIndex": 2515,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_5b5e5b3c0850de8a",
+  "sourceIndex": 2533,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_20c53f302886c377",
+  "sourceIndex": 2544,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_1ba4703bc257a17d",
+  "sourceIndex": 2545,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả hai đều đúng"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_c82be7da8c3b92b4",
+  "sourceIndex": 2550,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_1c388e79dd63d5d9",
+  "sourceIndex": 2662,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả B và C"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_1d74cc0a5e42fe74",
+  "sourceIndex": 2740,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả B và C"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_1eeeb1267546b19d",
+  "sourceIndex": 2758,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả B và C"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_6fa9c3eccfee6ddc",
+  "sourceIndex": 2766,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả A và C"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_a46ecfa6690a3e75",
+  "sourceIndex": 2788,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và C"
+ },
+ {
+  "questionID": "13",
+  "uid": "q_15f04b47a5b05e90",
+  "sourceIndex": 2948,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A, B đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_ba9c42d1922e61df",
+  "sourceIndex": 2962,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A và B đều đúng"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_0c5656dd7c83627b",
+  "sourceIndex": 2975,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "B, C đúng"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_d66b7c74e46e43cc",
+  "sourceIndex": 2980,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A và B đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_b2621e6ce0e43aeb",
+  "sourceIndex": 3011,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_9926f3c39b96ddb1",
+  "sourceIndex": 3045,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A,B đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_f0a4747119dadce7",
+  "sourceIndex": 3062,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A, B đều đúng"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_c6675d10bb8b1200",
+  "sourceIndex": 3072,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ý a và c đều đúng"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_84f0f57cd63cb10b",
+  "sourceIndex": 3077,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "MD1021",
+  "uid": "q_37574bb83bfb7ed3",
+  "sourceIndex": 3106,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "77",
+  "uid": "q_a708b892001e32a3",
+  "sourceIndex": 3120,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "80",
+  "uid": "q_81026a3505ce5f95",
+  "sourceIndex": 3123,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "MCQ21",
+  "uid": "q_88952ada1291c2c3",
+  "sourceIndex": 3181,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_4355dbce44edbe3e",
+  "sourceIndex": 3186,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_f62037d73f04501b",
+  "sourceIndex": 3199,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các ý trên đều đúng"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_8801903c7c0cfb56",
+  "sourceIndex": 3210,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các ý trên đều đúng"
+ },
+ {
+  "questionID": "32",
+  "uid": "q_68233033537c5638",
+  "sourceIndex": 3250,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả hai đều đúng"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_b573b919a811fc72",
+  "sourceIndex": 3347,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Hai đáp án đều đúng"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_373406986566f362",
+  "sourceIndex": 3381,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_739f66d9db02769c",
+  "sourceIndex": 3390,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_c3949b3e25e94c53",
+  "sourceIndex": 3391,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_b83589879844378d",
+  "sourceIndex": 3404,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "d. Cả (b) và (c) đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_fd7f0777cfbf5454",
+  "sourceIndex": 3407,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "d. Cả (a), (b) và (c) đều đúng"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_02b9e80e40fca1f5",
+  "sourceIndex": 3408,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "d. Cả (b) và (c) đều đúng"
+ },
+ {
+  "questionID": "ID022",
+  "uid": "q_2017cf4b61c5ce27",
+  "sourceIndex": 3432,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_85214e1dd831c787",
+  "sourceIndex": 3442,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionA",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_e6f55a1ffcaad752",
+  "sourceIndex": 3457,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng."
+ },
+ {
+  "questionID": "24",
+  "uid": "q_403b084880ef3819",
+  "sourceIndex": 3459,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_00f759dc04c97fa0",
+  "sourceIndex": 3461,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_229b595f723632ba",
+  "sourceIndex": 3462,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A, B đúng"
+ },
+ {
+  "questionID": "MD3",
+  "uid": "q_5c39b8b05215117d",
+  "sourceIndex": 3538,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "MD13",
+  "uid": "q_81a72fad5a1f3c6f",
+  "sourceIndex": 3548,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A và B đúng"
+ },
+ {
+  "questionID": "MD22",
+  "uid": "q_728edfa3af40bcd5",
+  "sourceIndex": 3557,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_ec53be09807bcb9e",
+  "sourceIndex": 3576,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B đúng"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_87500a44021f2be1",
+  "sourceIndex": 3663,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_794b167b1c3f7ec2",
+  "sourceIndex": 3666,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả 2 đều đúng"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_035f14f4304ed0f8",
+  "sourceIndex": 3670,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "cả 3 đều đúng"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_4e5e5660b3c0fe82",
+  "sourceIndex": 3685,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả 2 ý trên đều đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_75c2442c5e7573d8",
+  "sourceIndex": 3710,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_46faabd6a85e6389",
+  "sourceIndex": 3711,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_9d660efe1bc71808",
+  "sourceIndex": 3732,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả 3 ý trên đều đúng"
+ },
+ {
+  "questionID": "SXHD12",
+  "uid": "q_ddd40ef2f7feeb08",
+  "sourceIndex": 3746,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "SXHD13",
+  "uid": "q_3da6833a642dc1cd",
+  "sourceIndex": 3747,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "VGB1",
+  "uid": "q_8f5927a86d108145",
+  "sourceIndex": 3753,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ý đều đúng"
+ },
+ {
+  "questionID": "VGB6",
+  "uid": "q_5ae87c1176b203b6",
+  "sourceIndex": 3758,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "cả 3 TH trên đều đúng"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_98dcbd25ad368027",
+  "sourceIndex": 3767,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_71b6e393d44cddab",
+  "sourceIndex": 3771,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_aef5173a4aae2349",
+  "sourceIndex": 3777,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_0669e7484e453cfa",
+  "sourceIndex": 3786,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_45e92e965e52eebf",
+  "sourceIndex": 3861,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "MD001",
+  "uid": "q_7924e4220fe0b731",
+  "sourceIndex": 3885,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "MD021",
+  "uid": "q_21f67165ed15aaca",
+  "sourceIndex": 3905,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_e21d03e51c71c561",
+  "sourceIndex": 3911,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B đúng"
+ },
+ {
+  "questionID": "MDMCQ_017",
+  "uid": "q_86015c0172c597b6",
+  "sourceIndex": 3951,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "B và C"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_5063b520d548538e",
+  "sourceIndex": 3961,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A và B đều đúng"
+ },
+ {
+  "questionID": "26",
+  "uid": "q_63b23d74a4ad5496",
+  "sourceIndex": 3967,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả hai đáp án trên đều đúng"
+ },
+ {
+  "questionID": "29",
+  "uid": "q_466a35c4c0a68502",
+  "sourceIndex": 3969,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_c9cc9000fea2bbe5",
+  "sourceIndex": 3985,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_04a4506ea4f27738",
+  "sourceIndex": 3991,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A,B đều đúng"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_aa98810ffd0ed8ce",
+  "sourceIndex": 3998,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "48",
+  "uid": "q_a5d462736c56e98d",
+  "sourceIndex": 4015,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "49",
+  "uid": "q_e28caa58d97bbf05",
+  "sourceIndex": 4016,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "Q80",
+  "uid": "q_39cbc5a9880a70d8",
+  "sourceIndex": 4046,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_08d8bf57d73f8a69",
+  "sourceIndex": 4065,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_0eba9271c903bc86",
+  "sourceIndex": 4109,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_0601d6413720c72c",
+  "sourceIndex": 4117,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "a và b"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_64b4607f4d0ef360",
+  "sourceIndex": 4123,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 ý đều đúng"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_0c42064c562ce93a",
+  "sourceIndex": 4134,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. tất cả đều đúng"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_65d3c7e489fb4f02",
+  "sourceIndex": 4145,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_ec028e7973e95990",
+  "sourceIndex": 4152,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 đều đúng"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_85a68c7ef0736805",
+  "sourceIndex": 4214,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_9f39286fa5b381fa",
+  "sourceIndex": 4243,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "B và C đúng"
+ },
+ {
+  "questionID": "MD1005",
+  "uid": "q_b8cffc8cd1d8083c",
+  "sourceIndex": 4264,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A và B đều đúng"
+ },
+ {
+  "questionID": "MD1006",
+  "uid": "q_1e608a3984418c49",
+  "sourceIndex": 4265,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Cả hai đều đúng"
+ },
+ {
+  "questionID": "MD1020",
+  "uid": "q_397ed788feb723ae",
+  "sourceIndex": 4279,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A,B đúng"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_deebda4490a22acc",
+  "sourceIndex": 4289,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "B và C đúng"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_21f6f34c8139c14c",
+  "sourceIndex": 4307,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "COPD002",
+  "uid": "q_fa3a25eb175d5e57",
+  "sourceIndex": 4386,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_ffd9920cce3c472a",
+  "sourceIndex": 4488,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_54c0437889349bf3",
+  "sourceIndex": 4492,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_5d7babff052d7022",
+  "sourceIndex": 4526,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và B"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_95dd30e8e9b29233",
+  "sourceIndex": 4560,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "B và C đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_273a3e986919dfdc",
+  "sourceIndex": 4561,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A và B đều đúng"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_d7b2ba650dabc5e8",
+  "sourceIndex": 4564,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_87c59410c3cee1ef",
+  "sourceIndex": 4565,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_68b48faf6d8bd115",
+  "sourceIndex": 4566,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A và B đều đúng"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_3bd798a603f8286f",
+  "sourceIndex": 4568,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_060664db9967a655",
+  "sourceIndex": 4569,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_50a6ed116a3dbcb5",
+  "sourceIndex": 4574,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_107ab668aea62340",
+  "sourceIndex": 4581,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A và B đều đúng"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_7b1dd7ae2a2ed1ea",
+  "sourceIndex": 4598,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "Cả A, B"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_e2840c02a7e0fadc",
+  "sourceIndex": 4599,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và C"
+ },
+ {
+  "questionID": "MCQ22",
+  "uid": "q_d449164a0fb3bb47",
+  "sourceIndex": 4831,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A, B đúng"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_fd9b80842c59f626",
+  "sourceIndex": 5141,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đáp án trên đều đúng"
+ },
+ {
+  "questionID": "MDQ7",
+  "uid": "q_f09d4f2eeb296df8",
+  "sourceIndex": 5691,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả A và và B đều đúng"
+ },
+ {
+  "questionID": "ID020",
+  "uid": "q_f12206f401f7c546",
+  "sourceIndex": 5754,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng."
+ },
+ {
+  "questionID": "22",
+  "uid": "q_6e8d5fe180e7e095",
+  "sourceIndex": 5881,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Đ Tất cả đều đúng."
+ },
+ {
+  "questionID": "NEU001",
+  "uid": "q_35cb4f891b909707",
+  "sourceIndex": 5885,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng."
+ },
+ {
+  "questionID": "94",
+  "uid": "q_272057a9a8ccdc5b",
+  "sourceIndex": 6117,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionB",
+  "metaText": "a và b"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_44cc44f05dabaddd",
+  "sourceIndex": 6262,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_197c7a9efe35b991",
+  "sourceIndex": 6263,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "153",
+  "uid": "q_1c514bb35015177e",
+  "sourceIndex": 6480,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "c",
+   "d"
+  ],
+  "correctAnswer": "optionA",
+  "metaText": "c và d."
+ },
+ {
+  "questionID": "94",
+  "uid": "q_5d16256ed3fb456c",
+  "sourceIndex": 6525,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionA",
+  "metaText": "A và c"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_dbbdb655f6559694",
+  "sourceIndex": 6673,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "19",
+  "uid": "q_ebf64ba7c5cd8957",
+  "sourceIndex": 6675,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "PHIL007",
+  "uid": "q_4bfe9bc9b5c790bd",
+  "sourceIndex": 6688,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "PHIL010",
+  "uid": "q_d88d6b978c568ea7",
+  "sourceIndex": 6691,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "PHIL011",
+  "uid": "q_eb21779f7331f21a",
+  "sourceIndex": 6692,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "64",
+  "uid": "q_7d3d0667503d9ab4",
+  "sourceIndex": 6710,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phản đoán kia đều đúng."
+ },
+ {
+  "questionID": "73",
+  "uid": "q_fdfb138a501a4e48",
+  "sourceIndex": 6717,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "3",
+  "uid": "q_fc9eca1d25aad980",
+  "sourceIndex": 6734,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cá 3 phán doán kia đều đúng."
+ },
+ {
+  "questionID": "6",
+  "uid": "q_b9a59c4b144b1fca",
+  "sourceIndex": 6737,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Ca ba phán doán kia đều đúng."
+ },
+ {
+  "questionID": "8",
+  "uid": "q_4518bedc1cda8c91",
+  "sourceIndex": 6739,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cà 3 phán doán kia đều đúng."
+ },
+ {
+  "questionID": "12",
+  "uid": "q_be4e97e0c506da21",
+  "sourceIndex": 6743,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cá ba phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "226",
+  "uid": "q_b35d39f2de4ebfcb",
+  "sourceIndex": 6763,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "229",
+  "uid": "q_23522c21e0a7ad0c",
+  "sourceIndex": 6766,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "235",
+  "uid": "q_2702e28d083fa6f7",
+  "sourceIndex": 6772,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "243",
+  "uid": "q_4979adc003ad0dad",
+  "sourceIndex": 6780,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "244",
+  "uid": "q_59577ab46b167e6e",
+  "sourceIndex": 6781,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "256",
+  "uid": "q_eaf83713f9e611d5",
+  "sourceIndex": 6793,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "24",
+  "uid": "q_a2ddbfb3edb63468",
+  "sourceIndex": 6955,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_7b7fc1c61b75ae1e",
+  "sourceIndex": 6967,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_9d3415ddc6237db9",
+  "sourceIndex": 6971,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_2f61feb0b747c1d9",
+  "sourceIndex": 7048,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_b1e3e8892c9692a6",
+  "sourceIndex": 7049,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_1876cb51e97adf66",
+  "sourceIndex": 7057,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_c2c7d9f1a5d7e0ba",
+  "sourceIndex": 7065,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_be18f04348790915",
+  "sourceIndex": 7066,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_11c241bde171935d",
+  "sourceIndex": 7067,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "13",
+  "uid": "q_66120582a9dc41ef",
+  "sourceIndex": 7068,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "MCQ13",
+  "uid": "q_b43ac2c1967cc1c5",
+  "sourceIndex": 7093,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "MCQ25",
+  "uid": "q_2aa4dce049544ae7",
+  "sourceIndex": 7105,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "27",
+  "uid": "q_8c4d248687007ad9",
+  "sourceIndex": 7142,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "42",
+  "uid": "q_2ed02729e5a06389",
+  "sourceIndex": 7155,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "3",
+  "uid": "q_f9642320ffc6465b",
+  "sourceIndex": 7158,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "4",
+  "uid": "q_44235389d5db0150",
+  "sourceIndex": 7159,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "22",
+  "uid": "q_6f429c8bd117b879",
+  "sourceIndex": 7177,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phán đoán kia đều đúng."
+ },
+ {
+  "questionID": "4",
+  "uid": "q_2f0eeec9c67c71c3",
+  "sourceIndex": 7184,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cá 3 phán doán kia đều đúng."
+ },
+ {
+  "questionID": "20",
+  "uid": "q_61d48b400822cbbc",
+  "sourceIndex": 7200,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "23",
+  "uid": "q_ab83ccb6a0f715fc",
+  "sourceIndex": 7203,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "MCHCM004",
+  "uid": "q_e84cf6a282d5ecc9",
+  "sourceIndex": 7209,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng"
+ },
+ {
+  "questionID": "MCHCM018",
+  "uid": "q_97baa3245a8a33c5",
+  "sourceIndex": 7223,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "MCHCM023",
+  "uid": "q_41433945f262a7b5",
+  "sourceIndex": 7228,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "19",
+  "uid": "q_00d499bd1922284a",
+  "sourceIndex": 7249,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả hai đáp án kia đều đúng."
+ },
+ {
+  "questionID": "MCQ010",
+  "uid": "q_d83af0d0d5613cfe",
+  "sourceIndex": 7265,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "6",
+  "uid": "q_2ceafcb11d2a1487",
+  "sourceIndex": 7286,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "7",
+  "uid": "q_b7a64088b8954894",
+  "sourceIndex": 7287,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "11",
+  "uid": "q_509068809f8bc5e7",
+  "sourceIndex": 7291,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "13",
+  "uid": "q_8ce2acdf09521f13",
+  "sourceIndex": 7293,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "22",
+  "uid": "q_eeac5f63e39734cd",
+  "sourceIndex": 7302,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "123",
+  "uid": "q_b94ef4705dde7cb8",
+  "sourceIndex": 7317,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "132",
+  "uid": "q_614eb1711d4194d5",
+  "sourceIndex": 7326,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "133",
+  "uid": "q_7eb09a4c0ea4a764",
+  "sourceIndex": 7327,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "135",
+  "uid": "q_1b3ec5e329980740",
+  "sourceIndex": 7329,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "139",
+  "uid": "q_55dbd6544b51e9ac",
+  "sourceIndex": 7333,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "144",
+  "uid": "q_ca29c3057a24c057",
+  "sourceIndex": 7338,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "160",
+  "uid": "q_84b5852176466ac5",
+  "sourceIndex": 7354,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "161",
+  "uid": "q_6eb12fca480b3c76",
+  "sourceIndex": 7355,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "POLITICAL_VN_164",
+  "uid": "q_c1915598af5e16c2",
+  "sourceIndex": 7358,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "POLITICAL_VN_175",
+  "uid": "q_e3a9bfe52a3fe62f",
+  "sourceIndex": 7369,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "POLITICAL_VN_180",
+  "uid": "q_1cba5d7c2b375caf",
+  "sourceIndex": 7374,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "187",
+  "uid": "q_be438666626c5f94",
+  "sourceIndex": 7381,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "211",
+  "uid": "q_50d0dd5713527a41",
+  "sourceIndex": 7405,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "HC213",
+  "uid": "q_17e12cc96b9b5666",
+  "sourceIndex": 7407,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "HC226",
+  "uid": "q_b42a93ee73b1eae3",
+  "sourceIndex": 7420,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "HC229",
+  "uid": "q_d5ee4e9561552f53",
+  "sourceIndex": 7423,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "HC235",
+  "uid": "q_09db533ac2ff5e97",
+  "sourceIndex": 7429,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "MCQ243",
+  "uid": "q_03faa2933f50435d",
+  "sourceIndex": 7437,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "MCQ244",
+  "uid": "q_5fd2a171cea922b1",
+  "sourceIndex": 7438,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "MCQ256",
+  "uid": "q_cdae9850f50de266",
+  "sourceIndex": 7450,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "11",
+  "uid": "q_ad570078457be22a",
+  "sourceIndex": 7466,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_0215bc1e410f5e9a",
+  "sourceIndex": 7486,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "d) Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_33c8e8125ca54ac1",
+  "sourceIndex": 7610,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a và b"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_b4d25eab2928f106",
+  "sourceIndex": 7619,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_05ab5c26f4a407bc",
+  "sourceIndex": 7620,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_c088be7d96227ace",
+  "sourceIndex": 7621,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_9a930e30c354d4a9",
+  "sourceIndex": 7625,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_26d76a269bfbbd8c",
+  "sourceIndex": 7637,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_a922269c9a8db13c",
+  "sourceIndex": 7638,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_f9ce46a74add432f",
+  "sourceIndex": 7641,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_14102dfc0a9f5f4f",
+  "sourceIndex": 7650,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các phương án đều đúng"
+ },
+ {
+  "questionID": "192",
+  "uid": "q_f29c0fa77a852e54",
+  "sourceIndex": 7675,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các phương án đều đúng"
+ },
+ {
+  "questionID": "218",
+  "uid": "q_d9f71893266fe355",
+  "sourceIndex": 7699,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "227",
+  "uid": "q_85bf9680c8033a84",
+  "sourceIndex": 7708,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "233",
+  "uid": "q_2ebca3150dfa4a72",
+  "sourceIndex": 7714,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả b và c"
+ },
+ {
+  "questionID": "242",
+  "uid": "q_d37ed821b804e48c",
+  "sourceIndex": 7723,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c"
+ },
+ {
+  "questionID": "243",
+  "uid": "q_2d0fe2cd96d8e536",
+  "sourceIndex": 7724,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c"
+ },
+ {
+  "questionID": "249",
+  "uid": "q_cd87e905916a8b74",
+  "sourceIndex": 7730,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a và c"
+ },
+ {
+  "questionID": "254",
+  "uid": "q_24032d40e6263bb1",
+  "sourceIndex": 7735,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c"
+ },
+ {
+  "questionID": "87",
+  "uid": "q_df4e59d229514a0a",
+  "sourceIndex": 7750,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionC",
+  "metaText": "Các đáp án đều đúng"
+ },
+ {
+  "questionID": "103",
+  "uid": "q_6a177da4c844583d",
+  "sourceIndex": 7766,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "111",
+  "uid": "q_a4a2b9098e6ca622",
+  "sourceIndex": 7774,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "113",
+  "uid": "q_13df7842d2b81c5f",
+  "sourceIndex": 7776,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "123",
+  "uid": "q_64619ea5c7d69a43",
+  "sourceIndex": 7786,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, c đều đúng"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_3605665945f30ea6",
+  "sourceIndex": 7807,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_1619abad7025810e",
+  "sourceIndex": 7808,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_27c8cb4b394fea79",
+  "sourceIndex": 7827,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "d) Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_802a3dc74ca094ae",
+  "sourceIndex": 7829,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "d) Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "145",
+  "uid": "q_49fb288cc2cc83f0",
+  "sourceIndex": 7831,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "146",
+  "uid": "q_eb9e36bf98766dd6",
+  "sourceIndex": 7832,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b, c đều đúng"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_07cc72596f4dacd8",
+  "sourceIndex": 7858,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "31",
+  "uid": "q_66bbad649209938d",
+  "sourceIndex": 7924,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả 3 phương án (1) (2) (3) đều đúng"
+ },
+ {
+  "questionID": "POLSCI9",
+  "uid": "q_f7e682a8d1e6b21b",
+  "sourceIndex": 7989,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "POLSCI10",
+  "uid": "q_dec51bcfc5543808",
+  "sourceIndex": 7990,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "POLSCI15",
+  "uid": "q_d81bdc5e64f42254",
+  "sourceIndex": 7995,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "POLSCI22",
+  "uid": "q_e019000b2ff533ed",
+  "sourceIndex": 8002,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "HCM15",
+  "uid": "q_82de4aa083adf4ca",
+  "sourceIndex": 8006,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng"
+ },
+ {
+  "questionID": "HC55",
+  "uid": "q_87641ee8079493e9",
+  "sourceIndex": 8050,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả hai đáp án kia đều đúng."
+ },
+ {
+  "questionID": "92",
+  "uid": "q_fc99d7648d928535",
+  "sourceIndex": 8087,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "93",
+  "uid": "q_ecac5374e91b3c99",
+  "sourceIndex": 8088,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "97",
+  "uid": "q_b6efb10009b92638",
+  "sourceIndex": 8092,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "99",
+  "uid": "q_3f6a9a91bf33a2a2",
+  "sourceIndex": 8094,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "108",
+  "uid": "q_00c1ad4137c787d4",
+  "sourceIndex": 8102,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "123",
+  "uid": "q_9ae711c11dbeb09a",
+  "sourceIndex": 8117,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "132",
+  "uid": "q_cd5c905e9c635bcd",
+  "sourceIndex": 8126,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "133",
+  "uid": "q_07a54de1788ae785",
+  "sourceIndex": 8127,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "135",
+  "uid": "q_4858681f002a13e4",
+  "sourceIndex": 8129,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "D. Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "139",
+  "uid": "q_5481962d7e56f99a",
+  "sourceIndex": 8133,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "160",
+  "uid": "q_d4df9158d09597e2",
+  "sourceIndex": 8153,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "161",
+  "uid": "q_74c62a5c04fa590a",
+  "sourceIndex": 8154,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "HCM243",
+  "uid": "q_a2d1211bbc643f28",
+  "sourceIndex": 8235,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "HCM244",
+  "uid": "q_5cdeb77d522b8fcb",
+  "sourceIndex": 8236,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Cả ba phương án kia đều đúng."
+ },
+ {
+  "questionID": "5",
+  "uid": "q_63086b0f47baa5db",
+  "sourceIndex": 8784,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "B và C đúng"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_cb631599448ea5f4",
+  "sourceIndex": 8814,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_46b790ecdf5b2dc5",
+  "sourceIndex": 8855,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả B và C"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_b4a81e14d3cfdadd",
+  "sourceIndex": 8860,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả A, B, C"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_bbc8b51b74f608f4",
+  "sourceIndex": 8868,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a, b"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_e851d576de64435b",
+  "sourceIndex": 8875,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_ae78953054a5706d",
+  "sourceIndex": 8876,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "Cả a,b,c"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_473c739173b0c89c",
+  "sourceIndex": 9550,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả 3 ý trên đều đúng"
+ },
+ {
+  "questionID": "32",
+  "uid": "q_042c479cbe62b01d",
+  "sourceIndex": 9666,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả các trên đều đúng"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_302bef04bfe15ef6",
+  "sourceIndex": 9680,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_c8daf6853b5fe780",
+  "sourceIndex": 9687,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_44926d11fd967ddb",
+  "sourceIndex": 9695,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_c752cb190cbaf223",
+  "sourceIndex": 9700,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_36cd96222c338bf9",
+  "sourceIndex": 9712,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_31502e24fcaea94c",
+  "sourceIndex": 9718,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_08da50a29190e87b",
+  "sourceIndex": 9719,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "132",
+  "uid": "q_7aeb6ac6f2a6c792",
+  "sourceIndex": 9787,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "a, b đúng"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_be58741d075058fa",
+  "sourceIndex": 10086,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_c291963084b3e10b",
+  "sourceIndex": 10089,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "b"
+  ],
+  "correctAnswer": "optionC",
+  "metaText": "A,B đều đúng"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_a9737b03f5117ef3",
+  "sourceIndex": 10104,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "26",
+  "uid": "q_91986869db28eba6",
+  "sourceIndex": 10111,
+  "metaKind": "ALL_CORRECT",
+  "metaLetters": null,
+  "correctAnswer": "optionD",
+  "metaText": "Tất cả đều đúng"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_2203f06e7729f517",
+  "sourceIndex": 10133,
+  "metaKind": "LETTERS",
+  "metaLetters": [
+   "a",
+   "c"
+  ],
+  "correctAnswer": "optionD",
+  "metaText": "A và C đều đúng."
+ }
+]

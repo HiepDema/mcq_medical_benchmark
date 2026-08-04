@@ -1,0 +1,189 @@
+[
+ {
+  "questionID": "2",
+  "uid": "q_1c007575f1abc6ab",
+  "sourceIndex": 1,
+  "selectedBecause": "câu mẫu kinh điển — 4 phương án là hoán vị của pool 5 loại tế bào",
+  "originalOptions": [
+   "Hồng cầu, bạch cầu hạt, tiểu cầu nguyên thủy",
+   "Hồng cầu, bạch cầu lympho, tiểu cầu nguyên thủy",
+   "Hồng cầu, bạch cầu hạt, đại thực bào",
+   "Hồng cầu, đại thực bào, tiểu cầu nguyên thủy"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "168",
+  "uid": "q_635ac65ff2393486",
+  "sourceIndex": 910,
+  "selectedBecause": "thành phần đuôi cục nghẽn hỗn hợp — pool 4 mục, tách rõ",
+  "originalOptions": [
+   "Hồng cầu, sợi tơ huyết, tiểu cầu, bạch cầu",
+   "Hồng cầu, sợi tơ huyết, tiểu cầu",
+   "Hồng cầu, sợi tơ huyết, bạch cầu",
+   "Hồng cầu, sợi tơ huyết"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionB",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "167",
+  "uid": "q_73818b79a071084c",
+  "sourceIndex": 909,
+  "selectedBecause": "thành phần thân cục nghẽn hỗn hợp — cặp đối chiếu với câu trên",
+  "originalOptions": [
+   "Sợi tơ huyết, tiểu cầu",
+   "Hồng cầu, sợi tơ huyết, tiểu cầu",
+   "Hồng cầu, sợi tơ huyết, bạch cầu",
+   "Hồng cầu, sợi tơ huyết"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "NEUR1006",
+  "uid": "q_4eab076514a2a2ac",
+  "sourceIndex": 1425,
+  "selectedBecause": "cơ do dây VII chi phối — nhiễu 'cơ cắn' (dây V) chắc chắn sai",
+  "originalOptions": [
+   "Cơ cười, cơ cắn, cơ nâng góc miệng",
+   "Cơ cười, cơ cắn, cơ hạ góc miệng",
+   "Cơ nâng góc miệng, cơ hạ góc miệng, cơ cười",
+   "Cơ nâng góc miệng, cơ hạ góc miệng, cơ cắn"
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_898e4cacd02b677f",
+  "sourceIndex": 1855,
+  "selectedBecause": "giới hạn tam giác bả vai tam đầu — mốc giải phẫu rõ ràng",
+  "originalOptions": [
+   "Xương vai, cơ tròn lớn, cơ tròn bé",
+   "Xương vai, cơ tròn bé, đầu dài cơ tam đầu",
+   "Cơ tròn lớn, cơ tròn bé, đầu dài cơ tam đầu",
+   "Xương vai, cơ tròn lớn, đầu dài cơ tam đầu"
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD1012",
+  "uid": "q_72ad21a5fb772243",
+  "sourceIndex": 2330,
+  "selectedBecause": "suy tim toàn bộ — nhiễu 'tăng gánh nhĩ phải' đối lập với đáp án",
+  "originalOptions": [
+   "Suy tim trái, tăng gánh nhĩ trái, suy tim phải",
+   "Suy tim phải, tăng gánh nhĩ phải, suy tim trái",
+   "Tăng gánh nhĩ phải, suy tim phải, suy tim trái",
+   "Tăng gánh nhĩ trái, suy tim trái, suy tim phải"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_039827e9e1c777c4",
+  "sourceIndex": 1409,
+  "selectedBecause": "phân loại xương theo hình thể — nhiễu là loại mô, không phải hình thể",
+  "originalOptions": [
+   "Xương dài, xương ngắn, xương dẹt, xương khó định hình, xương vừng.",
+   "Xương dài, xương ngắn, xương dẹt, xương sụn, xương vừng",
+   "Xương sụn, xương ngắn, xương dẹt, xương khó định hình, xương vừng",
+   "Xương dài, xương sợi, xương dẹt, xương khó định hình, xương vừng"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 7,
+  "correctAnswer": "optionB, optionC, optionD, optionF, optionG",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "364",
+  "uid": "q_434f3f9dde0a1ea6",
+  "sourceIndex": 1103,
+  "selectedBecause": "4 triệu chứng viêm của Celsus — 'mất chức năng' là bổ sung đời sau",
+  "originalOptions": [
+   "Sưng, nóng, đỏ, đau",
+   "Sưng, nóng, đỏ, đau, mất chức năng cơ quan",
+   "Sưng, nóng, đỏ, đau, giãn các vi mạch",
+   "Sưng, nóng, đỏ, đau, xâm nhiễm bạch cầu"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 7,
+  "correctAnswer": "optionA, optionB, optionC, optionG",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "Q578",
+  "uid": "q_61de981adf3bb858",
+  "sourceIndex": 1301,
+  "selectedBecause": "thành phần mô đệm của u — nhiễu 'mô cơ', 'mô mỡ' rõ ràng ngoài nhóm",
+  "originalOptions": [
+   "Mạch máu, thần kinh, mô xơ, mô cơ",
+   "Mạch máu, mạch bạch huyết, thần kinh, mô xơ",
+   "Thần kinh, mô xơ, mô cơ, mạch bạch huyết",
+   "Mạch máu, mạch bạch huyết, mô cơ, mô mỡ"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionB, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_577e4cf44467fd1e",
+  "sourceIndex": 4803,
+  "selectedBecause": "biến chứng còn ống động mạch — nhiễu là biến chứng của bệnh khác",
+  "originalOptions": [
+   "Viêm phổi, suy tim, viêm ngoại tâm mạc, tắc nghẽn mạch phổi",
+   "Viêm phổi, suy tim, viêm ngoại tâm mạc, tắc nghẽn động mạch chủ",
+   "Viêm phổi, suy tim, viêm nội tâm mạc, tắc nghẽn mạch phổi",
+   "Viêm phổi, suy tim, viêm nội tâm mạc, tắc nghẽn động mạch chủ"
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionB, optionC, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "185",
+  "uid": "q_4e3e8f7ad1cac624",
+  "sourceIndex": 6027,
+  "selectedBecause": "hydrocarbon no — kiểm chứng khách quan bằng công thức phân tử",
+  "originalOptions": [
+   "C3H8, C4H10, C8H18, C5H12.",
+   "C3H8, C8H18, CO2, C3H6.",
+   "C3H8, C4H10, C3H6, C5H12.",
+   "C3H6, C4H10, CO2, C5H12."
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionB, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ }
+]

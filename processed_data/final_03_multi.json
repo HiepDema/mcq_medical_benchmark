@@ -1,0 +1,176 @@
+[
+ {
+  "question": "Tạo máu nguyên thủy cung cấp các loại tế bào nào?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Hematology",
+   "Obstetrics and Gynecology",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "2",
+  "answer_optionA": "tiểu cầu nguyên thủy",
+  "answer_optionB": "bạch cầu lympho",
+  "answer_optionC": "đại thực bào",
+  "answer_optionD": "Hồng cầu",
+  "answer_optionE": "bạch cầu hạt"
+ },
+ {
+  "question": "Câu 168 Các thành phần nào có trong phần đuôi cục nghẽn hỗn hợp?",
+  "correctAnswer": "optionA, optionB",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "168",
+  "answer_optionA": "sợi tơ huyết",
+  "answer_optionB": "Hồng cầu",
+  "answer_optionC": "tiểu cầu",
+  "answer_optionD": "bạch cầu"
+ },
+ {
+  "question": "Câu 167 Các thành phần nào có trong phần thân cục nghẽn hỗn hợp?",
+  "correctAnswer": "optionA, optionD",
+  "medicalTopic": [
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "167",
+  "answer_optionA": "Sợi tơ huyết",
+  "answer_optionB": "bạch cầu",
+  "answer_optionC": "Hồng cầu",
+  "answer_optionD": "tiểu cầu"
+ },
+ {
+  "question": "Bệnh nhân nam 49 tuổi, tiền sử đột quỵ nhồi máu não vùng bao trong bên trái di chứng liệt mặt, vào viện khám thấy: liệt ¼ dưới của mặt bên phải: khi nhe răng miệng lệch về bên trái, mất động tác thổi lửa bên phải, dấu hiệu Charles - Bell bên phải âm tính. Cơ nào sau đây là cơ bám da của nửa dưới mặt?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Neurology",
+   "Anatomy"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "NEUR1006",
+  "answer_optionA": "cơ hạ góc miệng",
+  "answer_optionB": "cơ cắn",
+  "answer_optionC": "Cơ cười",
+  "answer_optionD": "cơ nâng góc miệng"
+ },
+ {
+  "question": "Tam giác bả vai tam đầu giới hạn như thế nào ?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Anatomy",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "đầu dài cơ tam đầu",
+  "answer_optionB": "Xương vai",
+  "answer_optionC": "cơ tròn lớn",
+  "answer_optionD": "cơ tròn bé"
+ },
+ {
+  "question": "Phân tích bệnh án suy tim toàn bộ do hẹp van 2 lá: gan to 4 cm dưới bờ sườn, sờ hơi chắc, có dịch cổ trướng, khó thở rõ nhất khi nằm, có tiếng ran ướt lác đác hai nền phổi, protein máu 48 gram/lít. Câu hỏi: Suy tim toàn bộ là hậu quả của hẹp van hai lá gây suy tim theo cơ chế liên quan:",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Cardiology"
+  ],
+  "difficultLevel": "4",
+  "regularFormat": true,
+  "questionID": "MD1012",
+  "answer_optionA": "tăng gánh nhĩ trái",
+  "answer_optionB": "tăng gánh nhĩ phải",
+  "answer_optionC": "Suy tim trái",
+  "answer_optionD": "suy tim phải"
+ },
+ {
+  "question": "Phân loại xương theo hình thể ngoài, gồm có …",
+  "correctAnswer": "optionB, optionC, optionD, optionF, optionG",
+  "medicalTopic": [
+   "General Medicine",
+   "Orthopedics"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "xương sụn",
+  "answer_optionB": "xương dẹt",
+  "answer_optionC": "xương ngắn",
+  "answer_optionD": "xương khó định hình",
+  "answer_optionE": "xương sợi",
+  "answer_optionF": "xương vừng",
+  "answer_optionG": "Xương dài"
+ },
+ {
+  "question": "Câu 364 Triệu chứng viêm cấp tính của Celsus nêu ra là:",
+  "correctAnswer": "optionA, optionB, optionC, optionG",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "364",
+  "answer_optionA": "nóng",
+  "answer_optionB": "đỏ",
+  "answer_optionC": "Sưng",
+  "answer_optionD": "mất chức năng cơ quan",
+  "answer_optionE": "xâm nhiễm bạch cầu",
+  "answer_optionF": "giãn các vi mạch",
+  "answer_optionG": "đau"
+ },
+ {
+  "question": "Câu 578 Mô đệm của u gồm các thành phần nào",
+  "correctAnswer": "optionA, optionB, optionC, optionD",
+  "medicalTopic": [
+   "Oncology",
+   "Pathology"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "Q578",
+  "answer_optionA": "thần kinh",
+  "answer_optionB": "Mạch máu",
+  "answer_optionC": "mạch bạch huyết",
+  "answer_optionD": "mô xơ",
+  "answer_optionE": "mô mỡ",
+  "answer_optionF": "mô cơ"
+ },
+ {
+  "question": "Biến chứng của bệnh tim bẩm sinh còn ống động mạch là gì?",
+  "correctAnswer": "optionA, optionB, optionC, optionF",
+  "medicalTopic": [
+   "Cardiology",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "viêm nội tâm mạc",
+  "answer_optionB": "Viêm phổi",
+  "answer_optionC": "suy tim",
+  "answer_optionD": "viêm ngoại tâm mạc",
+  "answer_optionE": "tắc nghẽn động mạch chủ",
+  "answer_optionF": "tắc nghẽn mạch phổi"
+ },
+ {
+  "question": "Cho các hợp chất có công thức sau: C3H8, C4H10, C8H18, C3H6, CO2, C5H12. Những hợp chất trong đó tất cả các nguyên tử carbon đều lai hóa sp3 và có góc liên kết 109028’ là những chất nào ?",
+  "correctAnswer": "optionA, optionB, optionC, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2",
+  "regularFormat": true,
+  "questionID": "185",
+  "answer_optionA": "C5H12",
+  "answer_optionB": "C8H18",
+  "answer_optionC": "C4H10",
+  "answer_optionD": "C3H8",
+  "answer_optionE": "C3H6",
+  "answer_optionF": "CO2"
+ }
+]

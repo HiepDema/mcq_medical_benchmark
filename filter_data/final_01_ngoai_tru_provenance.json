@@ -1,0 +1,2387 @@
+[
+ {
+  "questionID": "10",
+  "uid": "q_0fab1b7cccee1c12",
+  "sourceIndex": 9,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai: Các tế bào gốc tạo máu cư trú ở người trưởng thành:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_16c4dc3611bb34bc",
+  "sourceIndex": 14,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tác dụng của G - CSF: (chọn câu sai)",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_b337086d8761f031",
+  "sourceIndex": 31,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "CHỌN CÂU SAI. Xét nghiệm đánh giá đông máu bao gồm?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_ca98f120416841dc",
+  "sourceIndex": 49,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các chất gây ngưng tập tiểu cầu chính, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_5f117aa3fad6481b",
+  "sourceIndex": 57,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Câu 65: Chọn câu sai:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_7307a883cd424bc3",
+  "sourceIndex": 58,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 66: Đâu không phải là đặc tính của tiểu cầu:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "13",
+  "uid": "q_d9bd2ccbeb713c50",
+  "sourceIndex": 62,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Câu 70: Các chất hoạt hóa plasminogen gồm, chọn sai:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "M3",
+  "uid": "q_2fa60cca71eb1f54",
+  "sourceIndex": 77,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 85 Các xét nghiệm khảo sát thời kỳ cầm máu ban đầu, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "M10",
+  "uid": "q_9861c4b3c106785e",
+  "sourceIndex": 84,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Câu 92 Nghiệm pháp dây thắt dương tính trong trường hợp sau, chọn câu sai:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "M11",
+  "uid": "q_a9bd3dd2fe577146",
+  "sourceIndex": 85,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 93 Thời gian Quick bình thường trong trường hợp sau, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "M23",
+  "uid": "q_b0910788b7a8d954",
+  "sourceIndex": 97,
+  "negationFamily": "B. nào sau đây sai",
+  "originalQuestion": "Câu 12 Câu nào sai khi nói về tủy trắng của lách",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_f598d1c66b089b7d",
+  "sourceIndex": 141,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Thông qua việc phát hiện bệnh tật tại cộng đồng trong các giai đoạn đặc biệt là giai đoạn sớm và những yếu tố nguy cơ, đâu là ý KHÔNG phải mục đích của sàng tuyển cộng đồng",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD1012",
+  "uid": "q_c0bbf34343f4d615",
+  "sourceIndex": 210,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 233. Theo luật phòng chống bệnh truyền nhiễm 2007, bệnh không phải bệnh truyền nhiễm nhóm B là bệnh:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD1015",
+  "uid": "q_2a48f5c128f8cf75",
+  "sourceIndex": 213,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Câu 237. Nhận xét không đúng về bệnh truyền nhiễm đườmg hô hấp là:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "116",
+  "uid": "q_dd1506d4dcab9396",
+  "sourceIndex": 357,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Nghiên cứu bệnh chứng có những đặc điểm dưới đây, ngoại trừ:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "122",
+  "uid": "q_7ce1c72e20161b9a",
+  "sourceIndex": 360,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Một trong những đặc điểm KHÔNG phải của tân binh có ảnh hưởng đến công tác đảm bảo phòng, chống dịch là:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "Q65",
+  "uid": "q_4641239d7f8f4186",
+  "sourceIndex": 447,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Câu 65 Các thụ cảm thể và các cơ quan cảm giác nào sau đây là cặp đôi không chính xác ?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "82",
+  "uid": "q_cc2d558d197a48e0",
+  "sourceIndex": 517,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Ý nào sau đây là không chính xác trong phân bố thần kinh của cẳng chân?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_84ab986d6460126a",
+  "sourceIndex": 553,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu nói của người mẹ “Anh ấy hoàn toàn không phải là chính mình. Tôi chưa bao giờ thấy anh ấy như thế này trước đây” có thể liên quan đến .........................",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_d83f220ed7659b89",
+  "sourceIndex": 555,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Không phải ai cũng phản ứng với các biện pháp phòng ngừa theo cùng một cách. Nếu chúng ta biết ………………… của bệnh nhân, chúng ta có thể đánh giá những biện pháp khác nhau nào là phù hợp nhất.",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_0867c8f50017da51",
+  "sourceIndex": 604,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Báo tin xấu một cách tốt là một kỹ năng (1) ___________ cho tất cả các bác sĩ, vì đó là điều họ sẽ làm hàng trăm nếu không phải (2) ___________ lần trong sự nghiệp chuyên môn của họ.",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_14efab6c6152feee",
+  "sourceIndex": 749,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 5 Tổn thương nào không phải là thoái hóa hạt",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_e7bd09292c2e616a",
+  "sourceIndex": 750,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 6 Hình ảnh đại thể nào không phải của thoái hoá hạt",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_649686bcae5824e4",
+  "sourceIndex": 764,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 20 Hình ảnh vi thể nào không phải của hoại tử gồm",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_074532207d1db889",
+  "sourceIndex": 766,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 22 Đặc tính nào không phải là biến đổi thích nghi của tế bào",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_18866ca9d789e7cb",
+  "sourceIndex": 767,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 23 Trong các tổn thương dưới đây, đâu không phải là tổn thương thích nghi",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_a6c894d6f1da31d4",
+  "sourceIndex": 773,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Trong các chất dưới đây, chất nào không phải chất trung gian hóa học (hoạt mạch) trong viêm?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_a251e25165dab1be",
+  "sourceIndex": 774,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Trong các chất dưới đây, chất nào không phải là chất trung gian hoá học trong viêm?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_ed5728c283ab6d2d",
+  "sourceIndex": 777,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Hiện tượng nào không phải là hiện tượng của phản ứng tăng sinh?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_db8bf22c877d1e1d",
+  "sourceIndex": 778,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Biểu hiện sưng, nóng, đỏ, đau do viêm cấp tính không phải do:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_6db260003946a1a3",
+  "sourceIndex": 779,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Trong các đặc điểm dưới đây, đặc điểm nào không phải là của viêm cấp tính?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_30c593fad2b95a81",
+  "sourceIndex": 785,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Đặc tính nào không phải là vai trò của đại thực bào trong viêm?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_0069266cb2b21c90",
+  "sourceIndex": 789,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Viêm nào sau đây không phải là viêm cấp tính:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_d58dce30007baa56",
+  "sourceIndex": 790,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Viêm nào sau đây không phải là viêm mạn tính:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_d498321cc679f693",
+  "sourceIndex": 792,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Tổn thương vi thể nào không phải của viêm mạn tính",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD-Q56",
+  "uid": "q_2d367b3e4ce083d8",
+  "sourceIndex": 800,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 56 Trong các đặc điểm hình thái dưới đây, đặc điểm nào không phải của loạn sản nhẹ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD-Q57",
+  "uid": "q_e6262cf470c066c5",
+  "sourceIndex": 801,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 57 Trong các đặc điểm hình thái dưới đây, đặc điểm nào không phải của loạn sản mức độ vừa",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD-Q58",
+  "uid": "q_21ea6e104d80f1f9",
+  "sourceIndex": 802,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 58 Trong các đặc điểm hình thái dưới đây, đặc điểm nào không phải của loạn sản mức độ nặng",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD-Q67",
+  "uid": "q_218bf7e3fd1aa977",
+  "sourceIndex": 811,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 67 Tính chất nào không phải của khối u",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1021",
+  "uid": "q_67fdd47894eaec4f",
+  "sourceIndex": 891,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 149 Hình ảnh vi thể nào không phải của mạch máu sung huyết?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "178",
+  "uid": "q_22bb147d618ed977",
+  "sourceIndex": 920,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Đâu không phải là nguyên nhân gây nghẽn mạch?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "180",
+  "uid": "q_2a7e9d2b8d722083",
+  "sourceIndex": 922,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Các cách tiến triển của huyết khối, trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "187",
+  "uid": "q_eefc5c62bc151f9b",
+  "sourceIndex": 929,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Vật nào không phải là vật tắc?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_97e7405f9b55a7a7",
+  "sourceIndex": 960,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Đặc điểm nào không đúng trong viêm nội tâm mạc do thấp tim?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD1001",
+  "uid": "q_d5b90b221afe7e9a",
+  "sourceIndex": 970,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 228 Bờ ổ loét dạ dày mạn tính có các đặc điểm, trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD1002",
+  "uid": "q_3f4c2361949857fe",
+  "sourceIndex": 971,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 229 Loét dạ dày cấp tính có các đặc điểm, trừ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD1005",
+  "uid": "q_2fe2492cd5ee620c",
+  "sourceIndex": 974,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 232 Đáy ổ loét dạ dày mạn tính gồm các lớp, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD1007",
+  "uid": "q_eaaee21c6ff53b4d",
+  "sourceIndex": 976,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 234 Lớp hoại tử tơ huyết của đáy ổ loét dạ dày mạn tính có các thành phần sau, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD1016",
+  "uid": "q_5fa9b6920b9ccda6",
+  "sourceIndex": 985,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 243 Xơ gan có các nguyên nhân sau đây, ngoại trừ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD1017",
+  "uid": "q_5f734e140a317176",
+  "sourceIndex": 986,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 244 Xơ gan có các nguyên nhân sau đây, ngoại trừ",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD1018",
+  "uid": "q_5c9de49b49d91dc4",
+  "sourceIndex": 987,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 245 Xơ gan có các tổn thương cơ bản sau đây, ngoại trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD1023",
+  "uid": "q_f891cbce13c5f718",
+  "sourceIndex": 992,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 250 Đặc điểm nào sau là của xơ gan sau hoại tử, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "1001",
+  "uid": "q_da43d0d159ba04d0",
+  "sourceIndex": 995,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các đặc điểm mô bệnh học của xơ gan teo, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "1009",
+  "uid": "q_772bbae71d894c22",
+  "sourceIndex": 1003,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Ung thư dạ dày về đại thể có các loại sau, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "1010",
+  "uid": "q_52e0f09eacb5af8d",
+  "sourceIndex": 1004,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Ổ loét của ung thư dạ dày có đặc điểm nào sau đây, ngoại trừ",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "1006",
+  "uid": "q_c6f21013de01a6ce",
+  "sourceIndex": 1025,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 283 Tổn thương cơ bản cầu thận gồm, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "1007",
+  "uid": "q_09626a5d1cb2e749",
+  "sourceIndex": 1026,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 284 Phân loại bệnh cầu thận theo bệnh học gồm, trừ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "1008",
+  "uid": "q_8392e20afdb48dbc",
+  "sourceIndex": 1027,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 285 Đặc điểm đại thể viêm cầu thận cấp, TRỪ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "1009",
+  "uid": "q_25479afd492800d3",
+  "sourceIndex": 1028,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 286 Đặc điểm vi thể viêm cầu thận cấp ,TRỪ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "1010",
+  "uid": "q_511503b4fdfc1666",
+  "sourceIndex": 1029,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 287 Đặc điểm đại thể viêm cầu thận mạn, trừ",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "1011",
+  "uid": "q_dfef98c604727290",
+  "sourceIndex": 1030,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 288 Đặc điểm vi thể viêm cầu thận mạn tính, TRỪ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "1015",
+  "uid": "q_5fd30b535c8ca5dd",
+  "sourceIndex": 1034,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 292 Hình ảnh đại thể đại thể ung thư tế bào thận có các đặc điểm sau, TRỪ",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "1016",
+  "uid": "q_3b05bee85957d1b9",
+  "sourceIndex": 1035,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 293 Vi thể ung thư tế bào thận có các đặc điểm sau, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "1020",
+  "uid": "q_e727fade74b10e00",
+  "sourceIndex": 1039,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 297 Các vị trí gặp lắng đọng phức hợp miễn dịch, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_dae8c4e4ec165af4",
+  "sourceIndex": 1078,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Tổn thương nào không phải là tổn thương thích nghi?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_7e4bf31bbd52abb1",
+  "sourceIndex": 1084,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Hình ảnh mô bệnh học nào không phải của thoái hoá hạt",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "370",
+  "uid": "q_b242c85ff7b2843f",
+  "sourceIndex": 1109,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 370 Hình ảnh tăng sinh tích cực nào thường không phải của tế bào ung thư?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "371",
+  "uid": "q_3a306d3686944c4f",
+  "sourceIndex": 1110,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 371 Hình ảnh nào không phải là hình ảnh mất tính biệt hoá của tế bào?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "379",
+  "uid": "q_01d5977d3fd9a03c",
+  "sourceIndex": 1118,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 379 Đặc tính nào không phải là căn cứ để xác định ung thư điển hình?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD458",
+  "uid": "q_5ce0591c5c628705",
+  "sourceIndex": 1187,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 458 Lớp mô hạt ở đáy ổ loét mạn tính được tạo thành bởi các tế bào, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD459",
+  "uid": "q_51df184a47a5f50d",
+  "sourceIndex": 1188,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 459 Niêm mạc bờ ổ loét dạ dày mạn tính có các tổn thương, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD460",
+  "uid": "q_bd11e40d9629058f",
+  "sourceIndex": 1189,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 460 Mô hạt được cấu tạo bởi các thành phần sau, ngoại trừ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "467",
+  "uid": "q_1ec992a3874c83ba",
+  "sourceIndex": 1196,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Tổn thương tế bào gan trong xơ gan là do các nguyên nhân sau, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "476",
+  "uid": "q_d4b70478855e5070",
+  "sourceIndex": 1205,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các đặc điểm ổ tái tạo tế bào gan trong xơ gan teo, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "485",
+  "uid": "q_b5b73321b7d44919",
+  "sourceIndex": 1214,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các đặc điểm sau đây thể hiện sự kém biệt hóa của tế bào u trong ung thư biểu mô tuyến dạ dày, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "488",
+  "uid": "q_d8118e7262614f23",
+  "sourceIndex": 1217,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Bề mặt ung thư dạ dày dễ bị xuất huyết và chảy máu vì các lý do sau, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "489",
+  "uid": "q_206a7a6c59260f19",
+  "sourceIndex": 1218,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Đặc điểm xâm lấn nào sau đây gặp chủ yếu trong ung thư dạ dày, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD53006",
+  "uid": "q_297295292f136680",
+  "sourceIndex": 1225,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 496 Các tế bào u bị hoại tử nhiều trong ung thư gan là do các nguyên nhân nào sau đây, ngoại trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD53016",
+  "uid": "q_b4d55cbf66d8b63a",
+  "sourceIndex": 1235,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 506 Các tế bào ung thư biểu mô tuyến vú di căn được là do các đặc điểm nào sau, trừ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD53021",
+  "uid": "q_9a33fc631d9d0e71",
+  "sourceIndex": 1240,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 511 Ung thư biểu mô thùy tại chỗ có các đặc điểm sau, trừ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD53023",
+  "uid": "q_a44d781cca094d87",
+  "sourceIndex": 1242,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 513 Ung thư biểu mô tuyến vú ống xâm nhập có các đặc điểm sau, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "521",
+  "uid": "q_a888046e30a51f65",
+  "sourceIndex": 1249,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 521 Các yếu tố nào sau đây làm tăng nguy cơ mắc ung thư vú, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "522",
+  "uid": "q_b11e9f76dad58470",
+  "sourceIndex": 1250,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 522 Các yếu tố nào sau đây làm giảm nguy cơ mắc ung thư vú, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "526",
+  "uid": "q_938915a220ae42be",
+  "sourceIndex": 1254,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 526 Ung thư cổ tử cung có nguồn gốc từ các tế bào sau, trừ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "529",
+  "uid": "q_2d9c28efb1adcf4a",
+  "sourceIndex": 1257,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 529 Ung thư biểu mô vảy cổ tử cung biệt hóa cao có các đặc điểm sau, trừ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "531",
+  "uid": "q_55c367d08271bf21",
+  "sourceIndex": 1259,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 531 Các yếu tố sau làm giảm nguy cơ mắc ung thư cổ tử cung, trừ",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "558",
+  "uid": "q_533cff02b8e25a7a",
+  "sourceIndex": 1281,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 558 Phù nề tổ chức đệm (mô đệm) trong hiện tượng thấm mạch không phải do các biến đổi mạch nào sau đây :",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "561",
+  "uid": "q_bef09a136c774dcb",
+  "sourceIndex": 1284,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 561 Hiện tương tạo vách tụ bạch cầu đa nhân trung tính không phải do:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "565",
+  "uid": "q_6623387fc906b920",
+  "sourceIndex": 1288,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 565 Loại viêm nào không phải là viêm hạt dị vật",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "571",
+  "uid": "q_d74d8f64e30e7756",
+  "sourceIndex": 1294,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 571 Các tiền gen sinh ung (proto-oncogen) không phải là gen",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "615",
+  "uid": "q_34212feeffc93b4b",
+  "sourceIndex": 1337,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 615 Xơ gan có các biến chứng sau đây, ngoại trừ:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "621",
+  "uid": "q_eaff67a7e486319c",
+  "sourceIndex": 1343,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 621 Các biến chứng của ung thư dạ dày, ngoại trừ",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD-Q629",
+  "uid": "q_84fbbdbf6b527bb0",
+  "sourceIndex": 1352,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 629 Ung thư gan di căn xa đến cơ quan nào là chủ yếu, trừ",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD-Q638",
+  "uid": "q_c98a11bf59a77bb2",
+  "sourceIndex": 1361,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 638 Các xét nghiệm cần thiết được chỉ định cho bệnh nhân có u vú, trừ",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD-Q640",
+  "uid": "q_8a20beb57d0bcb5f",
+  "sourceIndex": 1363,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 640 Các biến thể của ung thư biểu mô cổ tử cung typ tế bào vảy bao gồm, trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD-Q641",
+  "uid": "q_6fdb64641125414d",
+  "sourceIndex": 1364,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 641 Các yếu tố nguy cơ thường gặp gây ung thư cổ tử cung, trừ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD-Q645",
+  "uid": "q_c39cfcedc9333479",
+  "sourceIndex": 1368,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 645 Các xét nghiệm sàng lọc chẩn đoán sớm ung thư cổ tử cung, trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "656",
+  "uid": "q_12f7e10b82056b7f",
+  "sourceIndex": 1379,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Ngành bên của động mạch cánh tay KHÔNG phải là ...",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_4e66feea594a243c",
+  "sourceIndex": 1399,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn ý SAI: Động mạch nách ...",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_719cbbafe18470ab",
+  "sourceIndex": 1419,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn ý SAI!",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "ANAT1011",
+  "uid": "q_2f253f1b99f242ee",
+  "sourceIndex": 1430,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu SAI!",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_66dad6cc07135613",
+  "sourceIndex": 1723,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn ý SAI: Động mạch nách...",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_52b049d5e8ecdc28",
+  "sourceIndex": 1743,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn ý SAI!",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD013",
+  "uid": "q_d45a2c83b2d3cd3d",
+  "sourceIndex": 1782,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Đặc điểm nào không phải là của các đốt sống cổ?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD014",
+  "uid": "q_534d18e55767cfe8",
+  "sourceIndex": 1783,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "2. Đặc điểm nào không phải là của các đốt sống ngực?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MD008",
+  "uid": "q_01f70a4ba99a2b7d",
+  "sourceIndex": 1827,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn ý SAI!",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_56bc8118271b6da5",
+  "sourceIndex": 1879,
+  "negationFamily": "B. nào sau đây sai",
+  "originalQuestion": "Aspirin, là một dẫn xuất của acid salicylic, thuộc nhóm thuốc chống viêm non-steroid được sử dụng rất rộng rãi cả trong điều trị và dự phòng. Ở người lớn, nồng độ điều trị của acid salicylic 30 - 60 mg/lít huyết tương cho tác dụng giảm đau và hạ sốt, và 40 - 100 mg/lít huyết tương cho tác dụng chống viêm. Điều nào sau đây là sai về Aspirin:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_b382a22a8bdd677f",
+  "sourceIndex": 1881,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các thuốc giảm đau kháng viêm không có gốc steroid (NSAID) là những thuốc giảm đau ngoại biên được sử dụng tương đối rộng rãi hiện nay. Cơ chế giảm đau của các thuốc có tác dụng giảm đau ngoại biên dưới đây là đúng, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_d3d2917dbf98922e",
+  "sourceIndex": 1894,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Naproxen là dẫn xuất của axit propionic giống như Ibiprofen thuộc thuốc giảm đau chống viêm không steroid (NSAID) hoạt động bằng cách giảm các kích thích tố gây ra viêm và đau trong cơ thể. Naproxen có đặc điểm dưới đây, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_c73534c70952762d",
+  "sourceIndex": 1895,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Câu 22 Các thuốc nhóm NSAIDs rất khác nhau về cấu trúc hóa học, gồm các dẫn xuất của salicylat, pyrazolon, alinin và indol. Dược động học của các thuốc nhóm này có đặc điểm dưới đây, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_1a6b0247354be0eb",
+  "sourceIndex": 1910,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Câu 552: Nhận xét không đúng về protein actin?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_b9a6c6b3daad1d5a",
+  "sourceIndex": 1911,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Câu 553: Đặc điểm của cơ vân, chọn câu sai",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_70b38d05d7726354",
+  "sourceIndex": 1912,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Câu 554: Nói về nơron vận động chậm, CHỌN CÂU SAI",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "569",
+  "uid": "q_721dad191d93dd02",
+  "sourceIndex": 1927,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Câu nào sau đây không đúng đối với cơ chế co cơ?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "570",
+  "uid": "q_1426d5fd7f67a215",
+  "sourceIndex": 1928,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Phức hợp kích thích co cơ vân liên quan đến tất cả các sự kiện sau đây, ngoại trừ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "572",
+  "uid": "q_2e9dd6a820564784",
+  "sourceIndex": 1930,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Sau khi co, cơ giãn trở về trạng thái nghỉ ban đầu do, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "578",
+  "uid": "q_868b03d3a97ee1c6",
+  "sourceIndex": 1936,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Nói về cơ trơn, câu nào sau đây không đúng",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "585",
+  "uid": "q_d06a51f7bf7a9eae",
+  "sourceIndex": 1943,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Chức năng của hệ xương, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "586",
+  "uid": "q_d86be29008a88925",
+  "sourceIndex": 1944,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các hormon có thể gây loãng xương khi nồng độ tăng cao, ngoại trừ:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_1d02a6c622c32239",
+  "sourceIndex": 1959,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 5: Tất cả các phản ứng tế bào, sinh hoá và Enyme đều phụ thuộc nhiệt độ. Vì thế, sự điều hoà thân nhiệt tối ưu là cần thiết cho các hoạt động sinh lý ở động vật hằng nhiệt. Trong các quá trình đâu không phải là quá trình sinh nhiệt?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MQA109",
+  "uid": "q_9c65ac25da4c1bcc",
+  "sourceIndex": 1979,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Liên quan đến nội dung các hình thức trao đổi nhiệt ở cơ thể sống, trong môi trường nóng cơ thể điều nhiệt bằng cách tăng thải nhiệt và giảm sinh nhiệt, trong đó tăng thải nhiệt đóng vai trò chủ yếu. Vậy trong các hình thức dưới đây, điều nào không phải là cách điều nhiệt bằng cách tăng thải nhiệt?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_bb754096eac5abf6",
+  "sourceIndex": 2112,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "45. Cơ chế nào dưới đây không phải cơ chế hình thành dịch rỉ viêm.?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_0d4c385c840ae791",
+  "sourceIndex": 2126,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Nội bì không phải phát triển thành phần sau?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_fa7ed6ddacaa3f13",
+  "sourceIndex": 2127,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Tổn thương nào không phải là tổn thương thích nghi?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_22885115b7b18ff0",
+  "sourceIndex": 2132,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai: giải phẫu được phân thành nhiều chuyên ngành khác nhau dựa vào đâu?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_c78f88a19ff6fa59",
+  "sourceIndex": 2135,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Tổn thương nào không phải là thoái hóa hạt?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_a36b5d32ea3e5afb",
+  "sourceIndex": 2148,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Cơ chế nào sau đây không phải là cơ chế mà các tế bào giao tiếp với nhau. Các yếu tố phiên mã được tiết ra từ một tế bào đích, nói chúng ảnh hưởng đến sự biểu hiện gen?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD1019",
+  "uid": "q_d47804bbc42b400b",
+  "sourceIndex": 2287,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "xuất huyết não bán cầu (P). Đặc điểm nào KHÔNG phải của ĐM cảnh trong?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1",
+  "uid": "q_a6cd610bcaa39642",
+  "sourceIndex": 2294,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Điều nào sau đây KHÔNG phải là đặc điểm của suy tim toàn bộ?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD6",
+  "uid": "q_0180abd5af091ba7",
+  "sourceIndex": 2299,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Triệu chứng nào sau đây KHÔNG phải của suy tim phải?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD13",
+  "uid": "q_727199816b07739a",
+  "sourceIndex": 2306,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Trường hợp nào sau đây KHÔNG phải là tình huống lâm sàng mà phép đo peptit lợi tiểu natri có thể hữu ích?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1007",
+  "uid": "q_a713580b0f634c18",
+  "sourceIndex": 2325,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Biểu hiện nào sau đây KHÔNG phải của suy tim toàn bộ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD1014",
+  "uid": "q_2c8f1b84befd0fed",
+  "sourceIndex": 2332,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Triệu chứng nào sau đây KHÔNG phải của suy tim phải",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1023",
+  "uid": "q_ae35517ff1c932c5",
+  "sourceIndex": 2341,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai: Cường giáp:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_bb8a72319e176881",
+  "sourceIndex": 2355,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai: Sự tạo thành arginin:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_65a5516534bec93e",
+  "sourceIndex": 2363,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai: Hormone tham gia vào chuyển hoá carbohydrate:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_ebbc751551f232c3",
+  "sourceIndex": 2386,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Chất nào không phải sản phẩm thoái biến của acid amin isoleucin",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_676f1de5987c82b9",
+  "sourceIndex": 2387,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Chất nào không phải là sản phẩm thoái biến của acid amin isoleucin",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "118",
+  "uid": "q_aa623ad8d55ba844",
+  "sourceIndex": 2401,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai về bilirubin:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_64401840f8e131f0",
+  "sourceIndex": 2534,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Triệu chứng thực thể của viêm mống mắt là gì? (chọn câu sai)",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MD1005",
+  "uid": "q_ff846b5bc7575df0",
+  "sourceIndex": 2865,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Nhận xét nào sau đây không đúng với nghiên cứu thuần tập hồi cứu và tương lai?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1022",
+  "uid": "q_12d58992552012d7",
+  "sourceIndex": 3107,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Đâu không phải là nghiên cứu phân tích?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "96",
+  "uid": "q_4f2f4d30af593091",
+  "sourceIndex": 3140,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Nhược điểm của nguồn nhóm chứng là quần thể tổng quát: (1) tốn kém và mất thời gian hơn so với nhóm chứng từ bệnh viện. (2) danh sách các cá thể trong quần thể không phải lúc nào cũng sẵn có và thường khó tiếp xúc với những người khỏe mạnh vì họ bận công việc của họ. (3) họ không thể nhớ được tiền sử phơi nhiễm chính xác như ở nhóm bệnh. (4) Những người khỏe mạnh ít có động cơ thúc đẩy tham gia nghiên cứu. (5) Họ có nhiều yếu tố nguy cơ khác.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_35a494b86b33d5cd",
+  "sourceIndex": 3189,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Ưu điểm của nghiên cứu thuần tập tương lai? Ngoại trừ",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1022",
+  "uid": "q_2b25f186b56e67f6",
+  "sourceIndex": 3232,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 14: Trong thử nghiệm thuốc điều trị, giai đoạn nghiên cứu tính an toàn chứ không phải tính hiệu quả của thuốc và sau đó xác định liều sử dụng thích hợp là giai đoạn:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "40",
+  "uid": "q_a5726903a518d676",
+  "sourceIndex": 3258,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Câu 40: Không loại trừ khỏi phân tích các đối tượng không đủ tiêu chuẩn hay không tuân thủ chế độ nghiên cứu sau khi được chọn ngẫu nhiên .để hạn chế sai số . Đúng hay sai.",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_56ff37113fb9c1b1",
+  "sourceIndex": 3330,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Các bệnh có thể truyền nhiễm thực phẩm, chọn sai:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_5c219b934f90531b",
+  "sourceIndex": 3395,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 32: Yếu tố không phải là yếu tố thuận lợi của báo cáo mắc bệnh là:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_818bf390337ec174",
+  "sourceIndex": 3463,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "[H] Nguồn truyền nhiễm của các bệnh tả, lỵ, thương hàn, chọn câu sai:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD24",
+  "uid": "q_91bfab8e5ede27a7",
+  "sourceIndex": 3559,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Biến chứng nặng của Tay chân miệng (chọn đáp án sai)",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_1b0f669854816a47",
+  "sourceIndex": 3570,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Xử lí tại hộ gia đình có người mắc TCM(chọn đáp án sai)",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_8438d75cea72c195",
+  "sourceIndex": 3697,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Ở các bệnh truyền từ súc vật, người bệnh thực tế không nguy hiểm đối với những người xung quanh, ngoại trừ",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_9c6713fcee858ee6",
+  "sourceIndex": 3699,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Trong các bệnh do súc vật, thông thường vật chủ sinh học của một tác nhân gây bệnh không phải là một mà là một vài động vật, nhưn phải có một loài là chủ yếu, còn lại là thứ yếu.",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_6e2b51d75d97daa7",
+  "sourceIndex": 3721,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu sai trong những câu sau về muỗi Ades aegypti: (1) sống trong nhà, đậu những nơi có ít ánh sáng và độ ẩm thấp (2) sinh sản ở những nơi nước đục như ao, sông… (3) bọ gậy muỗi Ades aegypti phát triển tốt ở những nơi có pH nhẹ, nên thường sinh sản vào mùa mưa, nước máy (4) có thể thấy muỗi trưởng thành xung quanh ổ khoảng 50m và cách xa nhất 200m",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_e3c5c6454b0a033d",
+  "sourceIndex": 3930,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 28: Đâu KHÔNG PHẢI vai trò của sự phối hợp YHGĐ và các chuyên khoa?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MDMCQ_011",
+  "uid": "q_ef0211a467f4ff46",
+  "sourceIndex": 3945,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "3. Nguyên tắc nào sau đây không đúng?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "32",
+  "uid": "q_c446e7b88e82ded3",
+  "sourceIndex": 3972,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Điền từ: theo WHO, “…. là một tráng hoàn toàn thoải mái cả về ….,....,...., chứ không phải chỉ là không có bệnh tật hay tàn tật”",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "Q2",
+  "uid": "q_4158ea7dfb6b6f6d",
+  "sourceIndex": 4049,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Sức khỏe là tình trạng thoải mái về thể chất - tinh thần - xã hội chứ không phải là…?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "Q10a",
+  "uid": "q_cd2bc55862a8e4d1",
+  "sourceIndex": 4058,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu nào sau đây không phải là hoạt động của dự phòng cấp I?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "Q11",
+  "uid": "q_8d3a1b7804b14828",
+  "sourceIndex": 4059,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu nào sau đây không phải là hoạt động của dự phòng cấp 0?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "13",
+  "uid": "q_1a22aa1c6a7947c9",
+  "sourceIndex": 4061,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu nào sau đây không phải là hành động của dự phòng cấp 2?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_25cdfcea0de84762",
+  "sourceIndex": 4067,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Ý nào sau đây không phải là lợi ích của nghiệm pháp tầm soát?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_038f71ff91dcb018",
+  "sourceIndex": 4068,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Ý nào sau đây không phải là nguy cơ của nghiệm pháp tầm soát?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "28",
+  "uid": "q_4a7e604776c6e730",
+  "sourceIndex": 4071,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Điền từ: Tư vấn giáo dục sức khỏe không phải chỉ cho các cá nhân mà còn cho ..., cộng đồng, cả người ốm và người khỏe.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MCQ18",
+  "uid": "q_c053b3a45ef34333",
+  "sourceIndex": 4202,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 5: Đâu không phải là nôi dung chăm sóc bênh nhân ung thư ?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_51e6426667daa97d",
+  "sourceIndex": 4220,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Chế độ nào sau đây không phải dành cho người có dấu hiệu suy kiệt rõ thằng",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_d1b79156fb5f8676",
+  "sourceIndex": 4237,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Thực phẩm giàu protein nguồn gốc thực vật, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD1001",
+  "uid": "q_fbb73e8c277e4abc",
+  "sourceIndex": 4260,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Bệnh nhân tiểu đường nên hạn chế ăn thực phẩm nào? Chọn đáp án sai.",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_b3fec784f9efbd15",
+  "sourceIndex": 4294,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Thức ăn có đường hấp thụ nhanh, trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "THA014",
+  "uid": "q_82cb1fb301c43b8f",
+  "sourceIndex": 4323,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Đâu không phải là tác dụng phụ của thuốc lợi tiểu thiazid?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_899b43ce50954bf5",
+  "sourceIndex": 4337,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Bác sĩ YHGĐ cần biết những gì về bệnh THA( chọn đáp án sai)",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_fb3988148e2e3691",
+  "sourceIndex": 4368,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Cần chuyển tuyến bệnh nhân COPD khi kèm theo yếu tố nào sau đây (chọn đáp án sai)?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_aba90639bbc6fcb7",
+  "sourceIndex": 4377,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chẩn đoán điều dưỡng trong Chăm sóc người bệnh COPD, chọn ý sai:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_9b6ded983c010e31",
+  "sourceIndex": 4380,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Cải thiện sự thông thoáng đường hô hấp bao gồm, chọn ý sai:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_34fcefc6882453aa",
+  "sourceIndex": 4512,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "TAF chỉ định với, trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_73a81ff2f4643143",
+  "sourceIndex": 4991,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Sự vận chuyển thuốc qua màng mô tả một cách cụ thể quá trình và hệ thống vận chuyển hỗ trợ các phân tử trong quá trình di chuyển qua màng tế bào. Hãy cho biết đặc điểm nào sau đây không đúng với các đặc điểm của hàng rào máu não",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "ID018",
+  "uid": "q_5dde9723866cd682",
+  "sourceIndex": 5752,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Cấu trúc không phải môi trường chiết quang của mắt :",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "175",
+  "uid": "q_851914aa0d75d6e7",
+  "sourceIndex": 6053,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Bộ 4 số lượng tử nào sau đây không phù hợp theo các nguyên lý đã học ?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "156",
+  "uid": "q_b4f049b9eab8fe0a",
+  "sourceIndex": 6068,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Câu 156: Bộ 4 số lượng tử nào sau đây không phù hợp theo các nguyên lý đã học ?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_a6feb814966bd85d",
+  "sourceIndex": 6214,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 91 Sụn không phải sụn trong:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "175",
+  "uid": "q_cb5154ae12902787",
+  "sourceIndex": 6469,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Câu 175: Bộ 4 số lượng tử nào sau đây không phù hợp theo các nguyên lý đã học ?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "156",
+  "uid": "q_75680a49e581687c",
+  "sourceIndex": 6482,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Bộ 4 số lượng tử nào sau đây không phù hợp theo các nguyên lý đã học?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_212f4dbed90ed46e",
+  "sourceIndex": 6642,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Bổ thể là do các tế bào plasma sản xuất, nhưng không phải là kháng thể.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_5812a6510b7e825a",
+  "sourceIndex": 6656,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Nội dung phán đoán nào sau đây không phải là điều kiện, tiền đề khách quan của sự ra đời triết học Mác?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "237",
+  "uid": "q_7bc5c872734d1ab7",
+  "sourceIndex": 6774,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Theo Hồ Chí Minh đạo đức cách mạng là một phạm trù lịch sử, nghĩa là nó cũng thay đổi theo nhiệm vụ từng thời kỳ của cách mạng, “đạo đức xã hội chủ nghĩa không phải ở đâu cũng biểu hiện giống nhau. Ở nước ta đạo đức xã hội chủ nghĩa là …..”. Chọn phương án đúng điền vào chỗ trống.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "252",
+  "uid": "q_201613c952162926",
+  "sourceIndex": 6789,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 252. Quan điểm nào sau đây không phải của Hồ Chí Minh về những nguyên tắc xây dựng đạo đức mới?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "91",
+  "uid": "q_f4b9aa0cb876404f",
+  "sourceIndex": 6890,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Ý nào dưới đây không phải là biện pháp giải quyết nạn đói do Chính phủ đề ra?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_5226c0f8926219c6",
+  "sourceIndex": 7010,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Điền vào chỗ trống để hoàn thiện luận điểm sau của Ph. Ăngghen về mối quan hệ giữa Tất nhiên và Ngẫn nhiên: “Việc quy định tất cả mọi hiện tượng về….., phủ nhận sự tồn tại của...về thực chất không phải là nâng Ngẫu nhiên lên trình độ Tất nhiên mà là hạ Tất nhiên xuống sinh áp Ngẫu nhiên\"?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MCQ15",
+  "uid": "q_eb87d856c27ee551",
+  "sourceIndex": 7095,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Quan điểm: “Giai cấp vô sản là một giai cấp xã hội hoàn toàn chỉ kiếm sống bằng việc bán lao động của mình, chứ không phải sống bằng lợi nhuận của bất cứ tư bản nào...” của Ph.Ăngghen được trích trong tác phẩm nào?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_96be27b9adbdd254",
+  "sourceIndex": 7117,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Phát biểu nào sau đây không đúng?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MCQ002",
+  "uid": "q_42d3c7c0126bb160",
+  "sourceIndex": 7257,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 63. Quan điểm nào sau đây không phải của Hồ Chí Minh?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MCQ016",
+  "uid": "q_ada8bea789fbfe7f",
+  "sourceIndex": 7271,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 77. Quan điểm sau đây của Hồ Chí Minh được nêu tại Đại hội/Hội nghị của Đảng: “Cuộc cách mạng Đông Dương hiện tại không phải là cuộc cách mạng tư sản dân quyền, cuộc cách mạng phải giải quyết hai vấn đề: phản đế và điền địa nữa, mà là một cuộc cách mạng chỉ phải giải quyết một vấn đề cần kíp “dân tộc giải phóng”?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "199",
+  "uid": "q_195359bacb62f023",
+  "sourceIndex": 7393,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Quan điểm nào sau đây không phải của Hồ Chí Minh về chức năng của văn hóa?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "201",
+  "uid": "q_a03da0ae058df9fe",
+  "sourceIndex": 7395,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Phương án nào sau đây không phải của Hồ Chí Minh về phương châm, phương pháp giáo dục?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "HC218",
+  "uid": "q_dbaa3e82aca23196",
+  "sourceIndex": 7412,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 218. Chọn phương án đúng điền vào chỗ trống trong câu sau của Hồ Chí Minh: “Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh và … bền bỉ hàng ngày mà phát triển và củng cố”.",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "MCQ237",
+  "uid": "q_7910261c51d2d075",
+  "sourceIndex": 7431,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 237. Theo Hồ Chí Minh, đạo đức cách mạng là một phạm trù lịch sử, nghĩa là nó cũng thay đổi theo nhiệm vụ từng thời kỳ của cách mạng, “đạo đức xã hội chủ nghĩa không phải ở đâu cũng biểu hiện giống nhau. Ở nước ta đạo đức xã hội chủ nghĩa là …..”. Chọn phương án đúng điền vào chỗ trống.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "MCQ252",
+  "uid": "q_d2cf24185d9d9892",
+  "sourceIndex": 7446,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 252. Quan điểm nào sau đây không phải của Hồ Chí Minh về những nguyên tắc xây dựng đạo đức mới?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_bfcb946d07f0a40c",
+  "sourceIndex": 7482,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "269. Khi nghiên cứu về quyền của người sử dụng lao động thì khẳng định nào sau đây là sai?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_a1c7416e33c0d49e",
+  "sourceIndex": 7640,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Hãy xác định khẳng định nào sau đây là sai?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_c0e6f8309502be85",
+  "sourceIndex": 7647,
+  "negationFamily": "B. nào sau đây sai",
+  "originalQuestion": "Khẳng định nào sai khi nghiên cứu về hình thức thi hành pháp luật?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_ee6750250b66164b",
+  "sourceIndex": 7648,
+  "negationFamily": "B. nào sau đây sai",
+  "originalQuestion": "Khẳng định nào sai khi nghiên cứu về hình thức sử dụng pháp luật?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_5df59d637ffb3f8d",
+  "sourceIndex": 7653,
+  "negationFamily": "B. nào sau đây sai",
+  "originalQuestion": "Khẳng định nào sai khi nghiên cứu về hình thức áp dụng pháp luật?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "187",
+  "uid": "q_7d60f65df85015f9",
+  "sourceIndex": 7670,
+  "negationFamily": "B. nào sau đây sai",
+  "originalQuestion": "Khẳng định nào sai khi nghiên cứu về mặt chủ quan của vi phạm pháp luật?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "207",
+  "uid": "q_da8a33d94f6f087c",
+  "sourceIndex": 7690,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Khi nghiên cứu về đặc điểm của trách nhiệm pháp lý thì khẳng định nào sau đây là sai?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_bc6af866b3dae079",
+  "sourceIndex": 7826,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "140. Khi nghiên cứu về năng lực chủ thể quan hệ pháp luật, thì khẳng định nào sau đây là sai?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "150",
+  "uid": "q_992df83bc2eb7248",
+  "sourceIndex": 7836,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Khi nghiên cứu về đặc điểm của quan hệ pháp luật thì khẳng định nào sau đây là sai?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "154",
+  "uid": "q_afe714692443c64f",
+  "sourceIndex": 7840,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Khẳng định nào sau đây là sai?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_707cfcb3508c9c53",
+  "sourceIndex": 7850,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Khi nghiên cứu về tổ chức thị tộc thì khẳng định nào sau đây sai ?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "13",
+  "uid": "q_854595f65486efb2",
+  "sourceIndex": 7854,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Đề cập đến quá trình phát triển, thay đổi của xã hội loài người, nhận định nào sau đây là sai ?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_2a993b3601e33fbd",
+  "sourceIndex": 7855,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Đề cập đến quá trình phát triển, thay đổi của xã hội loài người, nhận định nào sau đây là sai ?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_0addb740f7d1ce1e",
+  "sourceIndex": 7856,
+  "negationFamily": "B. nào sai",
+  "originalQuestion": "Nhận định nào sau đây sai?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "Q8",
+  "uid": "q_388aea743048cc26",
+  "sourceIndex": 7888,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn đáp án sai (không phải là giá trị của từ điều khiển để cấu hình 8255A):",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "Q9",
+  "uid": "q_e7ef950d103469d1",
+  "sourceIndex": 7889,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn đáp án sai (không phải là giá trị của từ điều khiển để cấu hình 8255A):",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_61e0ebb32a6de8e1",
+  "sourceIndex": 7932,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Phương án nào không phải là biến chứng của hội chứng Lyell",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "237",
+  "uid": "q_30450202632b1745",
+  "sourceIndex": 8229,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Câu 237. Theo Hồ Chí Minh đạo đức cách mạng là một phạm trù lịch sử, nghĩa là nó cũng thay đổi theo nhiệm vụ từng thời kỳ của cách mạng, “đạo đức xã hội chủ nghĩa không phải ở đâu cũng biểu hiện giống nhau. Ở nước ta đạo đức xã hội chủ nghĩa là …..”. Chọn phương án đúng điền vào chỗ trống.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_dd4d3bb7d9657603",
+  "sourceIndex": 8733,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Đái tháo đường phù hợp với, ngoại trừ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_f76140362ff77b82",
+  "sourceIndex": 8779,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu SAI về loperamid.",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_06f1830b15894638",
+  "sourceIndex": 8788,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các thuốc sau đây có tác dụng giảm lượng acid dịch vị, NGOẠI TRỪ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_0f7a6ad11683d26b",
+  "sourceIndex": 8790,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu SAI về chuyển hóa lần đầu (first-pass metabolism).",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_85ba722b97b49efd",
+  "sourceIndex": 8803,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Chỉ định dùng thuốc kháng H1 trong các trường hợp sau NGOẠI TRỪ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_cc86b458215775cb",
+  "sourceIndex": 8810,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọn câu SAI. Các yếu tố ảnh hưởng đến sự hấp thu thuốc?",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_f2c6ec64a572d0cf",
+  "sourceIndex": 8811,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Chỉ định nào sau đây KHÔNG phải của chlorpheniramin?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_1aa30644535f414b",
+  "sourceIndex": 8962,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Yếu tố nào dưới đây không phải là một phần của mô hình xoắn ốc?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_5e08e6387defe105",
+  "sourceIndex": 8968,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Hoạt động nào sau đây không phải là một phần của thẩm định phần mềm?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_b2ff103e2c19cfa2",
+  "sourceIndex": 9086,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "[1. Trong khi phiên dịch hoặc lắng nghe, người phiên dịch nên ghi nhớ [ý tưởng], không phải tất cả các từ; [{ 'content': 'Chắc chắn rồi', 'isCorrect': False}, {'content': 'Thực tế là', 'isCorrect': False}, {'content': 'ý tưởng', 'isCorrect': True}, {'content': 'Nói chung', 'isCorrect': False}]",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_376945e9ad89a83c",
+  "sourceIndex": 9097,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Ghi chú theo chiều dọc có nghĩa là viết theo hướng [phải-trái], không phải theo chiều trên xuống;",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_fc5df1f5ba231546",
+  "sourceIndex": 9405,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "......... là sự gia tăng vốn chủ sở hữu do việc bán một tài sản không phải là hàng tồn kho.",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "33",
+  "uid": "q_2ca4c22ca0a21b85",
+  "sourceIndex": 9667,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Phương pháp nghiên cứu khoa học bao gồm những bước nào, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_5af9ad191935ad22",
+  "sourceIndex": 9673,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Các nội dung cơ bản của hoạt động nghiên cứu khoa học, CHỌN CÂU SAI:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_de62af23a5a9c7b8",
+  "sourceIndex": 9681,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Mục đích nghiên cứu khoa học là, NGOẠI TRỪ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_a3b3785ba0f9d0c8",
+  "sourceIndex": 9682,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Nói về mục đích của nghiên cứu khoa học trong y học, CHỌN CÂU SAI:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_597e44edcf7f8324",
+  "sourceIndex": 9683,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Mục đích của nghiên cứu khoa học trong y khoa, NGOẠI TRỪ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_0e6884462a817f49",
+  "sourceIndex": 9686,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Mục đích cuối của nghiên cứu khoa học trong y khoa, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_cf317f027248831b",
+  "sourceIndex": 9692,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Hoạt động NCKH bao gồm các nội dung cơ bản nào sau đây, CHỌN CÂU SAI:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_866fef55930cea32",
+  "sourceIndex": 9693,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Nội dung cơ bản của hoạt động NCKH, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_6fc6b662f11e3e74",
+  "sourceIndex": 9696,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Hoạt động nghiên cứu khoa học gồm các nội dung cơ bản sau, NGOẠI TRỪ:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_8fbf97a2d9298122",
+  "sourceIndex": 9702,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Đâu KHÔNG PHẢI là đặc điểm của hoạt động NCKH?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_278fd0a91b497d18",
+  "sourceIndex": 9703,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Đặc điểm của hoạt động nghiên cứu khoa học, CHỌN CÂU SAI.",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_bc04062c4269b90b",
+  "sourceIndex": 9705,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Đặc điểm của hoạt động nghiên cứu khoa học, CHỌN CÂU SAI.",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_e234ad8774d1ed99",
+  "sourceIndex": 9711,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Các đặc tính cơ bản của nghiên cứu khoa học, NGOẠI TRỪ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_77e8c7aad640aa70",
+  "sourceIndex": 9727,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tính phi kinh tế, CHỌN CÂU SAI:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_af6592e80e0dca5c",
+  "sourceIndex": 9729,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Nghiên cứu khoa học và công nghệ sử dụng những nguyên liệu và thiết bị, CHỌN CÂU SAI:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_7ee2e6a25d15c6fd",
+  "sourceIndex": 9737,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "CHỌN CÂU SAI:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_6d365791ed6457d3",
+  "sourceIndex": 9746,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tính khoa học của hoạt động nghiên cứu khoa học, CHỌN CÂU SAI:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "92",
+  "uid": "q_907cd4c713f7620c",
+  "sourceIndex": 9747,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tính khoa học của hoạt động NCKH bao gồm, CHỌN CÂU SAI:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "95",
+  "uid": "q_3afe0c2a148d6523",
+  "sourceIndex": 9750,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Để xét khả năng khái quát hóa, người nghiên cứu cần căn cứ vào đâu, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "101",
+  "uid": "q_d20c4478ab2a232a",
+  "sourceIndex": 9756,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tính khoa học trong nghiên cứu khoa học, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "103",
+  "uid": "q_f319262178240947",
+  "sourceIndex": 9758,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tính khoa học của hoạt động NCKH gồm, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "105",
+  "uid": "q_f6b00a0e97b12a05",
+  "sourceIndex": 9760,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Tính khoa học trong NCKH gồm, CHỌN CÂU SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "106",
+  "uid": "q_8fb839e19dae584d",
+  "sourceIndex": 9761,
+  "negationFamily": "A. ngoại trừ",
+  "originalQuestion": "Người nghiên cứu cần căn cứ vào yếu tố nào để xét khả năng khái quát hóa, NGOẠI TRỪ:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "119",
+  "uid": "q_27b974b627c31501",
+  "sourceIndex": 9774,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Nói về nghiên cứu cơ bản, CHỌN CÂU SAI:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "120",
+  "uid": "q_c43f89cd8390c441",
+  "sourceIndex": 9775,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Nói về lĩnh vực phòng bệnh, CHỌN CÂU SAI:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "127",
+  "uid": "q_d37e1cf1783ddceb",
+  "sourceIndex": 9782,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Nghiên cứu khoa học cơ bản là, CHỌN CÂU SAI:",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "134",
+  "uid": "q_7b3248fc7c193122",
+  "sourceIndex": 9789,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Lĩnh vực nghiên cứu cơ bản, CHỌN CÂU SAI:",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_4d4aae487c110f23",
+  "sourceIndex": 9837,
+  "negationFamily": "C. không đúng",
+  "originalQuestion": "Điều gì KHÔNG đúng về dịch vụ Central Shuttle?",
+  "originalCorrect": "optionC",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_b01d798f33cfe310",
+  "sourceIndex": 9854,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "Mục đích nào KHÔNG phải là mục đích của việc tham gia đêm demo?",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_7a6a699b7a301293",
+  "sourceIndex": 9913,
+  "negationFamily": "D. không phải",
+  "originalQuestion": "W-Am: Không phải những đôi giày đi bộ đường dài này được giảm giá sao? M-Au",
+  "originalCorrect": "optionA",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_6b958d0e3efdb9ec",
+  "sourceIndex": 10091,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "6. Chọn câu sai : Khi nói về vật lý trị liệu trong điều trị lao màng phổi ?",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "35",
+  "uid": "q_44e2fa8ae638146d",
+  "sourceIndex": 10120,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Ở Việt Nam lao màng phổi, chọn câu SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionC"
+ },
+ {
+  "questionID": "36",
+  "uid": "q_e8b6c811e322d9ff",
+  "sourceIndex": 10121,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Lao màng phổi, chọn câu SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionB, optionC, optionD"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_a7d37ca328bcb207",
+  "sourceIndex": 10122,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Điều kiện thuận lợi gây bệnh lao màng phổi, chọn câu SAI:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_66667a6162d3dc40",
+  "sourceIndex": 10124,
+  "negationFamily": "B. chọn sai",
+  "originalQuestion": "Chọc dò màng phổi trong lao màng phổi, chọn câu sai:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD101",
+  "uid": "q_6c384cf75a7837d2",
+  "sourceIndex": 10236,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 10. BN bị chấn thương bụng có thể biểu hiện bằng các hội chứng lâm sàng sau đây, TRỪ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ },
+ {
+  "questionID": "MD102",
+  "uid": "q_3af4aa10a478d9ed",
+  "sourceIndex": 10237,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 2. Ở BN bị chấn thương bụng kín, CT được chỉ định trong các trường hợp sau đây, TRỪ:",
+  "originalCorrect": "optionB",
+  "newCorrect": "optionA, optionC, optionD"
+ },
+ {
+  "questionID": "MD105",
+  "uid": "q_bb0b60084f90173f",
+  "sourceIndex": 10240,
+  "negationFamily": "A. trừ",
+  "originalQuestion": "Câu 5. Siêu âm có các vai trò sau trong chấn thương bụng kín, TRỪ:",
+  "originalCorrect": "optionD",
+  "newCorrect": "optionA, optionB, optionD"
+ }
+]
