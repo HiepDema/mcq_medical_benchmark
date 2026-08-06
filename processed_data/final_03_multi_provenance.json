@@ -3,7 +3,8 @@
   "questionID": "2",
   "uid": "q_1c007575f1abc6ab",
   "sourceIndex": 1,
-  "selectedBecause": "câu mẫu kinh điển — 4 phương án là hoán vị của pool 5 loại tế bào",
+  "selection": "hand-verified",
+  "overlap": 0.583,
   "originalOptions": [
    "Hồng cầu, bạch cầu hạt, tiểu cầu nguyên thủy",
    "Hồng cầu, bạch cầu lympho, tiểu cầu nguyên thủy",
@@ -20,7 +21,8 @@
   "questionID": "168",
   "uid": "q_635ac65ff2393486",
   "sourceIndex": 910,
-  "selectedBecause": "thành phần đuôi cục nghẽn hỗn hợp — pool 4 mục, tách rõ",
+  "selection": "hand-verified",
+  "overlap": 0.667,
   "originalOptions": [
    "Hồng cầu, sợi tơ huyết, tiểu cầu, bạch cầu",
    "Hồng cầu, sợi tơ huyết, tiểu cầu",
@@ -37,7 +39,8 @@
   "questionID": "167",
   "uid": "q_73818b79a071084c",
   "sourceIndex": 909,
-  "selectedBecause": "thành phần thân cục nghẽn hỗn hợp — cặp đối chiếu với câu trên",
+  "selection": "hand-verified",
+  "overlap": 0.6,
   "originalOptions": [
    "Sợi tơ huyết, tiểu cầu",
    "Hồng cầu, sợi tơ huyết, tiểu cầu",
@@ -51,27 +54,11 @@
   "qualityFlag": "derived-from-source-truth"
  },
  {
-  "questionID": "NEUR1006",
-  "uid": "q_4eab076514a2a2ac",
-  "sourceIndex": 1425,
-  "selectedBecause": "cơ do dây VII chi phối — nhiễu 'cơ cắn' (dây V) chắc chắn sai",
-  "originalOptions": [
-   "Cơ cười, cơ cắn, cơ nâng góc miệng",
-   "Cơ cười, cơ cắn, cơ hạ góc miệng",
-   "Cơ nâng góc miệng, cơ hạ góc miệng, cơ cười",
-   "Cơ nâng góc miệng, cơ hạ góc miệng, cơ cắn"
-  ],
-  "originalCorrect": "optionC",
-  "newOptionCount": 4,
-  "correctAnswer": "optionA, optionC, optionD",
-  "derivedFrom": "comma-split",
-  "qualityFlag": "derived-from-source-truth"
- },
- {
   "questionID": "11",
   "uid": "q_898e4cacd02b677f",
   "sourceIndex": 1855,
-  "selectedBecause": "giới hạn tam giác bả vai tam đầu — mốc giải phẫu rõ ràng",
+  "selection": "hand-verified",
+  "overlap": 0.667,
   "originalOptions": [
    "Xương vai, cơ tròn lớn, cơ tròn bé",
    "Xương vai, cơ tròn bé, đầu dài cơ tam đầu",
@@ -85,27 +72,11 @@
   "qualityFlag": "derived-from-source-truth"
  },
  {
-  "questionID": "MD1012",
-  "uid": "q_72ad21a5fb772243",
-  "sourceIndex": 2330,
-  "selectedBecause": "suy tim toàn bộ — nhiễu 'tăng gánh nhĩ phải' đối lập với đáp án",
-  "originalOptions": [
-   "Suy tim trái, tăng gánh nhĩ trái, suy tim phải",
-   "Suy tim phải, tăng gánh nhĩ phải, suy tim trái",
-   "Tăng gánh nhĩ phải, suy tim phải, suy tim trái",
-   "Tăng gánh nhĩ trái, suy tim trái, suy tim phải"
-  ],
-  "originalCorrect": "optionD",
-  "newOptionCount": 4,
-  "correctAnswer": "optionA, optionC, optionD",
-  "derivedFrom": "comma-split",
-  "qualityFlag": "derived-from-source-truth"
- },
- {
   "questionID": "15",
   "uid": "q_039827e9e1c777c4",
   "sourceIndex": 1409,
-  "selectedBecause": "phân loại xương theo hình thể — nhiễu là loại mô, không phải hình thể",
+  "selection": "hand-verified",
+  "overlap": 0.65,
   "originalOptions": [
    "Xương dài, xương ngắn, xương dẹt, xương khó định hình, xương vừng.",
    "Xương dài, xương ngắn, xương dẹt, xương sụn, xương vừng",
@@ -122,7 +93,8 @@
   "questionID": "364",
   "uid": "q_434f3f9dde0a1ea6",
   "sourceIndex": 1103,
-  "selectedBecause": "4 triệu chứng viêm của Celsus — 'mất chức năng' là bổ sung đời sau",
+  "selection": "hand-verified",
+  "overlap": 0.632,
   "originalOptions": [
    "Sưng, nóng, đỏ, đau",
    "Sưng, nóng, đỏ, đau, mất chức năng cơ quan",
@@ -139,7 +111,8 @@
   "questionID": "Q578",
   "uid": "q_61de981adf3bb858",
   "sourceIndex": 1301,
-  "selectedBecause": "thành phần mô đệm của u — nhiễu 'mô cơ', 'mô mỡ' rõ ràng ngoài nhóm",
+  "selection": "hand-verified",
+  "overlap": 0.625,
   "originalOptions": [
    "Mạch máu, thần kinh, mô xơ, mô cơ",
    "Mạch máu, mạch bạch huyết, thần kinh, mô xơ",
@@ -153,27 +126,11 @@
   "qualityFlag": "derived-from-source-truth"
  },
  {
-  "questionID": "19",
-  "uid": "q_577e4cf44467fd1e",
-  "sourceIndex": 4803,
-  "selectedBecause": "biến chứng còn ống động mạch — nhiễu là biến chứng của bệnh khác",
-  "originalOptions": [
-   "Viêm phổi, suy tim, viêm ngoại tâm mạc, tắc nghẽn mạch phổi",
-   "Viêm phổi, suy tim, viêm ngoại tâm mạc, tắc nghẽn động mạch chủ",
-   "Viêm phổi, suy tim, viêm nội tâm mạc, tắc nghẽn mạch phổi",
-   "Viêm phổi, suy tim, viêm nội tâm mạc, tắc nghẽn động mạch chủ"
-  ],
-  "originalCorrect": "optionC",
-  "newOptionCount": 6,
-  "correctAnswer": "optionA, optionB, optionC, optionF",
-  "derivedFrom": "comma-split",
-  "qualityFlag": "derived-from-source-truth"
- },
- {
   "questionID": "185",
   "uid": "q_4e3e8f7ad1cac624",
   "sourceIndex": 6027,
-  "selectedBecause": "hydrocarbon no — kiểm chứng khách quan bằng công thức phân tử",
+  "selection": "hand-verified",
+  "overlap": 0.625,
   "originalOptions": [
    "C3H8, C4H10, C8H18, C5H12.",
    "C3H8, C8H18, CO2, C3H6.",
@@ -183,6 +140,762 @@
   "originalCorrect": "optionA",
   "newOptionCount": 6,
   "correctAnswer": "optionA, optionB, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MCHCM010",
+  "uid": "q_350f07f9dfb950cb",
+  "sourceIndex": 7215,
+  "selection": "hand-verified",
+  "overlap": 0.667,
+  "originalOptions": [
+   "Giải phóng dân tộc, giải phóng giai cấp, giải phóng con người.",
+   "Giải phóng xã hội, giải phóng dân tộc, giải phóng con người.",
+   "Giải phóng xã hội, giải phóng con người, giải phóng dân tộc.",
+   "Giải phóng con người, giải phóng dân tộc, giải phóng xã hội."
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionB, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_06d8a3cfab0fc53a",
+  "sourceIndex": 4809,
+  "selection": "hand-verified",
+  "overlap": 0.625,
+  "originalOptions": [
+   "Thất trái to, nhĩ trái to, ĐM phổi phồng, rốn phổi đậm",
+   "Thất trái to, nhĩ phải to, ĐM phổi phồng, rốn phổi đậm",
+   "Thất phải to, nhĩ trái to, ĐM phổi phồng, rốn phổi đậm",
+   "Thất phải to, nhĩ phải to, ĐM phổi phồng, rốn phổi đậm"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 6,
+  "correctAnswer": "optionB, optionC, optionD, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_cdf1bafb010e1ee4",
+  "sourceIndex": 5616,
+  "selection": "hand-verified",
+  "overlap": 0.6,
+  "originalOptions": [
+   "Phòng y tế, Trung tâm y tế",
+   "Phòng y tế, Trung tâm y tế, Sở y tế",
+   "Trung tâm y tế, bệnh viện huyện",
+   "Phòng Y tế, Trung tâm y tế, bệnh viện huyện"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_6005024dcab3fe9d",
+  "sourceIndex": 757,
+  "selection": "hand-verified",
+  "overlap": 0.583,
+  "originalOptions": [
+   "Nhân đông, nhân chia, nhân tan",
+   "Nhân quái, nhân đông, nhân tan",
+   "Nhân tan, nhân chia, nhân quái",
+   "Nhân đông, nhân vỡ, nhân tan"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionB, optionC",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_b7e5c7d473b26e8f",
+  "sourceIndex": 1854,
+  "selection": "hand-verified",
+  "overlap": 0.583,
+  "originalOptions": [
+   "Xương vai, cơ tròn lớn, đầu dài cơ tam đầu",
+   "Đầu dài cơ tam đầu, xương cánh tay, cơ tròn bé",
+   "Đầu dài cơ tam đầu, xương cánh tay, cơ tròn lớn",
+   "Xương vai, cơ tròn lớn, cơ tròn bé"
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionD, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_ee21036d5b8ca438",
+  "sourceIndex": 4151,
+  "selection": "hand-verified",
+  "overlap": 0.583,
+  "originalOptions": [
+   "Hoàn cảnh, nội dung, mục đích",
+   "Hoàn cảnh, nội dung, kết quả",
+   "Hình thức biểu hiện, nội dung, mục đích",
+   "Hình thức biểu hiện, nội dung, kết quả"
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 5,
+  "correctAnswer": "optionB, optionD, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "HC216",
+  "uid": "q_125601b013fb8b6c",
+  "sourceIndex": 7410,
+  "selection": "hand-verified",
+  "overlap": 0.583,
+  "originalOptions": [
+   "Cách mạng, Khoa học, Đại chúng.",
+   "Dân tộc, Khoa học, Đại chúng.",
+   "Dân chủ, Cách mạng, Đại chúng",
+   "Dân tộc, Cách mạng, Đại chúng."
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionB, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "83",
+  "uid": "q_ddd60a9cecc16138",
+  "sourceIndex": 9486,
+  "selection": "hand-verified",
+  "overlap": 0.583,
+  "originalOptions": [
+   "Phù hợp, nhất quán, chi phí lịch sử",
+   "Phù hợp, nhất quán, minh bạch",
+   "Nhất quán, chi phí lịch sử, minh bạch",
+   "Nhất quán, so sánh, minh bạch"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 5,
+  "correctAnswer": "optionB, optionD, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_c8d6f0b69d39672d",
+  "sourceIndex": 9619,
+  "selection": "hand-verified",
+  "overlap": 0.583,
+  "originalOptions": [
+   "Nội dung công việc, cách làm kế hoạch, nhu cầu",
+   "Thời gian, nội dung công việc, cách làm kế hoạch",
+   "Thời gian, cách làm kế hoạch, chỉ tiêu được giao",
+   "Thời gian, nội dung công việc, chỉ tiêu được giao"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 5,
+  "correctAnswer": "optionC, optionD, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_5ef26762300fbd86",
+  "sourceIndex": 492,
+  "selection": "hand-verified",
+  "overlap": 0.562,
+  "originalOptions": [
+   "Thể chai, vòm não, mép trắng trước, bao trong",
+   "Thể chai, mép trắng trước, mép trắng sau, vách trong suốt",
+   "Thể chai, vòm não, mép trắng sau, nhân đuôi",
+   "Thể chai, vòm não, mép trắng trước, mép trắng sau"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 7,
+  "correctAnswer": "optionC, optionD, optionE, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "16",
+  "uid": "q_f6513cfd8454accc",
+  "sourceIndex": 4250,
+  "selection": "hand-verified",
+  "overlap": 0.562,
+  "originalOptions": [
+   "sorbitol,saccarin, mannitol, isomaltol",
+   "sorbitol, xylitol,aspatam, isomaltol",
+   "sorbitol,acesulfam K, mannitol, isomaltol",
+   "sorbitol, xylitol, mannitol, isomaltol"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 7,
+  "correctAnswer": "optionA, optionB, optionD, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "PUBLIC007",
+  "uid": "q_40b1557e1fd85d30",
+  "sourceIndex": 5259,
+  "selection": "hand-verified",
+  "overlap": 0.562,
+  "originalOptions": [
+   "Kỹ thuật, chuyên môn, tài chính, quản lý",
+   "Kỹ thuật, tài chính, quản lý, nghiên cứu khoa học",
+   "Kỹ thuật, chuyên môn, thuốc, quản lý",
+   "Kỹ thuật, tài chính, quản lý, trang thiết bị"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 7,
+  "correctAnswer": "optionB, optionC, optionE, optionG",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_c420f9f138d03d55",
+  "sourceIndex": 7534,
+  "selection": "hand-verified",
+  "overlap": 0.562,
+  "originalOptions": [
+   "Đàm thấp, tiêu khát, đầu thống, tâm quý",
+   "Đàm thấp, huyễn vựng, đầu thống, tâm quý",
+   "Vị quản thống, ma mộc, huyễn vựng, tâm quý",
+   "Ma mộc, đàm thấp, tâm quý, tiêu khát"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 7,
+  "correctAnswer": "optionA, optionD, optionF, optionG",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD439",
+  "uid": "q_40ed3a47652fe540",
+  "sourceIndex": 1178,
+  "selection": "hand-verified",
+  "overlap": 0.545,
+  "originalOptions": [
+   "Mạch máu sung huyết, xâm nhiễm các tế bào viêm là bạch cầu ái toan",
+   "Mạch máu sung huyết, xâm nhiễm các tế bào viêm là bạch cầu ái toan, các tế bào biểu mô tăng chế tiết nhày",
+   "Mạch máu sung huyết, xâm nhiễm các tế bào viêm là bạch cầu ái toan, các tuyến dạ dày tăng sinh",
+   "Mạch máu sung huyết, xâm nhiễm các tế bào viêm là bạch cầu ái toan, các tuyến bị dị sản ruột"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionB, optionC",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_78562c667608727e",
+  "sourceIndex": 3927,
+  "selection": "hand-verified",
+  "overlap": 0.545,
+  "originalOptions": [
+   "BS lâm sàng, BS dự phòng, nhà tâm lí",
+   "BS lâm sàng, BS dự phòng, Dược sĩ lâm sàng",
+   "BS cấp cứu, BS dự phòng, Dược sĩ lâm sàng",
+   "BS cấp cứu, BS dự phòng"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "101",
+  "uid": "q_8209a6a90dc83879",
+  "sourceIndex": 7764,
+  "selection": "hand-verified",
+  "overlap": 0.545,
+  "originalOptions": [
+   "Giả định, chế định, chế tài",
+   "Giả thuyết, quy định, chế tài",
+   "Giả định, chế tài",
+   "Giả định, quy định, chế tài"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 5,
+  "correctAnswer": "optionA, optionB, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "75",
+  "uid": "q_73728b28f26e9df8",
+  "sourceIndex": 402,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Tương quan, cắt ngang",
+   "Tương quan, thuần tập",
+   "Cắt ngang, bệnh chứng",
+   "Cắt ngang, thuần tập"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionC",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD1009",
+  "uid": "q_0e306a489badec6e",
+  "sourceIndex": 457,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Chui ở nền sọ qua lỗ bầu dục, chui ra ngoài qua lỗ cằm",
+   "Chui ở nền sọ qua lỗ bầu dục, chui ra ngoài qua lỗ dưới ổ mắt",
+   "Chui ở nền sọ qua lỗ tròn to, chui ra ngoài qua lỗ cằm",
+   "Chui ở nền sọ qua lỗ tròn to, chui ra ngoài qua lỗ dưới ổ mắt"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "670",
+  "uid": "q_3712c6a9e33be562",
+  "sourceIndex": 1393,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Cơ hầu màn hầu, cơ lưỡi gà",
+   "Cơ lưỡi màn hầu, cơ trâm hầu",
+   "Cơ lưỡi gà, cơ trâm hầu",
+   "Cơ lưỡi màn hầu, cơ hầu màn hầu"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionB",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_8894ea85b247b65c",
+  "sourceIndex": 1408,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Tâm thất phải, có nhiệm vụ trao đổi khí.",
+   "Tâm thất trái, có nhiệm vụ nuôi dưỡng.",
+   "Tâm thất phải, có nhiệm vụ nuôi dưỡng.",
+   "Tâm thất trái, có nhiệm vụ trao đổi khí."
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionC",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_4de092ff904cdeb6",
+  "sourceIndex": 1859,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Cơ thắt lưng chậu, cơ may",
+   "Cơ may, cơ lược",
+   "Cơ thắt lưng chậu, cơ lược",
+   "Cơ lược, cơ khép dài"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionB",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "21",
+  "uid": "q_113f520d86e5bba2",
+  "sourceIndex": 2139,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "PaCO2 máu giảm, Bicarbotnat máu trong giới hạn bình thường, pH máu tăng",
+   "PaCO2 máu tăng, Bicarbotnat máu trong giới hạn bình thường, pH máu động mạch giảm",
+   "PaCO2 máu giảm, Bicarbotnat máu giảm,pH máu tăng",
+   "PaCO2 máu tăng, Bicarbotnat máu giảm,pH máu động mạch giảm"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 6,
+  "correctAnswer": "optionB, optionC, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_19809befb90b7093",
+  "sourceIndex": 2675,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Chảy thường xuyên, mủ đặc",
+   "Chảy thường xuyên, mủ loãng",
+   "Chảy từng lúc, mủ đặc",
+   "Chảy từng lúc, mủ loãng"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_e00cd1f6e3ba662b",
+  "sourceIndex": 2711,
+  "selection": "hand-verified",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Thạch cao, chi tử, lô căn",
+   "Thạch cao, trúc diệp, lô căn",
+   "Thạch cao, hoàng liên, lô căn",
+   "Thạch cao, hoàng liên, hoàng bá"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionC, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MCQ11",
+  "uid": "q_a58bd1fade2a2b54",
+  "sourceIndex": 3171,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Phổ biến , một yếu tố nguy cơ , đầu tiên",
+   "Hiếm , nhiều yếu tố nguy cơ , đầu tiên",
+   "Hiếm , một yếu tố nguy cơ , cuối cùng",
+   "Hiếm , nhiều yếu tố nguy cơ , cuối cùng"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionD, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_e9c4dead4057cdeb",
+  "sourceIndex": 3668,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Lạnh, ẩm",
+   "Lạnh, khô",
+   "Nóng, ẩm",
+   "Nóng, khô"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionC",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_d738b7edd7272115",
+  "sourceIndex": 4846,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Trục phải, dày thất trái, dày nhĩ trái",
+   "Trục trái, dày thất trái, dày nhĩ trái",
+   "Trục trái, dày thất phải, dày nhĩ phải",
+   "Trục phải, dày thất phải, dày nhĩ phải"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionB, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_2978250448e6c2e9",
+  "sourceIndex": 4912,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Na, K, Ca giảm",
+   "Na, K, Ca Bình thường",
+   "Na, K, Cartăng nhẹ",
+   "Na, K, Cartăng cao"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 6,
+  "correctAnswer": "optionB, optionD, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD011",
+  "uid": "q_faa23e38f5f20113",
+  "sourceIndex": 5295,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Sức khoẻ, bệnh tật",
+   "Dân số, bệnh tật",
+   "Bệnh tật, dịch vụ y tế",
+   "Dân số, sức khoẻ"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "15",
+  "uid": "q_e9f9e122181a90fb",
+  "sourceIndex": 6621,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "IgA tiết, dimer",
+   "IgA tiết, monomer",
+   "IgA huyết thanh, monomer",
+   "IgA huyết thanh, dimer"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "PHIL012",
+  "uid": "q_3f35cf25a2bfcbe6",
+  "sourceIndex": 6693,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Một, nguồn gốc tự nhiên.",
+   "Một, nguồn gốc xã hội.",
+   "Hai, nguồn gốc tự nhiên và thế giới khách quan.",
+   "Hai, nguồn gốc tự nhiên và nguồn gốc xã hội."
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 5,
+  "correctAnswer": "optionC, optionD, optionE",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "232",
+  "uid": "q_be4c0b2c65d0236d",
+  "sourceIndex": 7713,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Quốc hội, Chính phủ",
+   "Quốc hội, Ủy ban nhân dân các cấp",
+   "Chính phủ, Ủy ban nhân dân các cấp",
+   "Quốc hội, Hội đồng nhân dân các cấp"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 4,
+  "correctAnswer": "optionB, optionC",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD024",
+  "uid": "q_d1759e6ad944bdfc",
+  "sourceIndex": 8428,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Ướt, dày, cạo dính khó bong",
+   "Ướt, mỏng, cạo vào dễ vỡ, mùn.",
+   "Khô, dày, cạo dính khó bong.",
+   "Khô, mỏng, cạo vào dễ vỡ, mùn."
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 7,
+  "correctAnswer": "optionA, optionB, optionD, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MDQ21",
+  "uid": "q_7fa2642560d8fd1d",
+  "sourceIndex": 8450,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Căng, khó vỡ",
+   "Nhăn nheo, dễ vỡ",
+   "Căng, dễ vỡ",
+   "Nhăn nheo, khó vỡ"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 4,
+  "correctAnswer": "optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD1009",
+  "uid": "q_0aad1cb952a1c129",
+  "sourceIndex": 8463,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Tổn thương lan tràn, ăn theo chiều sâu.",
+   "Tổn thương khu trú, ăn theo chiều rộng.",
+   "Tổn thương khu trú, ăn theo chiều sâu.",
+   "Tổn thương lan tràn, ăn theo chiều rộng"
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD1012",
+  "uid": "q_c88e4d5d6f5c24b9",
+  "sourceIndex": 8466,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Itraconazole, kháng sinh.",
+   "Kháng histamin, kháng virus.",
+   "Itraconazole, kháng histamin.",
+   "Kháng histamin, kháng sinh."
+  ],
+  "originalCorrect": "optionC",
+  "newOptionCount": 4,
+  "correctAnswer": "optionA, optionB",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD1024",
+  "uid": "q_cf2956ffd011beec",
+  "sourceIndex": 8678,
+  "selection": "auto-selected",
+  "overlap": 0.5,
+  "originalOptions": [
+   "Ngửa, sốt, trợt loét niêm mạc",
+   "Sốt, sẩn phù, trợt loét niêm mạc",
+   "Dát đỏ, bọng nước, trợt loét niêm mạc",
+   "Sẩn phù, dát đỏ, bọng nước"
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 6,
+  "correctAnswer": "optionC, optionE, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "85",
+  "uid": "q_bb00b15779a422ec",
+  "sourceIndex": 6729,
+  "selection": "auto-selected",
+  "overlap": 0.462,
+  "originalOptions": [
+   "Tính khách quan, tính phổ biến, tính liên tục.",
+   "Tính khách quan, tính lịch sử, tính đa dạng, phong phú.",
+   "Tính phổ biến, tính đa dạng, tính ngẫu nhiên.",
+   "Tính khách quan, tính phổ biến, tính đa dạng."
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 7,
+  "correctAnswer": "optionA, optionB, optionD, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "40",
+  "uid": "q_372b5db2ad52f3a6",
+  "sourceIndex": 8954,
+  "selection": "auto-selected",
+  "overlap": 0.462,
+  "originalOptions": [
+   "Thiết kế, lập trình, bảo trì",
+   "Đặc tả, thiết kế, kiểm thử, bảo trì",
+   "Lập kế hoạch, phân tích, kiểm thử",
+   "Thiết kế, lập trình, phân tích"
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 7,
+  "correctAnswer": "optionA, optionB, optionF, optionG",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "10",
+  "uid": "q_eae6ab9a0f92e088",
+  "sourceIndex": 7465,
+  "selection": "auto-selected",
+  "overlap": 0.455,
+  "originalOptions": [
+   "Hoàng cầm, hoàng bá, trúc diệp",
+   "Hoàng cầm, hoàng bá",
+   "Hoàng cầm, hoàng bá, huyền sâm",
+   "Hoàng liên, hoàng bá, sinh địa"
+  ],
+  "originalCorrect": "optionA",
+  "newOptionCount": 6,
+  "correctAnswer": "optionC, optionE, optionF",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD12",
+  "uid": "q_291496f06ebfda12",
+  "sourceIndex": 8616,
+  "selection": "auto-selected",
+  "overlap": 0.455,
+  "originalOptions": [
+   "Khuỷu tay, mặt, thân mình.",
+   "Khuỷu tay, khoeo chân, cổ tay.",
+   "Khuỷu tay, bàn tay, cổ tay.",
+   "Khoeo chân, thân mình."
+  ],
+  "originalCorrect": "optionB",
+  "newOptionCount": 6,
+  "correctAnswer": "optionA, optionC, optionD",
+  "derivedFrom": "comma-split",
+  "qualityFlag": "derived-from-source-truth"
+ },
+ {
+  "questionID": "MD13",
+  "uid": "q_d37b25dcbd59c814",
+  "sourceIndex": 8617,
+  "selection": "auto-selected",
+  "overlap": 0.455,
+  "originalOptions": [
+   "Khuỷu tay, bàn tay, cổ tay.",
+   "Khoeo chân, thân mình.",
+   "Khuỷu tay, mặt, thân mình.",
+   "Khuỷu tay, khoeo chân, cổ tay."
+  ],
+  "originalCorrect": "optionD",
+  "newOptionCount": 6,
+  "correctAnswer": "optionB, optionC, optionD",
   "derivedFrom": "comma-split",
   "qualityFlag": "derived-from-source-truth"
  }

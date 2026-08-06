@@ -51,10 +51,38 @@ DISTRACTORS: dict[int, list[str]] = {
     66:  ["Khử trùng nguồn nước", "Diệt côn trùng trung gian"],
     67:  ["Sốt rét thể não", "Viêm gan siêu vi cấp"],
     3:   ["Vận chuyển oxy", "Thực bào vi khuẩn"],
+    # --- bổ sung khi mở rộng lô B lên 50 câu ---
+    188: ["Có tiềm lực tài chính mạnh.", "Có sự hậu thuẫn của nước ngoài."],
+    2:   ["Tăng tiểu cầu tiên phát", "Đa hồng cầu nguyên phát"],
+    59:  ["Vàng da, vàng mắt", "Sưng đau khớp gối"],
+    138: ["Nhóm quy luật kinh tế thị trường.", "Nhóm quy luật ngôn ngữ."],
+    13:  ["Bóng phát tia X", "Cuộn dây tạo gradient từ trường"],
+    86:  ["Sàng lọc ung thư định kỳ", "Tư vấn tiền hôn nhân"],
+    165: ["Cơ cấu tổ chức hành chính.", "Chính sách tiền tệ quốc gia."],
+    21:  ["Ngứa mắt nhẹ, không đau", "Thị lực hoàn toàn bình thường"],
+    10:  ["Tăng khả năng sửa chữa ADN", "Tăng bám dính giữa các tế bào"],
+    71:  ["Nước muối sinh lý trong 30 phút", "Nhiệt độ phòng trong 24 giờ"],
+    72:  ["Lao phổi, viêm phổi", "Thương hàn, tả"],
+    122: ["Có nhiều mạch máu nuôi dưỡng.", "Lát tầng sừng hoá mạnh."],
+    155: ["Thuyết tương đối", "Định luật vạn vật hấp dẫn"],
+    131: ["Chủ nghĩa duy vật hậu hiện đại.", "Chủ nghĩa duy tâm khách quan."],
+    91:  ["Quyết toán ngân sách chương trình", "Tuyển dụng nhân sự y tế"],
+    52:  ["Không có thương hàn", "Không có lỵ trực khuẩn"],
+    174: ["Giảm giờ làm của công nhân.", "Xoá bỏ chế độ tiền lương."],
+    110: ["Vàng da, gan to", "Tiêu chảy phân có máu"],
+    88:  ["Sa sút trí tuệ tuổi già", "Thoái hoá khớp gối"],
+    140: ["Ý muốn chủ quan của con người.", "Tên gọi do xã hội quy ước."],
+    157: ["Thuyết tiến hoá các loài", "Học thuyết bàn tay vô hình"],
+    47:  ["Cấp giấy phép hành nghề y", "Định giá dịch vụ khám chữa bệnh"],
+    120: ["Chỉ dùng được bằng đường tiêm tĩnh mạch", "Là thuốc kháng sinh nhóm macrolid"],
+    141: ["Không ngại gian khổ, hy sinh.", "Luôn nói đi đôi với làm."],
+    156: ["Thuyết nhật tâm của Copernicus", "Chủ nghĩa hiện sinh Pháp"],
 }
 
 _META_LIKE = re.compile(r"cả (hai|ba|\d)|đều (đúng|sai)|tất cả", re.I)
 _BLANK = re.compile(r"\.{4,}|_{3,}")
+# Phương án rác trong đề gốc: "None", "Không có", "..." — không phải nội dung thật.
+_JUNK_OPT = re.compile(r"^(none|null|không có|không|n/?a|\.+)$", re.I)
 
 
 def _norm(s: str) -> str:
@@ -62,8 +90,12 @@ def _norm(s: str) -> str:
 
 
 def select_candidates(rows, prov):
-    """Chọn câu ALL_CORRECT sạch, xếp theo độ ngắn của phương án."""
-    cand = []
+    """Chọn câu ALL_CORRECT sạch, xếp theo độ ngắn của phương án.
+
+    Khử trùng theo thân câu: ngân hàng đề có nhiều câu lặp nguyên văn, để lọt vào
+    benchmark thì cùng một item bị chấm hai lần.
+    """
+    cand, seen_q = [], set()
     for i, (r, p) in enumerate(zip(rows, prov)):
         if p["metaKind"] != "ALL_CORRECT":
             continue
@@ -76,10 +108,16 @@ def select_candidates(rows, prov):
             continue
         if any(_META_LIKE.search(o) for o in keep):
             continue
+        if any(_JUNK_OPT.fullmatch(L.collapse(o).rstrip(".")) for o in keep):
+            continue
         if len({_norm(o) for o in keep}) != 3:
             continue
         if any(re.fullmatch(r"[\d\s,.()/-]+", o) for o in keep):
             continue
+        qkey = _norm(L.strip_prefix(r["question"]))
+        if qkey in seen_q:
+            continue
+        seen_q.add(qkey)
         cand.append({"i": i, "row": r, "prov": p, "keep": keep,
                      "avg": sum(len(o) for o in keep) / 3})
     cand.sort(key=lambda x: (x["avg"], x["i"]))
@@ -113,7 +151,12 @@ def stage13_file2_multi():
     cand = select_candidates(rows, prov)
     print(f"Tầng 13 — FILE 2 sang dạng nhiều đáp án: {len(cand)} ứng viên sạch")
 
-    batch_a, batch_b = cand[:20], cand[20:50]
+    # Lô B đặt ở [20:70] để giữ nguyên các bộ nhiễu đã soạn từ trước;
+    # lô A lấy tiếp ở [70:120]. Mỗi lô 50 câu.
+    batch_b, batch_a = cand[20:70], cand[70:120]
+    for name, b in (("A", batch_a), ("B", batch_b)):
+        if len(b) < 50:
+            raise SystemExit(f"Lô {name} chỉ có {len(b)}/50 ứng viên")
     missing = [c["i"] for c in batch_b if c["i"] not in DISTRACTORS]
     if missing:
         raise SystemExit(f"Thiếu phương án nhiễu tự soạn cho sourceIndex: {missing}")

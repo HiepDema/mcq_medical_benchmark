@@ -45,21 +45,6 @@
   "answer_optionD": "tiểu cầu"
  },
  {
-  "question": "Bệnh nhân nam 49 tuổi, tiền sử đột quỵ nhồi máu não vùng bao trong bên trái di chứng liệt mặt, vào viện khám thấy: liệt ¼ dưới của mặt bên phải: khi nhe răng miệng lệch về bên trái, mất động tác thổi lửa bên phải, dấu hiệu Charles - Bell bên phải âm tính. Cơ nào sau đây là cơ bám da của nửa dưới mặt?",
-  "correctAnswer": "optionA, optionC, optionD",
-  "medicalTopic": [
-   "Neurology",
-   "Anatomy"
-  ],
-  "difficultLevel": "3",
-  "regularFormat": true,
-  "questionID": "NEUR1006",
-  "answer_optionA": "cơ hạ góc miệng",
-  "answer_optionB": "cơ cắn",
-  "answer_optionC": "Cơ cười",
-  "answer_optionD": "cơ nâng góc miệng"
- },
- {
   "question": "Tam giác bả vai tam đầu giới hạn như thế nào ?",
   "correctAnswer": "optionA, optionC, optionD",
   "medicalTopic": [
@@ -73,20 +58,6 @@
   "answer_optionB": "Xương vai",
   "answer_optionC": "cơ tròn lớn",
   "answer_optionD": "cơ tròn bé"
- },
- {
-  "question": "Phân tích bệnh án suy tim toàn bộ do hẹp van 2 lá: gan to 4 cm dưới bờ sườn, sờ hơi chắc, có dịch cổ trướng, khó thở rõ nhất khi nằm, có tiếng ran ướt lác đác hai nền phổi, protein máu 48 gram/lít. Câu hỏi: Suy tim toàn bộ là hậu quả của hẹp van hai lá gây suy tim theo cơ chế liên quan:",
-  "correctAnswer": "optionA, optionC, optionD",
-  "medicalTopic": [
-   "Cardiology"
-  ],
-  "difficultLevel": "4",
-  "regularFormat": true,
-  "questionID": "MD1012",
-  "answer_optionA": "tăng gánh nhĩ trái",
-  "answer_optionB": "tăng gánh nhĩ phải",
-  "answer_optionC": "Suy tim trái",
-  "answer_optionD": "suy tim phải"
  },
  {
   "question": "Phân loại xương theo hình thể ngoài, gồm có …",
@@ -141,23 +112,6 @@
   "answer_optionF": "mô cơ"
  },
  {
-  "question": "Biến chứng của bệnh tim bẩm sinh còn ống động mạch là gì?",
-  "correctAnswer": "optionA, optionB, optionC, optionF",
-  "medicalTopic": [
-   "Cardiology",
-   "Pediatrics"
-  ],
-  "difficultLevel": "2",
-  "regularFormat": true,
-  "questionID": "19",
-  "answer_optionA": "viêm nội tâm mạc",
-  "answer_optionB": "Viêm phổi",
-  "answer_optionC": "suy tim",
-  "answer_optionD": "viêm ngoại tâm mạc",
-  "answer_optionE": "tắc nghẽn động mạch chủ",
-  "answer_optionF": "tắc nghẽn mạch phổi"
- },
- {
   "question": "Cho các hợp chất có công thức sau: C3H8, C4H10, C8H18, C3H6, CO2, C5H12. Những hợp chất trong đó tất cả các nguyên tử carbon đều lai hóa sp3 và có góc liên kết 109028’ là những chất nào ?",
   "correctAnswer": "optionA, optionB, optionC, optionD",
   "medicalTopic": [
@@ -172,5 +126,671 @@
   "answer_optionD": "C3H8",
   "answer_optionE": "C3H6",
   "answer_optionF": "CO2"
+ },
+ {
+  "question": "Lô-gíc phát triển của tư tưởng Hồ Chí Minh là:",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "MCHCM010",
+  "answer_optionA": "giải phóng giai cấp",
+  "answer_optionB": "giải phóng con người",
+  "answer_optionC": "Giải phóng xã hội",
+  "answer_optionD": "Giải phóng dân tộc"
+ },
+ {
+  "question": "X-quang trong bệnh tim bẩm sinh còn ống động mạch thể nặng như thế nào?",
+  "correctAnswer": "optionB, optionC, optionD, optionF",
+  "medicalTopic": [
+   "Cardiology",
+   "Pediatrics",
+   "Radiology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "25",
+  "answer_optionA": "Thất phải to",
+  "answer_optionB": "rốn phổi đậm",
+  "answer_optionC": "nhĩ trái to",
+  "answer_optionD": "Thất trái to",
+  "answer_optionE": "nhĩ phải to",
+  "answer_optionF": "ĐM phổi phồng"
+ },
+ {
+  "question": "Theo Nghị định số 13/2008/NĐ-CP ngày 4-2-2008 của Thủ tướng Chính phủ và Thông tư liên tịch số 03/2008/TTLB-BYT-BNV ngày 25-4-2008 thì tuyến huyện có các đơn vị y tế sau:",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Public Health"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "Sở y tế",
+  "answer_optionB": "bệnh viện huyện",
+  "answer_optionC": "Phòng y tế",
+  "answer_optionD": "Trung tâm y tế"
+ },
+ {
+  "question": "Câu 13 Tổn thương nhân tế bào do hoại tử gồm:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "nhân tan",
+  "answer_optionB": "Nhân đông",
+  "answer_optionC": "nhân vỡ",
+  "answer_optionD": "nhân chia",
+  "answer_optionE": "Nhân quái"
+ },
+ {
+  "question": "Tam giác cánh tay tam đầu được giới hạn như thế nào ?",
+  "correctAnswer": "optionA, optionD, optionE",
+  "medicalTopic": [
+   "Anatomy",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "xương cánh tay",
+  "answer_optionB": "Xương vai",
+  "answer_optionC": "cơ tròn bé",
+  "answer_optionD": "cơ tròn lớn",
+  "answer_optionE": "đầu dài cơ tam đầu"
+ },
+ {
+  "question": "Câu hỏi có thể được phân tích dựa trên những mức độ ngôn ngữ chính nào?",
+  "correctAnswer": "optionB, optionD, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 2 (Moderate)",
+  "regularFormat": true,
+  "questionID": "17",
+  "answer_optionA": "kết quả",
+  "answer_optionB": "nội dung",
+  "answer_optionC": "Hoàn cảnh",
+  "answer_optionD": "Hình thức biểu hiện",
+  "answer_optionE": "mục đích"
+ },
+ {
+  "question": "Trong cách mạng dân tộc dân chủ nhân dân, nền văn hóa mới được Hồ Chí Minh xác định có những tính chất nào?",
+  "correctAnswer": "optionA, optionB, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "HC216",
+  "answer_optionA": "Khoa học",
+  "answer_optionB": "Đại chúng",
+  "answer_optionC": "Cách mạng",
+  "answer_optionD": "Dân chủ",
+  "answer_optionE": "Dân tộc"
+ },
+ {
+  "question": "Ghi chép và báo cáo chuẩn hóa các giao dịch kinh doanh nổi lên do nhu cầu đảm bảo…",
+  "correctAnswer": "optionB, optionD, optionE",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "83",
+  "answer_optionA": "chi phí lịch sử",
+  "answer_optionB": "minh bạch",
+  "answer_optionC": "Phù hợp",
+  "answer_optionD": "so sánh",
+  "answer_optionE": "nhất quán"
+ },
+ {
+  "question": "Trong lập kế hoạch được phân loại theo:",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "23",
+  "answer_optionA": "nhu cầu",
+  "answer_optionB": "chỉ tiêu được giao",
+  "answer_optionC": "Thời gian",
+  "answer_optionD": "cách làm kế hoạch",
+  "answer_optionE": "Nội dung công việc"
+ },
+ {
+  "question": "Các mép liên bán cầu đại não gồm:",
+  "correctAnswer": "optionC, optionD, optionE, optionF",
+  "medicalTopic": [
+   "Neurology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "19",
+  "answer_optionA": "bao trong",
+  "answer_optionB": "vách trong suốt",
+  "answer_optionC": "vòm não",
+  "answer_optionD": "mép trắng trước",
+  "answer_optionE": "Thể chai",
+  "answer_optionF": "mép trắng sau",
+  "answer_optionG": "nhân đuôi"
+ },
+ {
+  "question": "Chất tạo ngọt có năng lượng thấp gồm:",
+  "correctAnswer": "optionA, optionB, optionD, optionF",
+  "medicalTopic": [
+   "General Medicine",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "16",
+  "answer_optionA": "sorbitol",
+  "answer_optionB": "mannitol",
+  "answer_optionC": "saccarin",
+  "answer_optionD": "xylitol",
+  "answer_optionE": "acesulfam K",
+  "answer_optionF": "isomaltol",
+  "answer_optionG": "aspatam"
+ },
+ {
+  "question": "Câu.7: Nội dung hợp tác trong nước và quốc tế của bệnh viện chủ yếu về:",
+  "correctAnswer": "optionB, optionC, optionE, optionG",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "PUBLIC007",
+  "answer_optionA": "nghiên cứu khoa học",
+  "answer_optionB": "chuyên môn",
+  "answer_optionC": "quản lý",
+  "answer_optionD": "trang thiết bị",
+  "answer_optionE": "Kỹ thuật",
+  "answer_optionF": "thuốc",
+  "answer_optionG": "tài chính"
+ },
+ {
+  "question": "Rối loạn lipid máu nằm trong phạm vi các chứng nào của y học cổ truyền?",
+  "correctAnswer": "optionA, optionD, optionF, optionG",
+  "medicalTopic": [
+   "Cardiology",
+   "Endocrinology",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Đàm thấp",
+  "answer_optionB": "Vị quản thống",
+  "answer_optionC": "tiêu khát",
+  "answer_optionD": "huyễn vựng",
+  "answer_optionE": "ma mộc",
+  "answer_optionF": "đầu thống",
+  "answer_optionG": "tâm quý"
+ },
+ {
+  "question": "Câu 439 Mô đệm niêm mạc bờ ổ loét dạ dày cấp tính có các tổn thương nào:?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Gastroenterology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD439",
+  "answer_optionA": "Mạch máu sung huyết",
+  "answer_optionB": "các tế bào biểu mô tăng chế tiết nhày",
+  "answer_optionC": "xâm nhiễm các tế bào viêm là bạch cầu ái toan",
+  "answer_optionD": "các tuyến dạ dày tăng sinh",
+  "answer_optionE": "các tuyến bị dị sản ruột"
+ },
+ {
+  "question": "BS gia đình là sự kết hợp chức năng của?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "18",
+  "answer_optionA": "nhà tâm lí",
+  "answer_optionB": "Dược sĩ lâm sàng",
+  "answer_optionC": "BS dự phòng",
+  "answer_optionD": "BS lâm sàng",
+  "answer_optionE": "BS cấp cứu"
+ },
+ {
+  "question": "Một quy phạm pháp luật thông thường cấu trúc gồm có các bộ phận?",
+  "correctAnswer": "optionA, optionB, optionD",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "101",
+  "answer_optionA": "quy định",
+  "answer_optionB": "Giả định",
+  "answer_optionC": "chế định",
+  "answer_optionD": "chế tài",
+  "answer_optionE": "Giả thuyết"
+ },
+ {
+  "question": "Những phương pháp nghiên cứu được gọi là phương pháp nghiên cứu mô tả Dịch tễ học là phương pháp nghiên cứu:",
+  "correctAnswer": "optionB, optionC",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "75",
+  "answer_optionA": "thuần tập",
+  "answer_optionB": "cắt ngang",
+  "answer_optionC": "Tương quan",
+  "answer_optionD": "bệnh chứng"
+ },
+ {
+  "question": "Khẳng định nào sau đây của dây TK V là đúng?",
+  "correctAnswer": "optionA, optionD",
+  "medicalTopic": [
+   "Neurology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD1009",
+  "answer_optionA": "Chui ở nền sọ qua lỗ bầu dục",
+  "answer_optionB": "chui ra ngoài qua lỗ dưới ổ mắt",
+  "answer_optionC": "Chui ở nền sọ qua lỗ tròn to",
+  "answer_optionD": "chui ra ngoài qua lỗ cằm"
+ },
+ {
+  "question": "Bệnh nhân nữ 25 tuổi, biểu hiện sốt cao 400C, đau họng, vào viện khám thấy giữa cột trụ trước và cột trụ sau của màn hầu có tổ chức sưng đỏ, đầy mủ trắng ở bề mặt. Được chẩn đoán là viêm Amydal cấp. Cột trụ trước và cột trụ sau của màn hầu do cơ nào sau đây tạo nên?",
+  "correctAnswer": "optionA, optionB",
+  "medicalTopic": [
+   "Otolaryngology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "670",
+  "answer_optionA": "Cơ hầu màn hầu",
+  "answer_optionB": "Cơ lưỡi màn hầu",
+  "answer_optionC": "cơ lưỡi gà",
+  "answer_optionD": "cơ trâm hầu"
+ },
+ {
+  "question": "Hệ động mạch phổi bắt nguồn từ …",
+  "correctAnswer": "optionB, optionC",
+  "medicalTopic": [
+   "Cardiology",
+   "Pulmonology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "14",
+  "answer_optionA": "Tâm thất trái",
+  "answer_optionB": "Tâm thất phải",
+  "answer_optionC": "có nhiệm vụ trao đổi khí",
+  "answer_optionD": "có nhiệm vụ nuôi dưỡng"
+ },
+ {
+  "question": "Thành sau ngoài của tam giác đùi (tam giác Scarpa) là cơ…",
+  "correctAnswer": "optionA, optionB",
+  "medicalTopic": [
+   "Anatomy",
+   "General Medicine"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Cơ thắt lưng chậu",
+  "answer_optionB": "cơ may",
+  "answer_optionC": "cơ khép dài",
+  "answer_optionD": "cơ lược"
+ },
+ {
+  "question": "Tình trạng nhiễm toan hô hấp thế hiện chính xác nhất ở đáp án nào sau đây?",
+  "correctAnswer": "optionB, optionC, optionE",
+  "medicalTopic": [
+   "Pulmonology",
+   "Nephrology"
+  ],
+  "difficultLevel": "Level 3",
+  "regularFormat": true,
+  "questionID": "21",
+  "answer_optionA": "pH máu tăng",
+  "answer_optionB": "PaCO2 máu tăng",
+  "answer_optionC": "pH máu động mạch giảm",
+  "answer_optionD": "PaCO2 máu giảm",
+  "answer_optionE": "Bicarbotnat máu trong giới hạn bình thường",
+  "answer_optionF": "Bicarbotnat máu giảm"
+ },
+ {
+  "question": "Tinh chất mủ trong viêm tai giữa mạn tính thể thận hư là:",
+  "correctAnswer": "optionB, optionD",
+  "medicalTopic": [
+   "Otolaryngology",
+   "Eastern Medicine"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "Chảy từng lúc",
+  "answer_optionB": "mủ loãng",
+  "answer_optionC": "mủ đặc",
+  "answer_optionD": "Chảy thường xuyên"
+ },
+ {
+  "question": "Bài thuốc điều trị viêm lợi gồm các vị nào?",
+  "correctAnswer": "optionA, optionC, optionF",
+  "medicalTopic": [
+   "Eastern Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "1",
+  "answer_optionA": "trúc diệp",
+  "answer_optionB": "chi tử",
+  "answer_optionC": "Thạch cao",
+  "answer_optionD": "hoàng liên",
+  "answer_optionE": "hoàng bá",
+  "answer_optionF": "lô căn"
+ },
+ {
+  "question": "Nghiên cứu bệnh - chứng là một nghiên cứu đặc biệt điều tra các bệnh …1….và vai trò của các bệnh …2…...Vì thế giá thành thấp và hiệu quả cao, nghiên cứu bệnh chứng là bước (3)....",
+  "correctAnswer": "optionA, optionD, optionF",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MCQ11",
+  "answer_optionA": "nhiều yếu tố nguy cơ",
+  "answer_optionB": "một yếu tố nguy cơ",
+  "answer_optionC": "cuối cùng",
+  "answer_optionD": "đầu tiên",
+  "answer_optionE": "Phổ biến",
+  "answer_optionF": "Hiếm"
+ },
+ {
+  "question": "Trong điều kiện thời tiết nào tế bào đường hô hấp của người dễ bị tổn thương làm tăng tính cảm nhiễm đối với virus cúm?",
+  "correctAnswer": "optionB, optionC",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Pulmonology"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "8",
+  "answer_optionA": "Nóng",
+  "answer_optionB": "Lạnh",
+  "answer_optionC": "ẩm",
+  "answer_optionD": "khô"
+ },
+ {
+  "question": "ECG trong tứ chứng Fallot:",
+  "correctAnswer": "optionA, optionB, optionE",
+  "medicalTopic": [
+   "Cardiology",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "12",
+  "answer_optionA": "dày thất phải",
+  "answer_optionB": "Trục phải",
+  "answer_optionC": "dày thất trái",
+  "answer_optionD": "dày nhĩ trái",
+  "answer_optionE": "dày nhĩ phải",
+  "answer_optionF": "Trục trái"
+ },
+ {
+  "question": "Điện giải đồ trong bệnh hội chứng thận hư tiên phát thấy:",
+  "correctAnswer": "optionB, optionD, optionF",
+  "medicalTopic": [
+   "Nephrology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "3",
+  "answer_optionA": "Cartăng nhẹ",
+  "answer_optionB": "Ca giảm",
+  "answer_optionC": "Cartăng cao",
+  "answer_optionD": "K",
+  "answer_optionE": "Ca Bình thường",
+  "answer_optionF": "Na"
+ },
+ {
+  "question": "Nhóm thông tin liên quan trực tiếp đến sức khoẻ:",
+  "correctAnswer": "optionA, optionD",
+  "medicalTopic": [
+   "Public Health",
+   "Preventive Healthcare",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD011",
+  "answer_optionA": "bệnh tật",
+  "answer_optionB": "Dân số",
+  "answer_optionC": "dịch vụ y tế",
+  "answer_optionD": "Sức khoẻ"
+ },
+ {
+  "question": "IgA trong cơ thể tồn tại dưới các dạng nào dưới đây:",
+  "correctAnswer": "optionB, optionD",
+  "medicalTopic": [
+   "Allergy and Immunology",
+   "Hematology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "15",
+  "answer_optionA": "IgA huyết thanh",
+  "answer_optionB": "IgA tiết",
+  "answer_optionC": "monomer",
+  "answer_optionD": "dimer"
+ },
+ {
+  "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng ý thức có mấy nguồn gốc, đó là nguồn gốc nào?",
+  "correctAnswer": "optionC, optionD, optionE",
+  "medicalTopic": [
+   "Psychiatry"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "PHIL012",
+  "answer_optionA": "thế giới khách quan",
+  "answer_optionB": "Một",
+  "answer_optionC": "nguồn gốc tự nhiên",
+  "answer_optionD": "Hai",
+  "answer_optionE": "nguồn gốc xã hội"
+ },
+ {
+  "question": "Hệ thống cơ quan quyền lực Nhà nước bao gồm?",
+  "correctAnswer": "optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "Easy",
+  "regularFormat": true,
+  "questionID": "232",
+  "answer_optionA": "Chính phủ",
+  "answer_optionB": "Hội đồng nhân dân các cấp",
+  "answer_optionC": "Quốc hội",
+  "answer_optionD": "Ủy ban nhân dân các cấp"
+ },
+ {
+  "question": "Một bệnh nhân vảy nến có thương tổn vảy da với đặc điểm nhiều tầng lớp xếp chồng chất lên nhau, màu trắng đục như xà cừ, lớp này bong ra lớp khác lại đùn lên. Mô tả vảy da nào phù hợp nhất đối với bệnh nhẫn này?",
+  "correctAnswer": "optionA, optionB, optionD, optionF",
+  "medicalTopic": [
+   "Dermatology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD024",
+  "answer_optionA": "cạo vào dễ vỡ",
+  "answer_optionB": "mùn",
+  "answer_optionC": "dày",
+  "answer_optionD": "mỏng",
+  "answer_optionE": "cạo dính khó bong",
+  "answer_optionF": "Khô",
+  "answer_optionG": "Ướt"
+ },
+ {
+  "question": "Trẻ nam 4 tuổi, đến khám vì xuất hiện thương tổn bọng nước cạnh mũi 2 gò má, ngày thứ 2 của bệnh. Tính chất của bọng nước trong tình trạng bệnh này được mô tả như nào là phù hợp nhất?",
+  "correctAnswer": "optionC, optionD",
+  "medicalTopic": [
+   "Pediatrics",
+   "Dermatology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MDQ21",
+  "answer_optionA": "khó vỡ",
+  "answer_optionB": "Căng",
+  "answer_optionC": "Nhăn nheo",
+  "answer_optionD": "dễ vỡ"
+ },
+ {
+  "question": "Bệnh nhân nam 39 tuổi, có tiền sử quan hệ có nguy cơ, vào khám trong tình trạng: nhiều thương tổn chắc ở hạ bì, tiến triển qua 4 giai đoạn: cục chắc dưới da, to ra → vỡ, chảy dịch, tạo thành vết loét lên da non -> sẹo, ở phần trên cẳng chân, kéo dài 3 năm nay. Xét nghiệm huyết thanh giang mai có kết quả dương tính. Bệnh giang mai thời kì này thường ít gây nguy hiểm cho cộng đồng, lí do nào là phù hợp nhất?",
+  "correctAnswer": "optionA, optionD",
+  "medicalTopic": [
+   "Infectious Diseases",
+   "Dermatology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD1009",
+  "answer_optionA": "Tổn thương khu trú",
+  "answer_optionB": "Tổn thương lan tràn",
+  "answer_optionC": "ăn theo chiều rộng",
+  "answer_optionD": "ăn theo chiều sâu"
+ },
+ {
+  "question": "Bệnh nhân nam 50 tuổi, nông dân, đến khám với triệu chứng: nhiều mảng sần hình đa cung kích thước 5x7 cm, ranh giới rõ, có bờ viền bờ gồ cao trên mặt da, bờ có một số mụn nước nhỏ, ở 2 bên bẹn, mông, bụng, ngứa nhiều, bệnh tái phát nhiều lần. Phác đồ điều trị toàn thân nào là phù hợp nhất với bệnh nhân trên?",
+  "correctAnswer": "optionA, optionB",
+  "medicalTopic": [
+   "Dermatology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD1012",
+  "answer_optionA": "Kháng histamin",
+  "answer_optionB": "Itraconazole",
+  "answer_optionC": "kháng sinh",
+  "answer_optionD": "kháng virus"
+ },
+ {
+  "question": "Bệnh nhân nam 27 tuổi sau khi điều trị nấm da bằng Itraconazole 100mg x2v uống buổi tối ngày thứ 2 xuất hiện ngửa, sốt 38,5°C, sẵn phù, dát đỏ, bọng nước rải rác ở 2 mu tay, 2 cẳng chân, trợt loét niêm mạc miệng và sinh dục. Biểu hiện nào là triệu chứng sớm của bệnh này?",
+  "correctAnswer": "optionC, optionE, optionF",
+  "medicalTopic": [
+   "Allergy and Immunology",
+   "Dermatology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "MD1024",
+  "answer_optionA": "sốt",
+  "answer_optionB": "Ngửa",
+  "answer_optionC": "sẩn phù",
+  "answer_optionD": "trợt loét niêm mạc",
+  "answer_optionE": "Dát đỏ",
+  "answer_optionF": "bọng nước"
+ },
+ {
+  "question": "Sự phát triển của các sự vật, hiện tượng trong thế giới có những tính chất nào?",
+  "correctAnswer": "optionA, optionB, optionD, optionF",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "85",
+  "answer_optionA": "phong phú",
+  "answer_optionB": "tính đa dạng",
+  "answer_optionC": "tính ngẫu nhiên",
+  "answer_optionD": "tính lịch sử",
+  "answer_optionE": "tính phổ biến",
+  "answer_optionF": "Tính khách quan",
+  "answer_optionG": "tính liên tục"
+ },
+ {
+  "question": "Quy trình phần mềm bao gồm những hoạt động nào?",
+  "correctAnswer": "optionA, optionB, optionF, optionG",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "40",
+  "answer_optionA": "Đặc tả",
+  "answer_optionB": "bảo trì",
+  "answer_optionC": "lập trình",
+  "answer_optionD": "Lập kế hoạch",
+  "answer_optionE": "phân tích",
+  "answer_optionF": "kiểm thử",
+  "answer_optionG": "Thiết kế"
+ },
+ {
+  "question": "trong bài Đạo xích tán điều trị viêm BQ, vị thuốc nào có tác dụng thanh nhiệt lợi thấp tả hỏa",
+  "correctAnswer": "optionC, optionE, optionF",
+  "medicalTopic": [
+   "Urology",
+   "Eastern Medicine"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "10",
+  "answer_optionA": "sinh địa",
+  "answer_optionB": "huyền sâm",
+  "answer_optionC": "Hoàng cầm",
+  "answer_optionD": "Hoàng liên",
+  "answer_optionE": "hoàng bá",
+  "answer_optionF": "trúc diệp"
+ },
+ {
+  "question": "Một bệnh nhi 10 tuổi đến khám trong tình trạng: tổn thương sẩn nổi cao hơn mặt da, tập trung thành mảng kèm theo ngứa nhiều, được chẩn đoán viêm da cơ địa ở trẻ em. Tình trạng bệnh trên thường xuất hiện ở vị trí nào?",
+  "correctAnswer": "optionA, optionC, optionD",
+  "medicalTopic": [
+   "Dermatology",
+   "Pediatrics"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD12",
+  "answer_optionA": "Khuỷu tay",
+  "answer_optionB": "mặt",
+  "answer_optionC": "cổ tay",
+  "answer_optionD": "khoeo chân",
+  "answer_optionE": "bàn tay",
+  "answer_optionF": "thân mình"
+ },
+ {
+  "question": "Bệnh nhân nữ 29 tuổi đến khám trong tình trạng: tổn thương sẩn nổi cao hơn mặt da, tập trung thành mảng kèm theo ngứa, nhiều vết xước do gãi, được chẩn đoán viêm da cơ địa. Tình trạng bệnh trên thường xuất hiện ở vị trí nào?",
+  "correctAnswer": "optionB, optionC, optionD",
+  "medicalTopic": [
+   "Dermatology",
+   "Internal Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD13",
+  "answer_optionA": "bàn tay",
+  "answer_optionB": "cổ tay",
+  "answer_optionC": "Khuỷu tay",
+  "answer_optionD": "Khoeo chân",
+  "answer_optionE": "thân mình",
+  "answer_optionF": "mặt"
  }
 ]

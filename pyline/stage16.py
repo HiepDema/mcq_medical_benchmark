@@ -20,6 +20,7 @@ SOURCES = [
     ("final_03_multi.json", "final_03_multi_provenance.json", "file3_tach_dau_phay"),
 ]
 SEED = 20260805
+PER_SUBSET = 50          # số câu lấy từ mỗi nhóm; nhóm ít hơn thì lấy hết
 
 
 def _subset(prov: dict, default: str | None) -> str:
@@ -38,6 +39,21 @@ def stage16_merge_benchmark():
             raise SystemExit(f"{data_file} và {prov_file} lệch số bản ghi")
         for r, p in zip(rows, provs):
             pairs.append((r, {**p, "sourceFile": data_file, "subset": _subset(p, default)}))
+
+    # Cân bằng số câu giữa các nhóm: nhóm nào dư thì lấy mẫu xuống PER_SUBSET.
+    # Không cân bằng thì file1 (265 câu) chiếm 81% và mọi chỉ số tổng đều bị nó chi phối.
+    by_subset = {}
+    for pair in pairs:
+        by_subset.setdefault(pair[1]["subset"], []).append(pair)
+    balanced = []
+    for name in sorted(by_subset):
+        group = by_subset[name]
+        if len(group) > PER_SUBSET:
+            group = random.Random(SEED).sample(group, PER_SUBSET)
+        else:
+            print(f"  ⚠ nhóm {name} chỉ có {len(group)}/{PER_SUBSET} câu — lấy hết")
+        balanced.extend(group)
+    pairs = balanced
 
     random.Random(SEED).shuffle(pairs)
 

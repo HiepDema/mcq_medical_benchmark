@@ -1,18 +1,8 @@
 [
  {
-  "questionID": "15",
-  "uid": "q_50a6ed116a3dbcb5",
-  "sourceIndex": 4574,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Tất cả đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "133",
-  "uid": "q_7eb09a4c0ea4a764",
-  "sourceIndex": 7327,
+  "questionID": "123",
+  "uid": "q_b94ef4705dde7cb8",
+  "sourceIndex": 7317,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Cả ba phương án kia đều đúng.",
@@ -20,9 +10,9 @@
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "9",
-  "uid": "q_44cc44f05dabaddd",
-  "sourceIndex": 6262,
+  "questionID": "10",
+  "uid": "q_cb631599448ea5f4",
+  "sourceIndex": 8814,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Tất cả đều đúng",
@@ -30,19 +20,59 @@
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "133",
-  "uid": "q_07a54de1788ae785",
-  "sourceIndex": 8127,
+  "questionID": "16",
+  "uid": "q_36cd96222c338bf9",
+  "sourceIndex": 9712,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
-  "removedMetaOption": "D. Cả ba phương án kia đều đúng.",
+  "removedMetaOption": "Tất cả đều đúng",
   "correctAnswer": "optionA, optionB, optionC",
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "ID022",
-  "uid": "q_2017cf4b61c5ce27",
-  "sourceIndex": 3432,
+  "questionID": "14",
+  "uid": "q_f62037d73f04501b",
+  "sourceIndex": 3199,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả các ý trên đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "160",
+  "uid": "q_84b5852176466ac5",
+  "sourceIndex": 7354,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_4e5e5660b3c0fe82",
+  "sourceIndex": 3685,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả 2 ý trên đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "SXHD12",
+  "uid": "q_ddd40ef2f7feeb08",
+  "sourceIndex": 3746,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả 3 đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_302bef04bfe15ef6",
+  "sourceIndex": 9680,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Tất cả đều đúng",
@@ -51,88 +81,18 @@
  },
  {
   "questionID": "10",
-  "uid": "q_060664db9967a655",
-  "sourceIndex": 4569,
+  "uid": "q_035f14f4304ed0f8",
+  "sourceIndex": 3670,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
-  "removedMetaOption": "Tất cả đều đúng",
+  "removedMetaOption": "cả 3 đều đúng",
   "correctAnswer": "optionA, optionB, optionC",
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "22",
-  "uid": "q_6e8d5fe180e7e095",
-  "sourceIndex": 5881,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Đ Tất cả đều đúng.",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "17",
-  "uid": "q_23818c77f1ac150c",
-  "sourceIndex": 16,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Tất cả đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "18",
-  "uid": "q_ec028e7973e95990",
-  "sourceIndex": 4152,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Cả 3 đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "MD021",
-  "uid": "q_21f67165ed15aaca",
-  "sourceIndex": 3905,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Cả 3 đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "VGB1",
-  "uid": "q_8f5927a86d108145",
-  "sourceIndex": 3753,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Cả ý đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "4",
-  "uid": "q_c752cb190cbaf223",
-  "sourceIndex": 9700,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Tất cả đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "22",
-  "uid": "q_31502e24fcaea94c",
-  "sourceIndex": 9718,
-  "batch": "A_xoa_meta",
-  "syntheticDistractors": [],
-  "removedMetaOption": "Tất cả đều đúng",
-  "correctAnswer": "optionA, optionB, optionC",
-  "qualityFlag": "all-options-correct"
- },
- {
-  "questionID": "2",
-  "uid": "q_6789b08a95767d50",
-  "sourceIndex": 747,
+  "questionID": "MD1012",
+  "uid": "q_ea3a6f800036c394",
+  "sourceIndex": 882,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Tất cả các đáp án đều đúng",
@@ -140,49 +100,289 @@
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "19",
-  "uid": "q_a9737b03f5117ef3",
-  "sourceIndex": 10104,
+  "questionID": "HC213",
+  "uid": "q_17e12cc96b9b5666",
+  "sourceIndex": 7407,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
-  "removedMetaOption": "Tất cả đều đúng",
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
   "correctAnswer": "optionA, optionB, optionC",
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "31",
-  "uid": "q_66bbad649209938d",
-  "sourceIndex": 7924,
+  "questionID": "1",
+  "uid": "q_00f759dc04c97fa0",
+  "sourceIndex": 3461,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
-  "removedMetaOption": "Cả 3 phương án (1) (2) (3) đều đúng",
+  "removedMetaOption": "Tất cả đều đúng",
   "correctAnswer": "optionA, optionB, optionC",
   "qualityFlag": "all-options-correct"
  },
  {
   "questionID": "3",
-  "uid": "q_fc9eca1d25aad980",
-  "sourceIndex": 6734,
+  "uid": "q_87500a44021f2be1",
+  "sourceIndex": 3663,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
-  "removedMetaOption": "Cá 3 phán doán kia đều đúng.",
+  "removedMetaOption": "Cả 3 đều đúng",
   "correctAnswer": "optionA, optionB, optionC",
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "MD3",
-  "uid": "q_5c39b8b05215117d",
-  "sourceIndex": 3538,
+  "questionID": "132",
+  "uid": "q_614eb1711d4194d5",
+  "sourceIndex": 7326,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_0215bc1e410f5e9a",
+  "sourceIndex": 7486,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "d) Cả a, b, c đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "18",
+  "uid": "q_b1e3e8892c9692a6",
+  "sourceIndex": 7049,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_ab83ccb6a0f715fc",
+  "sourceIndex": 7203,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_be18f04348790915",
+  "sourceIndex": 7066,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "4",
+  "uid": "q_473c739173b0c89c",
+  "sourceIndex": 9550,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả 3 ý trên đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "SXHD13",
+  "uid": "q_3da6833a642dc1cd",
+  "sourceIndex": 3747,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "MCHCM018",
+  "uid": "q_97baa3245a8a33c5",
+  "sourceIndex": 7223,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_21f6f34c8139c14c",
+  "sourceIndex": 4307,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_4518bedc1cda8c91",
+  "sourceIndex": 6739,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cà 3 phán doán kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "48",
+  "uid": "q_a5d462736c56e98d",
+  "sourceIndex": 4015,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "1",
+  "uid": "q_75c2442c5e7573d8",
+  "sourceIndex": 3710,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "MDQ7",
+  "uid": "q_f09d4f2eeb296df8",
+  "sourceIndex": 5691,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả A và và B đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "2",
+  "uid": "q_1876cb51e97adf66",
+  "sourceIndex": 7057,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_2ceafcb11d2a1487",
+  "sourceIndex": 7286,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "23",
+  "uid": "q_08da50a29190e87b",
+  "sourceIndex": 9719,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_802a3dc74ca094ae",
+  "sourceIndex": 7829,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "d) Cả a, b, c đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "235",
+  "uid": "q_2702e28d083fa6f7",
+  "sourceIndex": 6772,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "256",
+  "uid": "q_eaf83713f9e611d5",
+  "sourceIndex": 6793,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "192",
+  "uid": "q_f29c0fa77a852e54",
+  "sourceIndex": 7675,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả các phương án đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_64b4607f4d0ef360",
+  "sourceIndex": 4123,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả 3 ý đều đúng",
   "correctAnswer": "optionA, optionB, optionC",
   "qualityFlag": "all-options-correct"
  },
  {
   "questionID": "22",
-  "uid": "q_187e0fa62e2ae93a",
-  "sourceIndex": 71,
+  "uid": "q_fd7f0777cfbf5454",
+  "sourceIndex": 3407,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "d. Cả (a), (b) và (c) đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "MCHCM004",
+  "uid": "q_e84cf6a282d5ecc9",
+  "sourceIndex": 7209,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "HCM15",
+  "uid": "q_82de4aa083adf4ca",
+  "sourceIndex": 8006,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_0c42064c562ce93a",
+  "sourceIndex": 4134,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "D. tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "587",
+  "uid": "q_2d3b0a6c4f4bb0d7",
+  "sourceIndex": 1945,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Tất cả đều đúng",
@@ -190,9 +390,69 @@
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "229",
-  "uid": "q_23522c21e0a7ad0c",
-  "sourceIndex": 6766,
+  "questionID": "23",
+  "uid": "q_02b9e80e40fca1f5",
+  "sourceIndex": 3408,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "d. Cả (b) và (c) đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "17",
+  "uid": "q_84f0f57cd63cb10b",
+  "sourceIndex": 3077,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "9",
+  "uid": "q_3bd798a603f8286f",
+  "sourceIndex": 4568,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "NM0010",
+  "uid": "q_b483e734e4f7bad0",
+  "sourceIndex": 2203,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả các phương án đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "22",
+  "uid": "q_27c8cb4b394fea79",
+  "sourceIndex": 7827,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "d) Cả a, b, c đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_14102dfc0a9f5f4f",
+  "sourceIndex": 7650,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả các phương án đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "139",
+  "uid": "q_55dbd6544b51e9ac",
+  "sourceIndex": 7333,
   "batch": "A_xoa_meta",
   "syntheticDistractors": [],
   "removedMetaOption": "Cả ba phương án kia đều đúng.",
@@ -200,30 +460,44 @@
   "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "HC229",
-  "uid": "q_d5ee4e9561552f53",
-  "sourceIndex": 7423,
-  "batch": "B_them_nhieu",
-  "syntheticDistractors": [
-   "Trung với vua.",
-   "Đặt lợi ích cá nhân lên trên hết."
-  ],
-  "removedMetaOption": "Cả ba phương án kia đều đúng.",
-  "correctAnswer": "optionC, optionD, optionE",
-  "qualityFlag": "synthetic-distractors-unverified"
+  "questionID": "Q80",
+  "uid": "q_39cbc5a9880a70d8",
+  "sourceIndex": 4046,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
  },
  {
-  "questionID": "12",
-  "uid": "q_71b6e393d44cddab",
-  "sourceIndex": 3771,
-  "batch": "B_them_nhieu",
-  "syntheticDistractors": [
-   "Cơ cấu tổ chức ngành y tế",
-   "Nguồn kinh phí phòng dịch"
-  ],
+  "questionID": "135",
+  "uid": "q_1b3ec5e329980740",
+  "sourceIndex": 7329,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "24",
+  "uid": "q_a2ddbfb3edb63468",
+  "sourceIndex": 6955,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
   "removedMetaOption": "Tất cả đều đúng",
-  "correctAnswer": "optionA, optionD, optionE",
-  "qualityFlag": "synthetic-distractors-unverified"
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_7b7fc1c61b75ae1e",
+  "sourceIndex": 6967,
+  "batch": "A_xoa_meta",
+  "syntheticDistractors": [],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
  },
  {
   "questionID": "24",
@@ -408,32 +682,6 @@
   "qualityFlag": "synthetic-distractors-unverified"
  },
  {
-  "questionID": "19",
-  "uid": "q_6348845d792a5fb5",
-  "sourceIndex": 2512,
-  "batch": "B_them_nhieu",
-  "syntheticDistractors": [
-   "Màu mắt của bệnh nhân",
-   "Số lượng bạch cầu trong máu"
-  ],
-  "removedMetaOption": "Cả hai đều đúng",
-  "correctAnswer": "optionC, optionD, optionE",
-  "qualityFlag": "synthetic-distractors-unverified"
- },
- {
-  "questionID": "17",
-  "uid": "q_73d4ffd02400fb4a",
-  "sourceIndex": 2510,
-  "batch": "B_them_nhieu",
-  "syntheticDistractors": [
-   "Sốt cao rét run",
-   "Nổi hạch sau tai"
-  ],
-  "removedMetaOption": "Cả hai đều đúng",
-  "correctAnswer": "optionA, optionB, optionD",
-  "qualityFlag": "synthetic-distractors-unverified"
- },
- {
   "questionID": "15",
   "uid": "q_5b5e5b3c0850de8a",
   "sourceIndex": 2533,
@@ -525,19 +773,6 @@
   "qualityFlag": "synthetic-distractors-unverified"
  },
  {
-  "questionID": "22",
-  "uid": "q_6f429c8bd117b879",
-  "sourceIndex": 7177,
-  "batch": "B_them_nhieu",
-  "syntheticDistractors": [
-   "Sự tồn tại độc lập của ý thức.",
-   "Ý muốn chủ quan thuần túy."
-  ],
-  "removedMetaOption": "Cả 3 phán đoán kia đều đúng.",
-  "correctAnswer": "optionA, optionB, optionE",
-  "qualityFlag": "synthetic-distractors-unverified"
- },
- {
   "questionID": "11",
   "uid": "q_65d3c7e489fb4f02",
   "sourceIndex": 4145,
@@ -587,6 +822,331 @@
   ],
   "removedMetaOption": "Cả 3 câu trên đều đúng",
   "correctAnswer": "optionA, optionB, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "187",
+  "uid": "q_be438666626c5f94",
+  "sourceIndex": 7381,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Có tiềm lực tài chính mạnh.",
+   "Có sự hậu thuẫn của nước ngoài."
+  ],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "3",
+  "uid": "q_f30438cbb2119af1",
+  "sourceIndex": 27,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Tăng tiểu cầu tiên phát",
+   "Đa hồng cầu nguyên phát"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionC, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "MD22",
+  "uid": "q_728edfa3af40bcd5",
+  "sourceIndex": 3557,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Vàng da, vàng mắt",
+   "Sưng đau khớp gối"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionC, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_b9a59c4b144b1fca",
+  "sourceIndex": 6737,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Nhóm quy luật kinh tế thị trường.",
+   "Nhóm quy luật ngôn ngữ."
+  ],
+  "removedMetaOption": "Ca ba phán doán kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "MCQ1",
+  "uid": "q_94198588535e6002",
+  "sourceIndex": 1994,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Bóng phát tia X",
+   "Cuộn dây tạo gradient từ trường"
+  ],
+  "removedMetaOption": "Cả ba đáp án còn lại đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "14",
+  "uid": "q_aa98810ffd0ed8ce",
+  "sourceIndex": 3998,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Sàng lọc ung thư định kỳ",
+   "Tư vấn tiền hôn nhân"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionC, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "20",
+  "uid": "q_61d48b400822cbbc",
+  "sourceIndex": 7200,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Cơ cấu tổ chức hành chính.",
+   "Chính sách tiền tệ quốc gia."
+  ],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionB, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_c82be7da8c3b92b4",
+  "sourceIndex": 2550,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Ngứa mắt nhẹ, không đau",
+   "Thị lực hoàn toàn bình thường"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionC, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "366",
+  "uid": "q_86f4ff414f635ceb",
+  "sourceIndex": 1105,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Tăng khả năng sửa chữa ADN",
+   "Tăng bám dính giữa các tế bào"
+  ],
+  "removedMetaOption": "Tất cả các đáp án đều đúng",
+  "correctAnswer": "optionA, optionC, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "VGB6",
+  "uid": "q_5ae87c1176b203b6",
+  "sourceIndex": 3758,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Nước muối sinh lý trong 30 phút",
+   "Nhiệt độ phòng trong 24 giờ"
+  ],
+  "removedMetaOption": "cả 3 TH trên đều đúng",
+  "correctAnswer": "optionA, optionC, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "8",
+  "uid": "q_98dcbd25ad368027",
+  "sourceIndex": 3767,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Lao phổi, viêm phổi",
+   "Thương hàn, tả"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "ID020",
+  "uid": "q_f12206f401f7c546",
+  "sourceIndex": 5754,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Có nhiều mạch máu nuôi dưỡng.",
+   "Lát tầng sừng hoá mạnh."
+  ],
+  "removedMetaOption": "Tất cả đều đúng.",
+  "correctAnswer": "optionB, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_11c241bde171935d",
+  "sourceIndex": 7067,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Thuyết tương đối",
+   "Định luật vạn vật hấp dẫn"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionC, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "19",
+  "uid": "q_ebf64ba7c5cd8957",
+  "sourceIndex": 6675,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Chủ nghĩa duy vật hậu hiện đại.",
+   "Chủ nghĩa duy tâm khách quan."
+  ],
+  "removedMetaOption": "Cả ba phán đoán kia đều đúng.",
+  "correctAnswer": "optionA, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "25",
+  "uid": "q_0eba9271c903bc86",
+  "sourceIndex": 4109,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Quyết toán ngân sách chương trình",
+   "Tuyển dụng nhân sự y tế"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_85214e1dd831c787",
+  "sourceIndex": 3442,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Không có thương hàn",
+   "Không có lỵ trực khuẩn"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionB, optionC, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "11",
+  "uid": "q_509068809f8bc5e7",
+  "sourceIndex": 7291,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Giảm giờ làm của công nhân.",
+   "Xoá bỏ chế độ tiền lương."
+  ],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionC, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "5",
+  "uid": "q_d7b2ba650dabc5e8",
+  "sourceIndex": 4564,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Vàng da, gan to",
+   "Tiêu chảy phân có máu"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "49",
+  "uid": "q_e28caa58d97bbf05",
+  "sourceIndex": 4016,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Sa sút trí tuệ tuổi già",
+   "Thoái hoá khớp gối"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionC, optionD, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "12",
+  "uid": "q_be4e97e0c506da21",
+  "sourceIndex": 6743,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Ý muốn chủ quan của con người.",
+   "Tên gọi do xã hội quy ước."
+  ],
+  "removedMetaOption": "Cá ba phán đoán kia đều đúng.",
+  "correctAnswer": "optionA, optionC, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "MCQ13",
+  "uid": "q_b43ac2c1967cc1c5",
+  "sourceIndex": 7093,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Thuyết tiến hoá các loài",
+   "Học thuyết bàn tay vô hình"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "6",
+  "uid": "q_c3949b3e25e94c53",
+  "sourceIndex": 3391,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Cấp giấy phép hành nghề y",
+   "Định giá dịch vụ khám chữa bệnh"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "7",
+  "uid": "q_fd9b80842c59f626",
+  "sourceIndex": 5141,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Chỉ dùng được bằng đường tiêm tĩnh mạch",
+   "Là thuốc kháng sinh nhóm macrolid"
+  ],
+  "removedMetaOption": "Tất cả đáp án trên đều đúng",
+  "correctAnswer": "optionA, optionC, optionD",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "226",
+  "uid": "q_b35d39f2de4ebfcb",
+  "sourceIndex": 6763,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Không ngại gian khổ, hy sinh.",
+   "Luôn nói đi đôi với làm."
+  ],
+  "removedMetaOption": "Cả ba phương án kia đều đúng.",
+  "correctAnswer": "optionA, optionC, optionE",
+  "qualityFlag": "synthetic-distractors-unverified"
+ },
+ {
+  "questionID": "13",
+  "uid": "q_66120582a9dc41ef",
+  "sourceIndex": 7068,
+  "batch": "B_them_nhieu",
+  "syntheticDistractors": [
+   "Thuyết nhật tâm của Copernicus",
+   "Chủ nghĩa hiện sinh Pháp"
+  ],
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionC, optionD, optionE",
   "qualityFlag": "synthetic-distractors-unverified"
  }
 ]
