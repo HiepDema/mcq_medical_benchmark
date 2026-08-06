@@ -1,0 +1,3564 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "data": "processed_data/benchmark_multi.json",
+ "metrics": {
+  "n": 200,
+  "exact_match": 0.355,
+  "jaccard": 0.7093452380952381,
+  "micro_precision": 0.8405797101449275,
+  "micro_recall": 0.7759197324414716,
+  "micro_f1": 0.8069565217391304
+ },
+ "per_item": [
+  {
+   "index": 0,
+   "questionID": "8",
+   "gold": [
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 1,
+   "questionID": "MD1022",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"D\"]}"
+  },
+  {
+   "index": 2,
+   "questionID": "25",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+  },
+  {
+   "index": 3,
+   "questionID": "185",
+   "gold": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 4,
+   "questionID": "7",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 5,
+   "questionID": "ID020",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.4,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 6,
+   "questionID": "2",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 7,
+   "questionID": "192",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 8,
+   "questionID": "371",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 9,
+   "questionID": "15",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 10,
+   "questionID": "M11",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 11,
+   "questionID": "Q80",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 12,
+   "questionID": "SXHD13",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 13,
+   "questionID": "105",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 14,
+   "questionID": "MD22",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 15,
+   "questionID": "16",
+   "gold": [
+    "A",
+    "B",
+    "D",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "G"
+   ],
+   "exact": false,
+   "jaccard": 0.286,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\", \"G\"]}"
+  },
+  {
+   "index": 16,
+   "questionID": "670",
+   "gold": [
+    "A",
+    "B"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 17,
+   "questionID": "11",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 18,
+   "questionID": "10",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 19,
+   "questionID": "MD1009",
+   "gold": [
+    "A",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 20,
+   "questionID": "1",
+   "gold": [
+    "A",
+    "C",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.6,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\", \"F\"]}"
+  },
+  {
+   "index": 21,
+   "questionID": "123",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 22,
+   "questionID": "10",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 23,
+   "questionID": "49",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"E\"]}"
+  },
+  {
+   "index": 24,
+   "questionID": "9",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 25,
+   "questionID": "20",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"E\"]}"
+  },
+  {
+   "index": 26,
+   "questionID": "26",
+   "gold": [
+    "A",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 27,
+   "questionID": "7",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 28,
+   "questionID": "5",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 29,
+   "questionID": "2",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 30,
+   "questionID": "366",
+   "gold": [
+    "A",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 31,
+   "questionID": "23",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 32,
+   "questionID": "12",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 33,
+   "questionID": "HCM15",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 34,
+   "questionID": "22",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 35,
+   "questionID": "187",
+   "gold": [
+    "A",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 36,
+   "questionID": "MCQ13",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 37,
+   "questionID": "9",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 38,
+   "questionID": "PHIL012",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"D\", \"A\", \"E\"]}"
+  },
+  {
+   "index": 39,
+   "questionID": "167",
+   "gold": [
+    "A",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 40,
+   "questionID": "15",
+   "gold": [
+    "A",
+    "B"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 41,
+   "questionID": "64",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"D\", \"E\"]}"
+  },
+  {
+   "index": 42,
+   "questionID": "HC213",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 43,
+   "questionID": "9",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 44,
+   "questionID": "MD1015",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"D\"]}"
+  },
+  {
+   "index": 45,
+   "questionID": "MD1001",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 46,
+   "questionID": "MD001",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"E\"]}"
+  },
+  {
+   "index": 47,
+   "questionID": "199",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+  },
+  {
+   "index": 48,
+   "questionID": "19",
+   "gold": [
+    "A",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 49,
+   "questionID": "13",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 50,
+   "questionID": "235",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 51,
+   "questionID": "15",
+   "gold": [
+    "A",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"E\"]}"
+  },
+  {
+   "index": 52,
+   "questionID": "24",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 53,
+   "questionID": "569",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 54,
+   "questionID": "14",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 55,
+   "questionID": "23",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 56,
+   "questionID": "POLITICAL_VN_175",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 57,
+   "questionID": "12",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 58,
+   "questionID": "14",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 59,
+   "questionID": "24",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 60,
+   "questionID": "15",
+   "gold": [
+    "B",
+    "C",
+    "D",
+    "F",
+    "G"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "G"
+   ],
+   "exact": false,
+   "jaccard": 0.6,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\", \"G\"]}"
+  },
+  {
+   "index": 61,
+   "questionID": "1",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 62,
+   "questionID": "3",
+   "gold": [
+    "B",
+    "D",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 63,
+   "questionID": "3",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 64,
+   "questionID": "MCHCM018",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 65,
+   "questionID": "6",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 66,
+   "questionID": "2",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 67,
+   "questionID": "3",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 68,
+   "questionID": "7",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 69,
+   "questionID": "226",
+   "gold": [
+    "A",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 70,
+   "questionID": "11",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 71,
+   "questionID": "MD-Q645",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 72,
+   "questionID": "SXHD12",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 73,
+   "questionID": "MCQ1",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 74,
+   "questionID": "MD439",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 75,
+   "questionID": "MCHCM010",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\"]}"
+  },
+  {
+   "index": 76,
+   "questionID": "32",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 77,
+   "questionID": "22",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 78,
+   "questionID": "75",
+   "gold": [
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+  },
+  {
+   "index": 79,
+   "questionID": "3",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 80,
+   "questionID": "25",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\"]}"
+  },
+  {
+   "index": 81,
+   "questionID": "23",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\"]}"
+  },
+  {
+   "index": 82,
+   "questionID": "18",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 83,
+   "questionID": "6",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 84,
+   "questionID": "MD1012",
+   "gold": [
+    "A",
+    "B"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 85,
+   "questionID": "18",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 86,
+   "questionID": "8",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 87,
+   "questionID": "MDQ7",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"C\"]}"
+  },
+  {
+   "index": 88,
+   "questionID": "17",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 89,
+   "questionID": "23",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 90,
+   "questionID": "1",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 91,
+   "questionID": "3",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 92,
+   "questionID": "MCHCM004",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 93,
+   "questionID": "MD011",
+   "gold": [
+    "A",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 94,
+   "questionID": "NEU001",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 95,
+   "questionID": "10",
+   "gold": [
+    "C",
+    "E",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.6,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\", \"F\"]}"
+  },
+  {
+   "index": 96,
+   "questionID": "101",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 97,
+   "questionID": "25",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"E\"]}"
+  },
+  {
+   "index": 98,
+   "questionID": "16",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 99,
+   "questionID": "MD-Q58",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 100,
+   "questionID": "85",
+   "gold": [
+    "A",
+    "B",
+    "D",
+    "F"
+   ],
+   "pred": [
+    "B",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\", \"E\", \"F\", \"G\"]}"
+  },
+  {
+   "index": 101,
+   "questionID": "9",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+  },
+  {
+   "index": 102,
+   "questionID": "NM0010",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 103,
+   "questionID": "10",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 104,
+   "questionID": "12",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 105,
+   "questionID": "585",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 106,
+   "questionID": "14",
+   "gold": [
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 107,
+   "questionID": "23",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\"]}"
+  },
+  {
+   "index": 108,
+   "questionID": "MD1012",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 109,
+   "questionID": "MD105",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 110,
+   "questionID": "7",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 111,
+   "questionID": "587",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 112,
+   "questionID": "MD6",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 113,
+   "questionID": "HC216",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.4,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 114,
+   "questionID": "MD1021",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 115,
+   "questionID": "VGB6",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 116,
+   "questionID": "24",
+   "gold": [
+    "A",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 117,
+   "questionID": "25",
+   "gold": [
+    "B",
+    "C",
+    "D",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "E",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"E\", \"F\"]}"
+  },
+  {
+   "index": 118,
+   "questionID": "4",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 119,
+   "questionID": "2",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 120,
+   "questionID": "Q9",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 121,
+   "questionID": "16",
+   "gold": [
+    "A",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 122,
+   "questionID": "364",
+   "gold": [
+    "A",
+    "B",
+    "C",
+    "G"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "G"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"G\"]}"
+  },
+  {
+   "index": 123,
+   "questionID": "10",
+   "gold": [
+    "A",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.6,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 124,
+   "questionID": "12",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 125,
+   "questionID": "11",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 126,
+   "questionID": "2",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.4,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 127,
+   "questionID": "MD1019",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 128,
+   "questionID": "9",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 129,
+   "questionID": "5",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 130,
+   "questionID": "6",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"E\"]}"
+  },
+  {
+   "index": 131,
+   "questionID": "17",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 132,
+   "questionID": "11",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.6,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 133,
+   "questionID": "10",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"E\"]}"
+  },
+  {
+   "index": 134,
+   "questionID": "127",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 135,
+   "questionID": "139",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 136,
+   "questionID": "25",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 137,
+   "questionID": "531",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 138,
+   "questionID": "24",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"D\", \"E\"]}"
+  },
+  {
+   "index": 139,
+   "questionID": "13",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"C\", \"D\"]}"
+  },
+  {
+   "index": 140,
+   "questionID": "23",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 141,
+   "questionID": "1",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 142,
+   "questionID": "Q394",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 143,
+   "questionID": "48",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 144,
+   "questionID": "2",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"E\"]}"
+  },
+  {
+   "index": 145,
+   "questionID": "21",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 146,
+   "questionID": "83",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 147,
+   "questionID": "MD13",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\"]}"
+  },
+  {
+   "index": 148,
+   "questionID": "87",
+   "gold": [
+    "A",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 149,
+   "questionID": "1",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 150,
+   "questionID": "160",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 151,
+   "questionID": "MD101",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\"]}"
+  },
+  {
+   "index": 152,
+   "questionID": "MD102",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 153,
+   "questionID": "15",
+   "gold": [
+    "A",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 154,
+   "questionID": "40",
+   "gold": [
+    "A",
+    "B",
+    "F",
+    "G"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "exact": false,
+   "jaccard": 0.429,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\", \"D\", \"E\", \"F\", \"G\"]}"
+  },
+  {
+   "index": 155,
+   "questionID": "PUBLIC007",
+   "gold": [
+    "B",
+    "C",
+    "E",
+    "G"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "exact": false,
+   "jaccard": 0.571,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\"]}"
+  },
+  {
+   "index": 156,
+   "questionID": "565",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 157,
+   "questionID": "19",
+   "gold": [
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "pred": [
+    "B",
+    "D",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.4,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\", \"F\"]}"
+  },
+  {
+   "index": 158,
+   "questionID": "11",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 159,
+   "questionID": "232",
+   "gold": [
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 160,
+   "questionID": "12",
+   "gold": [
+    "A",
+    "B",
+    "E"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"E\"]}"
+  },
+  {
+   "index": 161,
+   "questionID": "132",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 162,
+   "questionID": "24",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 163,
+   "questionID": "11",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 164,
+   "questionID": "6",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\"]}"
+  },
+  {
+   "index": 165,
+   "questionID": "21",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"D\"]}"
+  },
+  {
+   "index": 166,
+   "questionID": "168",
+   "gold": [
+    "A",
+    "B"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 167,
+   "questionID": "11",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 168,
+   "questionID": "MD1024",
+   "gold": [
+    "C",
+    "E",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"F\"]}"
+  },
+  {
+   "index": 169,
+   "questionID": "20",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 170,
+   "questionID": "1",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 171,
+   "questionID": "134",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\"]}"
+  },
+  {
+   "index": 172,
+   "questionID": "15",
+   "gold": [
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 173,
+   "questionID": "6",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 174,
+   "questionID": "25",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"D\"]}"
+  },
+  {
+   "index": 175,
+   "questionID": "14",
+   "gold": [
+    "C",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 176,
+   "questionID": "MD1009",
+   "gold": [
+    "A",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 177,
+   "questionID": "8",
+   "gold": [
+    "B",
+    "D",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "D",
+    "E"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"B\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 178,
+   "questionID": "4",
+   "gold": [
+    "A",
+    "D",
+    "F",
+    "G"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.2,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 179,
+   "questionID": "MD12",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 180,
+   "questionID": "MD-Q56",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 181,
+   "questionID": "9",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"C\"]}"
+  },
+  {
+   "index": 182,
+   "questionID": "16",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 183,
+   "questionID": "MDQ21",
+   "gold": [
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 184,
+   "questionID": "Q578",
+   "gold": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\"]}"
+  },
+  {
+   "index": 185,
+   "questionID": "12",
+   "gold": [
+    "A",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C",
+    "D",
+    "E"
+   ],
+   "exact": false,
+   "jaccard": 0.75,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"C\", \"D\", \"E\"]}"
+  },
+  {
+   "index": 186,
+   "questionID": "6",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 187,
+   "questionID": "135",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 188,
+   "questionID": "MD53023",
+   "gold": [
+    "B",
+    "C",
+    "D"
+   ],
+   "pred": [
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"B\", \"D\"]}"
+  },
+  {
+   "index": 189,
+   "questionID": "21",
+   "gold": [
+    "B",
+    "C",
+    "E"
+   ],
+   "pred": [
+    "B",
+    "C",
+    "F"
+   ],
+   "exact": false,
+   "jaccard": 0.5,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"C\", \"F\"]}"
+  },
+  {
+   "index": 190,
+   "questionID": "12",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 191,
+   "questionID": "MCQ11",
+   "gold": [
+    "A",
+    "D",
+    "F"
+   ],
+   "pred": [
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.25,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"B\", \"D\"]}"
+  },
+  {
+   "index": 192,
+   "questionID": "4",
+   "gold": [
+    "A",
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+  },
+  {
+   "index": 193,
+   "questionID": "18",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 194,
+   "questionID": "23",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.333,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"B\"]}"
+  },
+  {
+   "index": 195,
+   "questionID": "207",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 196,
+   "questionID": "MD024",
+   "gold": [
+    "A",
+    "B",
+    "D",
+    "F"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.2,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  },
+  {
+   "index": 197,
+   "questionID": "1",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "{\"answers\": [\"A\", \"B\", \"C\"]}"
+  },
+  {
+   "index": 198,
+   "questionID": "15",
+   "gold": [
+    "B",
+    "D"
+   ],
+   "pred": [
+    "A",
+    "B",
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file3_tach_dau_phay",
+   "raw": "{\"answers\": [\"A\", \"B\", \"D\"]}"
+  },
+  {
+   "index": 199,
+   "questionID": "256",
+   "gold": [
+    "A",
+    "B",
+    "C"
+   ],
+   "pred": [
+    "A",
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.667,
+   "subset": "file2_xoa_meta",
+   "raw": "{\"answers\": [\"A\", \"C\"]}"
+  }
+ ]
+}

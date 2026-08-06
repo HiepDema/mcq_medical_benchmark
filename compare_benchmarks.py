@@ -50,6 +50,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--multi", action="append", default=[], help="file kết quả bộ nhiều đáp án")
     ap.add_argument("--single", action="append", default=[], help="file kết quả bộ một đáp án")
+    ap.add_argument("--exclude", action="append", default=[],
+                    help="bỏ một nhóm khỏi mọi phép tính, vd --exclude file2_xoa_meta")
     args = ap.parse_args()
 
     if not args.multi or len(args.multi) != len(args.single):
@@ -68,6 +70,10 @@ def main() -> int:
         print(f"nạp {tag}: multi={Path(fm).name}  single={Path(fs).name}")
 
     common = sorted(set.intersection(*[set(m.keys()) & set(s.keys()) for m, s in models.values()]))
+    if args.exclude:
+        before = len(common)
+        common = [i for i in common if subset[i] not in args.exclude]
+        print(f"\nBỏ nhóm {args.exclude}: {before} -> {len(common)} câu")
     print(f"\nSố câu chung: {len(common)}\n")
 
     # ---------------------------------------------------- A. hiệu ứng định dạng
