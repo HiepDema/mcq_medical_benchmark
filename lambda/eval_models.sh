@@ -67,18 +67,23 @@ for m in "${MODELS[@]}"; do
     echo "############ $mtag × $dtag — $model ############"
     start=$(date +%s)
 
+    # Giữ TOÀN BỘ log (kể cả dòng nguyên nhân gốc mà vLLM in từ tiến trình con,
+    # nằm PHÍA TRÊN traceback) để còn gửi đi khi cần chẩn đoán.
+    log="log_${mtag}_${dtag}.txt"
     # shellcheck disable=SC2086
     "$PY" eval_qwen3vl.py \
         --data "$data" --provenance "$prov" \
         --model "$model" --gpu-mem "$gpumem" --max-model-len "$maxlen" \
-        --out "$out" $extra
-    rc=$?
+        --out "$out" $extra 2>&1 | tee "$log"
+    rc=${PIPESTATUS[0]}
 
     dur=$(( $(date +%s) - start ))
     if [ $rc -eq 0 ]; then
       echo ">>> $mtag × $dtag XONG sau ${dur}s -> $out"
     else
       echo ">>> $mtag × $dtag LỖI (mã $rc) sau ${dur}s — bỏ qua, chạy tiếp"
+      echo ">>> nguyên nhân gốc (30 dòng trước traceback), xem đầy đủ ở $log:"
+      grep -n -i -m1 -B2 -A25 'error\|Traceback' "$log" | head -40 || tail -40 "$log"
     fi
     sleep 5           # để VRAM giải phóng hẳn
   done

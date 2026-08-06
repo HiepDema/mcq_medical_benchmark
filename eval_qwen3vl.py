@@ -148,16 +148,16 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
               single: bool = False, enforce_eager: bool = False):
     from vllm import LLM, SamplingParams
 
+    # KHÔNG truyền limit_mm_per_prompt: đặt giới hạn 0 làm engine core của vLLM
+    # chết khi khởi tạo ("Engine core initialization failed"), cả với model
+    # text-only lẫn model vision-language. Đây chỉ là tối ưu VRAM, không bắt buộc.
     kwargs = dict(model=model_id, max_model_len=max_model_len,
                   gpu_memory_utilization=gpu_mem, trust_remote_code=True)
-    # Model vision-language cấp phát sẵn bộ nhớ cho ảnh/video; prompt của ta thuần
-    # văn bản nên tắt đi. Model text-only không có tham số này -> thử rồi lùi lại.
     if enforce_eager:
         kwargs["enforce_eager"] = True      # bỏ CUDA graph, tiết kiệm 1-3 GB VRAM
-    try:
-        llm = LLM(**kwargs, limit_mm_per_prompt={"image": 0, "video": 0})
-    except (TypeError, ValueError):
-        llm = LLM(**kwargs)
+
+    print(f"[eval] nạp model: {kwargs}", flush=True)
+    llm = LLM(**kwargs)
 
     convs, sps = [], []
     try:
