@@ -1,0 +1,4578 @@
+{
+ "model": "Qwen/Qwen3-4B [1 đáp án]",
+ "data": "processed_data/benchmark_single.json",
+ "metrics": {
+  "n": 326,
+  "exact_match": 0.5460122699386503,
+  "jaccard": 0.5460122699386503,
+  "micro_precision": 0.5460122699386503,
+  "micro_recall": 0.5460122699386503,
+  "micro_f1": 0.5460122699386503
+ },
+ "per_item": [
+  {
+   "index": 0,
+   "questionID": "22",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "B"
+  },
+  {
+   "index": 1,
+   "questionID": "229",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 2,
+   "questionID": "MD53016",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 3,
+   "questionID": "1010",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 4,
+   "questionID": "21",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 5,
+   "questionID": "5",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 6,
+   "questionID": "24",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 7,
+   "questionID": "116",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 8,
+   "questionID": "103",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 9,
+   "questionID": "7",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 10,
+   "questionID": "MD102",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 11,
+   "questionID": "12",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 12,
+   "questionID": "MD-Q629",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 13,
+   "questionID": "1",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 14,
+   "questionID": "8",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 15,
+   "questionID": "133",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 16,
+   "questionID": "17",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 17,
+   "questionID": "1",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 18,
+   "questionID": "32",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 19,
+   "questionID": "19",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "C"
+  },
+  {
+   "index": 20,
+   "questionID": "7",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 21,
+   "questionID": "8",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 22,
+   "questionID": "521",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 23,
+   "questionID": "252",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 24,
+   "questionID": "586",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 25,
+   "questionID": "15",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 26,
+   "questionID": "MD1018",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 27,
+   "questionID": "MCQ15",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 28,
+   "questionID": "6",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 29,
+   "questionID": "3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 30,
+   "questionID": "22",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_xoa_meta",
+   "raw": "C"
+  },
+  {
+   "index": 31,
+   "questionID": "MCQ002",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 32,
+   "questionID": "ID022",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 33,
+   "questionID": "6",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 34,
+   "questionID": "22",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_xoa_meta",
+   "raw": "A"
+  },
+  {
+   "index": 35,
+   "questionID": "1009",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 36,
+   "questionID": "MD1022",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 37,
+   "questionID": "MD013",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 38,
+   "questionID": "25",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 39,
+   "questionID": "122",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 40,
+   "questionID": "28",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 41,
+   "questionID": "MD-Q638",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 42,
+   "questionID": "92",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 43,
+   "questionID": "19",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 44,
+   "questionID": "178",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 45,
+   "questionID": "MD-Q57",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 46,
+   "questionID": "9",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 47,
+   "questionID": "15",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "A"
+  },
+  {
+   "index": 48,
+   "questionID": "9",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_xoa_meta",
+   "raw": "A"
+  },
+  {
+   "index": 49,
+   "questionID": "MD-Q645",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 50,
+   "questionID": "5",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 51,
+   "questionID": "M11",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 52,
+   "questionID": "MD53023",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 53,
+   "questionID": "4",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_xoa_meta",
+   "raw": "A"
+  },
+  {
+   "index": 54,
+   "questionID": "MD458",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 55,
+   "questionID": "17",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 56,
+   "questionID": "4",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 57,
+   "questionID": "87",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "B"
+  },
+  {
+   "index": 58,
+   "questionID": "522",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 59,
+   "questionID": "MD1012",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "D"
+  },
+  {
+   "index": 60,
+   "questionID": "4",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 61,
+   "questionID": "MD1022",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 62,
+   "questionID": "13",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 63,
+   "questionID": "21",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 64,
+   "questionID": "MD1007",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 65,
+   "questionID": "21",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 66,
+   "questionID": "MDMCQ_011",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 67,
+   "questionID": "MD105",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 68,
+   "questionID": "3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 69,
+   "questionID": "22",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 70,
+   "questionID": "16",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 71,
+   "questionID": "370",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 72,
+   "questionID": "10",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 73,
+   "questionID": "1008",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 74,
+   "questionID": "THA014",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 75,
+   "questionID": "9",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 76,
+   "questionID": "9",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 77,
+   "questionID": "MD1005",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 78,
+   "questionID": "MD1016",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 79,
+   "questionID": "MD1014",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 80,
+   "questionID": "561",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 81,
+   "questionID": "379",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 82,
+   "questionID": "15",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 83,
+   "questionID": "6",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 84,
+   "questionID": "10",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 85,
+   "questionID": "25",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 86,
+   "questionID": "18",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 87,
+   "questionID": "25",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 88,
+   "questionID": "12",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 89,
+   "questionID": "36",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 90,
+   "questionID": "MD-Q67",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 91,
+   "questionID": "MD6",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 92,
+   "questionID": "187",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 93,
+   "questionID": "Q2",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 94,
+   "questionID": "3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 95,
+   "questionID": "24",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 96,
+   "questionID": "12",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 97,
+   "questionID": "82",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 98,
+   "questionID": "22",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 99,
+   "questionID": "3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 100,
+   "questionID": "MD1023",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 101,
+   "questionID": "91",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 102,
+   "questionID": "MD13",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 103,
+   "questionID": "18",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 104,
+   "questionID": "MD460",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 105,
+   "questionID": "HC229",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 106,
+   "questionID": "1007",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 107,
+   "questionID": "MD1002",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 108,
+   "questionID": "96",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 109,
+   "questionID": "MD1021",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 110,
+   "questionID": "7",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 111,
+   "questionID": "15",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 112,
+   "questionID": "MD53006",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 113,
+   "questionID": "11",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 114,
+   "questionID": "4",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 115,
+   "questionID": "4",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 116,
+   "questionID": "12",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 117,
+   "questionID": "4",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 118,
+   "questionID": "10",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 119,
+   "questionID": "1",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 120,
+   "questionID": "24",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 121,
+   "questionID": "156",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 122,
+   "questionID": "118",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 123,
+   "questionID": "168",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "D"
+  },
+  {
+   "index": 124,
+   "questionID": "Q8",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 125,
+   "questionID": "2",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 126,
+   "questionID": "MD1017",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 127,
+   "questionID": "Q65",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 128,
+   "questionID": "14",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 129,
+   "questionID": "24",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 130,
+   "questionID": "MCQ252",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 131,
+   "questionID": "1011",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 132,
+   "questionID": "31",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 133,
+   "questionID": "201",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 134,
+   "questionID": "467",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 135,
+   "questionID": "23",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 136,
+   "questionID": "105",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 137,
+   "questionID": "10",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 138,
+   "questionID": "MD53021",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 139,
+   "questionID": "180",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 140,
+   "questionID": "95",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 141,
+   "questionID": "MD-Q641",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 142,
+   "questionID": "18",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 143,
+   "questionID": "18",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 144,
+   "questionID": "2",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 145,
+   "questionID": "Q9",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 146,
+   "questionID": "120",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 147,
+   "questionID": "15",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 148,
+   "questionID": "40",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 149,
+   "questionID": "578",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 150,
+   "questionID": "11",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "D"
+  },
+  {
+   "index": 151,
+   "questionID": "16",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 152,
+   "questionID": "NEUR1006",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "D"
+  },
+  {
+   "index": 153,
+   "questionID": "25",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 154,
+   "questionID": "21",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 155,
+   "questionID": "12",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 156,
+   "questionID": "MD1",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 157,
+   "questionID": "MD1019",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 158,
+   "questionID": "MD1005",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 159,
+   "questionID": "MD1007",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 160,
+   "questionID": "167",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "B"
+  },
+  {
+   "index": 161,
+   "questionID": "11",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 162,
+   "questionID": "8",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 163,
+   "questionID": "20",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 164,
+   "questionID": "Q578",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "B"
+  },
+  {
+   "index": 165,
+   "questionID": "7",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 166,
+   "questionID": "18",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 167,
+   "questionID": "15",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 168,
+   "questionID": "15",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 169,
+   "questionID": "7",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 170,
+   "questionID": "MD459",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 171,
+   "questionID": "MD014",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 172,
+   "questionID": "1009",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 173,
+   "questionID": "8",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 174,
+   "questionID": "12",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 175,
+   "questionID": "133",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 176,
+   "questionID": "9",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 177,
+   "questionID": "156",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 178,
+   "questionID": "25",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 179,
+   "questionID": "1",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 180,
+   "questionID": "25",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 181,
+   "questionID": "HC218",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 182,
+   "questionID": "ID018",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 183,
+   "questionID": "MD1001",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 184,
+   "questionID": "13",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 185,
+   "questionID": "MCQ237",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 186,
+   "questionID": "MD24",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 187,
+   "questionID": "17",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 188,
+   "questionID": "MD001",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "A"
+  },
+  {
+   "index": 189,
+   "questionID": "ANAT1011",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 190,
+   "questionID": "175",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 191,
+   "questionID": "237",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 192,
+   "questionID": "MD-Q640",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 193,
+   "questionID": "Q11",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 194,
+   "questionID": "25",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 195,
+   "questionID": "14",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 196,
+   "questionID": "MD008",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 197,
+   "questionID": "26",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 198,
+   "questionID": "8",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 199,
+   "questionID": "20",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 200,
+   "questionID": "2",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "A"
+  },
+  {
+   "index": 201,
+   "questionID": "20",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 202,
+   "questionID": "6",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 203,
+   "questionID": "1015",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 204,
+   "questionID": "476",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 205,
+   "questionID": "106",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 206,
+   "questionID": "134",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 207,
+   "questionID": "Q394",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 208,
+   "questionID": "9",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 209,
+   "questionID": "11",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 210,
+   "questionID": "Q10a",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 211,
+   "questionID": "10",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 212,
+   "questionID": "POLITICAL_VN_175",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 213,
+   "questionID": "16",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 214,
+   "questionID": "526",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 215,
+   "questionID": "17",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 216,
+   "questionID": "485",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 217,
+   "questionID": "489",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 218,
+   "questionID": "3",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 219,
+   "questionID": "1016",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 220,
+   "questionID": "154",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 221,
+   "questionID": "18",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 222,
+   "questionID": "569",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 223,
+   "questionID": "656",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 224,
+   "questionID": "10",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 225,
+   "questionID": "175",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 226,
+   "questionID": "1",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 227,
+   "questionID": "1",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 228,
+   "questionID": "572",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 229,
+   "questionID": "MQA109",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 230,
+   "questionID": "22",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 231,
+   "questionID": "10",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 232,
+   "questionID": "5",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 233,
+   "questionID": "M10",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 234,
+   "questionID": "MD3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 235,
+   "questionID": "17",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 236,
+   "questionID": "585",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 237,
+   "questionID": "19",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "C"
+  },
+  {
+   "index": 238,
+   "questionID": "16",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 239,
+   "questionID": "11",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 240,
+   "questionID": "1010",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 241,
+   "questionID": "MD-Q58",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 242,
+   "questionID": "529",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 243,
+   "questionID": "1006",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 244,
+   "questionID": "9",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 245,
+   "questionID": "19",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_xoa_meta",
+   "raw": "A"
+  },
+  {
+   "index": 246,
+   "questionID": "207",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 247,
+   "questionID": "9",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 248,
+   "questionID": "1020",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 249,
+   "questionID": "64",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "B"
+  },
+  {
+   "index": 250,
+   "questionID": "15",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 251,
+   "questionID": "127",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 252,
+   "questionID": "9",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 253,
+   "questionID": "MCQ18",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 254,
+   "questionID": "VGB1",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 255,
+   "questionID": "14",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 256,
+   "questionID": "119",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 257,
+   "questionID": "23",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 258,
+   "questionID": "MD1012",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 259,
+   "questionID": "15",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 260,
+   "questionID": "MCQ016",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 261,
+   "questionID": "150",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 262,
+   "questionID": "15",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "B"
+  },
+  {
+   "index": 263,
+   "questionID": "8",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 264,
+   "questionID": "187",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 265,
+   "questionID": "4",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 266,
+   "questionID": "237",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 267,
+   "questionID": "9",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 268,
+   "questionID": "1",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 269,
+   "questionID": "4",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 270,
+   "questionID": "15",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 271,
+   "questionID": "558",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 272,
+   "questionID": "615",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 273,
+   "questionID": "MD021",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 274,
+   "questionID": "8",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 275,
+   "questionID": "19",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 276,
+   "questionID": "19",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 277,
+   "questionID": "17",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "C"
+  },
+  {
+   "index": 278,
+   "questionID": "14",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 279,
+   "questionID": "MD1023",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 280,
+   "questionID": "101",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 281,
+   "questionID": "570",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 282,
+   "questionID": "621",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 283,
+   "questionID": "MD1021",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 284,
+   "questionID": "185",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "A"
+  },
+  {
+   "index": 285,
+   "questionID": "25",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 286,
+   "questionID": "19",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 287,
+   "questionID": "13",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 288,
+   "questionID": "10",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 289,
+   "questionID": "1001",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 290,
+   "questionID": "17",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 291,
+   "questionID": "571",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 292,
+   "questionID": "2",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "B"
+  },
+  {
+   "index": 293,
+   "questionID": "M23",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 294,
+   "questionID": "10",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 295,
+   "questionID": "33",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 296,
+   "questionID": "35",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 297,
+   "questionID": "M3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 298,
+   "questionID": "199",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 299,
+   "questionID": "10",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 300,
+   "questionID": "22",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 301,
+   "questionID": "364",
+   "gold": [
+    "A"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file3_tach_dau_phay",
+   "raw": "A"
+  },
+  {
+   "index": 302,
+   "questionID": "16",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 303,
+   "questionID": "20",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "A"
+  },
+  {
+   "index": 304,
+   "questionID": "MD1001",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 305,
+   "questionID": "11",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 306,
+   "questionID": "16",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 307,
+   "questionID": "488",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 308,
+   "questionID": "24",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 309,
+   "questionID": "9",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 310,
+   "questionID": "2",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 311,
+   "questionID": "MD1015",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 312,
+   "questionID": "3",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 313,
+   "questionID": "21",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 314,
+   "questionID": "2",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_them_nhieu",
+   "raw": "D"
+  },
+  {
+   "index": 315,
+   "questionID": "12",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 316,
+   "questionID": "2",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 317,
+   "questionID": "NEU001",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "A"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file2_them_nhieu",
+   "raw": "A"
+  },
+  {
+   "index": 318,
+   "questionID": "MD-Q56",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 319,
+   "questionID": "565",
+   "gold": [
+    "C"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  },
+  {
+   "index": 320,
+   "questionID": "3",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 321,
+   "questionID": "11",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 322,
+   "questionID": "2",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file2_xoa_meta",
+   "raw": "D"
+  },
+  {
+   "index": 323,
+   "questionID": "531",
+   "gold": [
+    "B"
+   ],
+   "pred": [
+    "B"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "B"
+  },
+  {
+   "index": 324,
+   "questionID": "371",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "D"
+   ],
+   "exact": true,
+   "jaccard": 1.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "D"
+  },
+  {
+   "index": 325,
+   "questionID": "MD101",
+   "gold": [
+    "D"
+   ],
+   "pred": [
+    "C"
+   ],
+   "exact": false,
+   "jaccard": 0.0,
+   "subset": "file1_ngoai_tru",
+   "raw": "C"
+  }
+ ]
+}

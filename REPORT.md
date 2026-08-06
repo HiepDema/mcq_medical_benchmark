@@ -373,90 +373,149 @@ Nhóm lô A bị ăn trọn 100% đúng như dự đoán — bằng chứng số
 
 ---
 
-## 11. Kết quả đánh giá Qwen3-VL-4B
+## 11. Kết quả đánh giá — 2 model × 2 benchmark
 
-Model: `Qwen/Qwen3-VL-4B-Instruct`, chạy bằng vLLM trên Lambda A10, guided decoding
-ép đầu ra về JSON hợp lệ.
+Đánh giá `Qwen/Qwen3-0.6B` và `Qwen/Qwen3-4B` trên cả hai bộ, chạy bằng vLLM
+trên Lambda A10. Cả 326 câu, ràng buộc đầu ra bằng structured outputs nên không
+có lỗi phân tích cú pháp.
 
-> Số liệu model đo trên **bản 325 câu** (trước khi bổ sung câu số 2 vào File 3).
-> Ba nhóm `file1_ngoai_tru`, `file2_xoa_meta`, `file2_them_nhieu` không đổi giữa hai
-> bản nên so sánh với mốc là chính xác tuyệt đối; riêng `file3` là 10 câu thay vì 11.
+> **Số liệu đo lần trước đã bị loại bỏ.** Lần chạy đầu dính hai lỗi cộng dồn:
+> vLLM đã gỡ `GuidedDecodingParams` (v0.12.0) nên ràng buộc đầu ra âm thầm mất
+> tác dụng, và Qwen3 mặc định bật chế độ suy nghĩ nên toàn bộ token bị khối
+> `<think>` chiếm chỗ. Đáp án khi đó bị vớt nhầm từ chính đoạn suy nghĩ
+> ("options are A, B, C, D" → luôn ra A). Chi tiết ở mục 7.
 
-### 11.1 Bảng kết quả
+### 11.1 Bảng kết quả (exact match)
 
-| Nhóm | n | Chọn hết<br>exact / jacc / F1 | Chọn 3 đầu<br>exact / jacc / F1 | **Qwen3-VL-4B**<br>exact / jacc / F1 |
-|---|---:|---|---|---|
-| **Tổng thể** | 325 | 6,1 / 74,8 / 85,1 | 25,5 / 61,8 / 74,0 | **28,9 / 69,0 / 80,0** |
-| file1_ngoai_tru | 265 | 0,0 / 75,0 / 85,7 | 23,0 / 61,5 / 74,3 | 24,2 / 65,8 / 77,6 |
-| file2_them_nhieu | 30 | 0,0 / 60,0 / 75,0 | 6,7 / 40,3 / 54,4 | **53,3** / 84,7 / 90,6 |
-| file2_xoa_meta | 20 | **100,0** / 100,0 / 100,0 | **100,0** / 100,0 / 100,0 | 55,0 / 85,0 / 91,9 |
-| file3_tach_dau_phay | 10–11 | 0,0 / 64,9 / 78,7 | 0,0 / 56,8 / 71,4 | 30,0 / 74,8 / 84,5 |
+| | Mốc mù tốt nhất | Qwen3-0.6B | Qwen3-4B |
+|---|---:|---:|---:|
+| **Bộ MỘT đáp án** | 28,2% *(đoán ngẫu nhiên 1/4)* | 42,0% | **54,6%** |
+| **Bộ NHIỀU đáp án** | 25,5% *(chọn 3 ô đầu)* | **0,0%** | 21,2% |
 
-### 11.2 Model chỉ nhỉnh hơn heuristic mù 3 điểm
+### 11.2 Không model nào vượt được mốc mù ở bộ nhiều đáp án
 
-Exact match tổng thể **28,9%** so với mốc "chọn 3 phương án đầu" là **25,5%** —
-chênh **3,4 điểm**. Trên nhóm lớn nhất `file1_ngoai_tru` (265/325 câu, tức 82% bộ
-dữ liệu) khoảng cách còn hẹp hơn: **24,2% so với 23,0%**, tức 1,2 điểm.
+Đây là kết quả quan trọng nhất. Trên bộ nhiều đáp án, 4B đạt **21,2%** trong khi
+chiến lược mù "chọn 3 ô đầu" đạt **25,5%** — model **thấp hơn** heuristic không
+đọc câu hỏi. 0.6B đạt 0,0%.
 
-Nói cách khác, phần lớn điểm số của model đến từ việc bộ dữ liệu có 98% số câu
-đúng 3 đáp án, chứ không phải từ việc hiểu nội dung câu hỏi.
+Tách theo nhóm cho thấy rõ hơn:
 
-### 11.3 Trên chỉ số điểm từng phần, model THUA cả chiến lược mù
+| Nhóm | n | Mốc "chọn 3 ô đầu" | Qwen3-4B |
+|---|---:|---:|---:|
+| file1_ngoai_tru | 265 | 23,0% | **17,4%** ⟵ thua mốc |
+| file2_them_nhieu | 30 | 6,7% | 46,7% |
+| file2_xoa_meta | 20 | 100,0% | 30,0% ⟵ thua mốc |
+| file3_tach_dau_phay | 11 | 0,0% | 27,3% |
 
-| Chỉ số | Chọn hết | Qwen3-VL-4B |
-|---|---|---|
-| Jaccard | **74,8%** | 69,0% |
-| micro F1 | **85,1%** | 80,0% |
+4B chỉ vượt mốc ở hai nhóm nhỏ. Trên nhóm chiếm 81% bộ dữ liệu (`file1_ngoai_tru`)
+nó thua mốc mù. Ở dải năng lực này, **bộ nhiều đáp án chưa đo được năng lực** —
+nó mới chỉ cho thấy định dạng quá khó.
 
-Chiến lược "chọn hết mọi phương án" — không đọc câu hỏi, không hiểu gì — cho
-Jaccard và F1 **cao hơn** model. Đây là bằng chứng cụ thể cho cảnh báo ở mục 10:
-nếu chỉ báo cáo F1 thì Qwen3-VL-4B đạt 80% nghe rất khá, trong khi thực tế nó còn
-kém hơn việc tô hết mọi ô.
+Ngược lại, bộ một đáp án hoạt động đúng như benchmark cần: cả hai model đều vượt
+mốc mù (42,0% và 54,6% so với 28,2%), và xếp hạng đúng theo kích thước.
 
-### 11.4 Model bị lệch về phía chọn thiếu
+### 11.3 Chi phí của định dạng nhiều đáp án
 
-Nhóm `file2_xoa_meta` gồm 20 câu mà **mọi phương án đều đúng** — mốc mù đạt 100%.
-Model chỉ đạt **55,0%**, tức sai 9/20 câu dễ nhất có thể có.
+Thiết kế cặp (cùng câu hỏi, hai định dạng, cùng model) cho phép đo trực tiếp.
+Bảng chéo: S = bộ một đáp án, M = bộ nhiều đáp án.
 
-Từ ba chỉ số của nhóm này suy ra được chính xác model đã làm gì:
+| Model | S✓M✓ | **S✓M✗** | **S✗M✓** | S✗M✗ | McNemar p |
+|---|---:|---:|---:|---:|---:|
+| Qwen3-0.6B | 0 | **137** | **0** | 189 | < 0,0001 |
+| Qwen3-4B | 59 | **119** | **10** | 138 | < 0,0001 |
 
-- Jaccard 85,0% = (11 câu đúng hoàn toàn × 1,0 + 9 câu × 2/3) / 20
-- micro F1 91,9% ứng với precision **100%**, recall **85%** (TP=51, FN=9, FP=0)
+Với 4B, **119 câu** thuộc dạng biết kiến thức nhưng hỏng khi phải chọn nhiều ô,
+so với chỉ **10 câu** theo chiều ngược. Chênh lệch có ý nghĩa thống kê rõ rệt.
 
-Precision đúng 100% nghĩa là model **chưa từng chọn nhầm một phương án sai nào**
-trong nhóm này; toàn bộ lỗi là **chọn thiếu** — mỗi câu sai đều chọn đúng 2 trong 3
-phương án đúng. Model có xu hướng dừng ở 2–3 lựa chọn thay vì chọn hết khi cần.
+Ô `S✗M✓` nhỏ (0 và 10) là tín hiệu tốt về mặt chất lượng: **bản nhiều đáp án
+không rò rỉ đáp án**, không dễ hơn bản gốc một cách bất thường.
 
-### 11.5 Nhóm model làm tốt nhất lại là nhóm ít tin cậy nhất
+### 11.4 Năng lực bị thiếu là hiệu chỉnh SỐ LƯỢNG đáp án
 
-`file2_them_nhieu` là nhóm duy nhất model bỏ xa mốc mù: **53,3% so với 6,7%**,
-hơn 46,6 điểm. Nhưng đây chính là 30 câu có phương án nhiễu **do LLM sinh** — và
-như đã ghi ở mục 5.2, một số nhiễu rất dễ loại (ví dụ "Cafein" trong câu hỏi về
-chất gây ung thư trong thuốc lá).
+Đáp án chuẩn có 3 ô ở 319/326 câu. Số ô mà model thực sự chọn:
 
-Nên con số 53,3% đo *"khả năng nhận ra phương án nhiễu do máy viết"* chứ không phải
-*"kiến thức y khoa"*. Không nên trích dẫn riêng con số này như bằng chứng năng lực.
+| Model | TB số ô chọn | Phân bố | Precision | Recall |
+|---|---:|---|---:|---:|
+| Qwen3-0.6B | 2,05 | 2 ô ở **312/326 câu** | 74,0% | 50,4% |
+| Qwen3-4B | 2,49 | 2 ô: 185 · 3 ô: 92 · 4 ô: 36 | 83,0% | 68,6% |
 
-Ngược lại, `file3_tach_dau_phay` (30,0% so với mốc 0,0%) là tín hiệu năng lực thật
-nhất, vì nhiễu do người ra đề viết — nhưng n = 10 nên khoảng tin cậy rất rộng.
+0.6B gần như luôn chọn đúng 2 ô, nên **không bao giờ trùng khít** với đáp án 3 ô
+— giải thích trọn vẹn con số 0,0%. Đây không phải thiếu kiến thức: cùng model đó
+đạt 42,0% ở bản một đáp án. Cái nó thiếu là khả năng quyết định *"nên chọn bao
+nhiêu ô"*.
 
-### 11.6 Kết luận
+Cả hai model đều có precision cao hơn recall nhiều — lỗi chủ đạo là **chọn thiếu**
+chứ không phải chọn sai. Đây đúng là năng lực mà bộ nhiều đáp án sinh ra để đo,
+và nó đo được.
 
-Qwen3-VL-4B **chưa thể hiện năng lực đáng kể** trên bộ này. Điểm exact match cao
-hơn heuristic mù đúng 3,4 điểm, còn hai chỉ số điểm từng phần thì thua chiến lược
-"chọn hết". Lỗi chủ đạo là chọn thiếu chứ không phải chọn sai.
+### 11.5 Độ phân biệt giữa hai model
 
-Ba hướng tiếp theo, theo thứ tự ưu tiên:
+Phân loại từng câu theo việc model mạnh/yếu làm được hay không:
 
-1. **Đo thêm model lớn hơn** (Qwen3-VL-30B, hoặc model qua API) trên đúng bộ này
-   để biết con số 28,9% là giới hạn của model 4B hay của chính bộ dữ liệu.
-2. **Cân bằng lại phân bố số đáp án đúng.** 319/326 câu có đúng 3 đáp án khiến mốc
-   mù cao bất thường và làm hẹp dải phân biệt. Mở rộng File 3 (còn 290 ứng viên)
-   sẽ đa dạng hoá phân bố này.
-3. **Loại 20 câu nhóm `file2_xoa_meta` khỏi phần chấm điểm chính**, chỉ giữ làm
-   phép thử độ lệch chọn-thiếu như mục 11.4 — chúng không đo được năng lực.
+| | Cả hai đúng | **Mạnh ✓ / Yếu ✗** | Yếu ✓ / Mạnh ✗ | Cả hai sai | Tín hiệu ròng |
+|---|---:|---:|---:|---:|---:|
+| Bộ nhiều đáp án | 0 | **69** | **0** | 257 | **+100%** |
+| Bộ một đáp án | 93 | 85 | 44 | 104 | +31,8% |
 
----
+Bộ nhiều đáp án phân biệt **sạch tuyệt đối**: 69 câu tách được hai model, 0 câu
+theo chiều nghịch đảo. Bộ một đáp án có 44 câu nghịch đảo — nhiễu từ việc đoán
+trúng 1 trong 4.
+
+Nhưng bộ nhiều đáp án có **78,8% số câu cả hai model đều sai**, tức phần lớn bộ
+đề chưa phân loại được gì ở dải năng lực này. Bộ một đáp án cân bằng hơn nhiều
+(28,5% quá dễ, 31,9% quá khó, 39,6% mang thông tin).
+
+### 11.6 Bộ MỘT đáp án có lỗi thiên lệch vị trí nghiêm trọng
+
+Phân bố vị trí đáp án đúng trong dữ liệu gốc:
+
+| Nhóm | Tỷ lệ đáp án nằm ở D |
+|---|---:|
+| file2_xoa_meta | **100%** (20/20) |
+| file2_them_nhieu | 90% (27/30) |
+| file1_ngoai_tru | 40% (105/265) |
+| Toàn bộ | 47,5% (155/326) |
+
+Điều này giải thích điểm số của 0.6B. Nó chọn D ở **236/326 câu**, và:
+
+- đúng **76,8%** khi đáp án thật là D
+- đúng **10,5%** khi đáp án không phải D
+
+Nghĩa là 42,0% của 0.6B gần như hoàn toàn là **trùng vị trí, không phải hiểu bài**.
+Nó "thắng" 4B ở hai nhóm `file2` (85,0% so với 75,0%; 83,3% so với 76,7%) chỉ vì
+"Tất cả đều đúng" hầu như luôn nằm ở phương án D.
+
+4B cũng lệch nhưng nhẹ hơn nhiều (64,5% khi là D so với 45,6% khi không phải D),
+tức nó thực sự đọc nội dung.
+
+Lỗi này thuộc về **ngân hàng đề gốc**, không phải do xử lý — bộ một đáp án được
+giữ nguyên văn có chủ ý. Bộ nhiều đáp án **không mắc lỗi này** vì đã trộn vị trí
+có seed ở cả ba tập thành phần (mục 7).
+
+### 11.7 Kết luận
+
+**Về hai model.** Qwen3-4B vượt 0.6B trên cả hai bộ và ở mọi nhóm con có ý nghĩa.
+Nhưng ở bộ nhiều đáp án, cả hai đều chưa vượt được mốc mù — cần model mạnh hơn
+hẳn mới biết trần của bộ này ở đâu.
+
+**Về hai benchmark.** Chúng đo hai thứ khác nhau và bổ sung cho nhau:
+
+- Bộ **một đáp án** phân loại được model ở dải năng lực hiện tại, nhưng bị nhiễm
+  thiên lệch vị trí D từ đề gốc nên điểm số của model nhỏ bị thổi phồng.
+- Bộ **nhiều đáp án** sạch về thiên lệch vị trí và phân biệt không nhiễu, nhưng
+  hiện quá khó: 78,8% số câu cả hai model đều sai, và mốc mù còn cao hơn model.
+
+**Ba việc nên làm tiếp**, theo thứ tự ưu tiên:
+
+1. **Cân bằng phân bố số đáp án đúng.** 319/326 câu có đúng 3 đáp án khiến mốc
+   "chọn 3 ô" cao bất thường (25,5%). Mở rộng File 3 (còn 290 ứng viên) sẽ đa
+   dạng hoá phân bố và kéo mốc mù xuống.
+2. **Đo thêm một model mạnh hơn hẳn** để biết 21,2% là giới hạn của model 4B hay
+   của chính bộ dữ liệu. Nếu model mạnh cũng quanh mốc mù thì vấn đề nằm ở
+   ground truth chứ không phải độ khó.
+3. **Loại 20 câu `file2_xoa_meta` khỏi phần chấm chính** ở cả hai bộ. Ở bản một
+   đáp án chúng có đáp án D 100%; ở bản nhiều đáp án mốc mù đạt 100%. Không bản
+   nào đo được năng lực.
 
 ## Phụ lục — cách tái tạo
 
