@@ -43,6 +43,17 @@ Các phương án:
 
 Hãy chọn TẤT CẢ các phương án đúng. Trả lời bằng JSON đúng dạng {{"answers": ["A", "C"]}}, không giải thích gì thêm."""
 
+# Dùng cho bộ đối chứng benchmark_single.json (--single). Phải khác prompt trên:
+# hỏi "chọn tất cả" trên câu chỉ có 1 đáp án sẽ làm model chọn thừa và điểm sai lệch.
+PROMPT_SINGLE = """Đây là câu hỏi trắc nghiệm có ĐÚNG MỘT đáp án đúng.
+
+Câu hỏi: {question}
+
+Các phương án:
+{options}
+
+Hãy chọn phương án đúng duy nhất. Chỉ trả lời bằng một chữ cái, không giải thích gì thêm."""
+
 
 # ------------------------------------------------------------------ dữ liệu
 def load_items(path: Path):
@@ -96,15 +107,20 @@ def score(items, preds: list[set]):
             "micro_precision": prec, "micro_recall": rec, "micro_f1": f1}, per_item
 
 
-def baselines(items):
+def baselines(items, single: bool = False):
     rng = random.Random(0)
-    out = {}
-    out["chọn hết"] = [set(it["letters"]) for it in items]
-    out["chọn 3 phương án đầu"] = [set(it["letters"][:3]) for it in items]
-    out["chọn ngẫu nhiên (mỗi phương án 50%)"] = [
-        {le for le in it["letters"] if rng.random() < 0.5} or {it["letters"][0]}
-        for it in items]
-    return out
+    if single:                       # bộ 1 đáp án: "chọn hết" vô nghĩa
+        return {
+            "luôn chọn A": [{it["letters"][0]} for it in items],
+            "chọn ngẫu nhiên 1 phương án": [{rng.choice(it["letters"])} for it in items],
+        }
+    return {
+        "chọn hết": [set(it["letters"]) for it in items],
+        "chọn 3 phương án đầu": [set(it["letters"][:3]) for it in items],
+        "chọn ngẫu nhiên (mỗi phương án 50%)": [
+            {le for le in it["letters"] if rng.random() < 0.5} or {it["letters"][0]}
+            for it in items],
+    }
 
 
 def report(name, m, indent="  "):
@@ -128,7 +144,8 @@ def parse_answer(text: str, letters: list[str]) -> set:
     return {c for c in re.findall(r"\b([A-Z])\b", text.upper())} & valid
 
 
-def run_model(items, model_id: str, max_model_len: int, gpu_mem: float):
+def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
+              single: bool = False):
     from vllm import LLM, SamplingParams
 
     llm = LLM(model=model_id, max_model_len=max_model_len,
@@ -143,11 +160,18 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float):
         guided = False
         print("[eval] guided decoding không dùng được — sẽ parse text tự do")
 
+    template = PROMPT_SINGLE if single else PROMPT
     for it in items:
         opts = "\n".join(f"{le}. {it['options'][le]}" for le in it["letters"])
         convs.append([{"role": "user",
-                       "content": PROMPT.format(question=it["question"], options=opts)}])
-        if guided:
+                       "content": template.format(question=it["question"], options=opts)}])
+        if not guided:
+            sps.append(SamplingParams(temperature=0.0, max_tokens=64))
+        elif single:                       # ép về đúng MỘT chữ cái
+            sps.append(SamplingParams(
+                temperature=0.0, max_tokens=4,
+                guided_decoding=GuidedDecodingParams(choice=it["letters"])))
+        else:
             schema = {"type": "object", "additionalProperties": False,
                       "required": ["answers"],
                       "properties": {"answers": {
@@ -156,12 +180,16 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float):
                           "items": {"type": "string", "enum": it["letters"]}}}}
             sps.append(SamplingParams(temperature=0.0, max_tokens=64,
                                       guided_decoding=GuidedDecodingParams(json=schema)))
-        else:
-            sps.append(SamplingParams(temperature=0.0, max_tokens=64))
 
     outs = llm.chat(convs, sps)
     raws = [o.outputs[0].text.strip() for o in outs]
-    return [parse_answer(t, it["letters"]) for t, it in zip(raws, items)], raws
+    preds = []
+    for t, it in zip(raws, items):
+        got = parse_answer(t, it["letters"])
+        if single and len(got) > 1:        # chỉ giữ chữ cái đầu tiên hợp lệ
+            got = {next(le for le in it["letters"] if le in got)}
+        preds.append(got)
+    return preds, raws
 
 
 # ------------------------------------------------------------------- main
@@ -176,16 +204,19 @@ def main() -> int:
     ap.add_argument("--out", default="eval_results.json")
     ap.add_argument("--predictions", help="chấm lại từ file dự đoán có sẵn, không nạp model")
     ap.add_argument("--baselines-only", action="store_true")
+    ap.add_argument("--single", action="store_true",
+                    help="bộ 1 đáp án (benchmark_single.json): đổi prompt + mốc so sánh")
     args = ap.parse_args()
 
     items = load_items(ROOT / args.data)
     subsets = load_subsets(ROOT / args.provenance, len(items))
     if args.limit:
         items, subsets = items[: args.limit], subsets[: args.limit]
-    print(f"Bộ dữ liệu: {len(items)} câu — {args.data}\n")
+    mode = "MỘT đáp án" if args.single else "NHIỀU đáp án"
+    print(f"Bộ dữ liệu: {len(items)} câu — {args.data}  [chế độ {mode}]\n")
 
     print("MỐC SO SÁNH (không dùng model):")
-    for name, preds in baselines(items).items():
+    for name, preds in baselines(items, args.single).items():
         m, _ = score(items, preds)
         report(name, m)
 
@@ -199,8 +230,9 @@ def main() -> int:
         raws = [""] * len(items)
         tag = f"dự đoán có sẵn ({args.predictions})"
     else:
-        preds, raws = run_model(items, args.model, args.max_model_len, args.gpu_mem)
-        tag = args.model
+        preds, raws = run_model(items, args.model, args.max_model_len, args.gpu_mem,
+                                single=args.single)
+        tag = args.model + (" [1 đáp án]" if args.single else "")
 
     m, per_item = score(items, preds)
     print(f"\nKẾT QUẢ MODEL — {tag}:")
