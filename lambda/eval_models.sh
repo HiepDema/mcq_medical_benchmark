@@ -33,10 +33,18 @@ if [ ! -x "$PY" ]; then
 fi
 
 # tag | model_id | gpu_mem | max_model_len
+#
+# Dùng họ Qwen3 TEXT-ONLY: benchmark này không có ảnh nào, nên vision tower của
+# bản -VL chỉ chiếm VRAM vô ích. Họ text cũng có bản 0.6B (họ VL nhỏ nhất là 2B).
+# Cách biệt 0.6B -> 4B là ~7x, đủ rộng để đo độ phân biệt.
 MODELS=(
-  "4b|Qwen/Qwen3-VL-4B-Instruct|0.85|2048"
-  "8b|Qwen/Qwen3-VL-8B-Instruct|0.92|2048"
+  "0.6b|Qwen/Qwen3-0.6B|0.85|2048"
+  "4b|Qwen/Qwen3-4B|0.88|2048"
 )
+# Muốn quay lại bản vision-language thì thay hai dòng trên bằng:
+#   "2b|Qwen/Qwen3-VL-2B-Instruct|0.85|2048"
+#   "4b|Qwen/Qwen3-VL-4B-Instruct|0.88|2048"
+# (Qwen3-VL-8B ở BF16 ~17GB, sát trần A10 24GB — chính là lỗi OOM vừa gặp.)
 
 # tag | file dữ liệu | file provenance | cờ thêm
 DATASETS=(

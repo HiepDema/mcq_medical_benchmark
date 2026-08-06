@@ -145,12 +145,19 @@ def parse_answer(text: str, letters: list[str]) -> set:
 
 
 def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
-              single: bool = False):
+              single: bool = False, enforce_eager: bool = False):
     from vllm import LLM, SamplingParams
 
-    llm = LLM(model=model_id, max_model_len=max_model_len,
-              gpu_memory_utilization=gpu_mem,
-              limit_mm_per_prompt={"image": 0, "video": 0}, trust_remote_code=True)
+    kwargs = dict(model=model_id, max_model_len=max_model_len,
+                  gpu_memory_utilization=gpu_mem, trust_remote_code=True)
+    # Model vision-language cấp phát sẵn bộ nhớ cho ảnh/video; prompt của ta thuần
+    # văn bản nên tắt đi. Model text-only không có tham số này -> thử rồi lùi lại.
+    if enforce_eager:
+        kwargs["enforce_eager"] = True      # bỏ CUDA graph, tiết kiệm 1-3 GB VRAM
+    try:
+        llm = LLM(**kwargs, limit_mm_per_prompt={"image": 0, "video": 0})
+    except (TypeError, ValueError):
+        llm = LLM(**kwargs)
 
     convs, sps = [], []
     try:
@@ -206,6 +213,8 @@ def main() -> int:
     ap.add_argument("--baselines-only", action="store_true")
     ap.add_argument("--single", action="store_true",
                     help="bộ 1 đáp án (benchmark_single.json): đổi prompt + mốc so sánh")
+    ap.add_argument("--enforce-eager", action="store_true",
+                    help="bỏ CUDA graph — tiết kiệm 1-3 GB VRAM khi model sát trần")
     args = ap.parse_args()
 
     items = load_items(ROOT / args.data)
@@ -231,7 +240,7 @@ def main() -> int:
         tag = f"dự đoán có sẵn ({args.predictions})"
     else:
         preds, raws = run_model(items, args.model, args.max_model_len, args.gpu_mem,
-                                single=args.single)
+                                single=args.single, enforce_eager=args.enforce_eager)
         tag = args.model + (" [1 đáp án]" if args.single else "")
 
     m, per_item = score(items, preds)
