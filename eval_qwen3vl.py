@@ -129,8 +129,14 @@ def report(name, m, indent="  "):
 
 
 # ------------------------------------------------------------------ suy luận
+THINK = re.compile(r"<think>.*?(</think>|$)", re.S | re.I)
+
+
 def parse_answer(text: str, letters: list[str]) -> set:
     """Ưu tiên đọc JSON; hỏng thì nhặt chữ cái. Không đoán bừa khi rỗng."""
+    # Model dòng Qwen3 sinh khối <think>...</think>; trong đó đầy chữ cái viết hoa
+    # kiểu "options are A, B, C, D" -> phải bỏ đi trước khi dò đáp án.
+    text = THINK.sub(" ", text or "")
     valid = set(letters)
     try:
         m = re.search(r"\{.*\}", text, re.S)
@@ -144,8 +150,35 @@ def parse_answer(text: str, letters: list[str]) -> set:
     return {c for c in re.findall(r"\b([A-Z])\b", text.upper())} & valid
 
 
+def make_constrained(kind: str, value, max_tokens: int):
+    """SamplingParams có ràng buộc cấu trúc. kind = 'choice' | 'json'.
+
+    vLLM đổi API: GuidedDecodingParams (cũ, bị gỡ ở v0.12.0) -> StructuredOutputsParams.
+    Thử lần lượt cả hai. KHÔNG âm thầm rơi về sinh tự do — nếu không ràng buộc được
+    thì model dòng Qwen3 sẽ sinh khối <think> và toàn bộ kết quả thành rác.
+    """
+    from vllm import SamplingParams
+    try:
+        from vllm.sampling_params import StructuredOutputsParams as P
+        return SamplingParams(temperature=0.0, max_tokens=max_tokens,
+                              structured_outputs=P(**{kind: value})), "structured_outputs"
+    except ImportError:
+        pass
+    try:
+        from vllm.sampling_params import GuidedDecodingParams as P
+        return SamplingParams(temperature=0.0, max_tokens=max_tokens,
+                              guided_decoding=P(**{kind: value})), "guided_decoding"
+    except ImportError as e:
+        raise RuntimeError(
+            "Bản vLLM này không có StructuredOutputsParams lẫn GuidedDecodingParams. "
+            "Không ràng buộc được đầu ra -> kết quả sẽ là rác. "
+            "Nâng cấp vLLM, hoặc chạy lại với --no-guided nếu bạn chấp nhận parse text tự do."
+        ) from e
+
+
 def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
-              single: bool = False, enforce_eager: bool = False):
+              single: bool = False, enforce_eager: bool = False,
+              no_guided: bool = False):
     from vllm import LLM, SamplingParams
 
     # KHÔNG truyền limit_mm_per_prompt: đặt giới hạn 0 làm engine core của vLLM
@@ -159,25 +192,18 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
     print(f"[eval] nạp model: {kwargs}", flush=True)
     llm = LLM(**kwargs)
 
-    convs, sps = [], []
-    try:
-        from vllm.sampling_params import GuidedDecodingParams
-        guided = True
-    except Exception:  # noqa: BLE001
-        guided = False
-        print("[eval] guided decoding không dùng được — sẽ parse text tự do")
-
+    convs, sps, api = [], [], None
     template = PROMPT_SINGLE if single else PROMPT
     for it in items:
         opts = "\n".join(f"{le}. {it['options'][le]}" for le in it["letters"])
         convs.append([{"role": "user",
                        "content": template.format(question=it["question"], options=opts)}])
-        if not guided:
-            sps.append(SamplingParams(temperature=0.0, max_tokens=64))
-        elif single:                       # ép về đúng MỘT chữ cái
-            sps.append(SamplingParams(
-                temperature=0.0, max_tokens=4,
-                guided_decoding=GuidedDecodingParams(choice=it["letters"])))
+        if no_guided:
+            # Không ràng buộc: cần nhiều token để model kịp thoát khối <think>.
+            sps.append(SamplingParams(temperature=0.0, max_tokens=512))
+        elif single:
+            sp, api = make_constrained("choice", it["letters"], 8)
+            sps.append(sp)
         else:
             schema = {"type": "object", "additionalProperties": False,
                       "required": ["answers"],
@@ -185,11 +211,24 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
                           "type": "array", "minItems": 1,
                           "maxItems": len(it["letters"]), "uniqueItems": True,
                           "items": {"type": "string", "enum": it["letters"]}}}}
-            sps.append(SamplingParams(temperature=0.0, max_tokens=64,
-                                      guided_decoding=GuidedDecodingParams(json=schema)))
+            sp, api = make_constrained("json", schema, 64)
+            sps.append(sp)
+    print(f"[eval] ràng buộc đầu ra: {api or 'KHÔNG (--no-guided)'}", flush=True)
 
-    outs = llm.chat(convs, sps)
+    # Qwen3 mặc định bật chế độ suy nghĩ: sinh <think>...</think> ăn hết token.
+    # Tắt qua chat template; bản vLLM cũ không nhận thì bỏ qua (ràng buộc cấu trúc
+    # ở trên vẫn chặn được <think> vì grammar không cho phép token đó).
+    try:
+        outs = llm.chat(convs, sps, chat_template_kwargs={"enable_thinking": False})
+    except TypeError:
+        print("[eval] vLLM không nhận chat_template_kwargs — bỏ qua tắt thinking", flush=True)
+        outs = llm.chat(convs, sps)
     raws = [o.outputs[0].text.strip() for o in outs]
+
+    n_think = sum(1 for t in raws if "<think>" in t.lower())
+    if n_think:
+        print(f"[eval] ⚠ {n_think}/{len(raws)} câu vẫn còn khối <think> trong đầu ra "
+              "— kiểm tra lại trước khi tin kết quả", flush=True)
     preds = []
     for t, it in zip(raws, items):
         got = parse_answer(t, it["letters"])
@@ -215,6 +254,8 @@ def main() -> int:
                     help="bộ 1 đáp án (benchmark_single.json): đổi prompt + mốc so sánh")
     ap.add_argument("--enforce-eager", action="store_true",
                     help="bỏ CUDA graph — tiết kiệm 1-3 GB VRAM khi model sát trần")
+    ap.add_argument("--no-guided", action="store_true",
+                    help="tắt ràng buộc cấu trúc, parse text tự do (kết quả kém tin cậy)")
     args = ap.parse_args()
 
     items = load_items(ROOT / args.data)
@@ -240,7 +281,8 @@ def main() -> int:
         tag = f"dự đoán có sẵn ({args.predictions})"
     else:
         preds, raws = run_model(items, args.model, args.max_model_len, args.gpu_mem,
-                                single=args.single, enforce_eager=args.enforce_eager)
+                                single=args.single, enforce_eager=args.enforce_eager,
+                                no_guided=args.no_guided)
         tag = args.model + (" [1 đáp án]" if args.single else "")
 
     m, per_item = score(items, preds)
