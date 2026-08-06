@@ -205,11 +205,14 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
             sp, api = make_constrained("choice", it["letters"], 8)
             sps.append(sp)
         else:
+            # KHÔNG dùng "uniqueItems": backend guidance của vLLM chưa cài đặt khoá
+            # này và sẽ ném "Grammar error: Unimplemented keys". Không cần thiết vì
+            # parse_answer() trả về set nên phần tử lặp tự bị gộp.
             schema = {"type": "object", "additionalProperties": False,
                       "required": ["answers"],
                       "properties": {"answers": {
                           "type": "array", "minItems": 1,
-                          "maxItems": len(it["letters"]), "uniqueItems": True,
+                          "maxItems": len(it["letters"]),
                           "items": {"type": "string", "enum": it["letters"]}}}}
             sp, api = make_constrained("json", schema, 64)
             sps.append(sp)
