@@ -163,7 +163,7 @@ python eval_qwen3vl.py --data processed_data/benchmark_single.json `
 ## 7. Chi tiết từng loại câu hỏi bộ nhiều đáp án
 
 | Nhóm | n | Qwen3-0.6B | Qwen3-4B |
-|---|---:|---:|---:|---:|
+|---|---:|---:|---:|
 | file1_ngoai_tru | 100 | 1,0% | 15,0% |
 | file2_them_nhieu | 100 | 4,0% | **39,0%** |
 | file3_tach_dau_phay | 100 | 5,0% | 22,0% |
