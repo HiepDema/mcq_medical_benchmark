@@ -13,11 +13,13 @@ from pathlib import Path
 # "Qwen/Qwen3-30B-A3B-Instruct-2507" (hoặc bản AWQ tương ứng) nếu muốn bỏ vision tower.
 DEFAULT_MODEL = os.environ.get("MODEL_ID", "QuantTrio/Qwen3-VL-30B-A3B-Instruct-AWQ")
 
-PROMPT_TEMPLATE = '''Xét câu hỏi này: {{"question": "Tạo máu nguyên thủy cung cấp các loại tế bào nào?", "answer_optionA": "Hồng cầu, bạch cầu hạt, tiểu cầu nguyên thủy",
+PROMPT_TEMPLATE = '''Xét câu hỏi này: {"question": "Tạo máu nguyên thủy cung cấp các loại tế bào nào?", "answer_optionA": "Hồng cầu, bạch cầu hạt, tiểu cầu nguyên thủy",
 "answer_optionB": "Hồng cầu, bạch cầu lympho, tiểu cầu nguyên thủy",
 "answer_optionC": "Hồng cầu, bạch cầu hạt, đại thực bào",
 "answer_optionD": "Hồng cầu, đại thực bào, tiểu cầu nguyên thủy", "correctAnswer": "optionD",
-}}. Câu hỏi này có thể tách thành dạng nhiều đáp án, với các phương án lần lượt là "hồng cầu", "bạch cầu lympho", "bạch cầu hạt", "tiểu cầu nguyên thủy", "đại thực bào" và khi đó các đáp án mới là "hồng cầu", "tiểu cầu nguyên thủy" và "đại thực bào". Hãy suy nghĩ logic tương tự, không xét kiến thức chuyên môn, hãy cho biết câu hỏi sau đây có tách thành dạng nhiều đáp án hay không. CHỈ TRẢ LỜI "CÓ" HOẶC "KHÔNG", KHÔNG CẦN GIẢI THÍCH VÀ HÃY SUY NGHĨ NHANH. Câu hỏi như sau:{payload}'''
+}. Câu hỏi này có thể tách thành dạng nhiều đáp án, với các phương án lần lượt là "hồng cầu", "bạch cầu lympho", "bạch cầu hạt", "tiểu cầu nguyên thủy", "đại thực bào" và khi đó các đáp án mới là "hồng cầu", "tiểu cầu nguyên thủy" và "đại thực bào". 
+Hãy suy nghĩ logic tương tự, không xét kiến thức chuyên môn, hãy cho biết câu hỏi sau đây có tách thành dạng nhiều đáp án hay không. CHỈ TRẢ LỜI "CÓ" HOẶC "KHÔNG", KHÔNG CẦN GIẢI THÍCH VÀ HÃY SUY NGHĨ NHANH. 
+Câu hỏi như sau:{payload}'''
 
 CHOICES = ["CÓ", "KHÔNG"]
 

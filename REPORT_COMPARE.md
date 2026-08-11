@@ -137,3 +137,36 @@ python eval_qwen3vl.py --data processed_data/benchmark_single.json `
                        --provenance processed_data/benchmark_single_provenance.json `
                        --single --baselines-only
 ```
+
+
+# 300 data + shuffle
+
+## 6. Bảng kết quả (exact match)
+
+| | Mốc mù tốt nhất | Qwen3-0.6B | Qwen3-4B |
+|---|---:|---:|---:|
+| **Bộ MỘT đáp án** | 22,3% *(luôn chọn A)* | 31.3% | **52,7%** |
+| **Bộ NHIỀU đáp án** | 4,0% *(chọn ngẫu nhiên (mỗi ô 50%))* | 3,3% | **25,3%** |
+
+Đầy đủ các mốc mù (không dùng model), tính trên đúng 300 câu này:
+
+| Bộ | Chiến lược mù | exact |
+|---|---|---:|
+| Nhiều đáp án | chọn 3 ô đầu | 1,7% |
+| Nhiều đáp án | chọn ngẫu nhiên (mỗi ô 50%) | **4,0%** |
+| Nhiều đáp án | chọn hết mọi phương án | **0,0%** |
+| Một đáp án | đoán ngẫu nhiên 1 trong 4 | 20,7% |
+| Một đáp án | luôn chọn A | **22,3%** |
+
+---
+
+## 7. Chi tiết từng loại câu hỏi bộ nhiều đáp án
+
+| Nhóm | n | Qwen3-0.6B | Qwen3-4B |
+|---|---:|---:|---:|---:|
+| file1_ngoai_tru | 100 | 1,0% | 15,0% |
+| file2_them_nhieu | 100 | 4,0% | **39,0%** |
+| file3_tach_dau_phay | 100 | 5,0% | 22,0% |
+| **Tổng** | 300 | 3,3% | **25,3%** |
+
+---
