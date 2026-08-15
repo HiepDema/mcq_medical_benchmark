@@ -2,6 +2,17 @@
 #   python pyline/run.py all
 data/
 
+# Pipeline v2: 17 bộ đề nguồn (~80 MB). Repo này public nên không đẩy đề gốc lên.
+source_data/
+
+# Pipeline v2: file trung gian (~90 MB) — tái tạo bằng `python v2/run.py ingest route`
+data_v2/
+
+# Lô việc gửi GPU (~17 MB) + kết quả trả về. Nội dung là đề gốc trích ra nên
+# cũng không đẩy lên; chuyển sang máy GPU bằng scp.
+# Muốn clone thẳng trên máy GPU thì bỏ dòng này và `git add -f llm_jobs`.
+llm_jobs/
+
 # Thư mục so sánh khi port Node -> Python
 data_py/
 _tmpcheck/
