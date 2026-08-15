@@ -12,6 +12,30 @@ from pathlib import Path
 import lib2 as L
 
 
+_MARK = re.compile(r"^([A-Ea-e])\s*[.,):]\s+")
+
+
+def _strip_option_markers(letters: list[str], options: list[str]):
+    """Bóc tiền tố "A. " / "B, " khi nó lặp lại chính chữ cái của phương án đó.
+
+    Nhiều bản export để nguyên chữ cái trong nội dung ("A. A. Bệnh phổi..."). Nếu
+    giữ lại thì ở FILE 2, ba phương án đúng lấy từ đề gốc sẽ có tiền tố còn phương
+    án nhiễu do LLM viết thì không — model chỉ cần nhìn dấu hiệu đó là biết đáp án.
+
+    Chỉ bóc khi có TỪ HAI phương án trở lên mang dấu đúng vị trí, để không cắt nhầm
+    các chuỗi kiểu "D, L-alanine" đứng một mình ở phương án D.
+    """
+    marked = [bool(m := _MARK.match(o)) and m.group(1).upper() == le
+              for le, o in zip(letters, options)]
+    if sum(marked) < 2:
+        return options, False
+    out = [_MARK.sub("", o, count=1).strip() if hit else o
+           for hit, o in zip(marked, options)]
+    if any(len(t) < 2 for t in out):
+        return options, False          # bóc xong còn rỗng -> giữ nguyên
+    return out, True
+
+
 def _load_tolerant(p: Path):
     """Đọc JSON, chịu được ký tự xuống dòng lọt vào giữa chuỗi. Vá trong bộ nhớ."""
     text = p.read_text(encoding="utf-8")
@@ -49,6 +73,7 @@ def s1_ingest():
     seen_uid: dict[str, int] = {}
     seen_q: dict[str, int] = {}
     per_file = []
+    n_stripped = 0
 
     for p in files:
         rows, fixes = _load_tolerant(p)
@@ -81,7 +106,11 @@ def s1_ingest():
             if idx == -1:
                 drop("correct_option_is_empty"); continue
 
-            options = [t for _, t in slots]
+            letters = [le for le, _ in slots]
+            options, stripped = _strip_option_markers(letters, [t for _, t in slots])
+            n_stripped += stripped
+            # uid tính SAU khi bóc: hai bản export cùng một câu, một bản có tiền tố
+            # một bản không, phải nhận ra là trùng nhau.
             uid = L.uid_of(question, options)
             if uid in seen_uid:
                 dupes.append({"uid": uid, "srcFile": p.name, "srcIndex": i,
@@ -103,7 +132,7 @@ def s1_ingest():
                 "question": question,
                 "questionClean": L.strip_prefix(question),
                 "options": options,
-                "optionLetters": [le for le, _ in slots],
+                "optionLetters": letters,
                 "optionCount": len(options),
                 "correctIndex": idx, "correctLetter": letter,
                 "medicalTopic": q.get("medicalTopic") or [],
@@ -122,4 +151,5 @@ def s1_ingest():
     print(f"\n  tổng đọc vào : {total}")
     print(f"  giữ lại      : {len(clean)}  ({100 * len(clean) / total:.1f}%)")
     print(f"  trùng lặp    : {len(dupes)} {dict(Counter(d['kind'] for d in dupes))}")
+    print(f"  bóc tiền tố 'A. ' khỏi phương án: {n_stripped} câu")
     print(f"  loại         : {len(dropped)} {dict(Counter(d['reason'] for d in dropped))}")

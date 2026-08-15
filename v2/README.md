@@ -167,6 +167,45 @@ Không dùng cho việc này:
 Cờ hay dùng: `--tp 2` (2 GPU), `--max-tokens 128` (vòng pool/audit, không sinh
 văn bản dài), `--chunk 2048`, `--limit N` (chạy thử N câu trước khi chạy hết).
 
+### Hai lỗi phải sửa trên instance Lambda mới
+
+Đã gặp thật trên Lambda H100 PCIe (Ubuntu 22.04, Python 3.10.12, vLLM 0.27.1,
+flashinfer-python 0.6.16). Cả hai đều làm engine chết ngay lúc khởi động với
+`RuntimeError: Engine core initialization failed`, nguyên nhân thật nằm cách đó
+mấy chục dòng phía trên.
+
+**1. `TypeError: 'type' object is not subscriptable`**
+
+`flashinfer/comm/fd_exchange.py` có annotation `array.array[int]`, mà `array.array`
+chỉ subscript được từ Python 3.12. vLLM có bọc `try/except ImportError` quanh chỗ
+import flashinfer, nhưng lỗi ném ra là `TypeError` nên lọt qua.
+
+```bash
+F=~/venv/lib/python3.10/site-packages/flashinfer/comm/fd_exchange.py
+cp -n "$F" "$F.bak"
+sed -i '15i from __future__ import annotations' "$F"   # chèn trước import đầu tiên
+~/venv/bin/python -c 'import flashinfer.comm; print("OK")'
+```
+
+`from __future__ import annotations` làm annotation không được đánh giá lúc import.
+Cách khác: dựng venv bằng Python 3.12, hoặc chạy với `enforce_eager` (chậm hơn vì
+mất torch.compile và CUDA graph).
+
+**2. `FileNotFoundError: 'ninja'`**
+
+torch.compile cần `ninja` khi capture CUDA graph. Cài vào venv là chưa đủ — gọi
+`~/venv/bin/python` trực tiếp KHÔNG đưa `~/venv/bin` vào `PATH`, nên tiến trình
+EngineCore con không tìm thấy.
+
+```bash
+~/venv/bin/pip install ninja
+export PATH=$HOME/venv/bin:$PATH        # hoặc: source ~/venv/bin/activate
+```
+
+Thời gian khởi động sau khi sửa: nạp trọng số 21 s, capture CUDA graph 98 s,
+tổng ~3 phút 15 s trước khi sinh token đầu tiên (lần đầu cộng thêm ~10 phút tải
+model). Chi phí này trả một lần cho cả ba lô nếu chạy chung một lệnh.
+
 ### Ba điều `gpu/vllm_batch.py` bắt buộc làm
 
 1. **Không có structured outputs thì dừng hẳn**, không âm thầm chuyển sang sinh
