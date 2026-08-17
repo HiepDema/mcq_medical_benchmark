@@ -7,19 +7,18 @@ Quy trình (2 lần ghé GPU, phần GPU chạy thủ công):
   2. python v2/run.py route                   # phân 3 họ + lọc cơ học
   3. python v2/run.py jobs [--limit N]        # -> llm_jobs/r1_*.jsonl
      --- trên máy H100 ---
-     python gpu/vllm_batch.py llm_jobs/r1_negation.jsonl llm_jobs/r1_distract.jsonl \
-            llm_jobs/r1_pool.jsonl --model Qwen/Qwen3-32B-FP8
+     python gpu/vllm_batch.py llm_jobs/r1_*.jsonl --model Qwen/Qwen3-32B-FP8
      --- copy *.out.jsonl về llm_jobs/ ---
-  4. python v2/run.py apply                   # dựng 3 file + -> llm_jobs/r2_audit.jsonl
+  4. python v2/run.py apply                   # dựng 4 file + -> llm_jobs/r2_audit.jsonl
      --- trên máy H100 ---
      python gpu/vllm_batch.py llm_jobs/r2_audit.jsonl --model Qwen/Qwen3-32B-FP8
      --- copy về ---
-  5. python v2/run.py build --per-subset 200  # -> benchmark_multi/single + provenance
+  5. python v2/run.py build                   # -> final_benchmark.json (+ bản 1 đáp án)
 
 Chạy thử toàn bộ mà chưa có GPU:
   python v2/run.py ingest route jobs
   python v2/run.py apply --no-llm
-  python v2/run.py build --skip-audit --per-subset 200
+  python v2/run.py build --skip-audit
 
 Thư mục (đổi bằng biến môi trường):
   MCQ2_SRC_DIR=source_data   MCQ2_WORK_DIR=data_v2
@@ -53,8 +52,8 @@ def main() -> int:
                     help="jobs: số câu tối đa gửi LLM cho MỖI họ (0 = tất cả)")
     ap.add_argument("--no-llm", action="store_true",
                     help="apply: bỏ qua kết quả LLM, chỉ dùng luật cơ học")
-    ap.add_argument("--per-subset", type=int, default=200,
-                    help="build: số câu lấy từ mỗi nhóm (mặc định 200)")
+    ap.add_argument("--per-subset", type=int, default=0,
+                    help="build: giới hạn số câu mỗi nhóm (0 = lấy hết, không cân bằng)")
     ap.add_argument("--seed", type=int, default=20260815, help="build: seed trộn")
     ap.add_argument("--with-xoa-meta", action="store_true",
                     help="build: đưa cả nhóm file2_xoa_meta (mọi phương án đều đúng) vào")

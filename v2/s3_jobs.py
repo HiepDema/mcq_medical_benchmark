@@ -91,6 +91,32 @@ DISTRACT_SCHEMA = {
     },
 }
 
+# ==================================================== T2b — file 4
+# Khác T2: đề gốc đã có sẵn phương án nhiễu, phải nói cho model biết để nó không
+# viết trùng ý, và để nó lấy đó làm mẫu về độ khó.
+DISTRACT_LETTERS_PROMPT = """Bạn là chuyên gia biên soạn đề trắc nghiệm y khoa.
+
+CÂU HỎI: {question}
+
+Các phương án sau ĐỀU ĐÚNG với câu hỏi trên:
+{correct}
+{wrong}
+Hãy viết thêm ĐÚNG 2 phương án SAI cho câu hỏi này.
+
+Yêu cầu bắt buộc:
+- Phải SAI RÕ RÀNG về chuyên môn. Không được đúng một phần, không được là cách \
+diễn đạt khác của các phương án đúng ở trên.
+- Không được trùng ý với phương án sai đã có (nếu có liệt kê ở trên).
+- Cùng chủ đề, cùng văn phong, độ dài tương đương các phương án trên.
+- Tiếng Việt, mỗi phương án là một cụm hoặc một câu ngắn. KHÔNG đánh số, KHÔNG \
+thêm chữ cái đầu dòng, KHÔNG giải thích.
+- Cấm dùng các cụm kiểu "tất cả đều đúng", "không câu nào đúng", "cả A và B".
+
+Đặt "chac_chan_sai" = true CHỈ KHI bạn chắc chắn cả 2 phương án vừa viết đều sai.
+
+Chỉ trả về JSON."""
+
+
 # ============================================================ T3 — file 1
 NEG_PROMPT = """Bạn là chuyên gia biên soạn đề trắc nghiệm y khoa.
 
@@ -195,6 +221,7 @@ def s3_jobs(limit: int = 0):
     f1 = _cap(L.read_work("02_route_file1.json"), limit)
     f2 = _cap(L.read_work("02_route_file2.json"), limit)
     f3 = _cap(L.read_work("02_route_file3.json"), limit)
+    f4 = _cap(L.read_work("02_route_file4.json"), limit)
     print(f"Tầng 3 — đóng gói việc cho LLM"
           f"{f' (giới hạn {limit} câu/họ)' if limit else ''}")
 
@@ -222,12 +249,23 @@ def s3_jobs(limit: int = 0):
             correct_idx=r["poolCorrect"]),
     } for r in f3], POOL_SCHEMA)
 
+    L.write_jobs("r1_distract_letters", [{
+        "id": r["uid"],
+        "prompt": DISTRACT_LETTERS_PROMPT.format(
+            question=r["questionClean"],
+            correct=_bullets(r["correctOptions"]),
+            wrong=("\nPhương án sau đây SAI, lấy nguyên từ đề gốc:\n"
+                   + "\n".join(f"- {t}" for t in r["wrongOptions"]) + "\n")
+            if r["wrongOptions"] else ""),
+    } for r in f4], DISTRACT_SCHEMA)
+
     # Ghi lại đúng tập ứng viên đã gửi đi, để tầng 4 khớp 1:1 với kết quả trả về.
-    for name, rows in (("file1", f1), ("file2", f2), ("file3", f3)):
+    for name, rows in (("file1", f1), ("file2", f2), ("file3", f3), ("file4", f4)):
         L.write_work(f"03_sent_{name}.json", rows)
 
     print(f"\n  Bước tiếp theo — chạy trên máy H100:")
     print(f"    python gpu/vllm_batch.py llm_jobs/r1_negation.jsonl "
-          f"llm_jobs/r1_distract.jsonl llm_jobs/r1_pool.jsonl \\")
-    print(f"        --model Qwen/Qwen3-32B-FP8")
+          f"llm_jobs/r1_distract.jsonl \\")
+    print(f"        llm_jobs/r1_pool.jsonl llm_jobs/r1_distract_letters.jsonl "
+          f"--model Qwen/Qwen3-32B-FP8")
     print(f"  Copy 3 file *.out.jsonl về {L.JOBS_DIR.name}/ rồi chạy: python v2/run.py apply")

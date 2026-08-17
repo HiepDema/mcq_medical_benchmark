@@ -52,13 +52,16 @@ python v2/run.py route       # phân 3 họ + lọc cơ học + khử gần-trù
 python v2/run.py jobs        # -> llm_jobs/r1_*.jsonl  (+ --limit N để giới hạn)
 ```
 
-Ba họ câu hỏi:
+Bốn họ câu hỏi:
 
 - **file1 — phủ định**: `"... NGOẠI TRỪ:"`, `"câu nào SAI"` → 3 phương án còn lại đều đúng.
 - **file2 — meta**: đáp án đúng là `"Tất cả đều đúng"` → 3 phương án còn lại đều
   đúng, **cần LLM sinh thêm phương án nhiễu** thì mới thành câu hỏi có nghĩa.
 - **file3 — pool**: mọi phương án đều là danh sách ngăn bởi dấu phẩy → gộp các
   mục thành danh sách phương án độc lập.
+- **file4 — meta chữ cái**: đáp án đúng là `"Cả A và B đều đúng"` → tập đáp án
+  suy thẳng từ chữ cái, các phương án còn lại là nhiễu **có sẵn trong đề gốc**;
+  LLM viết thêm cho đủ số phương án.
 
 ---
 
@@ -66,12 +69,13 @@ Ba họ câu hỏi:
 
 ```bash
 python3 -m venv ~/venv && ~/venv/bin/pip install -U pip vllm
-~/venv/bin/python gpu/vllm_batch.py \
-    llm_jobs/r1_negation.jsonl llm_jobs/r1_distract.jsonl llm_jobs/r1_pool.jsonl \
-    --model Qwen/Qwen3-32B-FP8
+export PATH=$HOME/venv/bin:$PATH               # xem mục lỗi môi trường bên dưới
+python gpu/vllm_batch.py llm_jobs/r1_negation.jsonl llm_jobs/r1_distract.jsonl \
+    llm_jobs/r1_pool.jsonl llm_jobs/r1_distract_letters.jsonl \
+    --model Qwen/Qwen3-32B-FP8 --chunk 2048
 ```
 
-Copy 3 file `*.out.jsonl` về `llm_jobs/`.
+Copy 4 file `*.out.jsonl` về `llm_jobs/`.
 
 Xem thử prompt trước khi tốn GPU: `python gpu/vllm_batch.py llm_jobs/r1_pool.jsonl --dry-run`.
 Script chạy lại được sau khi đứt — id nào đã có trong `.out.jsonl` thì bỏ qua.
@@ -81,11 +85,11 @@ Script chạy lại được sau khi đứt — id nào đã có trong `.out.jso
 ## 3. Dựng 3 file + chạy LLM vòng 2
 
 ```powershell
-python v2/run.py apply       # -> processed_data_v2/final_0{1,2,3}_*.json
+python v2/run.py apply       # -> processed_data_v2/final_0{1,2,3,4}_*.json
                              # -> llm_jobs/r2_audit.jsonl
 ```
 
-Vòng 2 là bước thẩm định **đồng nhất cho cả ba họ**: đưa lại câu hỏi đã dựng
+Vòng 2 là bước thẩm định **đồng nhất cho cả bốn họ**: đưa lại câu hỏi đã dựng
 xong kèm nhãn đúng/sai hiện tại, hỏi model có phương án nào bị gán nhãn ngược
 hay không. Đây là bộ lọc duy nhất bắt được lỗi **ngữ nghĩa** — lọc cơ học không
 bao giờ biết "xì dầu" thực ra là thực phẩm nhiều muối, hay "bại liệt" thực ra
@@ -100,16 +104,17 @@ lây qua đường phân–miệng.
 ## 4. Xuất benchmark
 
 ```powershell
-python v2/run.py build --per-subset 200
+python v2/run.py build                    # lấy hết cả 4 họ, không cân bằng
+python v2/run.py build --per-subset 500   # hoặc giới hạn mỗi họ 500 câu
 ```
 
 Ra 4 file trong `processed_data_v2/`:
 
 | File | Nội dung |
 |---|---|
-| `benchmark_multi.json` | bộ nhiều đáp án |
-| `benchmark_single.json` | **đúng các câu gốc đó**, nguyên văn, khớp 1:1 theo chỉ số |
-| `benchmark_*_provenance.json` | nguồn gốc từng câu: file nguồn, chỉ số, nhóm, cờ chất lượng |
+| `final_benchmark.json` | **bộ nhiều đáp án, gộp cả 4 họ**, đã trộn |
+| `final_benchmark_single.json` | **đúng các câu gốc đó**, nguyên văn, khớp 1:1 theo chỉ số |
+| `final_benchmark_*_provenance.json` | nguồn gốc từng câu: file nguồn, chỉ số, nhóm, cờ chất lượng |
 
 Khớp 1:1 để mọi chênh lệch điểm giữa hai bộ quy về **định dạng**, không phải do
 bộ này khó hơn bộ kia.
@@ -117,8 +122,8 @@ bộ này khó hơn bộ kia.
 Chấm điểm dùng lại script cũ:
 
 ```powershell
-python eval_qwen3vl.py --data processed_data_v2/benchmark_multi.json `
-                       --provenance processed_data_v2/benchmark_multi_provenance.json `
+python eval_qwen3vl.py --data processed_data_v2/final_benchmark.json `
+                       --provenance processed_data_v2/final_benchmark_provenance.json `
                        --baselines-only
 ```
 
@@ -129,12 +134,14 @@ python eval_qwen3vl.py --data processed_data_v2/benchmark_multi.json `
 ```powershell
 python v2/run.py ingest route jobs
 python v2/run.py apply --no-llm
-python v2/run.py build --skip-audit --per-subset 200
+python v2/run.py build --skip-audit
 ```
 
-Vẫn ra benchmark, nhưng file 2 sẽ không có phương án nhiễu (rơi hết vào nhóm
-`file2_xoa_meta`, mặc định không đưa vào benchmark) và file 3 không được thẩm
-định chuyên môn. Các bản ghi mang cờ `qualityFlag: "rule-only"` đúng với thực tế đó.
+Vẫn ra benchmark, nhưng **chỉ có file1 và file3**: file2 và file4 bắt buộc cần
+phương án nhiễu do LLM viết mới thành câu hỏi hợp lệ (file2 rơi hết vào nhóm
+`file2_xoa_meta` để riêng, file4 bị loại vì không đủ 4 phương án). file3 cũng
+không được thẩm định chuyên môn — các bản ghi mang cờ `qualityFlag: "rule-only"`
+đúng với thực tế đó.
 
 ---
 

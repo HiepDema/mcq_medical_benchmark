@@ -5,6 +5,9 @@
                         cần LLM sinh thêm phương án nhiễu
   file3 — POOL       : mọi phương án đều là danh sách ngăn cách bởi dấu phẩy
                         -> gộp các mục thành pool phương án độc lập
+  file4 — META CHỮ CÁI: đáp án đúng là "Cả A và B đều đúng" -> A, B đúng, các
+                        phương án còn lại là nhiễu CÓ SẴN trong đề gốc; vẫn nhờ
+                        LLM viết thêm nhiễu cho đủ số phương án
 
 Chỉ giữ lại ứng viên đã qua HẾT các bộ lọc cơ học, để lô việc gửi lên GPU nhỏ và sạch.
 Thứ tự ưu tiên: meta > phủ định > pool (một câu chỉ vào đúng một họ).
@@ -71,6 +74,46 @@ def _pick_meta(r) -> dict | None:
     return {**r, "metaText": r["options"][r["correctIndex"]], "correctOptions": keep}
 
 
+# --------------------------------------------------------------- file 4
+def _pick_meta_letters(r) -> dict | None:
+    """Đáp án đúng dạng "Cả A và B đều đúng".
+
+    Khác file2 ở chỗ tập đáp án đúng suy ra thẳng từ chữ cái trong phương án meta,
+    và các phương án còn lại là nhiễu CÓ SẴN do người ra đề viết — chỉ cần LLM
+    viết thêm cho đủ số phương án.
+    """
+    kind = L.meta_kind(r["options"][r["correctIndex"]])
+    if not kind or kind["kind"] != "LETTERS":
+        return None
+    if L.BLANK_STEM.search(r["question"]):
+        return None
+
+    meta_idx = {i for i, o in enumerate(r["options"]) if L.meta_kind(o)}
+    keep_idx = [i for i in range(len(r["options"])) if i not in meta_idx]
+    if len(keep_idx) < 2:
+        return None
+
+    wanted = [c.upper() for c in (kind.get("letters") or [])]
+    correct_idx = [i for i in keep_idx if r["optionLetters"][i] in wanted]
+    if len(correct_idx) != len(set(wanted)) or len(correct_idx) < 2:
+        return None                      # chữ cái trỏ vào phương án meta hoặc đã bị xoá
+    # Không còn nhiễu gốc vẫn nhận: "Cả A và B đều đúng" thường đi kèm một phương
+    # án meta thứ hai ("Tất cả đều sai"), bỏ cả hai thì chỉ còn đúng A và B. Lúc đó
+    # 2 nhiễu do LLM viết là đủ dựng câu 4 phương án; tầng 4 loại nếu LLM không cho.
+    wrong_idx = [i for i in keep_idx if i not in correct_idx]
+
+    keep = [r["options"][i] for i in keep_idx]
+    if any(not L.clean_option(o) for o in keep):
+        return None
+    if len({L.norm_item(o) for o in keep}) != len(keep):
+        return None
+
+    return {**r, "metaText": r["options"][r["correctIndex"]],
+            "correctOptions": [r["options"][i] for i in correct_idx],
+            "wrongOptions": [r["options"][i] for i in wrong_idx],
+            "metaLetters": wanted}
+
+
 # --------------------------------------------------------------- file 3
 def _pick_pool(r) -> dict | None:
     if not all("," in o for o in r["options"]):
@@ -120,12 +163,15 @@ def s2_route():
     clean = L.read_work("01_clean.json")
     print(f"Tầng 2 — phân luồng: {len(clean)} câu")
 
-    fam: dict[str, list] = {"file1": [], "file2": [], "file3": []}
+    fam: dict[str, list] = {"file1": [], "file2": [], "file3": [], "file4": []}
     reasons = Counter()
     for r in clean:
         hit = _pick_meta(r)
         if hit:
             fam["file2"].append(hit); reasons["file2_meta"] += 1; continue
+        hit = _pick_meta_letters(r)
+        if hit:
+            fam["file4"].append(hit); reasons["file4_meta_chu_cai"] += 1; continue
         hit = _pick_negation(r)
         if hit:
             fam["file1"].append(hit); reasons["file1_phu_dinh"] += 1; continue
@@ -148,12 +194,12 @@ def s2_route():
     L.write_work("02_route_stats.json", stats)
 
     print()
-    for name in ("file1", "file2", "file3"):
+    for name in ("file1", "file2", "file3", "file4"):
         s = stats[name]
         print(f"  {name}: {s['truoc_khu_gan_trung']:>6} qua lọc cơ học"
               f"  -> {s['ung_vien']:>6} ứng viên"
               f"  (loại {s['gan_trung_bi_loai']} câu gần trùng)")
-    total = sum(stats[n]["ung_vien"] for n in ("file1", "file2", "file3"))
+    total = sum(stats[n]["ung_vien"] for n in ("file1", "file2", "file3", "file4"))
     print(f"\n  TỔNG ỨNG VIÊN GỬI LLM: {total}"
           f"  ({100 * total / len(clean):.1f}% số câu nguồn)")
     print(f"  theo file nguồn: "

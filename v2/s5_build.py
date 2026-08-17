@@ -1,8 +1,11 @@
-"""Tầng 5 — thẩm định vòng 2, cân bằng, trộn, xuất benchmark cuối.
+"""Tầng 5 — thẩm định vòng 2, trộn, xuất benchmark cuối.
+
+Gộp cả 4 họ vào MỘT file. Mặc định lấy hết, không cân bằng số lượng giữa các họ
+(--per-subset N để giới hạn mỗi họ N câu).
 
 Ra hai file khớp 1:1 theo chỉ số:
-  processed_data_v2/benchmark_multi.json   — bản nhiều đáp án
-  processed_data_v2/benchmark_single.json  — chính các câu gốc đó, nguyên văn
+  processed_data_v2/final_benchmark.json         — bản nhiều đáp án
+  processed_data_v2/final_benchmark_single.json  — chính các câu gốc đó, nguyên văn
 
 Nhờ khớp 1:1 nên chênh lệch điểm giữa hai bộ quy hết về ĐỊNH DẠNG, không phải
 do bộ này khó hơn bộ kia.
@@ -19,6 +22,7 @@ SOURCES = [
     ("final_01_ngoai_tru.json", "final_01_ngoai_tru_provenance.json"),
     ("final_02_multi.json", "final_02_multi_provenance.json"),
     ("final_03_multi.json", "final_03_multi_provenance.json"),
+    ("final_04_ca_ab.json", "final_04_ca_ab_provenance.json"),
 ]
 XOA_META = ("final_02_xoa_meta.json", "final_02_xoa_meta_provenance.json")
 
@@ -43,7 +47,7 @@ def _audit_gate(pairs, audit: dict):
     return kept, dropped
 
 
-def s5_build(per_subset: int = 200, seed: int = 20260815,
+def s5_build(per_subset: int = 0, seed: int = 20260815,
              with_xoa_meta: bool = False, skip_audit: bool = False):
     src = list(SOURCES) + ([XOA_META] if with_xoa_meta else [])
     pairs = []
@@ -67,7 +71,6 @@ def s5_build(per_subset: int = 200, seed: int = 20260815,
         print(f"  thẩm định vòng 2: {before} -> {len(pairs)} câu"
               f"  (loại {sum(dropped.values())} {dict(dropped)})")
 
-    # Cân bằng: không cân thì họ đông nhất chi phối mọi con số tổng.
     by_subset: dict[str, list] = {}
     for pair in pairs:
         by_subset.setdefault(pair[1]["subset"], []).append(pair)
@@ -75,11 +78,13 @@ def s5_build(per_subset: int = 200, seed: int = 20260815,
     balanced = []
     for name in sorted(by_subset):
         group = by_subset[name]
-        if len(group) > per_subset:
+        if per_subset and len(group) > per_subset:
             group = random.Random(seed).sample(group, per_subset)
-        else:
-            print(f"  ⚠ nhóm {name} chỉ có {len(group)}/{per_subset} câu — lấy hết")
         balanced.extend(group)
+    if not per_subset:
+        print("  lấy hết mọi họ, không cân bằng số lượng")
+    # Trộn để các câu cùng nguồn không nằm liền khối: xếp theo họ thì mọi chỉ số
+    # tính trên một lát cắt bất kỳ của file đều lệch theo họ chiếm chỗ ở đó.
     random.Random(seed).shuffle(balanced)
 
     # Ánh xạ 1:1 sang bản gốc đòi hỏi mỗi câu benchmark là một câu nguồn riêng biệt.
@@ -106,10 +111,10 @@ def s5_build(per_subset: int = 200, seed: int = 20260815,
             "multiOptionCount": len([k for k in rec if k.startswith("answer_option")]),
         })
 
-    L.write_out("benchmark_multi.json", multi)
-    L.write_out("benchmark_multi_provenance.json", multi_prov)
-    L.write_out("benchmark_single.json", single)
-    L.write_out("benchmark_single_provenance.json", single_prov)
+    L.write_out("final_benchmark.json", multi)
+    L.write_out("final_benchmark_provenance.json", multi_prov)
+    L.write_out("final_benchmark_single.json", single)
+    L.write_out("final_benchmark_single_provenance.json", single_prov)
 
     _report(multi, multi_prov)
 
@@ -117,7 +122,7 @@ def s5_build(per_subset: int = 200, seed: int = 20260815,
 def _report(multi, prov):
     n_opts = [len([k for k in r if k.startswith("answer_option")]) for r in multi]
     n_corr = [len(r["correctAnswer"].split(",")) for r in multi]
-    print(f"\n  TỔNG: {len(multi)} câu (seed trộn = 20260815)")
+    print(f"\n  TỔNG: {len(multi)} câu -> final_benchmark.json")
     print(f"  theo nhóm            : {dict(Counter(p['subset'] for p in prov))}")
     print(f"  theo file nguồn      : {dict(Counter(p['srcFile'][:22] for p in prov))}")
     print(f"  số phương án mỗi câu : {dict(sorted(Counter(n_opts).items()))}")

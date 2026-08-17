@@ -165,6 +165,47 @@ def _build_file2(require: bool):
     return out, prov, bad
 
 
+# =============================================================== FILE 4
+def _build_file4(require: bool):
+    rows = L.read_work("03_sent_file4.json")
+    said = _need("r1_distract_letters", require)
+    out, prov, bad = [], [], []
+
+    for r in rows:
+        v = said.get(r["uid"]) or {}
+        extra = _valid_distractors(v.get("nhieu"), r["correctOptions"] + r["wrongOptions"])
+
+        opts = [{"text": o, "correct": True} for o in r["correctOptions"]] + \
+               [{"text": o, "correct": False} for o in r["wrongOptions"]] + \
+               [{"text": t, "correct": False} for t in extra]
+        if len(opts) < 4:
+            # 2 đúng + 1 nhiễu gốc, LLM không cho thêm được gì -> chỉ 3 phương án.
+            bad.append({"uid": r["uid"], "file": "file4", "reason": "khong_du_phuong_an"})
+            continue
+        _rng(r["uid"]).shuffle(opts)
+
+        rec = L.pack(r["questionClean"], opts, r)
+        errs = L.validate(rec)
+        if errs:
+            bad.append({"uid": r["uid"], "file": "file4", "reason": ",".join(errs)})
+            continue
+        out.append(rec)
+        prov.append({"uid": r["uid"], "srcFile": r["srcFile"], "srcIndex": r["srcIndex"],
+                     "questionID": r["questionID"], "subset": "file4_ca_ab",
+                     "removedMetaOption": r["metaText"], "metaLetters": r["metaLetters"],
+                     "originalDistractors": r["wrongOptions"],
+                     "syntheticDistractors": extra,
+                     "llmChacChanSai": bool(v.get("chac_chan_sai")),
+                     "correctAnswer": rec["correctAnswer"],
+                     "qualityFlag": "llm-distractors" if extra else "original-distractors-only"})
+
+    L.write_out("final_04_ca_ab.json", out)
+    L.write_out("final_04_ca_ab_provenance.json", prov)
+    print(f"  FILE 4: {len(out)}/{len(rows)} câu"
+          f"  (LLM thêm nhiễu cho {sum(1 for p in prov if p['syntheticDistractors'])} câu)")
+    return out, prov, bad
+
+
 # =============================================================== FILE 3
 def _build_file3(require: bool):
     rows = L.read_work("03_sent_file3.json")
@@ -248,16 +289,19 @@ def s4_apply(require_llm: bool = True):
           f"{'' if require_llm else '  [CHẾ ĐỘ --no-llm]'}")
     o1, p1, b1 = _build_file1(require_llm)
     o2, p2, b2 = _build_file2(require_llm)
+    o4, p4, b4 = _build_file4(require_llm)
     o3, p3, b3 = _build_file3(require_llm)
 
-    bad = b1 + b2 + b3
+    bad = b1 + b2 + b3 + b4
     L.write_work("04_rejected.json", bad)
 
-    built = list(zip(o1, p1)) + list(zip(o2, p2)) + list(zip(o3, p3))
+    built = (list(zip(o1, p1)) + list(zip(o2, p2))
+             + list(zip(o3, p3)) + list(zip(o4, p4)))
     _make_audit(built)
 
     print(f"\n  tổng dựng được : {len(built)}")
     print(f"  bị loại        : {len(bad)} {dict(Counter(b['reason'][:34] for b in bad))}")
     print(f"\n  Bước tiếp theo (khuyến nghị, để thẩm định lại toàn bộ) — trên H100:")
-    print(f"    python gpu/vllm_batch.py llm_jobs/r2_audit.jsonl --model Qwen/Qwen3-32B-FP8")
-    print(f"  Rồi: python v2/run.py build --per-subset 200")
+    print(f"    python gpu/vllm_batch.py llm_jobs/r2_audit.jsonl "
+          f"--model Qwen/Qwen3-32B-FP8 --max-tokens 128")
+    print(f"  Rồi: python v2/run.py build")
