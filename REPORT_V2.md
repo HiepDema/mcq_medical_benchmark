@@ -449,6 +449,66 @@ Eastern Medicine 699 · Pulmonology 569.
 danh câu hỏi (một lần ở tầng dựng, một lần ở tầng xuất), và thứ tự câu hỏi trong file
 trộn theo seed cố định `20260815`. Chạy lại luôn ra cùng kết quả.
 
+### Thống kê số phương án và số đáp án đúng
+
+**Số phương án, tách theo họ**
+
+| Họ | n | 4 phương án | 5 phương án | TB |
+|---|---:|---:|---:|---:|
+| file1 phủ định | 4.573 | **4.573 (100%)** | 0 (0%) | 4,00 |
+| file2 meta | 1.092 | 32 (3%) | **1.060 (97%)** | 4,97 |
+| file3 pool | 2.810 | 501 (18%) | **2.309 (82%)** | 4,82 |
+| file4 meta chữ cái | 893 | 73 (8%) | **820 (92%)** | 4,92 |
+| **Tổng** | **9.368** | **5.179 (55%)** | **4.189 (45%)** | **4,45** |
+
+Hình dạng bị chi phối bởi cách biến đổi từng họ:
+
+- **file1 luôn đúng 4 phương án** vì nó giữ nguyên bộ phương án gốc, chỉ đảo nhãn —
+  không thêm không bớt. Đây cũng là họ đông nhất nên kéo tỉ lệ 4-phương-án lên 55%.
+- **file2 gần như luôn 5** (3 phương án đúng + 2 nhiễu LLM). 32 câu chỉ đạt 4 vì một
+  trong hai nhiễu bị bộ lọc loại (trùng ý phương án đúng, hoặc là meta).
+- **file3 và file4 chủ yếu 5**, phần 4 phương án đến từ pool nhỏ (file3) hoặc từ câu
+  chỉ giữ được 1 nhiễu (file4).
+
+**Số đáp án đúng, tách theo họ**
+
+| Họ | n | 2 đúng | 3 đúng | 4 đúng | TB |
+|---|---:|---:|---:|---:|---:|
+| file1 phủ định | 4.573 | 0 | **4.573** | 0 | 3,00 |
+| file2 meta | 1.092 | 0 | **1.092** | 0 | 3,00 |
+| file3 pool | 2.810 | **1.329** | 1.116 | 365 | 2,66 |
+| file4 meta chữ cái | 893 | **572** | 321 | 0 | 2,36 |
+| **Tổng** | **9.368** | **1.901 (20,3%)** | **7.102 (75,8%)** | **365 (3,9%)** | **2,84** |
+
+file1 và file2 **luôn đúng 3 đáp án**, cũng do cấu trúc: bỏ đúng một phương án (đáp án
+gốc ở file1, phương án meta ở file2) khỏi bộ 4 phương án thì còn lại đúng 3. Toàn bộ
+sự biến thiên nằm ở file3 và file4.
+
+**Bảng chéo — số phương án × số đáp án đúng**
+
+| | 2 đúng | 3 đúng | 4 đúng | Tổng |
+|---|---:|---:|---:|---:|
+| **4 phương án** | 488 | 4.691 | 0 | 5.179 |
+| **5 phương án** | 1.413 | 2.411 | 365 | 4.189 |
+| **Tổng** | 1.901 | 7.102 | 365 | 9.368 |
+
+**Số phương án SAI mỗi câu** — chính là thứ quyết định mốc đoán mù:
+
+| Số phương án sai | Số câu | Tỉ lệ |
+|---|---:|---:|
+| 1 | 5.056 | **54,0%** |
+| 2 | 2.899 | 30,9% |
+| 3 | 1.413 | 15,1% |
+
+Hơn một nửa số câu chỉ có **một** phương án sai. Với câu 4 phương án 3 đáp án đúng
+(4.691 câu, ô lớn nhất bảng chéo), chiến lược mù "chọn bừa 3 trong 4" ăn đúng 25%.
+Đó là nguồn gốc của mốc "chọn 3 phương án đầu" = 15,3% ở mục 7 — không phải rò rỉ dữ
+liệu mà là hệ quả toán học của hình dạng câu hỏi.
+
+Muốn hạ mốc đó thì phải tăng số phương án sai mỗi câu, nghĩa là cho LLM sinh thêm
+nhiễu cho cả file1 — hiện file1 không được sinh nhiễu, nó chỉ đảo nhãn bộ phương án
+gốc.
+
 ### `final_benchmark_9368_single.json`
 
 Chính những câu đó, **nguyên văn từ file nguồn**, xếp theo đúng thứ tự bản nhiều đáp
@@ -579,10 +639,18 @@ Hai chi tiết phải xử lý khi dùng phán quyết của vòng này:
 | | 9.368 câu | 5.554 câu |
 |---|---|---|
 | Theo họ | file1 4.573 · file3 2.810 · file2 1.092 · file4 893 | file1 3.025 · file3 1.228 · file2 717 · file4 584 |
-| Số phương án | 4 → 5.179 · 5 → 4.189 | 4 → 3.325 · 5 → 2.229 |
+| Số phương án | 4 → 5.179 (55%) · 5 → 4.189 (45%) | 4 → 3.325 (60%) · 5 → 2.229 (40%) |
+| TB phương án | 4,45 | 4,40 |
+| Số đáp án đúng | 2 → 1.901 · 3 → 7.102 · 4 → 365 | 2 → 932 · 3 → 4.471 · 4 → 151 |
+| TB đáp án đúng | 2,84 | 2,86 |
+| Câu chỉ có 1 phương án sai | 5.056 (54,0%) | 3.242 (58,4%) |
 | Vị trí phương án SAI | A 3.332 · B 3.219 · C 3.359 · D 3.325 | A 1.945 · B 1.839 · C 1.877 · D 1.899 |
 | Mốc "chọn 3 ô đầu" | 15,3% | 16,7% |
 | %D bộ một đáp án | 41,5% | 44,5% |
+
+Bản 5.554 có mốc đoán mù **cao hơn** (16,7% so với 15,3%) vì vòng thẩm định loại
+file3 mạnh nhất (2.810 → 1.228), mà file3 lại là họ có nhiều phương án sai nhất. Tỉ lệ
+câu chỉ có một phương án sai vì thế tăng từ 54,0% lên 58,4%.
 
 Chấm cùng một model trên cả hai bộ thì đo được luôn 3.814 câu bị loại nhiễu đến mức nào.
 
