@@ -27,6 +27,27 @@ SOURCES = [
 XOA_META = ("final_02_xoa_meta.json", "final_02_xoa_meta_provenance.json")
 
 
+def _labels(rec) -> list[bool]:
+    """[phương án thứ i có đang được đánh dấu ĐÚNG không]"""
+    letters = [le for le in L.LETTERS if rec.get("answer_option" + le)]
+    gold = set(re.findall(r"option([A-Z])", rec["correctAnswer"]))
+    return [le in gold for le in letters]
+
+
+def _consistent(idxs, labels, want_gold: bool) -> list[int]:
+    """Giữ lại các chỉ số TRỎ ĐÚNG HƯỚNG.
+
+    "Ô đang đánh dấu ĐÚNG nhưng thực ra SAI" thì bắt buộc phải trỏ vào ô đang
+    đánh dấu ĐÚNG. Trỏ vào ô vốn đã đánh dấu SAI là model lẫn hai mảng với nhau,
+    phán quyết đó tự mâu thuẫn nên không dùng làm bằng chứng được.
+
+    Đo trên lượt chạy thật: 26,5% chỉ số ở mảng thứ nhất và 42,9% ở mảng thứ hai
+    trỏ ngược hướng. Tính cả chúng thì cổng lọc loại oan 1.229 câu.
+    """
+    return [i for i in idxs or []
+            if isinstance(i, int) and 0 <= i < len(labels) and labels[i] is want_gold]
+
+
 def _audit_gate(pairs, audit: dict):
     """Loại các câu mà LLM thẩm định thấy đáp án chuẩn bị sai."""
     kept, dropped = [], Counter()
@@ -38,13 +59,32 @@ def _audit_gate(pairs, audit: dict):
             continue
         if not v.get("cau_hoi_ro_rang", True):
             dropped["cau_dan_khong_ro"] += 1; continue
-        if v.get("danh_dau_dung_thuc_ra_sai"):
+        lab = _labels(rec)
+        if _consistent(v.get("danh_dau_dung_thuc_ra_sai"), lab, True):
             dropped["dap_an_dung_thuc_ra_sai"] += 1; continue
-        if v.get("danh_dau_sai_thuc_ra_dung"):
+        if _consistent(v.get("danh_dau_sai_thuc_ra_dung"), lab, False):
             dropped["nhieu_thuc_ra_dung"] += 1; continue
         p["auditStatus"] = "dat" if v.get("dat") else "dat_co_canh_bao"
+        p["auditIndexNoise"] = bool(v.get("danh_dau_dung_thuc_ra_sai")
+                                    or v.get("danh_dau_sai_thuc_ra_dung"))
         kept.append((rec, p))
     return kept, dropped
+
+
+def _reshuffle(rec: dict, uid: str) -> dict:
+    """Trộn lại vị trí phương án SAU khi qua cổng thẩm định.
+
+    Cổng thẩm định không trung lập về vị trí: nó giữ lại nhiều hơn những câu có
+    phương án sai nằm ở D. Đo trên lượt chạy thật, tỉ lệ phương án sai ở D là
+    21,6% trước khi thẩm định và 24,0% sau — tức chính bộ lọc tạo ra rò rỉ vị trí.
+    Trộn lại ở đây xoá hẳn hiệu ứng đó. An toàn vì các câu còn lại đều đã được
+    thẩm định là không có ô nào gán nhãn ngược.
+    """
+    letters = [le for le in L.LETTERS if rec.get("answer_option" + le)]
+    gold = set(re.findall(r"option([A-Z])", rec["correctAnswer"]))
+    opts = [{"text": rec["answer_option" + le], "correct": le in gold} for le in letters]
+    random.Random(uid + "|post").shuffle(opts)
+    return L.pack(rec["question"], opts, rec)
 
 
 def s5_build(per_subset: int = 0, seed: int = 20260815,
@@ -99,6 +139,8 @@ def s5_build(per_subset: int = 0, seed: int = 20260815,
     multi, multi_prov, single, single_prov = [], [], [], []
     for i, (rec, p) in enumerate(balanced):
         orig = cache.get(p["srcFile"], p["srcIndex"])
+        rec = _reshuffle(rec, p["uid"])
+        p["correctAnswer"] = rec["correctAnswer"]
         multi.append(rec)
         multi_prov.append({"index": i, **p})
         single.append(orig)
