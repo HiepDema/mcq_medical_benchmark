@@ -31,6 +31,15 @@ OUT_DIR = ROOT / os.environ.get("MCQ2_OUT_DIR", "processed_data_v2")
 
 LETTERS = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
+# FILE 3: pool = số mục thu được sau khi gộp các phương án dạng danh sách.
+# Nhận pool tới MAX_POOL, rồi cắt ngẫu nhiên xuống đúng TARGET_OPTIONS phương án
+# (giữ NGUYÊN toàn bộ đáp án đúng, chỉ bỏ bớt nhiễu). Chặn thẳng ở mức 5 thì mất
+# 2/3 số ứng viên; cắt sau khi lọc thì giữ được gần gấp đôi mà hình thức vẫn đều.
+# Đặt ở đây để tầng lọc (s2) và tầng dựng (s4) không bao giờ lệch nhau.
+MIN_POOL, MAX_POOL = 4, 8
+TARGET_OPTIONS = 5
+MAX_CORRECT = TARGET_OPTIONS - 1      # phải chừa chỗ cho ít nhất một phương án sai
+
 # --- mượn nguyên của v1 -----------------------------------------------------
 collapse = L1.collapse
 strip_prefix = L1.strip_prefix

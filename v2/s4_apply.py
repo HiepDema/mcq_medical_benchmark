@@ -18,7 +18,7 @@ import lib2 as L
 import s3_jobs as J
 import stages as S1
 
-MIN_POOL, MAX_POOL = 4, 20
+MIN_POOL, MAX_POOL = L.MIN_POOL, L.MAX_POOL
 _LEAD_MARK = re.compile(r"^\s*(?:[a-eA-E1-9][.)]\s+|[-*•]\s+)")
 
 
@@ -239,6 +239,20 @@ def _build_file3(require: bool):
             bad.append({"uid": r["uid"], "file": "file3", "reason": "tap_dap_an_khong_hop_le"})
             continue
 
+        # Cắt xuống đúng TARGET_OPTIONS phương án: giữ NGUYÊN mọi đáp án đúng,
+        # bỏ bớt nhiễu. Cắt ở đây chứ không phải lúc lọc, để LLM vẫn nhìn thấy
+        # toàn bộ pool khi phán xét và chỉ số nó trả về vẫn khớp.
+        dropped = []
+        if len(new_pool) > L.TARGET_OPTIONS:
+            cset = set(new_correct)
+            wrong = [k for k in range(len(new_pool)) if k not in cset]
+            keep_w = _rng(r["uid"] + "|trim").sample(
+                wrong, L.TARGET_OPTIONS - len(new_correct))
+            sel = sorted(cset | set(keep_w))
+            dropped = [new_pool[k] for k in wrong if k not in keep_w]
+            new_correct = [i for i, k in enumerate(sel) if k in cset]
+            new_pool = [new_pool[k] for k in sel]
+
         opts = [{"text": t, "correct": k in set(new_correct)}
                 for k, t in enumerate(new_pool)]
         # Thứ tự pool là thứ tự xuất hiện trong đề gốc -> các mục của đáp án đúng
@@ -256,6 +270,7 @@ def _build_file3(require: bool):
                      "originalOptions": r["options"],
                      "originalCorrect": "option" + r["correctLetter"],
                      "removedItems": [pool[i] for i in sorted(remove)],
+                     "trimmedDistractors": dropped,
                      "overlap": r["overlap"], "llmConfidence": v.get("do_tin_cay"),
                      "correctAnswer": rec["correctAnswer"],
                      "qualityFlag": "llm-screened" if said else "rule-only"})
@@ -263,8 +278,10 @@ def _build_file3(require: bool):
     L.write_out("final_03_multi.json", out)
     L.write_out("final_03_multi_provenance.json", prov)
     removed = sum(len(p["removedItems"]) for p in prov)
+    trimmed = sum(1 for p in prov if p["trimmedDistractors"])
     print(f"  FILE 3: {len(out)}/{len(rows)} câu"
-          f"  (LLM gỡ {removed} mục nhiễu thực ra đúng)")
+          f"  (LLM gỡ {removed} mục nhiễu thực ra đúng;"
+          f" cắt bớt nhiễu ở {trimmed} câu)")
     return out, prov, bad
 
 

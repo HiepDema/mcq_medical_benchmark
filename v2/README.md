@@ -58,7 +58,11 @@ Bốn họ câu hỏi:
 - **file2 — meta**: đáp án đúng là `"Tất cả đều đúng"` → 3 phương án còn lại đều
   đúng, **cần LLM sinh thêm phương án nhiễu** thì mới thành câu hỏi có nghĩa.
 - **file3 — pool**: mọi phương án đều là danh sách ngăn bởi dấu phẩy → gộp các
-  mục thành danh sách phương án độc lập.
+  mục thành danh sách phương án độc lập. Nhận pool tới 8 mục rồi **cắt ngẫu nhiên
+  xuống 5 phương án**: giữ nguyên toàn bộ đáp án đúng, chỉ bỏ bớt nhiễu. Chặn
+  thẳng ở 5 lúc lọc thì mất 2/3 số ứng viên (3.048 → 1.280); cắt sau khi lọc giữ
+  được gần gấp đôi mà hình thức vẫn đều. Cắt ở tầng dựng chứ không phải tầng lọc,
+  để LLM vẫn nhìn thấy toàn bộ pool khi phán xét và chỉ số nó trả về vẫn khớp.
 - **file4 — meta chữ cái**: đáp án đúng là `"Cả A và B đều đúng"` → tập đáp án
   suy thẳng từ chữ cái, các phương án còn lại là nhiễu **có sẵn trong đề gốc**;
   LLM viết thêm cho đủ số phương án.
@@ -236,6 +240,8 @@ Cơ học (`s2_route.py`), loại trước khi tốn GPU:
 - pool **toàn số** (> 60% mục là số/đơn vị)
 - **overlap < 0,2** — các phương án không dùng chung kho khái niệm thì không phải
   dạng tách được. `overlap = 1 − (số mục khác nhau / tổng số mục)`
+- pool ngoài khoảng `MIN_POOL..MAX_POOL` (4–8), hoặc quá 4 đáp án đúng — cắt
+  xuống 5 phương án thì không còn chỗ cho phương án sai nào
 - **dãy có thứ tự**: mục lặp trong cùng một phương án, hoặc thân câu có
   "thứ tự / lần lượt / tương ứng"
 - **câu xếp hạng**: hai phương án có cùng tập mục, chỉ khác thứ tự

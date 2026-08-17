@@ -22,7 +22,7 @@ from collections import Counter
 import lib2 as L
 import stages as S1  # NEG_DETECT / REWRITES / ORDER_STEM của v1
 
-MIN_POOL, MAX_POOL = 4, 20
+MIN_POOL, MAX_POOL = L.MIN_POOL, L.MAX_POOL
 
 
 # --------------------------------------------------------------- file 1
@@ -152,6 +152,9 @@ def _pick_pool(r) -> dict | None:
     norm_pool = [L.norm_item(p) for p in pool]
     correct = sorted({norm_pool.index(L.norm_item(x)) for x in parts[r["correctIndex"]]})
     if len(correct) < 2 or len(correct) >= len(pool):
+        return None
+    # Sau khi cắt xuống TARGET_OPTIONS vẫn phải còn ít nhất một phương án sai.
+    if len(correct) > L.MAX_CORRECT:
         return None
 
     return {**r, "pool": pool, "poolCorrect": correct,
