@@ -87,8 +87,8 @@ def _reshuffle(rec: dict, uid: str) -> dict:
     return L.pack(rec["question"], opts, rec)
 
 
-def s5_build(per_subset: int = 0, seed: int = 20260815,
-             with_xoa_meta: bool = False, skip_audit: bool = False):
+def s5_build(per_subset: int = 0, seed: int = 20260815, with_xoa_meta: bool = False,
+             skip_audit: bool = False, out_name: str = "final_benchmark"):
     src = list(SOURCES) + ([XOA_META] if with_xoa_meta else [])
     pairs = []
     for data_file, prov_file in src:
@@ -153,18 +153,18 @@ def s5_build(per_subset: int = 0, seed: int = 20260815,
             "multiOptionCount": len([k for k in rec if k.startswith("answer_option")]),
         })
 
-    L.write_out("final_benchmark.json", multi)
-    L.write_out("final_benchmark_provenance.json", multi_prov)
-    L.write_out("final_benchmark_single.json", single)
-    L.write_out("final_benchmark_single_provenance.json", single_prov)
+    L.write_out(f"{out_name}.json", multi)
+    L.write_out(f"{out_name}_provenance.json", multi_prov)
+    L.write_out(f"{out_name}_single.json", single)
+    L.write_out(f"{out_name}_single_provenance.json", single_prov)
 
-    _report(multi, multi_prov)
+    _report(multi, multi_prov, out_name)
 
 
-def _report(multi, prov):
+def _report(multi, prov, out_name):
     n_opts = [len([k for k in r if k.startswith("answer_option")]) for r in multi]
     n_corr = [len(r["correctAnswer"].split(",")) for r in multi]
-    print(f"\n  TỔNG: {len(multi)} câu -> final_benchmark.json")
+    print(f"\n  TỔNG: {len(multi)} câu -> {out_name}.json")
     print(f"  theo nhóm            : {dict(Counter(p['subset'] for p in prov))}")
     print(f"  theo file nguồn      : {dict(Counter(p['srcFile'][:22] for p in prov))}")
     print(f"  số phương án mỗi câu : {dict(sorted(Counter(n_opts).items()))}")

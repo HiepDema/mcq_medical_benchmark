@@ -59,6 +59,8 @@ def main() -> int:
                     help="build: đưa cả nhóm file2_xoa_meta (mọi phương án đều đúng) vào")
     ap.add_argument("--skip-audit", action="store_true",
                     help="build: bỏ qua thẩm định LLM vòng 2")
+    ap.add_argument("--out-name", default="final_benchmark",
+                    help="build: tên file đầu ra (mặc định final_benchmark)")
     args = ap.parse_args()
 
     if not args.steps:
@@ -87,7 +89,8 @@ def main() -> int:
             s4_apply(require_llm=not args.no_llm)
         elif s == "build":
             s5_build(per_subset=args.per_subset, seed=args.seed,
-                     with_xoa_meta=args.with_xoa_meta, skip_audit=args.skip_audit)
+                     with_xoa_meta=args.with_xoa_meta, skip_audit=args.skip_audit,
+                     out_name=args.out_name)
         print()
     return 0
 

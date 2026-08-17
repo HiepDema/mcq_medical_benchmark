@@ -285,6 +285,39 @@ Chính những câu đó, **nguyên văn từ file nguồn**, xếp theo đúng 
 Nhờ khớp 1:1 nên mọi chênh lệch điểm giữa hai bộ quy về **định dạng câu hỏi**, không
 phải do bộ này khó hơn bộ kia.
 
+### Bản chưa qua thẩm định — 9.368 câu
+
+Kèm theo là bộ đầy đủ **trước** cổng thẩm định vòng 2, để so sánh xem bước đó thực
+sự mang lại gì:
+
+| File | Nội dung |
+|---|---|
+| `final_benchmark_9368.json` | 9.368 câu, chỉ qua vòng 1 |
+| `final_benchmark_9368_single.json` | các câu gốc tương ứng, khớp 1:1 |
+| + 2 file provenance | như trên, `auditStatus` là `khong_tham_dinh` |
+
+```powershell
+python v2/run.py build --skip-audit --out-name final_benchmark_9368
+```
+
+| | 9.368 câu | 5.554 câu |
+|---|---|---|
+| Theo họ | file1 4.573 · file3 2.810 · file2 1.092 · file4 893 | file1 3.025 · file3 1.228 · file2 717 · file4 584 |
+| Số phương án | 4 → 5.179 · 5 → 4.189 | 4 → 3.325 · 5 → 2.229 |
+| Số đáp án đúng | 2 → 1.901 · 3 → 7.102 · 4 → 365 | 2 → 932 · 3 → 4.471 · 4 → 151 |
+| Vị trí phương án SAI | A 3.332 · B 3.219 · C 3.359 · D 3.325 | A 1.945 · B 1.839 · C 1.877 · D 1.899 |
+| Mốc "chọn 3 ô đầu" | 15,3% | 16,7% |
+| Mốc "chọn hết" | 0,0% | 0,0% |
+| %D bộ một đáp án | 41,5% | 44,5% |
+
+Bộ 9.368 câu **không** được đảm bảo về mặt ngữ nghĩa: nó còn chứa những câu tham
+chiếu sơ đồ không tồn tại, và những câu có phương án bị gán nhãn ngược do phép đảo
+tập đáp án ở FILE 1 (xem mục 5). Bù lại nó nhiều hơn 69%, và cả hai bộ đều không có
+rò rỉ vị trí.
+
+Dùng bộ nào tuỳ mục đích: chấm model thì dùng bản 5.554, còn muốn đo xem bước thẩm
+định đáng giá bao nhiêu thì chấm cả hai rồi so.
+
 ### Hai file provenance
 
 `final_benchmark_provenance.json` và `final_benchmark_single_provenance.json` ghi cho
