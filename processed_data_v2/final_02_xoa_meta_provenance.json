@@ -1,0 +1,102 @@
+[
+ {
+  "uid": "q_d0588632b6bbf6d1",
+  "srcFile": "PIPELINE_5_IV_1079_bb942e35-bd84-4910-91be-bf172d2822a2.json",
+  "srcIndex": 8004,
+  "questionID": "ID012",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_6d7fe558cab13111",
+  "srcFile": "PIPELINE_5_IV_1639_8ea6eeee-7f34-4301-a328-075728012e9a.json",
+  "srcIndex": 9628,
+  "questionID": "CuaSoTruyenMau025",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_51137aea5155be17",
+  "srcFile": "PIPELINE_5_IV_279_f6d750e2-d359-46a6-9b0a-1d5e43b2186a.json",
+  "srcIndex": 3114,
+  "questionID": "22",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Các phương án trên đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_f7cdcf4d1878d431",
+  "srcFile": "PIPELINE_5_IV_359_eba1c2ed-f6c7-4d42-80a8-5c925152fcb2.json",
+  "srcIndex": 8739,
+  "questionID": "MDGEN_025",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_58d169f933e0e065",
+  "srcFile": "PIPELINE_5_IV_359_eba1c2ed-f6c7-4d42-80a8-5c925152fcb2.json",
+  "srcIndex": 8761,
+  "questionID": "22",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_6caac3f9e911b293",
+  "srcFile": "PIPELINE_5_IV_489_bc35d52a-e4ab-4dec-8851-f0968b47e217.json",
+  "srcIndex": 2497,
+  "questionID": "AB45",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Các câu trên đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_55ca3bb4ac6139cd",
+  "srcFile": "PIPELINE_5_IV_819_f8b52a41-4d12-4702-8d1d-d5cdeda44afd.json",
+  "srcIndex": 7153,
+  "questionID": "MD6",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_daebb10e5f93df6a",
+  "srcFile": "PIPELINE_5_IV_819_f8b52a41-4d12-4702-8d1d-d5cdeda44afd.json",
+  "srcIndex": 8685,
+  "questionID": "4",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_6dfb2f4796919b94",
+  "srcFile": "PIPELINE_5_IV_819_f8b52a41-4d12-4702-8d1d-d5cdeda44afd.json",
+  "srcIndex": 8686,
+  "questionID": "5",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Tất cả đều đúng",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ },
+ {
+  "uid": "q_3b9cb63a7b8b08bf",
+  "srcFile": "PIPELINE_5_IV_899_3a160475-5fe1-451f-bae7-156ada702178.json",
+  "srcIndex": 8627,
+  "questionID": "11",
+  "subset": "file2_xoa_meta",
+  "removedMetaOption": "Tất cả đều đúng.",
+  "correctAnswer": "optionA, optionB, optionC",
+  "qualityFlag": "all-options-correct"
+ }
+]

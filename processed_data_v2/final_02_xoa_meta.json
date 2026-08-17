@@ -1,0 +1,140 @@
+[
+ {
+  "question": "Hoá học tế bào dùng để phân biệt lơ xê mi cấp dòng tuỷ hay lympho:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology",
+   "Pathology"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "ID012",
+  "answer_optionA": "Peroxydase thường âm tính ở dòng lympho",
+  "answer_optionB": "PAS thường dương tính ở dòng lympho",
+  "answer_optionC": "Peroxydase thường dương tính ở dòng tuỷ"
+ },
+ {
+  "question": "Giai đoạn cửa sổ của các tác nhân lây nhiễm qua truyền máu:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology",
+   "Infectious Diseases"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "CuaSoTruyenMau025",
+  "answer_optionA": "Giai đoạn cửa sổ của HIV là 20 ngày",
+  "answer_optionB": "Giai đoạn cửa sổ của viêm gan C là 3 tháng",
+  "answer_optionC": "Giai đoạn cửa sổ của viêm gan B là 2 tháng"
+ },
+ {
+  "question": "Cường độ lao động giảm làm cho:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "1",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Tổng giá trị tạo ra trong một đơn vị thời gian giảm",
+  "answer_optionB": "Số lượng hàng hóa tạo ra trong một đơn vị thời gian giảm",
+  "answer_optionC": "Giá trị một đơn vị hàng hóa không đổi"
+ },
+ {
+  "question": "Ngã ba trục của bàn tay là:?",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Orthopedics",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MDGEN_025",
+  "answer_optionA": "Ngã ba đáy ngón 3 gọi là ngã ba b và Ngã ba đáy ngón 4 gọi là ngã ba c",
+  "answer_optionB": "Ngã ba gót gan bàn tay gọi là ngã ba t",
+  "answer_optionC": "Ngã ba đảy ngón 2 gọi là ngã ba a va Ngã ba đáy ngón 3 gọi là ngã 3 b"
+ },
+ {
+  "question": "Khi thiếu hụt enzym Fructose kinase gây nên",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Endocrinology",
+   "General Medicine"
+  ],
+  "difficultLevel": "3",
+  "regularFormat": true,
+  "questionID": "22",
+  "answer_optionA": "Tích lũy Fructose 1 phophat trong máu rồi đảo thải ra nước tiểu và gây bệnh",
+  "answer_optionB": "Tích lũy Fructose 6 phophat trong máu rồi ra nước tiểu và gây bệnh",
+  "answer_optionC": "Tích lũy Fructose trong máu rồi đảo thải ra nước tiểu và gây bệnh"
+ },
+ {
+  "question": "Cơ chế điều hòa thăng bằng acid base của hệ đệm proteinat là:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Internal Medicine",
+   "General Medicine"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "AB45",
+  "answer_optionA": "Các acid amin base của protein sẽ nhận H+ khi cơ thể bị nhiễm acid",
+  "answer_optionB": "Phần acid của hệ đệm sẽ giải phóng H+ khi cơ thể bị nhiễm kiềm.",
+  "answer_optionC": "Các acid amin acid của protein sẽ giải phóng H+ khi cơ thể bị nhiễm kiềm."
+ },
+ {
+  "question": "Hóa học tế bào dùng để phân biệt lơ xê mi cấp dòng tủy hay lympho, trong đó:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Hematology",
+   "Pathology"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "MD6",
+  "answer_optionA": "PAS thường dương tính ở dòng lympho",
+  "answer_optionB": "Peroxydase thường dương tính ở dòng tủy",
+  "answer_optionC": "Peroxydase thường âm tính ở dòng lympho"
+ },
+ {
+  "question": "Đối với nhóm trẻ: trẻ em từ 3 tháng tuổi đến 36 tháng tuổi được tổ chức thành các nhóm trẻ. Số trẻ tối đa trong một nhóm trẻ được quy định như sau:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pediatrics",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "4",
+  "answer_optionA": "Nhóm trẻ từ 3 đến 12 tháng tuổi: 15 trẻ",
+  "answer_optionB": "Nhóm trẻ từ 13 đến 24 tháng tuổi: 20 trẻ",
+  "answer_optionC": "Nhóm trẻ từ 25 đến 36 tháng tuổi: 25 trẻ"
+ },
+ {
+  "question": "Đối với lớp mẫu giáo: Trẻ em từ ba tuổi đến sáu tuổi được tổ chức thành các lớp mẫu giáo. Số trẻ tối đa trong một lớp mẫu giáo được quy định như sau:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Pediatrics",
+   "Public Health"
+  ],
+  "difficultLevel": "Level 1",
+  "regularFormat": true,
+  "questionID": "5",
+  "answer_optionA": "Lớp mẫu giáo 5 - 6 tuổi: 35 trẻ",
+  "answer_optionB": "Lớp mẫu giáo 4 - 5 tuổi: 30 trẻ",
+  "answer_optionC": "Lớp mẫu giáo 3 - 4 tuổi: 25 trẻ"
+ },
+ {
+  "question": "Chọn đáp án đúng: Ở điều kiện tiêu chuẩn, phản ứng: H2 (k) + ½ O2 (k) → H2O (ℓ), phát ra một lượng nhiệt là 245,17 kJ. Từ đây suy ra:",
+  "correctAnswer": "optionA, optionB, optionC",
+  "medicalTopic": [
+   "Other(No Category)"
+  ],
+  "difficultLevel": "2",
+  "regularFormat": true,
+  "questionID": "11",
+  "answer_optionA": "Hiệu ứng nhiệt phản ứng trên là − 245,17 kJ/mol.",
+  "answer_optionB": "Hiệu ứng nhiệt đốt cháy tiêu chuẩn của H2 là − 245,17 kJ/mol.",
+  "answer_optionC": "Nhiệt tạo thành tiêu chuẩn của nước lỏng là − 245,17 kJ/mol."
+ }
+]
