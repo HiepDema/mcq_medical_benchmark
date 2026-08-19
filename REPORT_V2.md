@@ -11,7 +11,7 @@ các câu gốc đó.
 | Đối chứng | `processed_data_v2/final_benchmark_9368_single.json` — 9.368 câu gốc, khớp 1:1 |
 | Model | `Qwen/Qwen3-32B-FP8` trên vLLM 0.27.1, 1×H100 SXM5 80 GB |
 | Lượt gọi LLM | 9.779 |
-| Thời gian GPU | ~9 phút, gồm cả nạp model |
+| Thời gian GPU | ~15 phút, gồm cả nạp model |
 | Mã nguồn | [v2/](v2/), [gpu/vllm_batch.py](gpu/vllm_batch.py) |
 
 ---
