@@ -21,20 +21,16 @@ các câu gốc đó.
 ```
 tổng đọc vào : 160.194
 giữ lại      : 122.017  (76,2%)
-trùng lặp    :  30.913  (24.519 y hệt + 6.394 chỉ đảo thứ tự phương án)
+trùng lặp    :  30.913  
 loại         :   7.264  (7.221 câu dưới 4 phương án, 43 câu hỏng khác)
 ```
 
 **Khử trùng lặp phải làm trên toàn bộ 17 file gộp lại.** Các bộ đề này là những bản
 export chồng lấn của cùng một ngân hàng câu hỏi — gần một phần tư số câu là trùng.
-Khử trong từng file rồi mới gộp thì cùng một câu sẽ vào benchmark nhiều lần.
-
-Hai mức khử: trùng tuyệt đối theo `sha1(câu hỏi + các phương án)`, và trùng sau khi
-chuẩn hoá thứ tự phương án.
 
 ---
 
-## 2. phân bốn họ và lọc cơ học
+## 2. Bốn loại câu hỏi
 
 Mỗi câu chỉ vào đúng một họ, ưu tiên meta → meta chữ cái → phủ định → pool.
 
@@ -355,7 +351,7 @@ Ghi cho từng câu: file nguồn, chỉ số, mã định danh, họ, đáp án
 
 ---
 
-## 10. Tái tạo
+## 5. Tái tạo
 
 ```powershell
 python v2/run.py ingest route jobs        # -> llm_jobs/r1_*.jsonl
