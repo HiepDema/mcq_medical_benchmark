@@ -158,7 +158,7 @@ chọn đúng **số lượng** ô, chưa xét đúng ô nào:
 như mù hoàn toàn về số lượng. 4B có phản ứng theo nhóm (2,33–2,61) nhưng vẫn neo quanh
 2,5 và không xuống được 1 khi cần.
 
-### 3.4 Độ phân biệt giữa hai model (Bộ A)
+### 3.4 Độ phân biệt giữa hai model
 
 Phân loại từng câu theo việc model mạnh/yếu làm được hay không:
 
@@ -172,6 +172,26 @@ Tín hiệu ròng: **+89,3%** trên số câu mang thông tin ở bộ nhiều �
 
 Bộ nhiều đáp án sạch hơn hẳn vì đoán mò không ăn được: trúng khít một tập 3 ô trong 5
 khó hơn nhiều so với trúng 1 trong 4.
+
+**Bộ B** cho bức tranh gần như y hệt — thêm 2.000 câu một đáp án không làm bẩn tín hiệu:
+
+| | Cả hai đúng | **Mạnh ✓ / Yếu ✗** | Yếu ✓ / Mạnh ✗ | Cả hai sai | Tín hiệu ròng |
+|---|---:|---:|---:|---:|---:|
+| **Tổng Bộ B** | 237 (2,1%) | **2.176 (19,1%)** | **141 (1,2%)** | 8.814 (77,5%) | +87,8% |
+| ├─ 9.368 câu nhiều đáp án | 224 (2,4%) | 1.939 (20,7%) | 130 (1,4%) | 7.075 (75,5%) | +87,4% |
+| └─ 2.000 câu một đáp án | 13 (0,7%) | 237 (11,8%) | 11 (0,6%) | 1.739 (87,0%) | **+91,1%** |
+| *(bản đối chứng 1 đáp án)* | 2.969 (26,1%) | 3.341 (29,4%) | 1.520 (13,4%) | 3.538 (31,1%) | +37,5% |
+
+Điều đáng chú ý ở dòng cuối cùng của phần benchmark: **2.000 câu một đáp án cho tín hiệu
+ròng cao nhất (+91,1%)** — chỉ 11 câu nghịch đảo trên 2.000. Đúng những câu đó, khi được
+báo trước là chỉ có một đáp án (bản đối chứng), lại rơi vào vùng nhiễu 13,4%.
+
+Cùng một câu hỏi, cùng hai model: hỏi theo kiểu "chọn một trong bốn" thì 13,4% khác biệt
+giữa hai model là ăn may; hỏi mà không nói trước số đáp án thì chỉ còn 0,6%. Đoán mò
+không còn ăn được, nên mọi khác biệt quan sát được đều là năng lực thật.
+
+Đổi lại, **87,0% số câu một đáp án cả hai model đều sai** — nhóm này gần như chưa phân
+loại được gì ở dải năng lực 0.6B–4B.
 
 ---
 
