@@ -27,6 +27,8 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 from eval_qwen3vl import load_items  # noqa: E402
 
+# Mặc định là bộ v1, giữ nguyên để các lệnh cũ trong REPORT_COMPARE.md vẫn chạy.
+# Bộ v2 truyền qua --data / --single-data / --prov.
 MULTI = ROOT / "processed_data/benchmark_multi.json"
 SINGLE = ROOT / "processed_data/benchmark_single.json"
 PROV = ROOT / "processed_data/benchmark_multi_provenance.json"
@@ -52,15 +54,27 @@ def main() -> int:
     ap.add_argument("--single", action="append", default=[], help="file kết quả bộ một đáp án")
     ap.add_argument("--exclude", action="append", default=[],
                     help="bỏ một nhóm khỏi mọi phép tính, vd --exclude file2_xoa_meta")
+    ap.add_argument("--data", help="file benchmark nhiều đáp án (mặc định: bộ v1)")
+    ap.add_argument("--single-data", help="file benchmark một đáp án")
+    ap.add_argument("--prov", help="file provenance của bộ nhiều đáp án")
+    ap.add_argument("--only", action="append", default=[],
+                    help="chỉ giữ một nhóm, vd --only single_1_dap_an")
     args = ap.parse_args()
 
     if not args.multi or len(args.multi) != len(args.single):
         print(__doc__)
         return 1
 
-    gold_m = {it["index"]: it["gold"] for it in load_items(MULTI)}
-    gold_s = {it["index"]: it["gold"] for it in load_items(SINGLE)}
-    prov = json.loads(PROV.read_text(encoding="utf-8"))
+    f_multi = Path(args.data) if args.data else MULTI
+    f_single = Path(args.single_data) if args.single_data else SINGLE
+    f_prov = Path(args.prov) if args.prov else PROV
+    print(f"nhiều đáp án : {f_multi}")
+    print(f"một đáp án   : {f_single}")
+    print(f"provenance   : {f_prov}")
+
+    gold_m = {it["index"]: it["gold"] for it in load_items(f_multi)}
+    gold_s = {it["index"]: it["gold"] for it in load_items(f_single)}
+    prov = json.loads(f_prov.read_text(encoding="utf-8"))
     subset = {p["index"]: p["subset"] for p in prov}
 
     models = {}
@@ -74,6 +88,10 @@ def main() -> int:
         before = len(common)
         common = [i for i in common if subset[i] not in args.exclude]
         print(f"\nBỏ nhóm {args.exclude}: {before} -> {len(common)} câu")
+    if args.only:
+        before = len(common)
+        common = [i for i in common if subset[i] in args.only]
+        print(f"\nChỉ giữ nhóm {args.only}: {before} -> {len(common)} câu")
     print(f"\nSố câu chung: {len(common)}\n")
 
     # ---------------------------------------------------- A. hiệu ứng định dạng

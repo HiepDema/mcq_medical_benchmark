@@ -230,6 +230,23 @@ python gpu/vllm_batch.py llm_jobs/r1_negation.jsonl llm_jobs/r1_distract.jsonl \
 python v2/run.py apply
 python v2/run.py build --skip-audit --out-name final_benchmark_9368
 python v2/run.py mix                      # -> final_benchmark_mixed.json (11.368 câu)
+```
+
+### Chấm điểm bằng Qwen3-0.6B và Qwen3-4B
+
+```bash
+# trên máy có GPU — 2 model x 2 bộ, mỗi lượt một tiến trình riêng
+bash lambda/eval_v2.sh mixed          # bộ hỗn hợp + bản một đáp án của nó
+bash lambda/eval_v2.sh 9368           # bộ 9.368 + bản một đáp án
+LIMIT=300 bash lambda/eval_v2.sh      # chạy thử 300 câu đầu mỗi bộ
+```
+```powershell
+# so sánh hai định dạng trên cùng bộ câu hỏi, sau khi kéo eval_*.json về
+python compare_benchmarks.py --multi eval_mixed_0.6b.json --single eval_mixedsingle_0.6b.json `
+                             --multi eval_mixed_4b.json   --single eval_mixedsingle_4b.json `
+                             --data processed_data_v2/final_benchmark_mixed.json `
+                             --single-data processed_data_v2/final_benchmark_mixed_single.json `
+                             --prov processed_data_v2/final_benchmark_mixed_provenance.json
 
 python eval_qwen3vl.py --data processed_data_v2/final_benchmark_9368.json `
                        --provenance processed_data_v2/final_benchmark_9368_provenance.json `
