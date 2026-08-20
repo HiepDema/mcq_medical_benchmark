@@ -69,22 +69,16 @@ Chủ đề chính của Bộ B: General Medicine 2.068 · Other 1.881 · Infect
 câu hỏi, và thứ tự câu hỏi trong file trộn theo seed cố định. Chạy lại luôn ra cùng kết
 quả. Nhờ đó vị trí phương án sai phân bố đều A/B/C/D — không có rò rỉ vị trí.
 
-### Mốc so sánh mù
+### Vị trí đáp án trong hai bản đối chứng
 
-Không dùng model. Mọi kết quả chấm đều phải báo cáo kèm những con số này.
-
-| Chiến lược | Bộ A | Bộ B | Riêng 2.000 câu 1 đáp án |
-|---|---:|---:|---:|
-| chọn hết mọi phương án | 0,0% | 0,0% | 0,0% |
-| chọn 3 phương án đầu | **15,3%** | **12,6%** | 0,0% |
-| chọn ngẫu nhiên, mỗi ô 50% | 5,1% | 5,9% | 9,3% |
-| *(bản đối chứng)* luôn chọn D | 41,5% ⚠ | 37,8% ⚠ | 20,9% |
-
-⚠ **Hai bản đối chứng một đáp án lệch nặng về D.** Nguyên nhân cấu trúc: `"Tất cả đều
-đúng"` và `"Cả A và B đều đúng"` gần như luôn là phương án cuối trong đề gốc, mà hai họ
+Hai bản đối chứng một đáp án **lệch nặng về D**: 41,5% số câu của bản A và 37,8% của
+bản B có đáp án nằm ở phương án D. Nguyên nhân cấu trúc: `"Tất cả đều đúng"` và
+`"Cả A và B đều đúng"` gần như luôn là phương án cuối trong đề gốc, mà hai họ
 `file2`/`file4` chọn đúng những câu có đáp án là phương án meta. Không tránh được nếu
-vẫn giữ câu gốc nguyên văn. Điểm tổng trên bản đối chứng vì thế bị thổi phồng — so sánh
-theo từng cặp câu mới hợp lệ. Bản thân hai benchmark **không** dính lỗi này.
+vẫn giữ câu gốc nguyên văn.
+
+Hệ quả: điểm tổng trên hai bản đối chứng bị thổi phồng, so sánh theo từng cặp câu mới
+hợp lệ. Bản thân hai benchmark **không** dính lỗi này — phương án đã được trộn hai lần.
 
 ---
 
@@ -99,19 +93,20 @@ theo từng cặp câu mới hợp lệ. Bản thân hai benchmark **không** d�
 
 ### 3.1 Bảng điểm (exact match)
 
-| Bộ | n | Mốc mù tốt nhất | Qwen3-0.6B | Qwen3-4B |
-|---|---:|---:|---:|---:|
-| **Bộ A** — nhiều đáp án | 9.368 | 15,3% | 3,6% | **24,7%** |
-| **Bộ B** — hỗn hợp | 11.368 | 12,6% | 3,3% | **21,2%** |
-| Đối chứng của A | 9.368 | 41,5% | 40,6% | **55,7%** |
-| Đối chứng của B | 11.368 | 37,8% | 39,5% | **55,5%** |
+| Bộ | n | Qwen3-0.6B | Qwen3-4B |
+|---|---:|---:|---:|
+| **Bộ A** — nhiều đáp án | 9.368 | 3,6% | **24,7%** |
+| **Bộ B** — hỗn hợp | 11.368 | 3,3% | **21,2%** |
+| Đối chứng của A | 9.368 | 40,6% | **55,7%** |
+| Đối chứng của B | 11.368 | 39,5% | **55,5%** |
 
 Hai điều đọc ra ngay:
 
-- **0.6B thất bại hoàn toàn ở định dạng nhiều đáp án** — 3,6% và 3,3%, đều dưới mốc mù.
-- **0.6B cũng không thật sự vượt mốc mù ở định dạng một đáp án**: 40,6% so với 41,5%
-  (thua) và 39,5% so với 37,8% (hơn 1,7 điểm). Điểm 40% của nó gần như hoàn toàn đến từ
-  thiên hướng chọn D chứ không phải kiến thức.
+- **0.6B thất bại hoàn toàn ở định dạng nhiều đáp án** — 3,6% và 3,3%, tức là hầu như
+  không câu nào nó trả lời khít tập đáp án.
+- **Điểm ~40% của 0.6B ở định dạng một đáp án không phản ánh kiến thức**: nó thấp hơn
+  tỉ lệ câu có đáp án nằm ở D của chính bản đối chứng đó (41,5%), tức là chọn D cho mọi
+  câu còn ra kết quả cao hơn.
 
 ### 3.2 Điểm theo từng họ câu hỏi
 
@@ -193,7 +188,6 @@ phần lớn điểm của 0.6B ở định dạng sau lại là ăn may theo v�
 | Nhiễu khi phân biệt model | **1,3%** câu nghịch đảo | — |
 | Rò rỉ vị trí | không | không |
 | Đo được hiệu chỉnh số lượng đáp án | một phần | **có** |
-| Mốc đoán mù | 15,3% | **12,6%** |
 
 Bộ B đo được thứ Bộ A không đo được: **khả năng tự quyết định chọn bao nhiêu ô**. Đó là
 năng lực cả hai model đều thiếu nghiêm trọng, và là chỗ khác biệt lớn nhất giữa 0.6B và
