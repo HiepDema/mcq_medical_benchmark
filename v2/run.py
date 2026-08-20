@@ -14,6 +14,7 @@ Quy trình (2 lần ghé GPU, phần GPU chạy thủ công):
      python gpu/vllm_batch.py llm_jobs/r2_audit.jsonl --model Qwen/Qwen3-32B-FP8
      --- copy về ---
   5. python v2/run.py build                   # -> final_benchmark.json (+ bản 1 đáp án)
+  6. python v2/run.py mix                     # -> final_benchmark_mixed.json (hỗn hợp 1 + nhiều đáp án)
 
 Chạy thử toàn bộ mà chưa có GPU:
   python v2/run.py ingest route jobs
@@ -40,8 +41,9 @@ from s2_route import s2_route         # noqa: E402
 from s3_jobs import s3_jobs           # noqa: E402
 from s4_apply import s4_apply         # noqa: E402
 from s5_build import s5_build         # noqa: E402
+from s6_mix import s6_mix             # noqa: E402
 
-STEPS = ("ingest", "route", "jobs", "apply", "build")
+STEPS = ("ingest", "route", "jobs", "apply", "build", "mix")
 
 
 def main() -> int:
@@ -61,6 +63,11 @@ def main() -> int:
                     help="build: bỏ qua thẩm định LLM vòng 2")
     ap.add_argument("--out-name", default="final_benchmark",
                     help="build: tên file đầu ra (mặc định final_benchmark)")
+    ap.add_argument("--n-single", type=int, default=2000,
+                    help="mix: số câu MỘT đáp án thêm vào (mặc định 2000)")
+    ap.add_argument("--shuffle-options", action="store_true",
+                    help="mix: trộn vị trí phương án của các câu một đáp án thêm vào "
+                         "(mặc định giữ nguyên văn đề gốc)")
     args = ap.parse_args()
 
     if not args.steps:
@@ -91,6 +98,9 @@ def main() -> int:
             s5_build(per_subset=args.per_subset, seed=args.seed,
                      with_xoa_meta=args.with_xoa_meta, skip_audit=args.skip_audit,
                      out_name=args.out_name)
+        elif s == "mix":
+            s6_mix(n=args.n_single, seed=args.seed,
+                   shuffle_options=args.shuffle_options)
         print()
     return 0
 

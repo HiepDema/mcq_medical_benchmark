@@ -140,6 +140,66 @@ kiểm tra: 9.368 cặp `(file nguồn, chỉ số)` đều duy nhất, ánh x�
 Nhờ khớp 1:1 nên mọi chênh lệch điểm giữa hai bộ quy về **định dạng câu hỏi**, không
 phải do bộ này khó hơn bộ kia.
 
+### `final_benchmark_mixed.json` — bộ hỗn hợp 11.368 câu
+
+**9.368 câu nhiều đáp án + 2.000 câu MỘT đáp án**, trộn lẫn vào nhau.
+`final_benchmark_mixed_single.json` khớp 1:1 theo chỉ số: 9.368 dòng đầu là câu gốc
+của bản nhiều đáp án, 2.000 dòng còn lại giống hệt bản kia.
+
+Mục đích: model không biết trước câu nào có mấy đáp án nên phải **tự quyết định chọn
+bao nhiêu ô** — thứ mà bộ thuần nhiều đáp án không đo được.
+
+| | |
+|---|---|
+| Tổng | **11.368 câu** |
+| Số phương án | 4 → 7.179 · 5 → 4.189 |
+| Số đáp án đúng | **1 → 2.000** · 2 → 1.901 · 3 → 7.102 · 4 → 365 |
+| Vị trí đáp án đúng của 2.000 câu | A 635 · B 507 · C 441 · D 417 |
+
+**2.000 câu được chọn thế nào.** Lấy nguyên văn từ 122.017 câu đã khử trùng lặp, chống
+trùng ba tầng: theo `uid`, theo cặp `(file nguồn, chỉ số)`, và theo gần trùng thân câu
+(`SequenceMatcher > 0,90`, so với cả bản nhiều đáp án lẫn bản gốc của chúng, và giữa
+2.000 câu mới với nhau).
+
+| Loại khỏi kho ứng viên | Số câu |
+|---|---:|
+| gần trùng câu đã có trong benchmark | 20.000 |
+| có phương án rác | 17.723 |
+| đã dùng cho bản nhiều đáp án | 9.368 |
+| phương án trùng nhau | 3.560 |
+| thân câu hỏng / quá ngắn | 3.257 |
+| đáp án đúng là meta (`"Tất cả đều đúng"`) | 764 |
+| **còn lại đủ điều kiện** | **67.345** |
+
+Loại câu có đáp án đúng là meta là có chủ đích — nó thực chất là câu nhiều đáp án trá
+hình. Chọn rải đều 117–118 câu mỗi file trên cả 17 file, thay vì bốc ngẫu nhiên toàn kho.
+
+**Không kế thừa lỗi lệch D.** "Luôn chọn D" chỉ ăn 20,9% trên 2.000 câu này, so với
+41,5% ở `final_benchmark_9368_single.json` — vì lệch D vốn do hai họ `file2` và `file4`
+gây ra, mà cả hai đều bị loại khỏi kho ứng viên. Vẫn còn lệch nhẹ về A: "luôn chọn A"
+ăn 31,8%. Muốn triệt tiêu thì thêm `--shuffle-options`, khi đó cả hai file cùng được
+trộn nên vẫn khớp nhau, chỉ là 2.000 câu không còn nguyên văn nữa.
+
+**Mốc mù**
+
+| Chiến lược | Toàn bộ 11.368 | Riêng 2.000 câu 1 đáp án | Riêng 9.368 câu nhiều đáp án |
+|---|---:|---:|---:|
+| chọn hết mọi phương án | 0,0% | 0,0% | 0,0% |
+| chọn 3 phương án đầu | **12,6%** | **0,0%** | 15,3% |
+| chọn ngẫu nhiên, mỗi ô 50% | 5,9% | 9,3% | 4,9% |
+
+Trộn thêm câu một đáp án hạ mốc đoán mù từ 15,3% xuống **12,6%**.
+
+**Chấm điểm.** Phải dùng `--mixed`; prompt của bộ thuần nhiều đáp án nói mọi câu đều có
+từ 2 đáp án trở lên, sai với 2.000/11.368 câu. Trường `answerType` trong provenance
+(`single` / `multi`) cho phép tách điểm hai nhóm.
+
+```powershell
+python eval_qwen3vl.py --data processed_data_v2/final_benchmark_mixed.json `
+                       --provenance processed_data_v2/final_benchmark_mixed_provenance.json `
+                       --mixed --baselines-only
+```
+
 ### Hai file provenance
 
 Ghi cho từng câu: file nguồn, chỉ số, mã định danh, họ, đáp án gốc, cờ chất lượng.
@@ -169,6 +229,7 @@ python gpu/vllm_batch.py llm_jobs/r1_negation.jsonl llm_jobs/r1_distract.jsonl \
 ```powershell
 python v2/run.py apply
 python v2/run.py build --skip-audit --out-name final_benchmark_9368
+python v2/run.py mix                      # -> final_benchmark_mixed.json (11.368 câu)
 
 python eval_qwen3vl.py --data processed_data_v2/final_benchmark_9368.json `
                        --provenance processed_data_v2/final_benchmark_9368_provenance.json `

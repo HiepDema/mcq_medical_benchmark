@@ -45,6 +45,19 @@ Hãy chọn TẤT CẢ các phương án đúng. Trả lời bằng JSON đúng 
 
 # Dùng cho bộ đối chứng benchmark_single.json (--single). Phải khác prompt trên:
 # hỏi "chọn tất cả" trên câu chỉ có 1 đáp án sẽ làm model chọn thừa và điểm sai lệch.
+# Dùng cho bộ HỖN HỢP (--mixed): trong cùng một file có cả câu 1 đáp án lẫn câu
+# nhiều đáp án, và model KHÔNG được biết trước câu nào thuộc loại nào — chính việc
+# tự quyết định chọn bao nhiêu ô mới là thứ cần đo. Dùng nhầm PROMPT ở đây là nói
+# dối model: 2.000/11.368 câu chỉ có đúng một đáp án.
+PROMPT_MIXED = """Đây là câu hỏi trắc nghiệm có thể có MỘT hoặc NHIỀU đáp án đúng.
+
+Câu hỏi: {question}
+
+Các phương án:
+{options}
+
+Hãy chọn TẤT CẢ các phương án đúng — có thể là một, có thể là nhiều. Trả lời bằng JSON đúng dạng {{"answers": ["A", "C"]}}, không giải thích gì thêm."""
+
 PROMPT_SINGLE = """Đây là câu hỏi trắc nghiệm có ĐÚNG MỘT đáp án đúng.
 
 Câu hỏi: {question}
@@ -178,7 +191,7 @@ def make_constrained(kind: str, value, max_tokens: int):
 
 def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
               single: bool = False, enforce_eager: bool = False,
-              no_guided: bool = False):
+              no_guided: bool = False, mixed: bool = False):
     from vllm import LLM, SamplingParams
 
     # KHÔNG truyền limit_mm_per_prompt: đặt giới hạn 0 làm engine core của vLLM
@@ -193,7 +206,7 @@ def run_model(items, model_id: str, max_model_len: int, gpu_mem: float,
     llm = LLM(**kwargs)
 
     convs, sps, api = [], [], None
-    template = PROMPT_SINGLE if single else PROMPT
+    template = PROMPT_SINGLE if single else (PROMPT_MIXED if mixed else PROMPT)
     for it in items:
         opts = "\n".join(f"{le}. {it['options'][le]}" for le in it["letters"])
         convs.append([{"role": "user",
@@ -255,6 +268,9 @@ def main() -> int:
     ap.add_argument("--baselines-only", action="store_true")
     ap.add_argument("--single", action="store_true",
                     help="bộ 1 đáp án (benchmark_single.json): đổi prompt + mốc so sánh")
+    ap.add_argument("--mixed", action="store_true",
+                    help="bộ hỗn hợp (final_benchmark_mixed.json): prompt không tiết lộ "
+                         "câu nào có mấy đáp án")
     ap.add_argument("--enforce-eager", action="store_true",
                     help="bỏ CUDA graph — tiết kiệm 1-3 GB VRAM khi model sát trần")
     ap.add_argument("--no-guided", action="store_true",
@@ -265,7 +281,8 @@ def main() -> int:
     subsets = load_subsets(ROOT / args.provenance, len(items))
     if args.limit:
         items, subsets = items[: args.limit], subsets[: args.limit]
-    mode = "MỘT đáp án" if args.single else "NHIỀU đáp án"
+    mode = ("MỘT đáp án" if args.single else
+            "HỖN HỢP 1 hoặc nhiều đáp án" if args.mixed else "NHIỀU đáp án")
     print(f"Bộ dữ liệu: {len(items)} câu — {args.data}  [chế độ {mode}]\n")
 
     print("MỐC SO SÁNH (không dùng model):")
@@ -285,8 +302,9 @@ def main() -> int:
     else:
         preds, raws = run_model(items, args.model, args.max_model_len, args.gpu_mem,
                                 single=args.single, enforce_eager=args.enforce_eager,
-                                no_guided=args.no_guided)
-        tag = args.model + (" [1 đáp án]" if args.single else "")
+                                no_guided=args.no_guided, mixed=args.mixed)
+        tag = args.model + (" [1 đáp án]" if args.single
+                            else " [hỗn hợp]" if args.mixed else "")
 
     m, per_item = score(items, preds)
     print(f"\nKẾT QUẢ MODEL — {tag}:")
