@@ -167,24 +167,24 @@ Phân loại từng câu theo việc model mạnh/yếu làm được hay không
 | Bộ A nhiều đáp án | 218 (2,3%) | **2.097 (22,4%)** | **119 (1,3%)** | 6.934 (74,0%) |
 | Bản đối chứng 1 đáp án | 2.501 (26,7%) | 2.721 (29,0%) | 1.300 (13,9%) | 2.846 (30,4%) |
 
-Tín hiệu ròng: **+89,3%** trên số câu mang thông tin ở bộ nhiều đáp án, so với **+35,3%**
-ở bộ một đáp án. Tỉ lệ câu nghịch đảo — dấu hiệu nhiễu — là **1,3%** so với 13,9%.
+Tỉ lệ câu nghịch đảo — model yếu đúng trong khi model mạnh sai, tức dấu hiệu nhiễu —
+là **1,3%** ở bộ nhiều đáp án so với **13,9%** ở bộ một đáp án.
 
 Bộ nhiều đáp án sạch hơn hẳn vì đoán mò không ăn được: trúng khít một tập 3 ô trong 5
 khó hơn nhiều so với trúng 1 trong 4.
 
 **Bộ B** cho bức tranh gần như y hệt — thêm 2.000 câu một đáp án không làm bẩn tín hiệu:
 
-| | Cả hai đúng | **Mạnh ✓ / Yếu ✗** | Yếu ✓ / Mạnh ✗ | Cả hai sai | Tín hiệu ròng |
-|---|---:|---:|---:|---:|---:|
-| **Tổng Bộ B** | 237 (2,1%) | **2.176 (19,1%)** | **141 (1,2%)** | 8.814 (77,5%) | +87,8% |
-| ├─ 9.368 câu nhiều đáp án | 224 (2,4%) | 1.939 (20,7%) | 130 (1,4%) | 7.075 (75,5%) | +87,4% |
-| └─ 2.000 câu một đáp án | 13 (0,7%) | 237 (11,8%) | 11 (0,6%) | 1.739 (87,0%) | **+91,1%** |
-| *(bản đối chứng 1 đáp án)* | 2.969 (26,1%) | 3.341 (29,4%) | 1.520 (13,4%) | 3.538 (31,1%) | +37,5% |
+| | Cả hai đúng | **Mạnh ✓ / Yếu ✗** | Yếu ✓ / Mạnh ✗ | Cả hai sai |
+|---|---:|---:|---:|---:|
+| **Tổng Bộ B** | 237 (2,1%) | **2.176 (19,1%)** | **141 (1,2%)** | 8.814 (77,5%) |
+| ├─ 9.368 câu nhiều đáp án | 224 (2,4%) | 1.939 (20,7%) | 130 (1,4%) | 7.075 (75,5%) |
+| └─ 2.000 câu một đáp án | 13 (0,7%) | 237 (11,8%) | **11 (0,6%)** | 1.739 (87,0%) |
+| *(bản đối chứng 1 đáp án)* | 2.969 (26,1%) | 3.341 (29,4%) | 1.520 (13,4%) | 3.538 (31,1%) |
 
-Điều đáng chú ý ở dòng cuối cùng của phần benchmark: **2.000 câu một đáp án cho tín hiệu
-ròng cao nhất (+91,1%)** — chỉ 11 câu nghịch đảo trên 2.000. Đúng những câu đó, khi được
-báo trước là chỉ có một đáp án (bản đối chứng), lại rơi vào vùng nhiễu 13,4%.
+Điều đáng chú ý ở dòng cuối cùng của phần benchmark: **2.000 câu một đáp án có tỉ lệ
+nghịch đảo thấp nhất — chỉ 11 câu trên 2.000 (0,6%)**. Đúng những câu đó, khi được báo
+trước là chỉ có một đáp án (bản đối chứng), lại rơi vào vùng nhiễu 13,4%.
 
 Cùng một câu hỏi, cùng hai model: hỏi theo kiểu "chọn một trong bốn" thì 13,4% khác biệt
 giữa hai model là ăn may; hỏi mà không nói trước số đáp án thì chỉ còn 0,6%. Đoán mò
@@ -200,14 +200,6 @@ loại được gì ở dải năng lực 0.6B–4B.
 **Về hai model.** 4B hơn 0.6B ở mọi bộ và mọi nhóm. Khoảng cách trên định dạng nhiều đáp
 án (24,7% so với 3,6%) rộng hơn hẳn trên định dạng một đáp án (55,7% so với 40,6%), mà
 phần lớn điểm của 0.6B ở định dạng sau lại là ăn may theo vị trí D.
-
-**Về hai bộ benchmark.**
-
-| | Bộ A — nhiều đáp án | Bộ B — hỗn hợp |
-|---|---|---|
-| Nhiễu khi phân biệt model | **1,3%** câu nghịch đảo | — |
-| Rò rỉ vị trí | không | không |
-| Đo được hiệu chỉnh số lượng đáp án | một phần | **có** |
 
 Bộ B đo được thứ Bộ A không đo được: **khả năng tự quyết định chọn bao nhiêu ô**. Đó là
 năng lực cả hai model đều thiếu nghiêm trọng, và là chỗ khác biệt lớn nhất giữa 0.6B và
