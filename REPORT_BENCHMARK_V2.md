@@ -65,21 +65,6 @@ giống nhau giữa model sinh dữ liệu và model bị chấm.
 Chủ đề chính của Bộ B: General Medicine 2.068 · Other 1.881 · Infectious Diseases 1.245
 · Obstetrics and Gynecology 1.193 · Preventive Healthcare 1.093.
 
-**Xáo trộn hai lần**: vị trí phương án trong từng câu trộn theo seed lấy từ mã định danh
-câu hỏi, và thứ tự câu hỏi trong file trộn theo seed cố định. Chạy lại luôn ra cùng kết
-quả. Nhờ đó vị trí phương án sai phân bố đều A/B/C/D — không có rò rỉ vị trí.
-
-### Vị trí đáp án trong hai bản đối chứng
-
-Hai bản đối chứng một đáp án **lệch nặng về D**: 41,5% số câu của bản A và 37,8% của
-bản B có đáp án nằm ở phương án D. Nguyên nhân cấu trúc: `"Tất cả đều đúng"` và
-`"Cả A và B đều đúng"` gần như luôn là phương án cuối trong đề gốc, mà hai họ
-`file2`/`file4` chọn đúng những câu có đáp án là phương án meta. Không tránh được nếu
-vẫn giữ câu gốc nguyên văn.
-
-Hệ quả: điểm tổng trên hai bản đối chứng bị thổi phồng, so sánh theo từng cặp câu mới
-hợp lệ. Bản thân hai benchmark **không** dính lỗi này — phương án đã được trộn hai lần.
-
 ---
 
 ## 3. Kết quả chấm
