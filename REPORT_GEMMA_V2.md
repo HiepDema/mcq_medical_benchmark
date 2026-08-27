@@ -21,6 +21,8 @@ trên đúng hai bộ benchmark đó, kèm thống kê theo **độ khó** cho c
 
 ## 1. Bảng điểm bốn model (exact match)
 
+![Điểm bốn model trên bốn bộ dữ liệu](figures/01_bang_diem.png)
+
 | Bộ | n | Qwen3-0.6B | Qwen3-4B | Gemma3-1B | Gemma3-4B |
 |---|---:|---:|---:|---:|---:|
 | **Bộ A** — nhiều đáp án | 9.368 | 3,6% | **24,7%** | 2,1% | 20,5% |
@@ -63,6 +65,9 @@ khi đếm:
 | 4 — Rất khó | 39 | 1 / 38 | 5 / 34 | 1 / 38 | 3 / 36 |
 
 Cùng số liệu, tính theo tỉ lệ:
+
+
+![Điểm theo độ khó](figures/02_do_kho.png)
 
 | Độ khó | n | % bộ | Qwen3-0.6B | Qwen3-4B | Gemma3-1B | Gemma3-4B |
 |---|---:|---:|---:|---:|---:|---:|
@@ -118,6 +123,8 @@ Hai chi tiết đáng chú ý:
 
 Trên **cùng 2.000 câu một đáp án**, chỉ khác ở chỗ model có được báo trước số đáp án hay không:
 
+![Được báo trước so với không được báo](figures/04_bao_truoc.png)
+
 | Model | Được báo "đúng 1 đáp án" | Không được báo | Chỉ chọn 1 ô | Đáp án đúng ⊆ tập chọn |
 |---|---:|---:|---:|---:|
 | Qwen3-0.6B | 33,1% | 1,2% | 1,9% | 56,9% |
@@ -129,6 +136,8 @@ Gemma3-1B chỉ trả lời đúng **2 câu trên 2.000** khi không được b�
 thì nó đạt 34,8% — nhỉnh hơn cả Qwen3-0.6B.
 
 Phân bố số ô model chọn trên toàn Bộ B (đáp án chuẩn trung bình 2,51 ô):
+
+![Phân bố số ô model chọn](figures/03_so_o_chon.png)
 
 | Model | TB số ô | 1 ô | 2 ô | 3 ô | 4 ô | 5 ô |
 |---|---:|---:|---:|---:|---:|---:|
@@ -199,6 +208,16 @@ python analyze_results.py `
     --result "Gemma3-1B=results_v2/eval_mixed_gemma1b.json" `
     --result "Gemma3-4B=results_v2/eval_mixed_gemma4b.json"
 ```
+
+```powershell
+python make_figures.py          # -> figures/*.png
+```
+
+[make_figures.py](make_figures.py) đọc số liệu thẳng từ `processed_data_v2/` và
+`results_v2/`, không nhập tay con số nào, nên biểu đồ và bảng trong tài liệu này không
+thể lệch nhau. Bảng màu lấy từ bộ tham chiếu đã qua kiểm định mù màu (mọi kiểm tra PASS;
+hai màu aqua và vàng dưới ngưỡng tương phản 3:1 nên mọi biểu đồ đều có nhãn giá trị trực
+tiếp và bảng số đi kèm).
 
 [analyze_results.py](analyze_results.py) in ra toàn bộ thống kê trong tài liệu này: tổng
 thể, theo họ, theo độ khó (kèm số câu đúng/sai), độ khó × họ, hiệu chỉnh số ô, và bảng
