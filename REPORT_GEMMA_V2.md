@@ -12,11 +12,6 @@ trên đúng hai bộ benchmark đó, kèm thống kê theo **độ khó** cho c
 | Kết quả thô | [results_v2/](results_v2/) · `eval_*_gemma*.json` |
 | Lệnh | `MODELS="1b\|unsloth/gemma-3-1b-it 4b\|unsloth/gemma-3-4b-it" PREFIX=gemma bash lambda/eval_v2.sh all` |
 
-> **Về nguồn trọng số.** `google/gemma-3-*-it` bị gate trên HuggingFace (HTTP 401 khi
-> tải không token), nên đã dùng bản re-upload `unsloth/gemma-3-*-it`. Đây là bên thứ ba;
-> trọng số gần như chắc chắn giống bản gốc của Google nhưng không có gì bảo đảm chính
-> thức. Muốn chắc thì chạy lại với token HuggingFace và model `google/gemma-3-*-it`.
-
 ---
 
 ## 1. Bảng điểm bốn model (exact match)
@@ -33,9 +28,6 @@ trên đúng hai bộ benchmark đó, kèm thống kê theo **độ khó** cho c
 **Qwen3 thắng Gemma 3 ở mọi bộ, mọi cỡ.** Khoảng cách rộng nhất đúng ở định dạng nhiều
 đáp án: 24,7% so với 20,5% ở cỡ 4B, và 3,6% so với 2,1% ở cỡ nhỏ nhất. Ở định dạng một
 đáp án khoảng cách hẹp hơn (55,7% so với 50,2%).
-
-Xếp hạng giữ nguyên trên cả bốn bộ — không có bộ nào đảo thứ tự, nên kết luận không phụ
-thuộc vào việc chọn bộ nào để báo cáo.
 
 Hai model cỡ nhỏ (0.6B và 1B) đều **thất bại hoàn toàn** ở định dạng nhiều đáp án: 3,6%
 và 2,1%.
