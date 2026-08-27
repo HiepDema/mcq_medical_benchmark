@@ -1,0 +1,165 @@
+{
+ "data": "processed_data_v2/final_benchmark_mixed.json",
+ "n": 11368,
+ "models": [
+  "Gemma3-1B",
+  "Gemma3-4B"
+ ],
+ "overall": {
+  "Gemma3-1B": {
+   "n": 11368,
+   "dung": 205,
+   "sai": 11163,
+   "exact": 0.01803307529908515
+  },
+  "Gemma3-4B": {
+   "n": 11368,
+   "dung": 1849,
+   "sai": 9519,
+   "exact": 0.16264954257565095
+  }
+ },
+ "theo_ho": {
+  "file1_ngoai_tru": {
+   "n": 4573,
+   "Gemma3-1B": {
+    "dung": 8,
+    "sai": 4565,
+    "exact": 0.0017493986442160508
+   },
+   "Gemma3-4B": {
+    "dung": 952,
+    "sai": 3621,
+    "exact": 0.20817843866171004
+   }
+  },
+  "file2_them_nhieu": {
+   "n": 1092,
+   "Gemma3-1B": {
+    "dung": 0,
+    "sai": 1092,
+    "exact": 0.0
+   },
+   "Gemma3-4B": {
+    "dung": 310,
+    "sai": 782,
+    "exact": 0.2838827838827839
+   }
+  },
+  "file3_tach_dau_phay": {
+   "n": 2810,
+   "Gemma3-1B": {
+    "dung": 142,
+    "sai": 2668,
+    "exact": 0.050533807829181494
+   },
+   "Gemma3-4B": {
+    "dung": 266,
+    "sai": 2544,
+    "exact": 0.09466192170818505
+   }
+  },
+  "file4_ca_ab": {
+   "n": 893,
+   "Gemma3-1B": {
+    "dung": 54,
+    "sai": 839,
+    "exact": 0.060470324748040316
+   },
+   "Gemma3-4B": {
+    "dung": 228,
+    "sai": 665,
+    "exact": 0.2553191489361702
+   }
+  },
+  "single_1_dap_an": {
+   "n": 2000,
+   "Gemma3-1B": {
+    "dung": 1,
+    "sai": 1999,
+    "exact": 0.0005
+   },
+   "Gemma3-4B": {
+    "dung": 93,
+    "sai": 1907,
+    "exact": 0.0465
+   }
+  }
+ },
+ "theo_do_kho": {
+  "1 — Dễ": {
+   "n": 2405,
+   "Gemma3-1B": {
+    "dung": 47,
+    "sai": 2358,
+    "exact": 0.019542619542619544
+   },
+   "Gemma3-4B": {
+    "dung": 420,
+    "sai": 1985,
+    "exact": 0.17463617463617465
+   }
+  },
+  "2 — Trung bình": {
+   "n": 7496,
+   "Gemma3-1B": {
+    "dung": 130,
+    "sai": 7366,
+    "exact": 0.017342582710779084
+   },
+   "Gemma3-4B": {
+    "dung": 1240,
+    "sai": 6256,
+    "exact": 0.16542155816435433
+   }
+  },
+  "3 — Khó": {
+   "n": 1428,
+   "Gemma3-1B": {
+    "dung": 27,
+    "sai": 1401,
+    "exact": 0.018907563025210083
+   },
+   "Gemma3-4B": {
+    "dung": 186,
+    "sai": 1242,
+    "exact": 0.13025210084033614
+   }
+  },
+  "4 — Rất khó": {
+   "n": 39,
+   "Gemma3-1B": {
+    "dung": 1,
+    "sai": 38,
+    "exact": 0.02564102564102564
+   },
+   "Gemma3-4B": {
+    "dung": 3,
+    "sai": 36,
+    "exact": 0.07692307692307693
+   }
+  }
+ },
+ "so_o_chon": {
+  "Gemma3-1B": {
+   "chuan_tb": 2.51301900070373,
+   "model_tb": 2.0058057705840957,
+   "khop_so": 0.16819141449683322,
+   "gold_nam_trong": 0.11426812104152005
+  },
+  "Gemma3-4B": {
+   "chuan_tb": 2.51301900070373,
+   "model_tb": 2.7063687543983113,
+   "khop_so": 0.35547149894440533,
+   "gold_nam_trong": 0.4532899366643209
+  }
+ },
+ "do_phan_biet": {
+  "yeu": "Gemma3-1B",
+  "manh": "Gemma3-4B",
+  "ca_hai_dung": 82,
+  "manh_dung_yeu_sai": 1767,
+  "yeu_dung_manh_sai": 123,
+  "ca_hai_sai": 9396
+ }
+}

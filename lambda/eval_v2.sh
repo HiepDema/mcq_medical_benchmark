@@ -31,10 +31,16 @@ MAXLEN="${MAXLEN:-2048}"
 # tag | model_id
 # Họ Qwen3 text-only: benchmark không có ảnh nào nên vision tower chỉ tốn VRAM.
 # Cách biệt 0.6B -> 4B khoảng 7 lần, đủ rộng để đo độ phân biệt của bộ đề.
-MODELS=(
-  "0.6b|Qwen/Qwen3-0.6B"
-  "4b|Qwen/Qwen3-4B"
-)
+# Doi model ma khong sua script:
+#   MODELS="1b|google/gemma-3-1b-it 4b|google/gemma-3-4b-it" bash lambda/eval_v2.sh all
+if [ -n "${MODELS:-}" ]; then
+  read -r -a MODELS <<< "$MODELS"
+else
+  MODELS=(
+    "0.6b|Qwen/Qwen3-0.6B"
+    "4b|Qwen/Qwen3-4B"
+  )
+fi
 
 # tag | file dữ liệu | file provenance | cờ chế độ
 #   (không cờ) = bộ thuần nhiều đáp án
@@ -68,8 +74,8 @@ for m in "${MODELS[@]}"; do
   IFS='|' read -r mtag model <<< "$m"
   for d in "${DATASETS[@]}"; do
     IFS='|' read -r dtag data prov extra <<< "$d"
-    out="eval_${dtag}_${mtag}.json"
-    log="log_${dtag}_${mtag}.txt"
+    out="eval_${dtag}_${PREFIX:-}${mtag}.json"
+    log="log_${dtag}_${PREFIX:-}${mtag}.txt"
     lim=""; [ "$LIMIT" != "0" ] && lim="--limit $LIMIT"
 
     echo
