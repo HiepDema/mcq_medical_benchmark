@@ -1,0 +1,85 @@
+########## google/gemini-2.5-flash | mixed ##########
+[chạy] openrouter:google/gemini-2.5-flash | mixed | 11368/11368 câu | reasoning tắt
+  tổng thể                               exact= 50.0%  jaccard= 75.3%  microF1= 84.0%  (n=11368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 1.637.511 · ra 122.706 · reasoning 0
+  tốc độ: 3.0 câu/s (3850s)
+-> results_v2\eval_mixed_gemini-25-flash.json
+########## google/gemini-2.5-flash | multi ##########
+[chạy] openrouter:google/gemini-2.5-flash | multi | 9368/9368 câu | reasoning tắt
+  tổng thể                               exact= 51.9%  jaccard= 79.0%  microF1= 86.6%  (n=9368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 1.326.414 · ra 107.024 · reasoning 0
+  tốc độ: 0.6 câu/s (15008s)
+-> results_v2\eval_multi_gemini-25-flash.json
+########## google/gemini-2.5-flash | mixedsingle ##########
+[chạy] openrouter:google/gemini-2.5-flash | mixedsingle | 11368/11368 câu | reasoning tắt
+  tổng thể                               exact= 77.1%  jaccard= 77.1%  microF1= 77.2%  (n=11368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 1.416.655 · ra 124.331 · reasoning 0
+  tốc độ: 21.9 câu/s (519s)
+-> results_v2\eval_mixedsingle_gemini-25-flash.json
+########## google/gemini-2.5-flash | single ##########
+[chạy] openrouter:google/gemini-2.5-flash | single | 9368/9368 câu | reasoning tắt
+  tổng thể                               exact= 77.6%  jaccard= 77.6%  microF1= 77.7%  (n=9368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 1.177.447 · ra 101.927 · reasoning 0
+  tốc độ: 22.4 câu/s (418s)
+-> results_v2\eval_single_gemini-25-flash.json
+########## openai/gpt-4o-mini | mixed ##########
+[chạy] openrouter:openai/gpt-4o-mini | mixed | 11368/11368 câu | reasoning tắt
+  tổng thể                               exact= 33.9%  jaccard= 68.8%  microF1= 79.6%  (n=11368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 2.355.166 · ra 120.763 · reasoning 0
+  tốc độ: 12.8 câu/s (886s)
+-> results_v2\eval_mixed_gpt-4o-mini.json
+########## openai/gpt-4o-mini | multi ##########
+[chạy] openrouter:openai/gpt-4o-mini | multi | 9368/9368 câu | reasoning tắt
+  tổng thể                               exact= 37.5%  jaccard= 74.6%  microF1= 83.3%  (n=9368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 1.922.387 · ra 103.279 · reasoning 0
+  tốc độ: 13.1 câu/s (715s)
+-> results_v2\eval_multi_gpt-4o-mini.json
+########## openai/gpt-4o-mini | mixedsingle ##########
+[chạy] openrouter:openai/gpt-4o-mini | mixedsingle | 11368/11368 câu | reasoning tắt
+  tổng thể                               exact= 66.2%  jaccard= 66.2%  microF1= 66.2%  (n=11368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 2.133.352 · ra 73.849 · reasoning 0
+  tốc độ: 13.9 câu/s (816s)
+-> results_v2\eval_mixedsingle_gpt-4o-mini.json
+########## openai/gpt-4o-mini | single ##########
+[chạy] openrouter:openai/gpt-4o-mini | single | 9368/9368 câu | reasoning tắt
+  tổng thể                               exact= 67.0%  jaccard= 67.0%  microF1= 67.0%  (n=9368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 1.771.309 · ra 60.913 · reasoning 0
+  tốc độ: 14.2 câu/s (658s)
+-> results_v2\eval_single_gpt-4o-mini.json
+########## deepseek/deepseek-v4-flash-0731 | mixed ##########
+[chạy] openrouter:deepseek/deepseek-v4-flash-0731 | mixed | 11368/11368 câu | reasoning tắt
+  tổng thể                               exact= 43.3%  jaccard= 72.2%  microF1= 81.8%  (n=11368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 2.974.197 · ra 146.673 · reasoning 0
+  tốc độ: 13.4 câu/s (850s)
+-> results_v2\eval_mixed_deepseek-v4-flash-0731.json
+########## deepseek/deepseek-v4-flash-0731 | multi ##########
+[chạy] openrouter:deepseek/deepseek-v4-flash-0731 | multi | 9368/9368 câu | reasoning tắt
+  tổng thể                               exact= 45.1%  jaccard= 75.9%  microF1= 84.3%  (n=9368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 2.452.747 · ra 126.549 · reasoning 0
+  tốc độ: 13.7 câu/s (685s)
+-> results_v2\eval_multi_deepseek-v4-flash-0731.json
+########## deepseek/deepseek-v4-flash-0731 | mixedsingle ##########
+[chạy] openrouter:deepseek/deepseek-v4-flash-0731 | mixedsingle | 11368/11368 câu | reasoning tắt
+  tổng thể                               exact= 72.2%  jaccard= 72.2%  microF1= 72.3%  (n=11368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 2.765.832 · ra 86.444 · reasoning 0
+  tốc độ: 13.5 câu/s (841s)
+-> results_v2\eval_mixedsingle_deepseek-v4-flash-0731.json
+########## deepseek/deepseek-v4-flash-0731 | single ##########
+[chạy] openrouter:deepseek/deepseek-v4-flash-0731 | single | 9368/9368 câu | reasoning tắt
+  tổng thể                               exact= 72.8%  jaccard= 72.8%  microF1= 72.9%  (n=9368)
+  câu không lấy được trả lời : 0
+  token thực tế: vào 2.271.211 · ra 72.264 · reasoning 0
+  tốc độ: 13.4 câu/s (699s)
+-> results_v2\eval_single_deepseek-v4-flash-0731.json
+=== XONG 00:33:28 ===

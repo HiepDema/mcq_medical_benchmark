@@ -1,0 +1,59 @@
+[chạy] deepseek/deepseek-v4-flash-0731 | mixed | 11368/11368 câu | reasoning tắt
+  250/11368  (20s)
+  500/11368  (35s)
+  750/11368  (61s)
+  1000/11368  (72s)
+  1250/11368  (96s)
+  1500/11368  (112s)
+  1750/11368  (135s)
+  2000/11368  (153s)
+  2250/11368  (169s)
+  2500/11368  (187s)
+  2750/11368  (205s)
+  3000/11368  (223s)
+  3250/11368  (242s)
+  3500/11368  (256s)
+  3750/11368  (272s)
+  4000/11368  (289s)
+  4250/11368  (302s)
+  4500/11368  (320s)
+  4750/11368  (338s)
+  5000/11368  (355s)
+  5250/11368  (373s)
+  5500/11368  (388s)
+  5750/11368  (410s)
+  6000/11368  (425s)
+  6250/11368  (439s)
+  6500/11368  (447s)
+  6750/11368  (449s)
+  7000/11368  (456s)
+  7250/11368  (456s)
+  7500/11368  (456s)
+  7750/11368  (457s)
+  8000/11368  (460s)
+  8250/11368  (460s)
+  8500/11368  (461s)
+  8750/11368  (463s)
+  9000/11368  (465s)
+  9250/11368  (466s)
+  9500/11368  (468s)
+  9750/11368  (470s)
+  10000/11368  (472s)
+  10250/11368  (474s)
+  10500/11368  (475s)
+  10750/11368  (478s)
+  11000/11368  (479s)
+  11250/11368  (480s)
+
+KẾT QUẢ — deepseek/deepseek-v4-flash-0731 trên mixed:
+  tổng thể                               exact= 24.2%  jaccard= 41.2%  microF1= 59.6%  (n=11368)
+  câu không lấy được trả lời : 4881
+  lỗi (4881), 3 cái đầu:
+    index 6208: HTTP 402: {"error":{"message":"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+    index 6213: HTTP 402: {"error":{"message":"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+    index 6219: HTTP 402: {"error":{"message":"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits
+
+  token thực tế: vào 1.376.916 · ra 83.296 · reasoning 0
+  tốc độ: 23.6 câu/s (481s)
+
+-> results_v2\eval_mixed_deepseek-v4-flash-0731.json

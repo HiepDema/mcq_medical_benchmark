@@ -30,11 +30,17 @@ P, R, FIG = ROOT / "processed_data_v2", ROOT / "results_v2", ROOT / "figures"
 # với nền nên bắt buộc có nhãn trực tiếp (đã thêm) hoặc bảng đi kèm (report có).
 SURFACE = "#fcfcfb"
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#d8d7d2"
+# 7 khe dau cua bang mau tham chieu. Da chay validate_palette.js voi ca 7:
+# moi kiem tra PASS; ba mau aqua/vang/hong duoi 3:1 nen bat buoc co nhan truc tiep
+# hoac bang so di kem (report co ca hai).
 MODELS = {
     "Qwen3-0.6B": ("0.6b", "#2a78d6"),
     "Qwen3-4B": ("4b", "#eb6834"),
     "Gemma3-1B": ("gemma1b", "#1baf7a"),
     "Gemma3-4B": ("gemma4b", "#eda100"),
+    "GPT-4o-mini": ("gpt-4o-mini", "#e87ba4"),
+    "DeepSeek-v4-Flash": ("deepseek-v4-flash-0731", "#008300"),
+    "Gemini-2.5-Flash": ("gemini-25-flash", "#4a3aa7"),
 }
 NEUTRAL = "#9a998f"          # dùng cho "đáp án chuẩn" — mốc tham chiếu, không phải một series
 
@@ -104,10 +110,10 @@ def fig_scores():
             row.append(100 * sum(1 for it in its if p[it["index"]] == it["gold"]) / len(its))
         data.append((lbl, row))
 
-    fig, ax = plt.subplots(figsize=(9, 5.2))
-    h, gap = 0.19, 0.02
+    fig, ax = plt.subplots(figsize=(9.5, 6.4))
+    h, gap = 0.115, 0.012
     for k, (name, (_, color)) in enumerate(MODELS.items()):
-        ys = [i + (k - 1.5) * (h + gap) for i in range(len(DS))]
+        ys = [i + (k - 3) * (h + gap) for i in range(len(DS))]
         vals = [row[k] for _, row in data]
         ax.barh(ys, vals, height=h, color=color, label=name, linewidth=0)
         for y, v in zip(ys, vals):
@@ -116,13 +122,13 @@ def fig_scores():
     ax.set_yticks(range(len(DS)))
     ax.set_yticklabels([lbl for lbl, _ in data])
     ax.invert_yaxis()
-    ax.set_xlim(0, 63)
+    ax.set_xlim(0, 86)
     ax.xaxis.set_major_formatter(PCT)
     ax.set_xlabel("exact match")
     ax.grid(axis="y", visible=False)
-    titles(ax, "Điểm bốn model trên bốn bộ dữ liệu",
-           "Qwen3 hơn Gemma 3 ở mọi bộ và mọi cỡ; xếp hạng không đổi.")
-    ax.legend(loc="upper left", bbox_to_anchor=(0, -0.13), ncols=4, fontsize=9.5)
+    titles(ax, "Điểm bảy model trên bốn bộ dữ liệu",
+           "Ba model API bỏ xa bốn model mở; xếp hạng giữ nguyên trên cả bốn bộ.")
+    ax.legend(loc="upper left", bbox_to_anchor=(0, -0.11), ncols=4, fontsize=9)
     save(fig, "01_bang_diem.png")
 
 
@@ -148,12 +154,12 @@ def fig_difficulty():
     ax.set_xticklabels([f"{DIFF_NAME[l].split(' — ')[1]}\nn = {n:,}".replace(",", ".")
                         for l, n in zip(lv, ns)])
     ax.set_xlim(0.45, 4.35)
-    ax.set_ylim(0, 30)
+    ax.set_ylim(0, 62)
     ax.yaxis.set_major_formatter(PCT)
     ax.set_ylabel("exact match")
     ax.grid(axis="x", visible=False)
     titles(ax, "Điểm theo độ khó do người ra đề gán — Bộ B",
-           "Hai model 4B giảm đều khi độ khó tăng; hai model nhỏ đi ngang. "
+           "Mọi model đủ mạnh đều giảm đều khi độ khó tăng; hai model nhỏ đi ngang. "
            "Đoạn đứt: bậc 4 chỉ có 39 câu.")
     ax.legend(loc="upper right", fontsize=9.5)
     save(fig, "02_do_kho.png")
@@ -164,18 +170,18 @@ def fig_counts():
     buckets = [1, 2, 3, 4, 5]
     gold = Counter(len(items[i]["gold"]) for i in items)
     panels = [("Đáp án chuẩn", NEUTRAL, [gold[b] for b in buckets])]
-    for name in ("Qwen3-0.6B", "Gemma3-1B", "Qwen3-4B", "Gemma3-4B"):
+    for name in MODELS:
         c = Counter(len(PM[name][i]) for i in items)
         panels.append((name, MODELS[name][1], [c[b] for b in buckets]))
 
-    fig, axes = plt.subplots(1, 5, figsize=(13, 3.9), sharey=True)
+    fig, axes = plt.subplots(1, 8, figsize=(19, 3.9), sharey=True)
     for ax, (name, color, vals) in zip(axes, panels):
         ax.bar(buckets, vals, width=0.68, color=color, linewidth=0)
         for b, v in zip(buckets, vals):
             if v:
                 ax.text(b, v + 230, f"{v:,}".replace(",", "."), ha="center",
                         fontsize=8, color=INK2, rotation=90 if v > 3000 else 0)
-        ax.set_title(name, fontsize=10.5, color=INK, pad=8)
+        ax.set_title(name, fontsize=9, color=INK, pad=8)
         ax.set_xticks(buckets)
         ax.set_xlabel("số ô chọn")
         ax.grid(axis="x", visible=False)
@@ -185,8 +191,8 @@ def fig_counts():
         lambda v, _: f"{v:,.0f}".replace(",", ".")))
     fig.suptitle("Model chọn bao nhiêu ô mỗi câu — Bộ B (11.368 câu)",
                  x=0.005, ha="left", fontsize=13, fontweight="bold", y=1.06)
-    fig.text(0.005, 0.99, "Hai model nhỏ dồn gần như toàn bộ vào 2 ô, bất kể câu hỏi "
-                          "thật sự có mấy đáp án.", ha="left", fontsize=9.5, color=INK2)
+    fig.text(0.005, 0.99, "Model càng mạnh, hình dạng càng bám sát đáp án chuẩn. Hai model nhỏ "
+                          "dồn gần như toàn bộ vào 2 ô, bất kể câu hỏi có mấy đáp án.", ha="left", fontsize=9.5, color=INK2)
     save(fig, "03_so_o_chon.png")
 
 
@@ -213,12 +219,12 @@ def fig_told():
     ax.set_xticks([0, 1])
     ax.set_xticklabels(['Được báo trước\n"đúng 1 đáp án"', "Không được báo\n(bộ hỗn hợp)"])
     ax.set_xlim(-0.42, 1.42)
-    ax.set_ylim(-2, 60)
+    ax.set_ylim(-2, 82)
     ax.yaxis.set_major_formatter(PCT)
     ax.set_ylabel("exact match")
     ax.grid(axis="x", visible=False)
     titles(ax, "Cùng 2.000 câu một đáp án — chỉ khác việc có báo trước số đáp án",
-           "Bỏ manh mối về số đáp án đi thì cả bốn model sụp đổ.", size=12)
+           "Bỏ manh mối về số đáp án đi thì mọi model đều tụt — nhưng mức tụt rất khác nhau.", size=12)
     ax.legend(loc="center", fontsize=9.5)
     save(fig, "04_bao_truoc.png")
 

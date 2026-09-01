@@ -41,7 +41,17 @@ sys.path.insert(0, str(ROOT))
 from eval_qwen3vl import (PROMPT, PROMPT_MIXED, PROMPT_SINGLE, load_items,  # noqa: E402
                           load_subsets, parse_answer, report, score)
 
-API = "https://openrouter.ai/api/v1/chat/completions"
+# ten -> (endpoint, bien moi truong chua khoa, cach tat reasoning)
+# Moi nha cung cap tat reasoning mot kieu khac nhau:
+#   OpenRouter chuan hoa thanh object "reasoning"
+#   Groq dung "reasoning_effort": "none" (xac nhan tu console.groq.com/docs/reasoning)
+PROVIDERS = {
+    "openrouter": ("https://openrouter.ai/api/v1/chat/completions", "OPENROUTER_API_KEY",
+                   {"reasoning": {"enabled": False, "exclude": True}}),
+    "groq": ("https://api.groq.com/openai/v1/chat/completions", "GROQ_API_KEY",
+             {"reasoning_effort": "none"}),
+    "xai": ("https://api.x.ai/v1/chat/completions", "XAI_API_KEY", {}),
+}
 P = ROOT / "processed_data_v2"
 
 # tag -> (file dữ liệu, file provenance, prompt, có phải bộ 1 đáp án không)
@@ -84,8 +94,9 @@ def schema_for(letters: list[str], single: bool) -> dict:
 
 
 class Runner:
-    def __init__(self, model: str, key: str, max_tokens: int, retries: int, reasoning_off: bool):
-        self.model, self.key = model, key
+    def __init__(self, model: str, key: str, max_tokens: int, retries: int, reasoning_off: bool,
+                 api: str, off_params: dict):
+        self.model, self.key, self.api, self.off_params = model, key, api, off_params
         self.max_tokens, self.retries = max_tokens, retries
         self.reasoning_off = reasoning_off
         self.lock = threading.Lock()
@@ -104,13 +115,16 @@ class Runner:
             "response_format": schema_for(it["letters"], single),
         }
         if self.reasoning_off:
-            # OpenRouter chuẩn hoá tham số reasoning cho mọi nhà cung cấp.
-            body["reasoning"] = {"enabled": False, "exclude": True}
+            body.update(self.off_params)
 
         data = json.dumps(body, ensure_ascii=False).encode("utf-8")
-        req = urllib.request.Request(API, data=data, headers={
+        req = urllib.request.Request(self.api, data=data, headers={
             "Authorization": f"Bearer {self.key}",
             "Content-Type": "application/json",
+            # BAT BUOC: Cloudflare truoc api.groq.com chan thang User-Agent mac dinh
+            # cua urllib ("Python-urllib/3.x") bang loi 403 code 1010. Kiem chung
+            # bang curl: UA cua curl -> 200, UA gia lap urllib -> 403.
+            "User-Agent": "mcq-benchmark/1.0",
             "HTTP-Referer": "https://github.com/HiepDema/mcq_medical_benchmark",
             "X-Title": "MCQ medical benchmark",
         })
@@ -145,7 +159,8 @@ class Runner:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", required=True, help="vd x-ai/grok-4.3")
+    ap.add_argument("--model", required=True, help="vd qwen/qwen3-32b")
+    ap.add_argument("--provider", default="openrouter", choices=list(PROVIDERS))
     ap.add_argument("--dataset", required=True, choices=list(DATASETS))
     ap.add_argument("--tag", help="hậu tố tên file kết quả (mặc định suy từ --model)")
     ap.add_argument("--limit", type=int, default=0, help="chỉ chạy N câu đầu (đo thử)")
@@ -156,11 +171,12 @@ def main() -> int:
                     help="KHÔNG tắt reasoning — đắt hơn nhiều và lệch điều kiện so với model mở")
     args = ap.parse_args()
 
-    key = os.environ.get("OPENROUTER_API_KEY") or _from_dotenv("OPENROUTER_API_KEY")
+    api, env_name, off_params = PROVIDERS[args.provider]
+    key = os.environ.get(env_name) or _from_dotenv(env_name)
     if not key:
-        print("Chưa có OPENROUTER_API_KEY.")
-        print("Đặt biến môi trường, hoặc tạo file .env cạnh script với dòng:")
-        print("  OPENROUTER_API_KEY=sk-or-...")
+        print(f"Chưa có {env_name} (provider {args.provider}).")
+        print("Đặt biến môi trường, hoặc thêm vào file .env cạnh script:")
+        print(f"  {env_name}=...")
         print("(.env đã nằm trong .gitignore)")
         return 1
 
@@ -185,9 +201,10 @@ def main() -> int:
         print(f"[resume] đã có {len(done)} câu trong {partial.name}")
     todo = [it for it in items if it["index"] not in done]
 
-    print(f"[chạy] {args.model} | {args.dataset} | {len(todo)}/{len(items)} câu"
+    print(f"[chạy] {args.provider}:{args.model} | {args.dataset} | {len(todo)}/{len(items)} câu"
           f" | reasoning {'BẬT' if args.keep_reasoning else 'tắt'}")
-    runner = Runner(args.model, key, args.max_tokens, args.retries, not args.keep_reasoning)
+    runner = Runner(args.model, key, args.max_tokens, args.retries,
+                    not args.keep_reasoning, api, off_params)
     t0 = time.time()
     if todo:
         with partial.open("a", encoding="utf-8", newline="\n") as fh, \
@@ -213,7 +230,7 @@ def main() -> int:
     for d, s, raw in zip(per_item, subsets, raws):
         d["subset"], d["raw"] = s, raw[:300]
     out_path.write_text(json.dumps(
-        {"model": f"{args.model} [{args.dataset}]", "data": f"processed_data_v2/{fdata}",
+        {"model": f"{args.model} [{args.dataset}]", "provider": args.provider, "data": f"processed_data_v2/{fdata}",
          "metrics": m, "usage": runner.usage, "per_item": per_item},
         ensure_ascii=False), encoding="utf-8", newline="\n")
 
