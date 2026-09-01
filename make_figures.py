@@ -229,8 +229,76 @@ def fig_told():
     save(fig, "04_bao_truoc.png")
 
 
+# ==================================== 5. tran bo de: cong don tung model
+def fig_ceiling():
+    """Them dan tung model, con bao nhieu cau KHONG AI lam duoc."""
+    order = list(MODELS)                       # yeu -> manh, dung thu tu trong report
+    order.sort(key=lambda n: sum(1 for i in items if PM[n][i] == items[i]["gold"]))
+    ys, solved = [], set()
+    for n in order:
+        solved |= {i for i in items if PM[n][i] == items[i]["gold"]}
+        ys.append(100 * (len(items) - len(solved)) / len(items))
+
+    fig, ax = plt.subplots(figsize=(9, 5.4))
+    xs = range(1, len(order) + 1)
+    ax.plot(xs, ys, color="#2a78d6", linewidth=2, marker="o", markersize=9, zorder=3)
+    for x, y in zip(xs, ys):
+        ax.annotate(f"{y:.1f}%".replace(".", ","), (x, y), xytext=(0, 11),
+                    textcoords="offset points", ha="center", fontsize=9.5, color=INK2)
+    # hai moc duoc noi trong report
+    ax.axvline(4, color=GRID, linewidth=1.2, zorder=1)
+    ax.annotate("4 model mở", (4, 20), xytext=(-8, 0), textcoords="offset points",
+                ha="right", fontsize=9.5, color=INK2)
+    ax.annotate("+ 3 model API", (4, 20), xytext=(8, 0), textcoords="offset points",
+                ha="left", fontsize=9.5, color=INK2)
+    ax.set_xticks(list(xs))
+    ax.set_xticklabels([f"+{n}" if k else n for k, n in enumerate(order)],
+                       rotation=30, ha="right", fontsize=9)
+    ax.set_ylim(0, 113)
+    ax.yaxis.set_major_formatter(PCT)
+    ax.set_yticks([0, 20, 40, 60, 80, 100])
+    ax.set_ylabel("% câu KHÔNG model nào làm được")
+    ax.grid(axis="x", visible=False)
+    titles(ax, "Trần bộ đề — cộng dồn từng model",
+           "Thêm ba model API cắt hơn một nửa vùng \"không ai làm được\": 69,8% → 33,3%.")
+    save(fig, "05_tran_bo_de.png")
+
+
+# ============================ 6. kien thuc vs hieu chinh (2.000 cau 1 dap an)
+def fig_knowledge():
+    idx1 = [i for i in items if subset[i] == "single_1_dap_an"]
+    n = len(idx1)
+    fig, ax = plt.subplots(figsize=(8.2, 6.2))
+    ax.plot([0, 100], [0, 100], color=GRID, linewidth=1.5, zorder=1)
+    ax.annotate("biết bao nhiêu, đúng bấy nhiêu", (74, 74), rotation=39,
+                fontsize=9, color=INK2, ha="center", va="bottom")
+    for name, (t, color) in MODELS.items():
+        x = 100 * sum(1 for i in idx1 if items[i]["gold"] <= PM[name][i]) / n
+        y = 100 * sum(1 for i in idx1 if PM[name][i] == items[i]["gold"]) / n
+        ax.plot([x, x], [y, x], color=GRID, linewidth=1.2, zorder=2)   # khoang hut
+        ax.scatter([x], [y], s=140, color=color, zorder=4, linewidth=0)
+        # lech nhan rieng cho tung diem: goc duoi trai bon diem rat sat nhau
+        OFF = {"Gemma3-1B": (-14, -20, "right"), "Qwen3-0.6B": (14, 10, "left"),
+               "Gemma3-4B": (0, -22, "center"), "Qwen3-4B": (0, 13, "center"),
+               "GPT-4o-mini": (0, -22, "center"), "DeepSeek-v4-Flash": (-12, 12, "right"),
+               "Gemini-2.5-Flash": (-12, 12, "right")}
+        dx, dy, ha = OFF[name]
+        ax.annotate(name, (x, y), xytext=(dx, dy), textcoords="offset points",
+                    ha=ha, fontsize=9.5, color=INK)
+    ax.set_xlim(45, 100); ax.set_ylim(-4, 100)
+    ax.xaxis.set_major_formatter(PCT); ax.yaxis.set_major_formatter(PCT)
+    ax.set_xlabel("BIẾT đáp án — đáp án đúng nằm trong tập model chọn")
+    ax.set_ylabel("TRẢ LỜI ĐÚNG — chọn khít đúng một ô")
+    titles(ax, "Biết đáp án không có nghĩa là trả lời đúng",
+           "2.000 câu một đáp án. Càng xa đường chéo, model càng không biết dừng lại.",
+           size=12.5)
+    save(fig, "06_kien_thuc_vs_hieu_chinh.png")
+
+
 if __name__ == "__main__":
     fig_scores()
     fig_difficulty()
     fig_counts()
     fig_told()
+    fig_ceiling()
+    fig_knowledge()

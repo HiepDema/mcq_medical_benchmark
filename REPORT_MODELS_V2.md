@@ -55,6 +55,8 @@ sai** — do câu quá khó, hay do đáp án chuẩn của đề nguồn sai?
 
 Ba model API trả lời được:
 
+![Trần bộ đề — cộng dồn từng model](figures/05_tran_bo_de.png)
+
 | | Số câu Bộ B không model nào làm được | Tỉ lệ |
 |---|---:|---:|
 | Chỉ 4 model mở | 7.932 | 69,8% |
@@ -148,6 +150,14 @@ Trên **cùng 2.000 câu một đáp án**, chỉ khác ở chỗ model có đư
 ô ở 15,0% số câu, nên điểm rơi từ 63,5% xuống 13,2%, mức tụt lớn nhất bảng.
 
 Kiến thức của nó tốt hơn Gemini. Khả năng **dừng lại đúng lúc** thì kém hơn bốn lần.
+
+![Biết đáp án không có nghĩa là trả lời đúng](figures/06_kien_thuc_vs_hieu_chinh.png)
+
+Trục ngang là **biết** (đáp án đúng nằm trong tập model chọn), trục dọc là **trả lời
+đúng** (chọn khít đúng một ô). Model nằm trên đường chéo thì chuyển hoá được toàn bộ
+kiến thức thành câu trả lời đúng; khoảng cách xuống dưới đường chéo chính là phần mất đi
+vì không biết dừng. GPT-4o-mini nằm xa nhất về bên phải nhưng gần đáy — biết nhiều nhất,
+chuyển hoá kém nhất.
 
 Đây chính xác là thứ Bộ B được dựng để đo, và là thứ định dạng một đáp án truyền thống
 không thể phát hiện.
