@@ -53,6 +53,18 @@ DATASETS = {
 }
 
 
+def _from_dotenv(name: str) -> str | None:
+    """Đọc khoá từ .env cạnh script. Để khoá không phải đi qua dòng lệnh hay log."""
+    f = ROOT / ".env"
+    if not f.exists():
+        return None
+    for line in f.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line.startswith(f"{name}=") and not line.startswith("#"):
+            return line.split("=", 1)[1].strip().strip("'\"")
+    return None
+
+
 def schema_for(letters: list[str], single: bool) -> dict:
     """Ép đầu ra thành {"answers": ["A", ...]} với chữ cái chỉ lấy trong letters."""
     return {
@@ -144,9 +156,12 @@ def main() -> int:
                     help="KHÔNG tắt reasoning — đắt hơn nhiều và lệch điều kiện so với model mở")
     args = ap.parse_args()
 
-    key = os.environ.get("OPENROUTER_API_KEY")
+    key = os.environ.get("OPENROUTER_API_KEY") or _from_dotenv("OPENROUTER_API_KEY")
     if not key:
         print("Chưa có OPENROUTER_API_KEY.")
+        print("Đặt biến môi trường, hoặc tạo file .env cạnh script với dòng:")
+        print("  OPENROUTER_API_KEY=sk-or-...")
+        print("(.env đã nằm trong .gitignore)")
         return 1
 
     fdata, fprov, tpl, single = DATASETS[args.dataset]
