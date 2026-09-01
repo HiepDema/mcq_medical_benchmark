@@ -1,6 +1,6 @@
 # Chấm 7 model trên benchmark v2
 
-Bốn model mở chạy cục bộ trên GPU, ba model API chạy qua OpenRouter — trên **cùng bốn
+Bốn model mở chạy trên Lambda GPU, ba model API chạy qua OpenRouter — trên **cùng bốn
 bộ dữ liệu**, cùng điều kiện. Cách dựng bộ đề nằm ở [REPORT_V2.md](REPORT_V2.md).
 
 | | |
@@ -16,13 +16,6 @@ bộ dữ liệu**, cùng điều kiện. Cách dựng bộ đề nằm ở [REP
 chữ cái của từng câu (grammar-constrained decoding ở vLLM, `structured_outputs` ở API),
 `temperature = 0`, và **reasoning tắt hoàn toàn** — script đo `reasoning_tokens` thực tế
 và xác nhận bằng 0 ở cả ba model API.
-
-> **Hai model bị loại vì lý do kỹ thuật.** `gpt-5-mini` và `gemini-2.5-pro` trả
-> `HTTP 400: "Reasoning is mandatory for this endpoint and cannot be disabled."` Dòng
-> suy luận thế hệ mới không cho tắt reasoning, nên không đặt được vào cùng điều kiện với
-> các model còn lại. `grok-4.3` chạy được nhưng bị loại vì chi phí: nó tokenize tiếng
-> Việt ở mức **1,09 ký tự/token** — gần một token mỗi ký tự, gấp 2,9 lần Gemini — khiến
-> chi phí thật là $20,89 thay vì $11,47 như bảng giá gợi ý.
 
 ---
 
@@ -40,8 +33,7 @@ và xác nhận bằng 0 ở cả ba model API.
 | DeepSeek-v4-Flash | 45,1% | 43,3% | 72,8% | 72,2% |
 | **Gemini-2.5-Flash** | **51,9%** | **50,0%** | **77,6%** | **77,1%** |
 
-Xếp hạng **giống hệt nhau trên cả bốn bộ** — không bộ nào đảo thứ tự, nên kết luận không
-phụ thuộc vào việc chọn bộ nào để báo cáo.
+Xếp hạng **giống hệt nhau trên cả bốn bộ** — không bộ nào đảo thứ tự.
 
 Ba model API bỏ xa bốn model mở. Khoảng cách giữa model tốt nhất và tệ nhất trên Bộ B là
 **28 lần** (50,0% so với 1,8%).
@@ -50,8 +42,8 @@ Ba model API bỏ xa bốn model mở. Khoảng cách giữa model tốt nhất 
 
 ## 2. Bộ đề còn dư địa tới đâu
 
-Đây là câu hỏi lớn nhất còn treo từ lần chấm trước: 69,8% số câu **cả bốn model mở đều
-sai** — do câu quá khó, hay do đáp án chuẩn của đề nguồn sai?
+Đây là câu hỏi lớn nhất từ lần benchmark trước: 69,8% số câu **cả bốn model mở đều
+sai** — do câu quá khó, hay do đáp án generate sai?
 
 Ba model API trả lời được:
 
@@ -66,8 +58,7 @@ Thêm ba model API **cắt hơn một nửa** vùng "không ai làm được". N
 trước đây trông như hỏng thực ra chỉ nằm ngoài tầm của model nhỏ.
 
 33,3% còn lại là trần hiện tại. Nó gồm hai thành phần chưa tách được: câu thật sự khó,
-và câu có đáp án chuẩn sai do kế thừa từ đề nguồn (mục 9 của [REPORT_V2.md](REPORT_V2.md)
-có ví dụ insulin tác dụng ngắn ghi "kéo dài 24 giờ"). Muốn tách thì cần model mạnh hơn
+và câu có đáp án chuẩn sai do kế thừa từ đề nguồn. Muốn tách thì cần model mạnh hơn
 nữa, hoặc thẩm định tay một mẫu.
 
 ---
@@ -99,12 +90,7 @@ Trường `difficultLevel` của đề gốc có 15 cách viết khác nhau (`'2
 
 **Nhãn độ khó của đề gốc là thật, và bằng chứng giờ mạnh hơn hẳn.** Cả **năm** model đủ
 mạnh đều giảm đơn điệu khi độ khó tăng — Gemini 57,0% → 49,6% → 41,0%, DeepSeek 49,8% →
-42,9% → 34,7%, GPT-4o-mini 35,6% → 34,6% → 27,7%. Đây là phép kiểm tra tính hợp lệ độc
-lập: nhãn do người ra đề gán, pipeline dựng benchmark không hề dùng tới nó, vậy mà nó dự
-báo được điểm của mọi model đủ năng lực.
-
-Hai model nhỏ nhất **không** cho tín hiệu đó (4,2% → 3,1% → 2,9% và 2,0% → 1,7% → 1,9%).
-Chúng hỏng ở định dạng chứ không phải ở kiến thức, nên độ khó nội dung không còn ảnh hưởng.
+42,9% → 34,7%, GPT-4o-mini 35,6% → 34,6% → 27,7%.
 
 Bậc 4 chỉ có 39 câu (0,3%) nên chênh một câu là đổi 2,6 điểm — không đọc dòng đó như một
 xu hướng. Biểu đồ vẽ nét đứt ở đoạn này.
@@ -125,7 +111,7 @@ xu hướng. Biểu đồ vẽ nét đứt ở đoạn này.
 danh sách ngăn bởi dấu phẩy, đòi hỏi chọn đúng một tập con từ 4–5 mục độc lập.
 
 `single_1_dap_an` cho khoảng cách lớn nhất giữa các model: từ 0,1% (Gemma3-1B) tới 50,9%
-(Gemini) — gấp **509 lần**. Lý do ở mục sau.
+(Gemini) — gấp **509 lần**.
 
 ---
 
@@ -189,10 +175,6 @@ Ba kiểu hỏng khác nhau:
   không chắc, nên đáp án đúng gần như luôn nằm trong tập chọn (90,5%) mà hiếm khi trùng khít.
 - **Gemini hiệu chỉnh tốt nhất** — 2,48 ô so với chuẩn 2,51, khớp đúng số ô ở 61,1% số câu,
   gấp gần bốn lần hai model nhỏ.
-
-Thứ tự theo "khớp số ô" gần trùng với thứ tự theo điểm tổng, nhưng không hoàn toàn:
-Gemma3-4B chọn thừa (2,71) trong khi Qwen3-4B chọn thiếu (2,42), lệch ngược chiều với độ
-lớn tương đương — mà Qwen3-4B vẫn hơn 5 điểm.
 
 ---
 
