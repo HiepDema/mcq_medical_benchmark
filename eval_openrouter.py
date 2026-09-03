@@ -95,10 +95,10 @@ def schema_for(letters: list[str], single: bool) -> dict:
 
 class Runner:
     def __init__(self, model: str, key: str, max_tokens: int, retries: int, reasoning_off: bool,
-                 api: str, off_params: dict):
+                 api: str, off_params: dict, reasoning_on: str | None = None):
         self.model, self.key, self.api, self.off_params = model, key, api, off_params
         self.max_tokens, self.retries = max_tokens, retries
-        self.reasoning_off = reasoning_off
+        self.reasoning_off, self.reasoning_on = reasoning_off, reasoning_on
         self.lock = threading.Lock()
         self.usage = {"prompt": 0, "completion": 0, "reasoning": 0}
         self.errors: list[str] = []
@@ -114,7 +114,9 @@ class Runner:
             "seed": 20260815,
             "response_format": schema_for(it["letters"], single),
         }
-        if self.reasoning_off:
+        if self.reasoning_on:
+            body["reasoning"] = {"effort": self.reasoning_on}
+        elif self.reasoning_off:
             body.update(self.off_params)
 
         data = json.dumps(body, ensure_ascii=False).encode("utf-8")
@@ -168,7 +170,11 @@ def main() -> int:
     ap.add_argument("--max-tokens", type=int, default=64)
     ap.add_argument("--retries", type=int, default=4)
     ap.add_argument("--keep-reasoning", action="store_true",
-                    help="KHÔNG tắt reasoning — đắt hơn nhiều và lệch điều kiện so với model mở")
+                    help="KHÔNG gửi tham số tắt reasoning (dùng mặc định của nhà cung cấp)")
+    ap.add_argument("--reasoning-effort", choices=["low", "medium", "high"],
+                    help="BẬT reasoning tường minh. Bỏ tham số đi là KHÔNG đủ — đo thật "
+                         "cho thấy mặc định của OpenRouter với gemini-2.5-flash là TẮT. "
+                         "Kết quả khác điều kiện với các model chấm reasoning tắt.")
     args = ap.parse_args()
 
     api, env_name, off_params = PROVIDERS[args.provider]
@@ -202,9 +208,10 @@ def main() -> int:
     todo = [it for it in items if it["index"] not in done]
 
     print(f"[chạy] {args.provider}:{args.model} | {args.dataset} | {len(todo)}/{len(items)} câu"
-          f" | reasoning {'BẬT' if args.keep_reasoning else 'tắt'}")
+          f" | reasoning {('BẬT ' + args.reasoning_effort) if args.reasoning_effort else ('mặc định' if args.keep_reasoning else 'tắt')}")
     runner = Runner(args.model, key, args.max_tokens, args.retries,
-                    not args.keep_reasoning, api, off_params)
+                    not (args.keep_reasoning or args.reasoning_effort), api, off_params,
+                    reasoning_on=args.reasoning_effort)
     t0 = time.time()
     if todo:
         with partial.open("a", encoding="utf-8", newline="\n") as fh, \
@@ -247,6 +254,9 @@ def main() -> int:
     n_done = max(len(todo), 1)
     print(f"\n  token thực tế: vào {u['prompt']:,} · ra {u['completion']:,}"
           f" · reasoning {u['reasoning']:,}".replace(",", "."))
+    if args.reasoning_effort and not u["reasoning"]:
+        print(f"  ⚠ đã yêu cầu reasoning={args.reasoning_effort} nhưng đo được 0 token — "
+              f"nhà cung cấp KHÔNG bật. Kết quả không khác gì bản reasoning tắt.")
     if u["reasoning"]:
         print(f"  ⚠ reasoning VẪN CHẠY ({u['reasoning'] / n_done:.0f} token/câu) — "
               f"chi phí và điều kiện so sánh đều lệch. Kiểm tra lại tham số reasoning.")

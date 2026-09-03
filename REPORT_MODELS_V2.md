@@ -178,7 +178,68 @@ Ba kiểu hỏng khác nhau:
 
 ---
 
-## 7. Kết luận
+## 7. Ablation: bật reasoning có giúp không?
+
+Sáu mục trên đều chấm với **reasoning tắt**, để bảy model cùng điều kiện. Mục này hỏi
+riêng: cho model nghĩ thêm thì có khá lên không?
+
+Phép so sạch nhất là chạy lại **đúng model đang dẫn đầu** với reasoning bật —
+`gemini-2.5-flash`, cùng trọng số, cùng prompt, cùng ràng buộc đầu ra. Khác biệt duy nhất
+là ngân sách suy luận. Dùng `gemini-2.5-pro` thì khác cả model lẫn quy mô, không tách được
+nguyên nhân.
+
+| | Reasoning tắt | Reasoning bật (`effort: low`) |
+|---|---:|---:|
+| **Bộ B, exact match** | 50,0% | **51,0%** |
+| TB số ô chọn (chuẩn 2,51) | **2,48** | 2,54 |
+| Khớp đúng số ô | **61,1%** | 60,0% |
+| 2.000 câu một đáp án | **50,9%** | 50,0% |
+| Chỉ chọn đúng 1 ô | **63,2%** | 58,8% |
+| Token reasoning / câu | 0 | 480 |
+
+### Chênh lệch có thật, nhưng rất nhỏ
+
+Kiểm định McNemar theo cặp trên 11.368 câu: **1.060 câu chỉ bật mới đúng**, **945 câu chỉ
+tắt mới đúng** → χ² = 6,5, **p = 0,011**. Một điểm chênh là thật về mặt thống kê.
+
+Nhưng con số ròng đó là kết quả của **2.005 câu đổi chiều**. Bật reasoning làm sai 945 câu
+vốn đã đúng. Đây không phải cải thiện đều mà là xáo trộn lớn với lãi mỏng.
+
+### Reasoning làm hiệu chỉnh TỆ ĐI
+
+Đây mới là phần đáng chú ý. Ở **mọi** chỉ số liên quan tới việc chọn đúng số lượng ô,
+bản có reasoning đều kém hơn: khớp số ô 61,1% → 60,0%, tỉ lệ chọn đúng một ô 63,2% →
+58,8%, điểm trên 2.000 câu một đáp án 50,9% → 50,0%.
+
+Nghĩa là: **thiếu sót của model trên bộ đề này không phải "nghĩ chưa đủ"**. Cho nó nghĩ
+thêm 480 token mỗi câu thì kiến thức nhích lên chút, còn khả năng *biết dừng lại* thì kém
+đi. Suy luận thêm không dạy được model chọn đúng số lượng đáp án — đúng như luận điểm ở
+mục 5.
+
+Đã kiểm cả `effort: low` và `effort: medium` trên mẫu 100 câu: cả hai cùng cho 39%, nên
+kết luận không phải do chọn mức reasoning quá thấp. Chạy đủ dùng `low` vì `medium` tốn 766
+token/câu, vượt ngân sách.
+
+### Trần bộ đề hạ thêm 4 điểm
+
+| | Số câu | Tỉ lệ Bộ B |
+|---|---:|---:|
+| Không model nào trong 7 làm được | 3.791 | 33,3% |
+| Trong đó reasoning giải thêm được | 472 | 12,5% của nhóm |
+| **Còn lại không ai làm được** | **3.319** | **29,2%** |
+
+### Hai lưu ý
+
+**13 câu bị cụt** — reasoning ăn hết `max_tokens = 4000` nên không trả về gì, và đang bị
+chấm là sai. Ảnh hưởng khoảng 0,11 điểm; điểm thật có thể là 51,1%.
+
+**Không gộp dòng này vào bảng ở mục 1.** Nó khác điều kiện với bảy model kia. Kết quả lưu
+riêng ở `results_v2/eval_mixed_gemini-25-flash-think.json`; chi phí $14,56, 14 phút ở
+concurrency 64.
+
+---
+
+## 8. Kết luận
 
 **Về các model.** Gemini-2.5-Flash dẫn đầu ở mọi bộ, mọi họ câu hỏi, mọi bậc độ khó.
 Ba model API đều gấp 1,6–2,4 lần model mở tốt nhất (Qwen3-4B). Ở cỡ nhỏ, Qwen3-0.6B nhỉnh
@@ -188,9 +249,13 @@ hơn Gemma3-1B nhưng cả hai đều không dùng được ở định dạng n
 chưa bão hoà: model tốt nhất mới đúng một nửa. Nhãn độ khó của đề nguồn tương quan chặt
 với điểm của mọi model đủ mạnh, một dấu hiệu tính hợp lệ độc lập với cách dựng.
 
-**Còn lại 33,3% số câu chưa model nào làm được.** Đó là giới hạn hiện tại của bộ đề. Bước
-tiếp theo đáng làm nhất là lấy mẫu vài trăm câu trong nhóm đó và thẩm định tay, để biết
-bao nhiêu phần là câu khó thật và bao nhiêu là đáp án chuẩn sai kế thừa từ đề nguồn.
+**Còn lại 29,2% số câu chưa model nào làm được**, sau khi tính cả lượt có reasoning. Đó là
+giới hạn hiện tại của bộ đề. Bước tiếp theo đáng làm nhất là lấy mẫu vài trăm câu trong
+nhóm đó và thẩm định tay, để biết bao nhiêu phần là câu khó thật và bao nhiêu là đáp án
+chuẩn sai kế thừa từ đề nguồn.
+
+**Về reasoning.** Bật suy luận chỉ đổi được 1 điểm và làm hiệu chỉnh số lượng kém đi — bộ
+đề này không đo thứ mà reasoning cải thiện.
 
 ---
 
@@ -212,6 +277,12 @@ python analyze_results.py --data processed_data_v2/final_benchmark_mixed.json `
                           --prov processed_data_v2/final_benchmark_mixed_provenance.json `
                           --result "Gemini-2.5-Flash=results_v2/eval_mixed_gemini-25-flash.json"
 python make_figures.py
+
+# Ablation mục 7 — reasoning bật. Bỏ --reasoning-effort đi là KHÔNG đủ để bật:
+# mặc định của OpenRouter với gemini-2.5-flash là TẮT, phải gửi tường minh.
+python eval_openrouter.py --model google/gemini-2.5-flash --dataset mixed `
+                          --reasoning-effort low --max-tokens 4000 --concurrency 64 `
+                          --tag gemini-25-flash-think
 ```
 
 Biểu đồ do [make_figures.py](make_figures.py) sinh, đọc số liệu thẳng từ
