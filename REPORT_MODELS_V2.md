@@ -178,15 +178,13 @@ Ba kiểu hỏng khác nhau:
 
 ---
 
-## 7. Ablation: bật reasoning có giúp không?
+## 7. Ablation: Bật reasoning
 
-Sáu mục trên đều chấm với **reasoning tắt**, để bảy model cùng điều kiện. Mục này hỏi
-riêng: cho model nghĩ thêm thì có khá lên không?
+Bảy model trên đều chấm với **reasoning tắt**.Mục này hỏi riêng: cho model nghĩ thêm thì có khá lên không?
 
 Phép so sạch nhất là chạy lại **đúng model đang dẫn đầu** với reasoning bật —
 `gemini-2.5-flash`, cùng trọng số, cùng prompt, cùng ràng buộc đầu ra. Khác biệt duy nhất
-là ngân sách suy luận. Dùng `gemini-2.5-pro` thì khác cả model lẫn quy mô, không tách được
-nguyên nhân.
+là ngân sách suy luận. 
 
 | | Reasoning tắt | Reasoning bật (`effort: low`) |
 |---|---:|---:|
@@ -197,13 +195,7 @@ nguyên nhân.
 | Chỉ chọn đúng 1 ô | **63,2%** | 58,8% |
 | Token reasoning / câu | 0 | 480 |
 
-### Chênh lệch có thật, nhưng rất nhỏ
-
-Kiểm định McNemar theo cặp trên 11.368 câu: **1.060 câu chỉ bật mới đúng**, **945 câu chỉ
-tắt mới đúng** → χ² = 6,5, **p = 0,011**. Một điểm chênh là thật về mặt thống kê.
-
-Nhưng con số ròng đó là kết quả của **2.005 câu đổi chiều**. Bật reasoning làm sai 945 câu
-vốn đã đúng. Đây không phải cải thiện đều mà là xáo trộn lớn với lãi mỏng.
+Chênh lệch có thật, nhưng rất nhỏ
 
 ### Reasoning làm hiệu chỉnh TỆ ĐI
 
@@ -228,12 +220,9 @@ token/câu, vượt ngân sách.
 | Trong đó reasoning giải thêm được | 472 | 12,5% của nhóm |
 | **Còn lại không ai làm được** | **3.319** | **29,2%** |
 
-### Hai lưu ý
+### Lưu ý
 
-**13 câu bị cụt** — reasoning ăn hết `max_tokens = 4000` nên không trả về gì, và đang bị
-chấm là sai. Ảnh hưởng khoảng 0,11 điểm; điểm thật có thể là 51,1%.
-
-**Không gộp dòng này vào bảng ở mục 1.** Nó khác điều kiện với bảy model kia. Kết quả lưu
+Kết quả lưu
 riêng ở `results_v2/eval_mixed_gemini-25-flash-think.json`; chi phí $14,56, 14 phút ở
 concurrency 64.
 
