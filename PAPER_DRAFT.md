@@ -1,49 +1,49 @@
 # Knowing the Answer Is Not Enough: A Vietnamese Medical Multiple-Answer MCQ Benchmark with Derived Ground Truth
 
-*Draft — [AUTHORS], [AFFILIATION]*
-
-> **Status of this draft.** Abstract, Introduction, Construction, Setup, Results and
-> Limitations are drafted from verified experimental data. Related Work is a skeleton
-> that needs a literature pass. Discussion, Conclusion, Ethics and Appendices are
-> outlined but not written. Every number below traces to `results_v2/` and was
-> checked programmatically against the raw prediction files.
-
 ---
 
 ## Abstract
 
-Multiple-choice question answering is the dominant format for evaluating medical
-language models, but the standard single-answer setting confounds two distinct
-abilities: knowing which options are correct, and knowing *how many* options are
-correct. A model told "exactly one option is right" needs only the former.
+Medical question answering is evaluated almost exclusively in the single-answer
+multiple-choice format, which asks a model which option is correct but never how many
+are. We introduce a Vietnamese medical benchmark in the multiple-answer format: 9,368
+items whose correct-answer set contains two to four options, released together with an
+11,368-item mixed set in which the answer count cannot be inferred from the task
+description.
 
-We present a Vietnamese medical benchmark that separates them. Rather than authoring
-questions from scratch or generating them with a language model, we **derive**
-multiple-answer items from an existing bank of single-answer exam questions, so that
-every correct-answer set follows deterministically from the source item's answer key.
-Four rule-based transformations exploit recurring structures in Vietnamese exam
-writing — negated stems, "all of the above" keys, letter-referencing keys, and options
-that are themselves comma-separated lists. A language model is used only to screen
-candidates, rewrite stems, and write distractor text; it is never permitted to decide
-which options are correct.
+The design problem for such a resource is where the ground truth comes from. Prompting a
+strong model to author items makes the benchmark a measure of agreement with the
+generator, and any systematic error in the generator becomes ground truth; expert
+authoring does not reach the tens of thousands of items needed for stable per-subgroup
+estimates. We take neither route. We **derive** multiple-answer items from single-answer
+exam questions whose keys are already known, using four rule-based transformations that
+exploit recurring structures in Vietnamese exam writing: negated stems (*"all of the
+following EXCEPT"*), *"all of the above"* keys, letter-referencing keys (*"both A and
+B"*), and options that are themselves comma-separated lists. Each transformation turns an
+existing answer key into a multi-answer key deterministically, so the source item's
+correctness guarantee transfers. A language model screens candidates, rewrites stems and
+writes distractor text, but is never permitted to decide which options are correct; a
+second, independent audit round then re-examines every assembled item in both directions,
+asking which labelled-correct options are false and which labelled-incorrect options are
+true.
 
-From 17 exam files (160,194 items, 122,017 after global deduplication) we build two
-paired benchmarks: a **multi-answer set** of 9,368 items, and a **mixed set** of 11,368
-items in which 2,000 single-answer items are interleaved so the model cannot infer the
-answer count from the task description. Each is released with an index-aligned
-single-answer control consisting of the verbatim source questions, isolating format
-effects from difficulty.
+From 17 exam files (160,194 items; 122,017 after global deduplication) we release **Set
+A**, the 9,368 multi-answer items, and **Set B**, those items with 2,000 single-answer
+items interleaved. Each ships an index-aligned single-answer control containing the
+verbatim source questions, so differences between a set and its control are attributable
+to format rather than to difficulty.
 
-Evaluating seven models — four open-weight (0.6B–4B) and three API models — we find
-that answer-set cardinality calibration, not knowledge, is the binding constraint. On
-2,000 items whose answer is a single option, GPT-4o-mini contains the correct answer in
-its selected set for **90.5%** of items, the highest of all seven models, yet answers
-exactly **13.2%** correctly because it selects 3.06 options on average where 2.51 are
-correct. Telling the same model the answer count restores it to 63.5%. Difficulty labels
-inherited from the source exams, never used during construction, predict accuracy
-monotonically for all five sufficiently capable models, an independent validity signal.
-Adding the three API models reduces the fraction of items no model solves from 69.8% to
-33.3%, bounding how much of the benchmark is genuinely hard versus mislabelled.
+Seven models — four open-weight (0.6B–4B) and three API — span 1.8% to 50.0% exact match
+on Set B, and the benchmark is far from saturated: 33.3% of items are solved by none of
+them. Difficulty labels inherited from the source exams, never consulted during
+construction, predict accuracy monotonically for every sufficiently capable model, an
+independent validity signal. The format also isolates a failure that single-answer
+evaluation hides. On the 2,000 single-answer items, GPT-4o-mini's selected set contains
+the correct option for **90.5%** of items — the highest of all seven models — yet it
+answers only **13.2%** exactly, because it selects a single option in just 15.0% of
+cases; stating the answer count restores it to 63.5%. Enabling reasoning on the strongest
+model moves exact match by one point (50.0% → 51.0%) while making cardinality calibration
+worse, indicating that the deficit is not one of inference-time compute.
 
 Data, evaluation harness, and per-item predictions for all seven models are released.
 
