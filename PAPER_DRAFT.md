@@ -6,25 +6,28 @@
 
 ```latex
 \begin{abstract}
-Medical question answering is evaluated almost exclusively in the single-answer
-multiple-choice format, which asks a model which option is correct but never how many
-are. We introduce a Vietnamese medical benchmark in the multiple-answer format, built
-neither by expert authoring nor by prompting a language model to write items: we
-\emph{derive} multi-answer items from single-answer exam questions whose keys are already
-known, using four rule-based transformations over recurring structures in Vietnamese exam
-writing---negated stems, ``all of the above'' keys, letter-referencing keys, and options
-that are themselves comma-separated lists---so that every correct-answer set follows
-deterministically from the source key. A language model only screens candidates, rewrites
-stems, and writes distractor text; it never decides which options are correct, and an
-independent audit round re-examines every assembled item in both directions. From 17 exam
-files (160,194 items; 122,017 after global deduplication) we release 9,368 multi-answer
-items and an 11,368-item mixed set in which 2,000 interleaved single-answer items conceal
-the answer count, each paired with an index-aligned single-answer control that separates
-format effects from difficulty. Across seven models exact match spans 1.8--50.0\%, and
-33.3\% of items are solved by none. The binding constraint is cardinality calibration
-rather than knowledge: GPT-4o-mini's selected set contains the correct option for 90.5\%
-of the single-answer items, the highest of the seven, yet it answers only 13.2\%
-exactly---stating the answer count restores it to 63.5\%.
+Clinical questions often admit several correct answers, and knowing how many is part of
+competence; yet medical question answering is evaluated almost exclusively in the
+single-answer multiple-choice format, which supplies that count for free. To our
+knowledge no Vietnamese medical benchmark tests the multiple-answer setting, and the two
+obvious ways to build one both fail: prompting a model to author items makes the
+benchmark a measure of agreement with the generator, while expert authoring does not
+scale to tens of thousands of items. We instead \emph{derive} multi-answer items from
+single-answer exam questions whose keys are already known, using four rule-based
+transformations over recurring structures in Vietnamese exam writing---negated stems,
+``all of the above'' keys, letter-referencing keys, and options that are themselves
+comma-separated lists---so that every correct-answer set follows deterministically from
+the source key; a language model only screens candidates, rewrites stems and writes
+distractors, never deciding which options are correct, and an audit round re-examines
+every item in both directions. From 17 exam files (160,194 items; 122,017 after
+deduplication) we release 9,368 multi-answer items and an 11,368-item mixed set that
+conceals the answer count, each paired with an index-aligned single-answer control
+separating format from difficulty. Across seven models exact match spans 1.8--50.0\% and
+33.3\% of items are solved by none; GPT-4o-mini's selection contains the correct option
+for 90.5\% of the single-answer items, the highest of the seven, yet it answers only
+13.2\% exactly, rising to 63.5\% once told the count. The binding constraint is therefore
+answer-set calibration rather than knowledge---a failure the single-answer format cannot
+see, and one that enabling reasoning on the strongest model does not repair.
 \end{abstract}
 ```
 
