@@ -166,6 +166,11 @@ def main() -> int:
     ap.add_argument("--dataset", required=True, choices=list(DATASETS))
     ap.add_argument("--tag", help="hậu tố tên file kết quả (mặc định suy từ --model)")
     ap.add_argument("--limit", type=int, default=0, help="chỉ chạy N câu đầu (đo thử)")
+    ap.add_argument("--only-indices", metavar="FILE",
+                    help="file JSON chứa danh sách index cần chấm. Dùng để chấm một tập con "
+                         "đã chọn sẵn — ví dụ các câu chưa model nào giải được. LƯU Ý: điểm "
+                         "trên tập con KHÔNG so được với điểm toàn bộ đề, vì tập con đã bị "
+                         "chọn lọc theo độ khó.")
     ap.add_argument("--concurrency", type=int, default=8)
     ap.add_argument("--max-tokens", type=int, default=64)
     ap.add_argument("--retries", type=int, default=4)
@@ -189,6 +194,18 @@ def main() -> int:
     fdata, fprov, tpl, single = DATASETS[args.dataset]
     items = load_items(P / fdata)
     subsets = load_subsets(P / fprov, len(items))
+    if args.only_indices:
+        want = set(json.loads(Path(args.only_indices).read_text(encoding="utf-8")))
+        keep = [k for k, it in enumerate(items) if it["index"] in want]
+        if not keep:
+            print(f"Không có index nào của {args.dataset} khớp {args.only_indices}.")
+            return 1
+        missing = len(want) - len(keep)
+        items = [items[k] for k in keep]
+        subsets = [subsets[k] for k in keep]
+        print(f"[tập con] {len(items)} câu từ {args.only_indices}"
+              + (f" ({missing} index không có trong bộ này)" if missing else ""))
+
     if args.limit:
         items, subsets = items[: args.limit], subsets[: args.limit]
 
