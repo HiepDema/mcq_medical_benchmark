@@ -29,3 +29,6 @@ Thumbs.db
 
 # Khoa API — KHONG BAO GIO commit
 .env
+
+# File tam cua eval_openrouter.py (chi de chay tiep khi dut giua chung)
+results_v2/.partial_*
