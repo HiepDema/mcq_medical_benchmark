@@ -1,0 +1,59 @@
+[chạy] openrouter:anthropic/claude-sonnet-5 | mixed | 11368/11368 câu | reasoning tắt
+  250/11368  (29s)
+  500/11368  (52s)
+  750/11368  (78s)
+  1000/11368  (102s)
+  1250/11368  (127s)
+  1500/11368  (153s)
+  1750/11368  (177s)
+  2000/11368  (201s)
+  2250/11368  (225s)
+  2500/11368  (251s)
+  2750/11368  (275s)
+  3000/11368  (301s)
+  3250/11368  (323s)
+  3500/11368  (349s)
+  3750/11368  (373s)
+  4000/11368  (397s)
+  4250/11368  (421s)
+  4500/11368  (446s)
+  4750/11368  (468s)
+  5000/11368  (493s)
+  5250/11368  (517s)
+  5500/11368  (543s)
+  5750/11368  (565s)
+  6000/11368  (590s)
+  6250/11368  (615s)
+  6500/11368  (639s)
+  6750/11368  (667s)
+  7000/11368  (687s)
+  7250/11368  (712s)
+  7500/11368  (738s)
+  7750/11368  (760s)
+  8000/11368  (783s)
+  8250/11368  (807s)
+  8500/11368  (832s)
+  8750/11368  (856s)
+  9000/11368  (880s)
+  9250/11368  (907s)
+  9500/11368  (933s)
+  9750/11368  (1022s)
+  10000/11368  (1150s)
+  10250/11368  (1270s)
+  10500/11368  (1397s)
+  10750/11368  (1523s)
+  11000/11368  (1651s)
+  11250/11368  (1777s)
+
+KẾT QUẢ — anthropic/claude-sonnet-5 trên mixed:
+  tổng thể                               exact= 49.0%  jaccard= 67.4%  microF1= 79.8%  (n=11368)
+  câu không lấy được trả lời : 1764
+  lỗi (1758), 3 cái đầu:
+    index 9610: HTTP 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/aae3375cecea702373249ef71e38225a4482f7525b5cd3374cd36f03eb50004e","code":403}}
+    index 9613: HTTP 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/aae3375cecea702373249ef71e38225a4482f7525b5cd3374cd36f03eb50004e","code":403}}
+    index 9611: HTTP 403: {"error":{"message":"Key limit exceeded (daily limit). Manage it using https://openrouter.ai/workspaces/default/keys/aae3375cecea702373249ef71e38225a4482f7525b5cd3374cd36f03eb50004e","code":403}}
+
+  token thực tế: vào 5.018.253 · ra 158.682 · reasoning 0
+  tốc độ: 6.2 câu/s (1833s)
+
+-> results_v2\eval_mixed_claude-sonnet-5.json

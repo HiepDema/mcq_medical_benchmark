@@ -1,0 +1,18 @@
+[resume] đã có 9604 câu trong .partial_mixed_claude-sonnet-5.jsonl
+[chạy] openrouter:anthropic/claude-sonnet-5 | mixed | 1764/11368 câu | reasoning tắt
+  250/1764  (37s)
+  500/1764  (68s)
+  750/1764  (100s)
+  1000/1764  (131s)
+  1250/1764  (163s)
+  1500/1764  (195s)
+  1750/1764  (225s)
+
+KẾT QUẢ — anthropic/claude-sonnet-5 trên mixed:
+  tổng thể                               exact= 58.0%  jaccard= 79.7%  microF1= 87.0%  (n=11368)
+  câu không lấy được trả lời : 8
+
+  token thực tế: vào 924.190 · ra 29.018 · reasoning 0
+  tốc độ: 7.7 câu/s (228s)
+
+-> results_v2\eval_mixed_claude-sonnet-5.json

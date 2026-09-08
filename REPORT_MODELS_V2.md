@@ -31,12 +31,27 @@ và xác nhận bằng 0 ở cả ba model API.
 | Qwen3-4B | 24,7% | 21,2% | 55,7% | 55,5% |
 | GPT-4o-mini | 37,5% | 33,9% | 67,0% | 66,2% |
 | DeepSeek-v4-Flash | 45,1% | 43,3% | 72,8% | 72,2% |
-| **Gemini-2.5-Flash** | **51,9%** | **50,0%** | **77,6%** | **77,1%** |
+| Gemini-2.5-Flash | 51,9% | 50,0% | 77,6% | 77,1% |
+| **Claude-Sonnet-5** | — | **58,0%** | — | — |
 
 Xếp hạng **giống hệt nhau trên cả bốn bộ** — không bộ nào đảo thứ tự.
 
 Ba model API bỏ xa bốn model mở. Khoảng cách giữa model tốt nhất và tệ nhất trên Bộ B là
-**28 lần** (50,0% so với 1,8%).
+**32 lần** (58,0% so với 1,8%).
+
+Claude-Sonnet-5 chỉ chấm Bộ B, chưa chấm ba bộ còn lại, nên các ô để trống. Nó hơn
+Gemini-2.5-Flash **8 điểm**; kiểm định McNemar theo cặp: 1.746 câu chỉ Sonnet đúng, 831
+câu chỉ Gemini đúng, p ≈ 10⁻⁷². Có 8 câu (0,07%) không lấy được trả lời, chấm là sai.
+
+### Nhóm bật reasoning — không cùng điều kiện
+
+Hai model dưới đây chạy với reasoning **bật**, nên **không xếp chung bảng trên**. Chi
+tiết ở mục 7.
+
+| Model | Bộ B | Ghi chú |
+|---|---:|---|
+| Gemini-2.5-Flash | 51,0% | cùng model với dòng 50,0% ở trên, chỉ khác reasoning |
+| **Gemini-3.6-Flash** | **61,5%** | reasoning **không tắt được** — API trả `HTTP 400 "Reasoning is mandatory"` |
 
 ---
 
@@ -58,8 +73,8 @@ Thêm ba model API **cắt hơn một nửa** vùng "không ai làm được". N
 trước đây trông như hỏng thực ra chỉ nằm ngoài tầm của model nhỏ.
 
 33,3% còn lại gồm hai thành phần chưa tách được: câu thật sự khó, và câu có đáp án chuẩn
-sai do kế thừa từ đề nguồn. Chấm thêm hai model có reasoning (mục 7) kéo con số này xuống
-**22,3%**; phần còn lại cần thẩm định tay một mẫu mới tách được.
+sai do kế thừa từ đề nguồn. Chấm thêm ba model mới (mục 7) kéo con số này xuống
+**20,3%**; phần còn lại cần thẩm định tay một mẫu mới tách được.
 
 ---
 
@@ -165,7 +180,11 @@ không thể phát hiện.
 | Gemma3-4B | 2,71 | 35,5% | 477 | 4.786 | 3.962 | 1.884 | 259 |
 | GPT-4o-mini | **3,06** | 45,9% | 375 | 2.259 | 5.469 | 2.801 | 464 |
 | DeepSeek-v4-Flash | 2,63 | 54,1% | 1.426 | 3.656 | 4.265 | 1.715 | 305 |
-| **Gemini-2.5-Flash** | **2,48** | **61,1%** | 1.845 | 3.469 | 4.865 | 1.057 | 128 |
+| Gemini-2.5-Flash | 2,48 | 61,1% | 1.845 | 3.469 | 4.865 | 1.057 | 128 |
+| Claude-Sonnet-5 | 2,50 | 67,5% | 2.118 | 2.807 | 5.105 | 1.246 | 84 |
+| **Gemini-3.6-Flash**\* | **2,46** | **68,7%** | 2.491 | 2.544 | 5.050 | 1.163 | 120 |
+
+\*bật reasoning, khác điều kiện.
 
 Ba kiểu hỏng khác nhau:
 
@@ -173,8 +192,13 @@ Ba kiểu hỏng khác nhau:
   câu (99,5%). Chúng bỏ qua nội dung câu hỏi khi quyết định chọn mấy ô.
 - **GPT-4o-mini chọn thừa** — trung bình 3,06 ô so với chuẩn 2,51. Nó gom cả những ô
   không chắc, nên đáp án đúng gần như luôn nằm trong tập chọn (90,5%) mà hiếm khi trùng khít.
-- **Gemini hiệu chỉnh tốt nhất** — 2,48 ô so với chuẩn 2,51, khớp đúng số ô ở 61,1% số câu,
-  gấp gần bốn lần hai model nhỏ.
+- **Model mới hiệu chỉnh tốt hơn hẳn.** Trên 2.000 câu một đáp án, tỉ lệ chỉ chọn đúng
+  một ô: Gemini-2.5-Flash 63,2% → Claude-Sonnet-5 77,8% → Gemini-3.6-Flash 85,1%.
+
+Điểm cuối này đáng chú ý khi đọc cùng mục 7. Cho **cùng một model** nghĩ lâu hơn làm hiệu
+chỉnh *tệ đi* (63,2% → 58,8%), nhưng **model thế hệ mới** thì cải thiện rõ rệt (→ 85,1%).
+Khả năng "biết dừng lại" có tiến bộ theo thế hệ, chỉ là không mua được bằng cách tăng
+ngân sách suy luận.
 
 ---
 
@@ -212,7 +236,7 @@ mục 5.
 kết luận không phải do chọn mức reasoning quá thấp. Chạy đủ dùng `low` vì `medium` tốn 766
 token/câu, vượt ngân sách.
 
-### Trần bộ đề: 33,3% → 22,3%
+### Trần bộ đề: 33,3% → 20,3%
 
 Model reasoning thế hệ mới `gemini-3.6-flash` được chấm **chỉ trên 3.791 câu chưa ai giải
 được**, không chấm lại cả bộ — nhờ vậy chi phí còn $4,99 thay vì ~$15.
@@ -220,11 +244,15 @@ Model reasoning thế hệ mới `gemini-3.6-flash` được chấm **chỉ trê
 | | Số câu còn lại | Tỉ lệ Bộ B |
 |---|---:|---:|
 | Không model nào trong 7 làm được | 3.791 | 33,3% |
-| + `gemini-2.5-flash` reasoning gỡ 472 câu | 3.319 | 29,2% |
-| + `gemini-3.6-flash` reasoning gỡ thêm 779 câu | **2.540** | **22,3%** |
+| + `claude-sonnet-5` gỡ 863 câu | 2.928 | 25,8% |
+| + `gemini-2.5-flash` reasoning gỡ thêm 217 câu | 2.711 | 23,8% |
+| + `gemini-3.6-flash` reasoning gỡ thêm 402 câu | **2.309** | **20,3%** |
 
-Riêng `gemini-3.6-flash` gỡ được **1.119/3.791 câu (29,5%)**, gấp 2,4 lần `gemini-2.5-flash`
-(472 câu, 12,5%).
+Ba model mới cùng nhau cắt vùng "không ai làm được" từ 33,3% xuống **20,3%**, tức gỡ được
+**39%** số câu vốn tưởng không giải nổi.
+
+Riêng trên 3.791 câu đó: `gemini-3.6-flash` gỡ **1.119 (29,5%)**, `claude-sonnet-5` gỡ
+**863 (22,8%)**, `gemini-2.5-flash` có reasoning gỡ **472 (12,5%)**.
 
 **Hai model reasoning chỉ trùng nhau 340 câu** trong tổng 1.251 câu chúng gỡ được. Chúng
 hỏng ở những chỗ khác nhau, nên vùng "không ai làm được" không phải một khối khó đồng nhất.
@@ -248,30 +276,54 @@ mục 1. Con số 29,5% là tỉ lệ gỡ được trong nhóm khó, **không s
 `gemini-2.5-flash` trên cả bộ. Nó nghĩ 281 token/câu — ngắn hơn `gemini-2.5-flash` (480)
 dù gỡ được nhiều hơn gấp đôi; không câu nào cụt `max_tokens`.
 
-Kết quả lưu riêng ở `results_v2/eval_mixed_gemini-25-flash-think.json` ($14,56, 14 phút,
-concurrency 64) và `results_v2/eval_mixed_gemini-36-flash-think.json` ($4,99, 274 giây,
-concurrency 48).
+`gemini-3.6-flash` được chấm làm **hai lượt cách nhau vài giờ** — 3.791 câu khó trước
+($4,99), 7.577 câu còn lại sau ($8,45) — rồi ghép lại thành điểm Bộ B đầy đủ. Ghép như vậy
+hợp lệ vì mỗi câu là một request độc lập, cùng model và cùng tham số; việc chọn tập con chỉ
+quyết định thứ tự chạy chứ không quyết định câu nào được tính. Đã kiểm: hai tập không trùng
+nhau và phủ kín đúng 11.368 câu. Rủi ro còn lại là nhà cung cấp có thể đổi phiên bản model
+giữa hai lượt.
+
+`claude-sonnet-5` cũng phải chạy hai lượt: lượt đầu chạm trần $20/ngày của key ở câu thứ
+~9.600 và 1.764 câu trả `HTTP 403`. Trước khi chạy nốt, đã kiểm tập hỏng có bị lệch không
+bằng cách so điểm bốn model đối chứng trên hai nửa — chênh lệch 0,6–2,3 điểm, đều nằm
+trong khoảng nhiễu ±2,5, nên tập hỏng là ngẫu nhiên. Điểm ước lượng khi đó (58,0% trên
+9.604 câu) trùng khớp điểm cuối cùng trên đủ 11.368 câu.
+
+Chi phí và file kết quả:
+
+| Model | $ | File |
+|---|---:|---|
+| `gemini-2.5-flash` +reasoning | 14,56 | `eval_mixed_gemini-25-flash-think.json` |
+| `gemini-3.6-flash` +reasoning | 13,44 | `eval_mixed_gemini-36-flash.json` |
+| `claude-sonnet-5` | 13,76 | `eval_mixed_claude-sonnet-5.json` |
+
+Trường `usage` trong file `claude-sonnet-5` chỉ ghi lượt chạy tiếp ($2,14); $13,76 là tổng
+của cả hai lượt.
 
 ---
 
 ## 8. Kết luận
 
-**Về các model.** Gemini-2.5-Flash dẫn đầu ở mọi bộ, mọi họ câu hỏi, mọi bậc độ khó.
-Ba model API đều gấp 1,6–2,4 lần model mở tốt nhất (Qwen3-4B). Ở cỡ nhỏ, Qwen3-0.6B nhỉnh
-hơn Gemma3-1B nhưng cả hai đều không dùng được ở định dạng nhiều đáp án.
+**Về các model.** Trong nhóm reasoning tắt, Claude-Sonnet-5 dẫn đầu Bộ B với 58,0%, hơn
+Gemini-2.5-Flash 8 điểm. Kể cả nhóm bật reasoning thì Gemini-3.6-Flash đứng đầu với 61,5%.
+Model API đều bỏ xa model mở tốt nhất (Qwen3-4B, 21,2%). Ở cỡ nhỏ, Qwen3-0.6B nhỉnh hơn
+Gemma3-1B nhưng cả hai đều không dùng được ở định dạng nhiều đáp án.
 
-**Về bộ đề.** Nó phân biệt được trên một dải năng lực rất rộng — từ 1,8% tới 50,0% — và
-chưa bão hoà: model tốt nhất mới đúng một nửa. Nhãn độ khó của đề nguồn tương quan chặt
+**Về bộ đề.** Nó phân biệt được trên một dải năng lực rất rộng — từ 1,8% tới 61,5% — và
+chưa bão hoà: model tốt nhất còn sai gần 40% số câu. Nhãn độ khó của đề nguồn tương quan chặt
 với điểm của mọi model đủ mạnh, một dấu hiệu tính hợp lệ độc lập với cách dựng.
 
-**Còn lại 22,3% số câu chưa model nào làm được**, sau khi tính cả hai lượt có reasoning. Đó là
+**Còn lại 20,3% số câu chưa model nào làm được**, sau khi tính cả ba model mới. Đó là
 giới hạn hiện tại của bộ đề. Bước tiếp theo đáng làm nhất là lấy mẫu vài trăm câu trong
 nhóm đó và thẩm định tay, để biết bao nhiêu phần là câu khó thật và bao nhiêu là đáp án
 chuẩn sai kế thừa từ đề nguồn.
 
 **Về reasoning.** Trên cùng một model, bật suy luận chỉ đổi được 1 điểm và làm hiệu chỉnh
-số lượng kém đi — bộ đề này không đo thứ mà reasoning cải thiện. Nhưng model reasoning
-*thế hệ mới hơn* thì gỡ được 29,5% nhóm khó nhất, nên dư địa vẫn còn nhiều.
+số lượng *kém đi* — bộ đề này không đo thứ mà reasoning cải thiện. Nhưng thứ mà reasoning
+không mua được thì **thế hệ model mới lại có**: tỉ lệ chọn đúng một ô trên 2.000 câu một
+đáp án đi từ 63,2% (Gemini-2.5-Flash) lên 77,8% (Claude-Sonnet-5) rồi 85,1%
+(Gemini-3.6-Flash). Hiệu chỉnh số lượng là năng lực học được, không phải thứ nghĩ thêm là
+ra.
 
 ---
 
@@ -305,6 +357,16 @@ python eval_openrouter.py --model google/gemini-3.6-flash --dataset mixed `
                           --only-indices results_v2/unsolved_by7.json `
                           --reasoning-effort low --max-tokens 8000 --concurrency 48 `
                           --tag gemini-36-flash-think
+
+# Cham not phan con lai de co diem Bo B day du, roi ghep 2 lot
+python eval_openrouter.py --model google/gemini-3.6-flash --dataset mixed `
+                          --only-indices results_v2/rest_of_setB.json `
+                          --reasoning-effort low --max-tokens 8000 --concurrency 48 `
+                          --tag gemini-36-flash-rest
+
+# Claude Sonnet 5, reasoning tat (cung dieu kien voi 7 model goc)
+python eval_openrouter.py --model anthropic/claude-sonnet-5 --dataset mixed --concurrency 32 `
+                          --tag claude-sonnet-5
 ```
 
 Biểu đồ do [make_figures.py](make_figures.py) sinh, đọc số liệu thẳng từ
