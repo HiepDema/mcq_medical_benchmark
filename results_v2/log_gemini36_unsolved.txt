@@ -1,0 +1,27 @@
+[tập con] 3791 câu từ results_v2/unsolved_by7.json
+[chạy] openrouter:google/gemini-3.6-flash | mixed | 3791/3791 câu | reasoning BẬT low
+  250/3791  (23s)
+  500/3791  (42s)
+  750/3791  (57s)
+  1000/3791  (78s)
+  1250/3791  (92s)
+  1500/3791  (110s)
+  1750/3791  (127s)
+  2000/3791  (148s)
+  2250/3791  (165s)
+  2500/3791  (184s)
+  2750/3791  (204s)
+  3000/3791  (220s)
+  3250/3791  (237s)
+  3500/3791  (254s)
+  3750/3791  (272s)
+
+KẾT QUẢ — google/gemini-3.6-flash trên mixed:
+  tổng thể                               exact= 29.5%  jaccard= 63.7%  microF1= 75.9%  (n=3791)
+  câu không lấy được trả lời : 0
+
+  token thực tế: vào 942.880 · ra 1.142.971 · reasoning 1.064.815
+  reasoning BẬT như yêu cầu: 281 token/câu.
+  tốc độ: 13.8 câu/s (274s)
+
+-> results_v2\eval_mixed_gemini-36-flash-think.json

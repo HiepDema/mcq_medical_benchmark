@@ -57,9 +57,9 @@ Ba model API trả lời được:
 Thêm ba model API **cắt hơn một nửa** vùng "không ai làm được". Nghĩa là phần lớn số câu
 trước đây trông như hỏng thực ra chỉ nằm ngoài tầm của model nhỏ.
 
-33,3% còn lại là trần hiện tại. Nó gồm hai thành phần chưa tách được: câu thật sự khó,
-và câu có đáp án chuẩn sai do kế thừa từ đề nguồn. Muốn tách thì cần model mạnh hơn
-nữa, hoặc thẩm định tay một mẫu.
+33,3% còn lại gồm hai thành phần chưa tách được: câu thật sự khó, và câu có đáp án chuẩn
+sai do kế thừa từ đề nguồn. Chấm thêm hai model có reasoning (mục 7) kéo con số này xuống
+**22,3%**; phần còn lại cần thẩm định tay một mẫu mới tách được.
 
 ---
 
@@ -212,19 +212,45 @@ mục 5.
 kết luận không phải do chọn mức reasoning quá thấp. Chạy đủ dùng `low` vì `medium` tốn 766
 token/câu, vượt ngân sách.
 
-### Trần bộ đề hạ thêm 4 điểm
+### Trần bộ đề: 33,3% → 22,3%
 
-| | Số câu | Tỉ lệ Bộ B |
+Model reasoning thế hệ mới `gemini-3.6-flash` được chấm **chỉ trên 3.791 câu chưa ai giải
+được**, không chấm lại cả bộ — nhờ vậy chi phí còn $4,99 thay vì ~$15.
+
+| | Số câu còn lại | Tỉ lệ Bộ B |
 |---|---:|---:|
 | Không model nào trong 7 làm được | 3.791 | 33,3% |
-| Trong đó reasoning giải thêm được | 472 | 12,5% của nhóm |
-| **Còn lại không ai làm được** | **3.319** | **29,2%** |
+| + `gemini-2.5-flash` reasoning gỡ 472 câu | 3.319 | 29,2% |
+| + `gemini-3.6-flash` reasoning gỡ thêm 779 câu | **2.540** | **22,3%** |
+
+Riêng `gemini-3.6-flash` gỡ được **1.119/3.791 câu (29,5%)**, gấp 2,4 lần `gemini-2.5-flash`
+(472 câu, 12,5%).
+
+**Hai model reasoning chỉ trùng nhau 340 câu** trong tổng 1.251 câu chúng gỡ được. Chúng
+hỏng ở những chỗ khác nhau, nên vùng "không ai làm được" không phải một khối khó đồng nhất.
+
+Tỉ lệ gỡ được chênh rõ theo họ câu hỏi:
+
+| Họ | `gemini-3.6-flash` gỡ được |
+|---|---:|
+| `single_1_dap_an` | 366/816 — **44,9%** |
+| `file2_them_nhieu` | 52/185 — 28,1% |
+| `file3_tach_dau_phay` | 326/1.225 — 26,6% |
+| `file4_ca_ab` | 52/199 — 26,1% |
+| `file1_ngoai_tru` | 323/1.366 — **23,6%** |
+
+Câu một đáp án dễ gỡ gần gấp đôi họ `ngoại trừ` — lại củng cố luận điểm ở mục 5.
 
 ### Lưu ý
 
-Kết quả lưu
-riêng ở `results_v2/eval_mixed_gemini-25-flash-think.json`; chi phí $14,56, 14 phút ở
-concurrency 64.
+`gemini-3.6-flash` **chỉ chấm trên tập con**, nên không có điểm Bộ B để xếp cùng bảng ở
+mục 1. Con số 29,5% là tỉ lệ gỡ được trong nhóm khó, **không so được** với 50,0% của
+`gemini-2.5-flash` trên cả bộ. Nó nghĩ 281 token/câu — ngắn hơn `gemini-2.5-flash` (480)
+dù gỡ được nhiều hơn gấp đôi; không câu nào cụt `max_tokens`.
+
+Kết quả lưu riêng ở `results_v2/eval_mixed_gemini-25-flash-think.json` ($14,56, 14 phút,
+concurrency 64) và `results_v2/eval_mixed_gemini-36-flash-think.json` ($4,99, 274 giây,
+concurrency 48).
 
 ---
 
@@ -238,13 +264,14 @@ hơn Gemma3-1B nhưng cả hai đều không dùng được ở định dạng n
 chưa bão hoà: model tốt nhất mới đúng một nửa. Nhãn độ khó của đề nguồn tương quan chặt
 với điểm của mọi model đủ mạnh, một dấu hiệu tính hợp lệ độc lập với cách dựng.
 
-**Còn lại 29,2% số câu chưa model nào làm được**, sau khi tính cả lượt có reasoning. Đó là
+**Còn lại 22,3% số câu chưa model nào làm được**, sau khi tính cả hai lượt có reasoning. Đó là
 giới hạn hiện tại của bộ đề. Bước tiếp theo đáng làm nhất là lấy mẫu vài trăm câu trong
 nhóm đó và thẩm định tay, để biết bao nhiêu phần là câu khó thật và bao nhiêu là đáp án
 chuẩn sai kế thừa từ đề nguồn.
 
-**Về reasoning.** Bật suy luận chỉ đổi được 1 điểm và làm hiệu chỉnh số lượng kém đi — bộ
-đề này không đo thứ mà reasoning cải thiện.
+**Về reasoning.** Trên cùng một model, bật suy luận chỉ đổi được 1 điểm và làm hiệu chỉnh
+số lượng kém đi — bộ đề này không đo thứ mà reasoning cải thiện. Nhưng model reasoning
+*thế hệ mới hơn* thì gỡ được 29,5% nhóm khó nhất, nên dư địa vẫn còn nhiều.
 
 ---
 
@@ -272,6 +299,12 @@ python make_figures.py
 python eval_openrouter.py --model google/gemini-2.5-flash --dataset mixed `
                           --reasoning-effort low --max-tokens 4000 --concurrency 64 `
                           --tag gemini-25-flash-think
+
+# Do tran: chi cham nhung cau chua model nao giai duoc (re bang 1/3)
+python eval_openrouter.py --model google/gemini-3.6-flash --dataset mixed `
+                          --only-indices results_v2/unsolved_by7.json `
+                          --reasoning-effort low --max-tokens 8000 --concurrency 48 `
+                          --tag gemini-36-flash-think
 ```
 
 Biểu đồ do [make_figures.py](make_figures.py) sinh, đọc số liệu thẳng từ

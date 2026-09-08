@@ -274,7 +274,9 @@ def main() -> int:
     if args.reasoning_effort and not u["reasoning"]:
         print(f"  ⚠ đã yêu cầu reasoning={args.reasoning_effort} nhưng đo được 0 token — "
               f"nhà cung cấp KHÔNG bật. Kết quả không khác gì bản reasoning tắt.")
-    if u["reasoning"]:
+    if u["reasoning"] and args.reasoning_effort:
+        print(f"  reasoning BẬT như yêu cầu: {u['reasoning'] / n_done:.0f} token/câu.")
+    elif u["reasoning"]:
         print(f"  ⚠ reasoning VẪN CHẠY ({u['reasoning'] / n_done:.0f} token/câu) — "
               f"chi phí và điều kiện so sánh đều lệch. Kiểm tra lại tham số reasoning.")
     print(f"  tốc độ: {len(todo) / max(dt, 1e-9):.1f} câu/s ({dt:.0f}s)")
