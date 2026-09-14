@@ -35,3 +35,6 @@ results_v2/.partial_*
 
 # Thu nghiem multi-hop: file trung gian, tai tao bang v2/multihop_mine.py
 data_v2/multihop_*.json
+
+# Bo de dien tu (cloze) — tai tao bang v2/cloze_build.py
+processed_data_v2/final_cloze_*.json
