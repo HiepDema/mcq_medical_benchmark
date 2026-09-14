@@ -32,3 +32,6 @@ Thumbs.db
 
 # File tam cua eval_openrouter.py (chi de chay tiep khi dut giua chung)
 results_v2/.partial_*
+
+# Thu nghiem multi-hop: file trung gian, tai tao bang v2/multihop_mine.py
+data_v2/multihop_*.json
