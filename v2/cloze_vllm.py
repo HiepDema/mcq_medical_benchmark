@@ -31,6 +31,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -47,6 +48,32 @@ PROMPT = """Điền nội dung thích hợp vào {n} chỗ trống dưới đây
 {passage}
 
 Trả lời ngắn gọn, mỗi chỗ trống một cụm từ. Không giải thích."""
+
+# Chế độ văn bản thuần. Cần vì ép JSON schema qua xgrammar sinh ra một bệnh lý:
+# khi model "bí", ngữ pháp vẫn cho phép khoảng trắng vô hạn nên nó xuất một dấu
+# ngoặc nhọn rồi hàng trăm ký tự xuống dòng cho tới hết ngân sách token, và JSON
+# thu được không parse nổi. Đo thực tế trên Qwen3-8B: 52% số câu ở nhánh một ô
+# và 15% ở nhánh multi-hop hỏng vì lý do này.
+# Ở đây đầu ra là văn bản tự do nên không cần ngữ pháp — chỉ cần trích được đáp
+# án là đủ, nên mặc định dùng chế độ này.
+PROMPT_TEXT = """Điền nội dung thích hợp vào {n} chỗ trống dưới đây.
+
+{passage}
+
+Trả lời theo đúng định dạng, mỗi dòng một chỗ trống, không giải thích gì thêm:
+{fmt}"""
+
+
+def parse_text(txt: str, n: int) -> dict | None:
+    """Trích đáp án từ các dòng dạng '1. <đáp án>'."""
+    out = {}
+    for line in (txt or "").splitlines():
+        m = re.match(r"\s*\(?([1-9])\)?\s*[.):\-]\s*(.+)", line.strip())
+        if m and m.group(1) not in out:
+            v = m.group(2).strip().strip("*`\"'").strip("<>").strip()
+            if v:
+                out[m.group(1)] = v
+    return out if len(out) == n else None
 
 
 def make_sampling(schema: dict, max_tokens: int):
@@ -87,6 +114,8 @@ def main() -> int:
     ap.add_argument("--tp", type=int, default=1, help="tensor parallel (số GPU)")
     ap.add_argument("--enforce-eager", action="store_true",
                     help="bỏ CUDA graph, tiết kiệm 1-3 GB VRAM")
+    ap.add_argument("--format", choices=["json", "text"], default="text",
+                    help="text = văn bản thuần (mặc định; json hay sinh khoảng trắng vô hạn)")
     ap.add_argument("--tag")
     args = ap.parse_args()
 
@@ -109,12 +138,21 @@ def main() -> int:
     print(f"[cloze] nạp model: {kwargs}", flush=True)
     llm = LLM(**kwargs)
 
+    from vllm import SamplingParams
     convs, sps, api = [], [], None
     for it in items:
-        convs.append([{"role": "user",
-                       "content": PROMPT.format(n=it["nBlanks"], passage=it["passage"])}])
-        sp, api = make_sampling(CE.schema_for(it["nBlanks"]), args.max_tokens)
-        sps.append(sp)
+        n = it["nBlanks"]
+        if args.format == "text":
+            fmt = "\n".join(f"{i}. <đáp án>" for i in range(1, n + 1))
+            convs.append([{"role": "user", "content": PROMPT_TEXT.format(
+                n=n, passage=it["passage"], fmt=fmt)}])
+            sps.append(SamplingParams(temperature=0.0, max_tokens=args.max_tokens))
+            api = "văn bản thuần (không ép ngữ pháp)"
+        else:
+            convs.append([{"role": "user",
+                           "content": PROMPT.format(n=n, passage=it["passage"])}])
+            sp, api = make_sampling(CE.schema_for(n), args.max_tokens)
+            sps.append(sp)
     print(f"[cloze] ràng buộc đầu ra: {api}", flush=True)
 
     # Qwen3 mặc định bật chế độ suy nghĩ và sẽ ăn hết ngân sách token vào
@@ -130,12 +168,17 @@ def main() -> int:
     rows, bad = [], 0
     for it, o in zip(items, outs):
         txt = o.outputs[0].text if o.outputs else ""
-        try:
-            pred = json.loads(txt)
-            if not isinstance(pred, dict):
-                raise ValueError
-        except Exception:                            # noqa: BLE001
-            pred, bad = None, bad + 1
+        if args.format == "text":
+            pred = parse_text(txt, it["nBlanks"])
+            if pred is None:
+                bad += 1
+        else:
+            try:
+                pred = json.loads(txt)
+                if not isinstance(pred, dict):
+                    raise ValueError
+            except Exception:                        # noqa: BLE001
+                pred, bad = None, bad + 1
         g = CE.grade(it, pred)
         g["id"], g["index"] = it["id"], it["index"]
         if pred is None:

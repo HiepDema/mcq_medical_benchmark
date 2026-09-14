@@ -40,6 +40,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATASETS = {
     "single": "processed_data_v2/final_cloze_single.json",
+    "numeric": "processed_data_v2/final_cloze_numeric.json",
     "multihop": "processed_data_v2/final_cloze_multihop.json",
 }
 
