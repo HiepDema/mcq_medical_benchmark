@@ -1,0 +1,335 @@
+% ============================================================================
+% Tat ca cac muc duoi day da duoc XAC MINH (2026-09-22) doi chieu voi nguon
+% chinh thuc: ACL Anthology, PMLR, Crossref/DOI, OpenReview, arXiv, PubMed.
+% Nguon xac minh duoc ghi trong comment ngay tren moi muc.
+% ============================================================================
+
+
+% ============================== MEDICAL QA BENCHMARKS =======================
+
+% Crossref 10.3390/app11146421 -- Applied Sciences 11(14):6421
+@article{jin2021medqa,
+  title   = {What Disease Does This Patient Have? A Large-Scale Open Domain
+             Question Answering Dataset from Medical Exams},
+  author  = {Jin, Di and Pan, Eileen and Oufattole, Nassim and
+             Weng, Wei-Hung and Fang, Hanyi and Szolovits, Peter},
+  journal = {Applied Sciences},
+  volume  = {11},
+  number  = {14},
+  pages   = {6421},
+  year    = {2021},
+  doi     = {10.3390/app11146421},
+}
+
+% PMLR v174 (pal22a) -- CHIL 2022, pp. 248--260
+@inproceedings{pal2022medmcqa,
+  title     = {{MedMCQA}: A Large-scale Multi-Subject Multi-Choice Dataset for
+               Medical Domain Question Answering},
+  author    = {Pal, Ankit and Umapathi, Logesh Kumar and Sankarasubbu, Malaikannan},
+  booktitle = {Proceedings of the Conference on Health, Inference, and Learning
+               (CHIL)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {174},
+  pages     = {248--260},
+  publisher = {PMLR},
+  year      = {2022},
+  url       = {https://proceedings.mlr.press/v174/pal22a.html},
+}
+
+% ACL Anthology D19-1259 -- EMNLP-IJCNLP 2019, pp. 2567--2577
+@inproceedings{jin2019pubmedqa,
+  title     = {{PubMedQA}: A Dataset for Biomedical Research Question Answering},
+  author    = {Jin, Qiao and Dhingra, Bhuwan and Liu, Zhengping and
+               Cohen, William W. and Lu, Xinghua},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural
+               Language Processing and the 9th International Joint Conference on
+               Natural Language Processing (EMNLP-IJCNLP)},
+  pages     = {2567--2577},
+  address   = {Hong Kong, China},
+  publisher = {Association for Computational Linguistics},
+  year      = {2019},
+  doi       = {10.18653/v1/D19-1259},
+}
+
+% PubMed PMID 37438534 / Crossref 10.1038/s41586-023-06291-2 -- Nature 620:172--180
+@article{singhal2023clinical,
+  title   = {Large language models encode clinical knowledge},
+  author  = {Singhal, Karan and Azizi, Shekoofeh and Tu, Tao and
+             Mahdavi, S. Sara and Wei, Jason and Chung, Hyung Won and
+             Scales, Nathan and Tanwani, Ajay and Cole-Lewis, Heather and
+             Pfohl, Stephen and Payne, Perry and Seneviratne, Martin and
+             Gamble, Paul and Kelly, Chris and Babiker, Abubakr and
+             Sch{\"a}rli, Nathanael and Chowdhery, Aakanksha and
+             Mansfield, Philip and Demner-Fushman, Dina and
+             Ag{\"u}era y Arcas, Blaise and Webster, Dale and
+             Corrado, Greg S. and Matias, Yossi and Chou, Katherine and
+             Gottweis, Juraj and Tomasev, Nenad and Liu, Yun and
+             Rajkomar, Alvin and Barral, Joelle and Semturs, Christopher and
+             Karthikesalingam, Alan and Natarajan, Vivek},
+  journal = {Nature},
+  volume  = {620},
+  number  = {7972},
+  pages   = {172--180},
+  year    = {2023},
+  doi     = {10.1038/s41586-023-06291-2},
+}
+
+
+% ============================ MCQ FORMAT / BENCHMARK DESIGN =================
+
+% OpenReview d7KBjmI3GmQ -- ICLR 2021 Poster
+@inproceedings{hendrycks2021mmlu,
+  title     = {Measuring Massive Multitask Language Understanding},
+  author    = {Hendrycks, Dan and Burns, Collin and Basart, Steven and
+               Zou, Andy and Mazeika, Mantas and Song, Dawn and
+               Steinhardt, Jacob},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2021},
+  url       = {https://openreview.net/forum?id=d7KBjmI3GmQ},
+}
+
+% arXiv 2309.03882 -- trang abs ghi "ICLR 2024 Spotlight"
+@inproceedings{zheng2024selectors,
+  title     = {Large Language Models Are Not Robust Multiple Choice Selectors},
+  author    = {Zheng, Chujie and Zhou, Hao and Meng, Fandong and Zhou, Jie and
+               Huang, Minlie},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2309.03882},
+}
+
+% Semantic Scholar / DBLP conf/nips/WangMZNCGRAHJLK24 -- NeurIPS 2024 D&B
+@inproceedings{wang2024mmlupro,
+  title     = {{MMLU-Pro}: A More Robust and Challenging Multi-Task Language
+               Understanding Benchmark},
+  author    = {Wang, Yubo and Ma, Xueguang and Zhang, Ge and Ni, Yuansheng and
+               Chandra, Abhranil and Guo, Shiguang and Ren, Weiming and
+               Arulraj, Aaran and He, Xuan and Jiang, Ziyan and Li, Tianle and
+               Ku, Max and Wang, Kai and Zhuang, Alex and Fan, Rongqi and
+               Yue, Xiang and Chen, Wenhu},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)
+               Datasets and Benchmarks Track},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2406.01574},
+}
+
+
+% ===================== BENCHMARK CONSTRUCTION WITH LANGUAGE MODELS ==========
+
+% ACL Anthology 2023.acl-long.754 -- ACL 2023, pp. 13484--13508
+@inproceedings{wang2023selfinstruct,
+  title     = {Self-Instruct: Aligning Language Models with Self-Generated
+               Instructions},
+  author    = {Wang, Yizhong and Kordi, Yeganeh and Mishra, Swaroop and
+               Liu, Alisa and Smith, Noah A. and Khashabi, Daniel and
+               Hajishirzi, Hannaneh},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for
+               Computational Linguistics (ACL)},
+  pages     = {13484--13508},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.acl-long.754},
+}
+
+% Semantic Scholar / DBLP journals/corr/abs-2306-05685 -- NeurIPS 2023 D&B
+@inproceedings{zheng2023judging,
+  title     = {Judging {LLM}-as-a-Judge with {MT-Bench} and {Chatbot Arena}},
+  author    = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and
+               Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and
+               Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric P. and
+               Zhang, Hao and Gonzalez, Joseph E. and Stoica, Ion},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)
+               Datasets and Benchmarks Track},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2306.05685},
+}
+
+% Semantic Scholar / DBLP journals/corr/abs-2404-13076 -- NeurIPS 2024
+@inproceedings{panickssery2024selfpreference,
+  title     = {{LLM} Evaluators Recognize and Favor Their Own Generations},
+  author    = {Panickssery, Arjun and Bowman, Samuel R. and Feng, Shi},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2404.13076},
+}
+
+
+% ========================= NON-ENGLISH MEDICAL EVALUATION ===================
+
+% ACL Anthology 2024.naacl-long.343 -- NAACL 2024, pp. 6184--6205
+@inproceedings{wang2024cmb,
+  title     = {{CMB}: A Comprehensive Medical Benchmark in {Chinese}},
+  author    = {Wang, Xidong and Chen, Guiming Hardy and Song, Dingjie and
+               Zhang, Zhiyi and Chen, Zhihong and Xiao, Qingying and
+               Jiang, Feng and Li, Jianquan and Wan, Xiang and Wang, Benyou and
+               Li, Haizhou},
+  booktitle = {Proceedings of the 2024 Conference of the North American Chapter
+               of the Association for Computational Linguistics (NAACL)},
+  pages     = {6184--6205},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.naacl-long.343},
+}
+
+% Semantic Scholar / DBLP conf/nips/LiuZHCTLWYGZL23 -- NeurIPS 2023 D&B
+@inproceedings{liu2023cmexam,
+  title     = {Benchmarking Large Language Models on {CMExam}: A Comprehensive
+               {Chinese} Medical Exam Dataset},
+  author    = {Liu, Junling and Zhou, Peilin and Hua, Yining and Chong, Dading and
+               Tian, Zhongyu and Liu, Andrew and Wang, Helin and You, Chenyu and
+               Guo, Zhenhua and Zhu, Lei and Li, Michael Lingzhi},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)
+               Datasets and Benchmarks Track},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2306.03030},
+}
+
+
+% ============================ VIETNAMESE NLP / MEDICAL ======================
+
+% ACL Anthology 2024.findings-naacl.182 -- Findings of NAACL 2024, pp. 2849--2900
+@inproceedings{truong2024vietnamese,
+  title     = {Crossing Linguistic Horizons: Finetuning and Comprehensive
+               Evaluation of {Vietnamese} Large Language Models},
+  author    = {Truong, Sang T. and Nguyen, Duc Q. and Nguyen, Toan and
+               Le, Dong D. and Truong, Nhi N. and Quan, Tho and
+               Koyejo, Sanmi},
+  booktitle = {Findings of the Association for Computational Linguistics:
+               NAACL 2024},
+  pages     = {2849--2900},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.findings-naacl.182},
+}
+
+% ACL Anthology 2024.acl-srw.31 -- ACL 2024 SRW, pp. 252--260
+@inproceedings{tran2024vimedaqa,
+  title     = {{ViMedAQA}: A {Vietnamese} Medical Abstractive Question-Answering
+               Dataset and Findings of Large Language Model},
+  author    = {Tran, Minh-Nam and Nguyen, Phu-Vinh and Nguyen, Long and
+               Dinh, Dien},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for
+               Computational Linguistics (Volume 4: Student Research Workshop)},
+  pages     = {252--260},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.acl-srw.31},
+}
+
+% Crossref 10.1007/978-3-030-92310-5_76 -- ICONIP 2021, CCIS, pp. 657--664
+@inproceedings{huy2021vimq,
+  title     = {{ViMQ}: A {Vietnamese} Medical Question Dataset for Healthcare
+               Dialogue System Development},
+  author    = {Huy, Ta Duc and Tu, Nguyen Anh and Vu, Tran Hoang and
+               Minh, Nguyen Phuc and Phan, Nguyen and Bui, Trung H. and
+               Truong, Steven Q. H.},
+  booktitle = {Neural Information Processing (ICONIP)},
+  series    = {Communications in Computer and Information Science},
+  pages     = {657--664},
+  publisher = {Springer},
+  year      = {2021},
+  doi       = {10.1007/978-3-030-92310-5\_76},
+}
+
+
+% ==================== SET-VALUED PREDICTION AND CALIBRATION =================
+
+% Crossref 10.4018/jdwm.2007070101 -- IJDWM 3(3):1--13
+@article{tsoumakas2007multilabel,
+  title   = {Multi-Label Classification: An Overview},
+  author  = {Tsoumakas, Grigorios and Katakis, Ioannis},
+  journal = {International Journal of Data Warehousing and Mining},
+  volume  = {3},
+  number  = {3},
+  pages   = {1--13},
+  year    = {2007},
+  doi     = {10.4018/jdwm.2007070101},
+}
+
+% arXiv 2006.02544 -- journal-ref: Advances in NeurIPS 33 (NeurIPS 2020)
+@inproceedings{romano2020classification,
+  title     = {Classification with Valid and Adaptive Coverage},
+  author    = {Romano, Yaniv and Sesia, Matteo and Cand{\`e}s, Emmanuel J.},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {33},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2006.02544},
+}
+
+% PMLR v70 (guo17a) -- ICML 2017, pp. 1321--1330
+@inproceedings{guo2017calibration,
+  title     = {On Calibration of Modern Neural Networks},
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and
+               Weinberger, Kilian Q.},
+  booktitle = {Proceedings of the 34th International Conference on Machine
+               Learning (ICML)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {70},
+  pages     = {1321--1330},
+  publisher = {PMLR},
+  year      = {2017},
+  url       = {https://proceedings.mlr.press/v70/guo17a.html},
+}
+
+
+% ============================== MODELS AND SERVING ==========================
+
+% Crossref 10.1145/3600006.3613165 -- SOSP 2023, pp. 611--626
+@inproceedings{kwon2023vllm,
+  title     = {Efficient Memory Management for Large Language Model Serving with
+               {PagedAttention}},
+  author    = {Kwon, Woosuk and Li, Zhuohan and Zhuang, Siyuan and Sheng, Ying and
+               Zheng, Lianmin and Yu, Cody Hao and Gonzalez, Joseph E. and
+               Zhang, Hao and Stoica, Ion},
+  booktitle = {Proceedings of the 29th Symposium on Operating Systems Principles
+               (SOSP)},
+  pages     = {611--626},
+  publisher = {ACM},
+  year      = {2023},
+  doi       = {10.1145/3600006.3613165},
+}
+
+% Semantic Scholar arXiv:2505.09388 (60 tac gia -- rut gon bang "and others")
+@article{yang2025qwen3,
+  title   = {{Qwen3} Technical Report},
+  author  = {Yang, An and Li, Anfeng and Yang, Baosong and Zhang, Beichen and
+             Hui, Binyuan and Zheng, Bo and others},
+  journal = {arXiv preprint arXiv:2505.09388},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2505.09388},
+}
+
+% Semantic Scholar arXiv:2503.19786, DOI 10.48550/arXiv.2503.19786
+@article{gemmateam2025gemma3,
+  title   = {{Gemma 3} Technical Report},
+  author  = {{Gemma Team}},
+  journal = {arXiv preprint arXiv:2503.19786},
+  year    = {2025},
+  doi     = {10.48550/arXiv.2503.19786},
+}
+
+% Semantic Scholar arXiv:2410.21276
+@article{openai2024gpt4o,
+  title   = {{GPT-4o} System Card},
+  author  = {{OpenAI}},
+  journal = {arXiv preprint arXiv:2410.21276},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2410.21276},
+}
+
+% Semantic Scholar arXiv:2412.19437
+@article{deepseekai2024v3,
+  title   = {{DeepSeek-V3} Technical Report},
+  author  = {{DeepSeek-AI}},
+  journal = {arXiv preprint arXiv:2412.19437},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2412.19437},
+}
+
+% Semantic Scholar arXiv:2507.06261, DBLP journals/corr/abs-2507-06261
+@article{comanici2025gemini25,
+  title   = {{Gemini 2.5}: Pushing the Frontier with Advanced Reasoning,
+             Multimodality, Long Context, and Next Generation Agentic
+             Capabilities},
+  author  = {Comanici, Gheorghe and Bieber, Eric and Schaekermann, Mike and
+             Pasupat, Ice and Sachdeva, Noveen and others},
+  journal = {arXiv preprint arXiv:2507.06261},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2507.06261},
+}

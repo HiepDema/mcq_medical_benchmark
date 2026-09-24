@@ -1,0 +1,686 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{iclr2027_conference,times}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+% \input{math_commands.tex}   % not used in this paper
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+
+\title{Knowing the Answer Is Not Enough: A Vietnamese Medical\\
+Multiple-Answer Benchmark with Derived Ground Truth}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the \iclrfinalcopy macro remains commented out below.
+% Non-anonymous submissions will be rejected without review.
+\author{Anonymous authors\\
+Paper under double-blind review}
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\iclrfinalcopy % Uncomment for camera-ready version, NOT for submission.
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Clinical questions often admit several correct answers, and knowing how many is
+itself part of competence; yet medical question answering is evaluated almost
+exclusively in the single-answer multiple-choice format, which hands the model that
+count for free. To our knowledge no Vietnamese medical benchmark tests the
+multiple-answer setting, and the two obvious ways to build one both fail: prompting a
+model to author items makes the benchmark a measure of agreement with the generator,
+while expert authoring does not scale to tens of thousands of items. We instead
+\emph{derive} multiple-answer items from single-answer exam questions whose keys are
+already known, using four rule-based transformations over recurring structures in
+Vietnamese exam writing---negated stems, ``all of the above'' keys, letter-referencing
+keys, and options that are themselves comma-separated lists---so that every
+correct-answer set follows deterministically from the source key; a language model only
+screens candidates, rewrites stems and writes distractors, never deciding which options
+are correct, and an independent audit round re-examines every assembled item in both
+directions. From 17 exam files (160,194 items; 122,017 after global deduplication) we
+release 9,368 multi-answer items and an 11,368-item mixed set that conceals the answer
+count, each paired with an index-aligned single-answer control that separates format
+effects from difficulty. Across nine models exact match spans 1.8--61.5\% and 20.3\% of
+items are solved by none. The binding constraint is answer-set calibration rather than
+knowledge: GPT-4o-mini's selection contains the correct option for 90.5\% of the
+single-answer items, the highest of all models evaluated, yet it answers only 13.2\%
+exactly, rising to 63.5\% once told the count. Enabling reasoning on a fixed model does
+not repair this deficit and slightly worsens it, whereas successive model generations
+improve it sharply---evidence that answer-set calibration is a learned capability rather
+than a product of inference-time deliberation.
+\end{abstract}
+
+\section{Introduction}
+
+Medical question answering benchmarks are near-universally single-answer multiple
+choice. MedQA \citep{jin2021medqa}, MedMCQA \citep{pal2022medmcqa}, PubMedQA
+\citep{jin2019pubmedqa} and the medical subsets of MMLU \citep{hendrycks2021mmlu} all
+present a stem, a handful of options, and exactly one key. The format is convenient:
+scoring is unambiguous and a random-guess baseline is trivial to compute. But it embeds
+an assumption that does not hold in clinical practice. Real diagnostic and management
+questions frequently admit several defensible answers, and part of competence is knowing
+how many.
+
+Standard multiple-choice evaluation gives that information away. When the prompt states
+that exactly one option is correct, a model that has narrowed the field to two candidates
+and guesses between them is scored identically to a model that is certain. Worse, a model
+that has correctly identified every true statement is \emph{penalised} for reporting more
+than one. The format measures option ranking, not answer-set selection.
+
+We argue that answer-set selection is separately measurable, separately deficient in
+current models, and cheap to evaluate provided the benchmark is constructed carefully.
+
+\paragraph{The construction problem.} The obvious way to build a multiple-answer
+benchmark is to prompt a strong language model to write the items. This is circular: the
+resulting benchmark measures agreement with the generating model, and any systematic
+error in the generator silently becomes ground truth. The alternative---expert
+authoring---does not scale to the tens of thousands of items needed for stable
+per-subgroup estimates.
+
+Our approach is neither. We observe that large Vietnamese medical exam banks already
+contain multiple-answer items in disguise. A question of the form \emph{``All of the
+following are risk factors for X, EXCEPT: \ldots''} with key D asserts that options A, B
+and C are all true. A question whose key is \emph{``All of the above''} asserts the same
+of every other option. A question whose four options are each comma-separated lists of
+findings draws from a shared pool of concepts, and the key identifies which pool members
+belong. In each case the multi-answer ground truth is \emph{derived} from the existing
+answer key by a deterministic rule rather than authored, and the source item's
+correctness guarantee transfers.
+
+This shifts the role of the language model from author to filter. In our pipeline the
+model screens candidates for whether a transformation is semantically sound, rewrites
+negated stems into affirmative form, and writes distractor text where a transformation
+removes options. It never selects the correct answers. The distinction matters: a
+generated distractor that turns out to be true is a \emph{detectable} defect---an
+independent audit round flags it---whereas a generated \emph{key} that is wrong is
+indistinguishable from ground truth.
+
+\paragraph{The mixed-format design.} To measure cardinality calibration we need items
+where the model does not know the answer count a priori. We therefore release a second
+benchmark in which 2,000 single-answer items---drawn from the same source bank and
+disjoint from the multi-answer items by three independent criteria---are interleaved
+with the multi-answer pool, and the prompt states only that a question ``may have one or
+more correct answers.'' Because those 2,000 items also appear verbatim in the paired
+single-answer control, the same model can be scored on the same questions with and
+without the cardinality hint. The difference is a direct measurement of calibration cost.
+
+\paragraph{Contributions.}
+\begin{enumerate}
+\item A construction method that yields multiple-answer items at scale with
+      \emph{derived} rather than generated ground truth, together with a two-round LLM
+      protocol in which the model is structurally prevented from choosing answers
+      (Section~\ref{sec:construction}).
+\item Two paired Vietnamese medical benchmarks---9,368 multi-answer items and an
+      11,368-item mixed set---each shipped with an index-aligned single-answer control
+      that isolates format effects from difficulty (Section~\ref{sec:sets}).
+\item An evaluation of nine models showing that answer-set cardinality calibration, not
+      knowledge, is the binding constraint, and that this deficit is not repaired by
+      inference-time reasoning but improves sharply across model generations
+      (Section~\ref{sec:results}).
+\end{enumerate}
+
+\section{Related Work}
+
+\paragraph{Medical question answering benchmarks.} MedQA \citep{jin2021medqa} draws from
+professional medical board examinations; MedMCQA \citep{pal2022medmcqa} covers Indian
+medical entrance exams across 21 subjects; PubMedQA \citep{jin2019pubmedqa} poses
+yes/no/maybe questions grounded in research abstracts. Med-PaLM
+\citep{singhal2023clinical} established the aggregate-benchmark framing that most
+subsequent work follows. All of these evaluate in a format where the number of correct
+answers is fixed and known to the model in advance. Our benchmark removes that
+assumption.
+
+\paragraph{Limitations of the single-answer format.} The format itself is a known source
+of measurement error: models exhibit systematic position and token biases as multiple
+choice selectors rather than reading options on their merits \citep{zheng2024selectors},
+and MMLU-Pro \citep{wang2024mmlupro} responds by enlarging the option set and raising
+reasoning difficulty. Both of these keep the number of correct answers at one. We vary
+that number instead.
+
+\paragraph{Benchmark construction with language models.} Using a strong model to generate
+evaluation items is now common practice \citep{wang2023selfinstruct}, and its circularity
+is a recognised hazard: the resulting scores partly measure agreement with the generator,
+and models demonstrably favour their own generations when placed in an evaluative role
+\citep{zheng2023judging,panickssery2024selfpreference}. Our derivation approach sidesteps
+this by constraining the model to roles where its errors are detectable by an independent
+pass rather than baked into the key.
+
+\paragraph{Non-English medical evaluation.} Medical LLM evaluation remains concentrated
+in English and Chinese, the latter served by large exam-derived benchmarks such as CMB
+\citep{wang2024cmb} and CMExam \citep{liu2023cmexam}. Vietnamese medical question
+answering is comparatively under-served: existing resources target dialogue intent
+\citep{huy2021vimq} and abstractive answering \citep{tran2024vimedaqa}, while the broad
+Vietnamese LLM evaluation suites \citep{truong2024vietnamese} are not medical-specific.
+We are not aware of a prior Vietnamese benchmark in the multiple-answer setting.
+
+\paragraph{Multi-label and set-valued prediction.} Predicting a set rather than a single
+label is a long-studied problem \citep{tsoumakas2007multilabel}, and exact set match is
+the natural strict metric; conformal methods likewise target prediction sets whose size
+adapts to difficulty \citep{romano2020classification}. What is new here is not the metric
+but the observation that a model's failure to control the \emph{size} of its predicted
+set dissociates cleanly from its knowledge of the set's contents---a failure of
+calibration in the sense of \citet{guo2017calibration}, but over set cardinality rather
+than over confidence---and that this dissociation is invisible under single-answer
+evaluation.
+
+\section{Benchmark Construction}
+\label{sec:construction}
+
+\subsection{Source corpus and deduplication}
+
+The source is 17 exported files from a Vietnamese medical exam bank, comprising 160,194
+items in the schema \texttt{\{question, answer\_optionA..E, correctAnswer, medicalTopic,
+difficultLevel\}}.
+
+Deduplication must be global rather than per-file, because the exports overlap heavily.
+We remove exact duplicates by SHA-1 over the normalised stem and option set, and
+order-invariant duplicates by comparing the stem against the sorted option multiset.
+Together these remove \textbf{30,913 items (19.3\%)}---24,519 exact and 6,394 reordered.
+A further 7,264 items are dropped for having fewer than four options or an unparseable
+key, leaving \textbf{122,017}.
+
+One artefact deserves note because it silently leaks the answer. In 5,889 items every
+option text is prefixed with its own letter (\texttt{"A. A. Chronic obstructive pulmonary
+disease"}). Left in place, options carried over from the source would bear the prefix
+while model-written distractors would not, letting a model identify the correct options
+without reading them. We strip the prefix when at least two options carry a
+position-matching marker, and do so \emph{before} computing the deduplication hash---which
+also merges export variants differing only by this prefix, raising detected duplicates
+from 29,797 to 30,913.
+
+\subsection{Four transformation families}
+
+\begin{table}[t]
+\caption{The four transformations. Each converts a single-answer item into a
+multiple-answer item whose key follows deterministically from the source key.}
+\label{tab:families}
+\begin{center}
+\begin{small}
+\begin{tabular}{llr}
+\toprule
+\textbf{Family} & \textbf{Derivation} & \textbf{Candidates} \\
+\midrule
+\textsc{negation} & stem asks for the single false option; the other three & 4,729 \\
+                  & become the correct set, and the stem is rewritten affirmatively & \\
+\textsc{pool}     & every option is a comma-separated list; list items merge into & 3,048 \\
+                  & a shared pool, and the key's items become the correct set & \\
+\textsc{meta-all} & key is ``All of the above''; the meta option is removed, the & 1,102 \\
+                  & rest are all correct, and the model writes two distractors & \\
+\textsc{meta-letters} & key is ``Both A and B''; the correct set is read off the & 900 \\
+                  & letters, remaining options are human-authored distractors & \\
+\midrule
+& \textbf{Total} & \textbf{9,779} \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+\end{table}
+
+Table~\ref{tab:families} summarises the four transformations. Mechanical filters run
+before any model call: decimal commas are protected before list splitting; option pools
+that are predominantly numeric are rejected; pools whose options do not share a concept
+vocabulary are rejected by an overlap threshold; ordered-sequence and ranking items are
+detected by repeated items within an option and by identical item sets across options;
+blank-slot stems and junk options are removed; and near-duplicate stems are removed by
+blocked \texttt{SequenceMatcher} comparison.
+
+For the \textsc{pool} family we accept pools of up to eight items and then randomly trim
+to five options, retaining every correct item and dropping only distractors. Hard-capping
+at five during filtering would have retained 1,280 candidates; trimming afterwards retains
+3,048 with the same final shape.
+
+\subsection{Two-round LLM protocol}
+
+All model calls use \texttt{Qwen3-32B-FP8} under vLLM with structured outputs and thinking
+disabled.
+
+\paragraph{Round 1 (9,779 calls)} is family-specific: verify that a negation item is
+genuinely negated and rewrite its stem affirmatively; write two distractors for the two
+meta families; and for \textsc{pool}, judge whether the items are independently meaningful
+and flag any \emph{distractor that is in fact also correct}. Only removal is permitted---the
+model may delete a pool item, never add one to the key. Of 9,779 responses, 9,778 parsed;
+9,368 items survived construction.
+
+\paragraph{Round 2 (9,368 calls)} is uniform across families: the assembled item is
+presented with its current correct/incorrect labels, and the model is asked, in both
+directions, which labelled-correct options are actually wrong and which labelled-incorrect
+options are actually right. This is the only stage that can catch \emph{semantic}
+defects---no syntactic rule knows that a particular distractor is a true statement.
+
+Two failure modes in the audit output required handling. First, the model conflates the
+two index lists: 26.5\% of indices in the ``labelled-correct but actually wrong'' array
+point at options already labelled incorrect. We discard such self-contradictory verdicts
+rather than treat them as evidence; counting them would reject 1,229 items unnecessarily.
+Second, the audit is not position-neutral---it accepts items whose single incorrect option
+sits last more often, raising the share of incorrect options at position D from 21.6\% to
+24.0\% ($\approx 5\sigma$). We therefore re-shuffle option positions \emph{after} the audit
+gate, which is safe because surviving items have no flagged label errors.
+
+\subsection{The two released benchmarks}
+\label{sec:sets}
+
+\textbf{Set A} is the 9,368 multi-answer items, whose correct-answer sets contain two
+options (1,901 items), three (7,102), or four (365). \textbf{Set B} adds 2,000
+single-answer items drawn verbatim from the source bank, disjoint from Set A by item hash,
+by \texttt{(source file, index)} pair, and by near-duplicate stem matching against both the
+multi-answer items and their originals; they are spread evenly at 117--118 items per source
+file. Items whose key is a meta option are excluded, since those are multi-answer items in
+disguise. Set B therefore contains 11,368 items: 4,573 \textsc{negation}, 2,810
+\textsc{pool}, 1,092 \textsc{meta-all}, 893 \textsc{meta-letters}, and 2,000 single-answer.
+
+Each set ships an \textbf{index-aligned single-answer control}: record $i$ of the control is
+the verbatim source question for record $i$ of the benchmark. Differences between the two
+are therefore attributable to format rather than to item difficulty.
+
+Option positions are shuffled twice with seeds derived from the item hash, and item order
+once with a fixed seed. In Set B the incorrect-option position distribution is
+A 4,697 / B 4,712 / C 4,918 / D 4,908 (and E 1,858, which occurs only in five-option
+items), showing no positional leak.
+
+\paragraph{A caveat we report rather than hide.} The single-answer controls inherit a
+strong position bias from the source: 41.5\% of Set A control keys are option D, because
+the \textsc{meta-all} and \textsc{meta-letters} families select items whose key is a meta
+option, and meta options are almost always written last (89.7\% and 84.3\% D
+respectively). An always-D baseline scores 41.5\% on that control. Aggregate control
+scores are therefore inflated; the paired per-item comparison, which is what we use, is
+unaffected.
+
+\section{Experimental Setup}
+\label{sec:setup}
+
+We evaluate nine models. Four are open-weight (Qwen3-0.6B and Qwen3-4B,
+\citealp{yang2025qwen3}; Gemma3-1B and Gemma3-4B, \citealp{gemmateam2025gemma3}) and run
+under vLLM \citep{kwon2023vllm} on a single A10 24GB GPU; five are API models
+(GPT-4o-mini, \citealp{openai2024gpt4o}; DeepSeek-v4-Flash, in the model family of
+\citealp{deepseekai2024v3}; Gemini-2.5-Flash, \citealp{comanici2025gemini25};
+Claude-Sonnet-5; Gemini-3.6-Flash) accessed through a common OpenAI-compatible interface.
+Exact endpoint identifiers and provider versions for every API model are recorded in the
+released harness configuration.
+
+Decoding uses greedy sampling where the provider permits it, and output is constrained to a
+JSON schema whose enum is exactly the option letters of that item. Constraining the output
+is essential for comparability: the open models run under grammar-constrained decoding, so
+an unconstrained API model would effectively be scored on a different task. The primary
+metric is \textbf{exact set match}; Jaccard and micro-F1 are reported as partial-credit
+secondaries.
+
+\paragraph{Reasoning conditions.} Eight of the nine models are evaluated with reasoning
+disabled, verified by reading back the provider's reported reasoning-token count and
+confirming it is zero. Gemini-3.6-Flash cannot be evaluated this way---the endpoint returns
+\texttt{HTTP 400: "Reasoning is mandatory for this endpoint and cannot be disabled"}---so its
+scores are reported separately and never pooled with the matched-condition group.
+Section~\ref{sec:ablation} reports a controlled reasoning ablation on a single model.
+
+\paragraph{Models we could not evaluate under matched conditions.} Several frontier
+endpoints (\texttt{gpt-5-mini}, \texttt{gemini-2.5-pro}, \texttt{gemini-3.5-flash},
+\texttt{grok-4.6}) also mandate reasoning. One further model, \texttt{grok-4.3}, runs
+correctly but was excluded on cost: it tokenises accented Vietnamese at 1.09 characters per
+token against Gemini's 3.11, making a full sweep roughly three times more expensive than its
+per-token price implies. \textbf{Tokeniser efficiency on the target language is a
+first-order cost factor for non-English benchmarks and is not visible in published
+pricing}; measured input cost per item varied by $3.6\times$ across providers for identical
+prompts.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Overall accuracy}
+
+\begin{table}[t]
+\caption{Exact set match (\%). Set A is multi-answer only; Set B interleaves 2,000
+single-answer items. Controls contain the verbatim source questions at matching indices.
+Gemini-3.6-Flash is listed separately because reasoning cannot be disabled on that
+endpoint; it was evaluated on Set B only, as was Claude-Sonnet-5.}
+\label{tab:main}
+\begin{center}
+\begin{small}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Model} & \textbf{Set A} & \textbf{Set B} & \textbf{Control A} & \textbf{Control B} \\
+\midrule
+\multicolumn{5}{l}{\emph{Reasoning disabled (matched conditions)}} \\
+Gemma3-1B          &  2.1 &  1.8 & 37.5 & 37.0 \\
+Qwen3-0.6B         &  3.6 &  3.3 & 40.6 & 39.5 \\
+Gemma3-4B          & 20.5 & 16.3 & 50.2 & 49.3 \\
+Qwen3-4B           & 24.7 & 21.2 & 55.7 & 55.5 \\
+GPT-4o-mini        & 37.5 & 33.9 & 67.0 & 66.2 \\
+DeepSeek-v4-Flash  & 45.1 & 43.3 & 72.8 & 72.2 \\
+Gemini-2.5-Flash   & 51.9 & 50.0 & 77.6 & 77.1 \\
+Claude-Sonnet-5    &  --- & \textbf{58.0} & --- & --- \\
+\midrule
+\multicolumn{5}{l}{\emph{Reasoning mandatory (not comparable to the group above)}} \\
+Gemini-3.6-Flash   &  --- & \textbf{61.5} & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+\end{table}
+
+Table~\ref{tab:main} reports the main results. Among models scored under matched
+conditions, the ranking is identical across all four datasets, so conclusions do not depend
+on which set is reported. The spread on Set B is $32\times$ (58.0 against 1.8).
+Claude-Sonnet-5 leads the matched group by 8.0 points over Gemini-2.5-Flash; a paired
+McNemar test gives 1,746 items solved only by Sonnet against 831 solved only by Gemini
+($p \approx 10^{-72}$).
+
+The two sub-2B models score below their own single-answer controls by more than an order of
+magnitude. They do not merely perform poorly in the multiple-answer format---they fail at
+it.
+
+\subsection{Cardinality calibration dissociates from knowledge}
+\label{sec:cardinality}
+
+\begin{table}[t]
+\caption{The 2,000 single-answer items inside Set B, scored twice: once where the prompt
+does not reveal the answer count, and once in the control where it states there is exactly
+one. ``Key $\subseteq$ selection'' is the fraction of items whose correct option appears
+anywhere in the model's selected set. Dashes mark runs not performed.}
+\label{tab:cardinality}
+\begin{center}
+\begin{small}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Model} & \textbf{Told count} & \textbf{Not told} & \textbf{$\Delta$} &
+\textbf{Selects exactly 1} & \textbf{Key $\subseteq$ selection} \\
+\midrule
+Qwen3-0.6B        & 33.1 &  1.2 & $-31.9$ &  1.9 & 56.9 \\
+Gemma3-1B         & 34.8 &  0.1 & $-34.8$ &  0.1 & 54.0 \\
+Gemma3-4B         & 45.0 &  4.7 & $-40.4$ &  7.4 & 71.6 \\
+Qwen3-4B          & 54.1 & 12.5 & $-41.6$ & 16.6 & 71.7 \\
+GPT-4o-mini       & 63.5 & 13.2 & $\mathbf{-50.2}$ & 15.0 & \textbf{90.5} \\
+DeepSeek-v4-Flash & 67.4 & 41.4 & $-26.0$ & 52.1 & 82.0 \\
+Gemini-2.5-Flash  & 74.4 & 50.9 & $-23.5$ & 63.2 & 83.2 \\
+Claude-Sonnet-5   &  --- & 63.6 &  ---    & 77.8 & 83.9 \\
+Gemini-3.6-Flash  &  --- & 73.2 &  ---    & \textbf{85.1} & 87.0 \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+\end{table}
+
+Table~\ref{tab:cardinality} isolates the central finding. GPT-4o-mini is the clearest case.
+Its selected set contains the correct answer for 90.5\% of items---the highest of every
+model we evaluated, above both Gemini-2.5-Flash and Claude-Sonnet-5---yet it answers only
+13.2\% exactly, because it selects a single option in just 15.0\% of cases. It holds more
+of the required knowledge than models that score four times higher, and converts far less
+of it into answers. The capability gap is not knowledge; it is knowing when to stop.
+
+Averaged over all of Set B, where the mean key size is 2.51, mean selection size ranges
+from 2.01 (Gemma3-1B) to 3.06 (GPT-4o-mini). Gemma3-1B selects exactly two options for
+11,315 of 11,368 items (99.5\%) regardless of the item---it is effectively blind to
+cardinality. Three distinct failure modes are therefore visible: blindness to cardinality
+in the smallest models, systematic over-selection in GPT-4o-mini, and residual
+mis-calibration in the strongest models.
+
+\subsection{Source difficulty labels are valid}
+
+\begin{table}[t]
+\caption{Exact set match (\%) on Set B by source difficulty label. The label is written by
+the exam authors in 15 surface forms, which we normalise to four levels, and is never
+consulted during construction.}
+\label{tab:difficulty}
+\begin{center}
+\begin{small}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+\textbf{Level} & \textbf{$n$} & \textbf{Gem3-1B} & \textbf{Qw-0.6B} & \textbf{Gem3-4B} &
+\textbf{Qw-4B} & \textbf{4o-mini} & \textbf{DeepSeek} & \textbf{Gem-2.5} & \textbf{Son-5} \\
+\midrule
+1 Easy      & 2,405 & 2.0 & 4.2 & 17.5 & 26.2 & 35.6 & 49.8 & 57.0 & \textbf{65.7} \\
+2 Moderate  & 7,496 & 1.7 & 3.1 & 16.5 & 21.0 & 34.6 & 42.9 & 49.6 & \textbf{57.1} \\
+3 Hard      & 1,428 & 1.9 & 2.9 & 13.0 & 14.4 & 27.7 & 34.7 & 41.0 & \textbf{50.4} \\
+4 Very hard &    39 & 2.6 & 2.6 &  7.7 & 12.8 & 12.8 & 25.6 & 23.1 & \textbf{33.3} \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+\end{table}
+
+Table~\ref{tab:difficulty} shows that every sufficiently capable model declines
+monotonically across levels 1--3. The two sub-2B models do not, which is consistent with
+their failure being one of formatting rather than comprehension. Level 4 contains 39 items
+and should not be read as a trend.
+
+That an independently-authored difficulty annotation predicts accuracy for every capable
+model is evidence that the derived items retain the semantic content of their sources. This
+is a validity signal that does not depend on any assumption about our construction rules.
+
+\subsection{How much headroom remains}
+\label{sec:headroom}
+
+Accumulating models from weakest to strongest, the fraction of Set B solved by \emph{no}
+model falls as follows:
+
+\begin{center}
+\begin{small}
+Gemma3-1B 98.2 $\to$ +Qwen3-0.6B 96.4 $\to$ +Gemma3-4B 81.7 $\to$ +Qwen3-4B 69.8 $\to$
++GPT-4o-mini 54.7 \\
+$\to$ +DeepSeek 41.5 $\to$ +Gemini-2.5-Flash 33.3 $\to$ +Claude-Sonnet-5 25.8 $\to$
++Gemini-3.6-Flash \textbf{21.1}
+\end{small}
+\end{center}
+
+Counting the reasoning-enabled run of Section~\ref{sec:ablation} as an additional system
+lowers the residual to \textbf{20.3\%}. The four open models alone leave 69.8\% unsolved;
+adding five API models removes two thirds of that.
+
+The residual 20.3\% is an upper bound on the union of genuinely hard items and items whose
+inherited key is wrong. The audit round rejected 1,570 constructed items for having a
+labelled-correct option that is actually false, so wrong inherited keys are known to be
+present at a non-trivial rate. Separating the two components requires manual review of a
+sample, which we have not done.
+
+\subsection{Reasoning does not repair calibration; newer generations do}
+\label{sec:ablation}
+
+To ask whether inference-time deliberation closes the gap, we re-ran the leading
+matched-condition model at the time of the sweep---Gemini-2.5-Flash---with reasoning
+enabled at \texttt{effort: low}, holding weights, prompt and output constraints fixed so
+that the reasoning budget is the only difference.
+
+\begin{table}[t]
+\caption{Controlled reasoning ablation on a single model (Gemini-2.5-Flash, full Set B),
+and the same calibration measure across three model generations evaluated on the 2,000
+single-answer items.}
+\label{tab:ablation}
+\begin{center}
+\begin{small}
+\begin{tabular}{lrr}
+\toprule
+ & \textbf{Reasoning off} & \textbf{Reasoning low} \\
+\midrule
+Set B, exact match            & 50.0 & \textbf{51.0} \\
+Mean options selected (key: 2.51) & \textbf{2.48} & 2.54 \\
+Matches key size              & \textbf{61.1} & 60.0 \\
+2,000 single-answer items     & \textbf{50.9} & 50.0 \\
+Selects exactly one option    & \textbf{63.2} & 58.8 \\
+Reasoning tokens per item     & 0 & 480 \\
+\bottomrule
+\end{tabular}
+
+\vspace{1.5em}
+
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Selects exactly one option} & Gemini-2.5-Flash & Claude-Sonnet-5 & Gemini-3.6-Flash \\
+\midrule
+(2,000 single-answer items) & 63.2 & 77.8 & \textbf{85.1} \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+\end{table}
+
+The upper half of Table~\ref{tab:ablation} shows the result. Exact match rises by one
+point, from 50.0\% to 51.0\%. A paired McNemar test finds 1,060 items correct only with
+reasoning against 945 correct only without ($\chi^2 = 6.5$, $p = 0.011$): the difference is
+statistically real, but the net gain of one point is the residue of 2,005 items changing
+answer in both directions.
+
+More informative is that \emph{every} calibration measure moves the wrong way. Key-size
+match falls from 61.1\% to 60.0\%, accuracy on the 2,000 single-answer items falls from
+50.9\% to 50.0\%, and the rate of selecting exactly one option falls from 63.2\% to 58.8\%.
+Spending 480 reasoning tokens per item buys a marginal gain in knowledge and a measurable
+loss in knowing when to stop. We verified that this is not an artefact of too small a
+budget: on a 100-item probe, \texttt{effort: low} and \texttt{effort: medium} both scored
+39\%.
+
+The lower half of Table~\ref{tab:ablation} contrasts this with what changes across model
+generations. On the same measure that reasoning degrades, successive generations improve
+sharply: 63.2\% $\to$ 77.8\% $\to$ 85.1\%. The two halves together support a specific
+claim: \textbf{answer-set calibration is a learned capability, not a product of
+inference-time deliberation}. It is exactly the kind of capability that single-answer
+evaluation cannot see, because single-answer evaluation supplies the answer for free.
+
+\section{Limitations}
+
+\paragraph{Distractors are model-written and not expert-verified.} 1,985 items in Set B
+contain distractors authored by Qwen3-32B. They are filtered for length, meta-phrasing and
+near-duplication against the correct options, and pass the round-2 audit, but no clinician
+has reviewed them. Items carry a \texttt{qualityFlag} allowing them to be excluded.
+
+\paragraph{Ground truth is inherited, and the source is imperfect.} Our derivations
+preserve the source answer key, including its errors. A concrete example found during
+inspection: an item on short-acting insulin lists ``duration 24 hours'' as correct, where
+the correct value is 6--8 hours. The audit round removes some such items but cannot remove
+all.
+
+\paragraph{The single-answer controls have a position bias} (41.5\% key-D on Control A),
+inherited from the meta-answer families. Aggregate control accuracy is inflated; the paired
+per-item analysis is not affected.
+
+\paragraph{Not every model was scored on every set.} Claude-Sonnet-5 and Gemini-3.6-Flash
+were evaluated on Set B only, so their rows in Tables~\ref{tab:main} and
+\ref{tab:cardinality} are partial, and no told-count contrast is available for them.
+
+\paragraph{Greedy decoding was not available on every endpoint.} Some frontier models no
+longer accept a temperature parameter, so their runs use provider-default sampling. Scores
+for those models carry run-to-run variance that the grammar-constrained open-weight runs do
+not.
+
+\paragraph{Single language and single source bank.} All items derive from one Vietnamese
+exam bank. The four transformation families exploit conventions of Vietnamese exam writing;
+their yield in other languages is untested, though the negation and ``all of the above''
+patterns are cross-linguistically common.
+
+\paragraph{The transformations assume the source is internally consistent.} The
+\textsc{negation} family assumes that if a stem asks for the false option, the other three
+are true. Many exam items in practice ask for the \emph{most} false option. This assumption
+is what round 2 is designed to test, and it is why \textsc{negation} has the largest audit
+rejection count.
+
+\section{Conclusion}
+
+We have shown that multiple-answer medical benchmarks can be built at scale without either
+expert authoring or model-generated ground truth, by deriving items from single-answer exam
+questions whose keys are already known. The resulting Vietnamese benchmark discriminates
+across a very wide capability range---1.8\% to 61.5\% exact match---and is far from
+saturated, with 20.3\% of items solved by no model we evaluated.
+
+The benchmark surfaces a capability that single-answer evaluation structurally cannot
+measure. A model may hold the knowledge required for an item, as GPT-4o-mini demonstrably
+does for 90.5\% of the single-answer items, and still fail it because it cannot decide how
+many options to commit to. That deficit is not repaired by giving the model more time to
+think, and it improves markedly with model generation, which suggests it should be treated
+as a trainable capability and measured accordingly.
+
+\subsection*{Reproducibility statement}
+
+Section~\ref{sec:construction} describes every construction step, including the
+deduplication criteria, the mechanical filters applied before any model call, the two-round
+LLM protocol and the two audit failure modes we corrected for. Section~\ref{sec:setup}
+states the decoding configuration, the output-constraint schema, and the reasoning
+condition under which each model was scored, together with the models we could not evaluate
+under matched conditions and why. The prompts for both LLM rounds and their JSON schemas
+are reproduced in the appendix. We release both benchmarks, their index-aligned
+single-answer controls, the per-item provenance records linking every derived item to its
+source, the evaluation harness, and the per-item predictions of all nine models, so that
+every table in this paper can be recomputed from released artefacts.
+
+\subsection*{Ethics statement}
+
+The source exam bank is licensed material that is not ours to redistribute; what we release
+is the derived benchmark, the harness, and per-item model predictions, together with
+provenance records sufficient to audit any individual item. The benchmark contains medical
+examination questions and no patient data, and no human subjects were involved.
+
+We note two risks. First, the benchmark inherits its ground truth from the source bank and
+therefore inherits its errors; we document a concrete instance in the Limitations section
+and flag the residual rate rather than claiming a clean key. Scores on this benchmark
+should not be read as evidence of clinical safety, and the benchmark is not designed or
+validated for deployment decisions about clinical tools. Second, to keep the benchmark
+uncontaminated we avoided provider free tiers whose terms permit training on submitted
+prompts.
+
+\subsection*{AI use statement}
+
+Generative AI tools were used in two distinct roles in this work, which we separate
+deliberately because the distinction is methodologically load-bearing.
+
+Within the benchmark construction pipeline, a language model (Qwen3-32B-FP8) screens
+candidate items, rewrites negated stems into affirmative form, writes distractor text, and
+performs the round-2 audit, as described in Section~\ref{sec:construction}. The model is
+structurally prevented from selecting correct answers: every answer key is derived by rule
+from the source item's key, and the model's permitted edits are restricted to removal and
+to distractor authorship. This constraint is the central methodological claim of the paper
+and is enforced in code rather than by prompting.
+
+Generative AI tools were also used to assist with software implementation and with drafting
+and editing the text of this paper. All numerical results reported here were computed by
+scripts operating directly on the released prediction files, and each table was verified
+programmatically against those files rather than transcribed by hand. We have reviewed all
+AI-assisted work and take responsibility for the final content of this paper, including its
+text, claims and released artefacts.
+
+\bibliography{iclr2027_conference}
+\bibliographystyle{iclr2027_conference}
+
+\appendix
+\section{Appendix}
+
+\subsection{Per-family accuracy on Set B}
+
+\begin{table}[h]
+\caption{Exact set match (\%) on Set B by transformation family.}
+\label{tab:family-acc}
+\begin{center}
+\begin{small}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Model} & \textsc{negation} & \textsc{meta-all} & \textsc{pool} &
+\textsc{meta-letters} & \textbf{single} \\
+& (4,573) & (1,092) & (2,810) & (893) & (2,000) \\
+\midrule
+Gemma3-1B          &  0.2 &  0.0 &  5.1 &  6.0 &  0.1 \\
+Qwen3-0.6B         &  1.3 &  2.3 &  5.8 & 11.9 &  1.2 \\
+Gemma3-4B          & 20.8 & 28.4 &  9.5 & 25.5 &  4.7 \\
+Qwen3-4B           & 20.2 & 38.7 & 16.9 & 38.2 & 12.5 \\
+GPT-4o-mini        & 41.0 & 60.4 & 22.0 & 48.2 & 13.2 \\
+DeepSeek-v4-Flash  & 43.5 & 60.7 & 33.4 & 56.3 & 41.4 \\
+Gemini-2.5-Flash   & 49.7 & 67.2 & 39.9 & 60.1 & 50.9 \\
+Claude-Sonnet-5    & 56.6 & 74.0 & 48.0 & 64.6 & 63.6 \\
+Gemini-3.6-Flash   & 58.9 & 72.7 & 51.4 & 66.6 & 73.2 \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+\end{table}
+
+The \textsc{pool} family is consistently the hardest, and the single-answer items are the
+family on which models differ most: the spread between Gemini-2.5-Flash and
+Gemini-3.6-Flash is 22.3 points there against 9.2 on \textsc{negation}. This is the
+cardinality effect of Section~\ref{sec:cardinality} appearing per-family.
+
+\subsection{Prompts and schemas}
+
+The full text of the round-1 family-specific prompts, the round-2 audit prompt, and their
+JSON schemas are released with the code.
+
+\end{document}
